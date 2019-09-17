@@ -15,6 +15,14 @@ def parse_div(divs):
     return ['Mixed', 'Open', 'Womens']
 
 
+def clean_data(df):
+    df = df.copy()
+    df.Standing = df.Standing.str.replace('T', '')
+    df.dropna(inplace=True)
+    df.reset_index(drop=True, inplace=True)
+    return df
+
+
 divisions = []
 for d in soup.find_all('h3'):
     if d.a:
@@ -38,9 +46,13 @@ for i, table in enumerate(tables):
         td = tr.find_all('td')
         row = [tr.text for tr in td]
         l.append(row)
-    df_table = pd.DataFrame(l, columns=headings).dropna()
+    df_table = pd.DataFrame(l, columns=headings)
     df_table['division'] = divisions[i]
     year_df = pd.concat([year_df, df_table], sort=False)
+
+
+year_df = clean_data(year_df)
+
 
 
 # soup.find_all('h4')
