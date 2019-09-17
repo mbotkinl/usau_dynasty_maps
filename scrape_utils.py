@@ -50,4 +50,5 @@ def get_data_for_year(year):
         year_df = pd.concat([year_df, df_table], sort=False)
 
     year_df = clean_data(year_df)
+    year_df['year'] = year
     return year_df
