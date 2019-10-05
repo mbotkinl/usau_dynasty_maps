@@ -10,24 +10,29 @@ from visualize_usau_module import ranking_data, DIVISIONS, REGIONS
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 fig_rankings = ranking_data(division='MENS')
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.H1(children='USAU Club Visualization'),
+    html.Div([
+        html.Div(children='''
+            Select Division
+        '''),
 
-    html.Div(children='''
-        Dash: A web application framework for Python.
-    '''),
-
-    dcc.Dropdown(
-        id='division_dropdown',
-        options=[{'label': d, 'value': d} for d in DIVISIONS],
-        value=DIVISIONS[0]),
-    dcc.Dropdown(
-        id='region_dropdown',
-        options=[{'label': r, 'value': r} for r in REGIONS] + [{'label': 'All Regions', 'value': 'all'}],
-        value='all'),
+        dcc.Dropdown(
+            id='division_dropdown',
+            options=[{'label': d, 'value': d} for d in DIVISIONS],
+            value=DIVISIONS[0]),
+        html.Div(children='''
+        Select Region
+        '''),
+        dcc.Dropdown(
+            id='region_dropdown',
+            options=[{'label': r, 'value': r} for r in REGIONS] + [{'label': 'All Regions', 'value': 'all'}],
+            value='all')
+    ], style={'columnCount': 2}),
     html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
 ])
 
