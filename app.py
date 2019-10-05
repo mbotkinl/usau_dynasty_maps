@@ -7,32 +7,37 @@ from dash.dependencies import Input, Output
 
 from visualize_usau_module import ranking_data, DIVISIONS, REGIONS
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
-
 fig_rankings = ranking_data(division='MENS')
 
 app.layout = html.Div(children=[
     html.H1(children='USAU Club Visualization'),
-    html.Div([
-        html.Div(children='''
-            Select Division
-        '''),
+    dbc.Container([
+        dbc.Row([
+            dbc.Col([
+                html.Div(children='''
+                    Select Division
+                '''),
 
-        dcc.Dropdown(
-            id='division_dropdown',
-            options=[{'label': d, 'value': d} for d in DIVISIONS],
-            value=DIVISIONS[0]),
-        html.Div(children='''
-        Select Region
-        '''),
-        dcc.Dropdown(
-            id='region_dropdown',
-            options=[{'label': r, 'value': r} for r in REGIONS] + [{'label': 'All Regions', 'value': 'all'}],
-            value='all')
-    ], style={'columnCount': 2}),
+                dcc.Dropdown(
+                    id='division_dropdown',
+                    options=[{'label': d, 'value': d} for d in DIVISIONS],
+                    value=DIVISIONS[0]),
+            ]),
+            dbc.Col([
+                html.Div(children='''
+                    Select Region
+                    '''),
+                dcc.Dropdown(
+                    id='region_dropdown',
+                    options=[{'label': r, 'value': r} for r in REGIONS] + [{'label': 'All Regions', 'value': 'all'}],
+                    value='all')
+            ])
+        ])
+    ]),
     html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
 ])
 
