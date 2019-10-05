@@ -18,6 +18,15 @@ def parse_div(divisions):
 def clean_data(df):
     df = df.copy()
     df.Standing = df.Standing.str.replace('T', '')
+
+    df.Team = df.Team.str.upper()
+    df.loc[df.division == 'OPEN', 'division'] = 'MENS'
+    df.loc[df.division == 'CO-ED', 'division'] = 'MIXED'
+
+    df.Region = df.Region.str.replace('\xa0', '')
+    df.loc[df.Region == 'Sothwest', 'Region'] = 'Southwest'
+    df.loc[df.Region == 'Norwest', 'Region'] = 'Northwest'
+
     df.dropna(inplace=True)
     df.reset_index(drop=True, inplace=True)
     return df
@@ -44,7 +53,6 @@ def get_data_for_year(year):
     tables = tables[0:len(divisions)]
     year_df = pd.DataFrame()
     for i, table in enumerate(tables):
-        print(i)
         headings = []
         for h in table.find_all('th'):
             headings.append(h.text)
