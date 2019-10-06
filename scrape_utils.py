@@ -27,6 +27,11 @@ def clean_data(df):
     df.loc[df.Region == 'Sothwest', 'Region'] = 'Southwest'
     df.loc[df.Region == 'Norwest', 'Region'] = 'Northwest'
 
+    if 'Spirit Scores' in df.columns:
+        df['Spirit Scores'] = df['Spirit Scores'].str.replace(' *', '')
+        df['Spirit Scores'] = df['Spirit Scores'].str.replace('*', '')
+        df['Spirit Scores'] = df['Spirit Scores'].astype(float)
+
     df.dropna(inplace=True)
     df.reset_index(drop=True, inplace=True)
     return df
