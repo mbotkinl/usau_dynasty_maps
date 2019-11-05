@@ -15,7 +15,7 @@ fig_rankings = ranking_data(division=DIVISIONS[0])
 fig_hist = appearance_hist(division=DIVISIONS[0])
 fig_spirit = spirit_correlation(division=DIVISIONS[0])
 
-app.layout = html.Div(children=[
+app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
     html.H1(children='USAU Club Visualization'),
     dbc.Container([
         dbc.Row([
