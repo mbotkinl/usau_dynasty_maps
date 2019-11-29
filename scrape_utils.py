@@ -34,6 +34,8 @@ def clean_data(df, div):
         df.Team = df.Team.str.upper()
     df.Team = df.Team.str.replace('\xa0', '')
     df.Team = df.Team.str.strip()
+    df.loc[df.Team == 'Carleton College-Syzygy', 'Team'] = 'Carleton College'
+    df.loc[df.Team == 'Massachussets', 'Team'] = 'Massachusetts'
 
     df.loc[df.division == 'OPEN', 'division'] = 'MENS'
     df.loc[df.division == 'CO-ED', 'division'] = 'MIXED'
