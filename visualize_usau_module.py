@@ -4,8 +4,7 @@ import numpy as np
 
 data = pd.read_csv('./data/national_data.csv')
 
-TOP_NUM = 4
-
+MAX_HIST = 12
 
 # TODO: change hover and click behavoir
 # TODO: sync colors
@@ -62,7 +61,7 @@ def appearance_hist(comp_division, division, region='all'):
     if div_df.empty:
         return {}
     appearances = div_df.Team.value_counts()
-    hist_data = div_df[div_df.Team.isin(appearances[appearances > TOP_NUM].index.values)]
+    hist_data = div_df[div_df.Team.isin(appearances.iloc[0:min(len(appearances), MAX_HIST)].index.values)]
     if hist_data.empty:
         return {}
     plot_data = [go.Histogram(x=hist_data.Team)]
@@ -91,6 +90,7 @@ def spirit_correlation(comp_division, division, region='all'):
                             hovertext=df.index,
                             mode='markers')]
 
+    # todo: subplot with size of dot
     layout = {'title': 'Spirit Score to Placement Correlation',
               'xaxis': {'title': 'Average Spirit Score'},
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement'}}
