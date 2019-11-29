@@ -513,7 +513,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 11,RANDALL'S ISLAND,Northeast,MENS,1996,Club,
 11,HUCKIN' FOOSIERS,Central,MENS,1996,Club,
 13,PORT CITY SLICKERS,Mid Atlantic,MENS,1996,Club,
-13,BIG ASS TRUCK ,Central,MENS,1996,Club,
+13,BIG ASS TRUCK,Central,MENS,1996,Club,
 1,LADY GODIVA,Northeast,WOMENS,1996,Club,
 2,OZONE,South,WOMENS,1996,Club,
 3,PHILLY PEPPERS,Mid Atlantic,WOMENS,1996,Club,
@@ -2205,11 +2205,11 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 17,Notre Dame,Great Lakes,DI_W,2015,College,15.8
 17,Pittsburgh,Ohio Valley,DI_W,2015,College,15.4
 1,Franciscan,Ohio Valley,DIII_M,2015,College,4.4
-2,Brandeis ,New England,DIII_M,2015,College,4.25
-3,Bryant ,New England,DIII_M,2015,College,3.6
+2,Brandeis,New England,DIII_M,2015,College,4.25
+3,Bryant,New England,DIII_M,2015,College,3.6
 3,SUNY-Geneseo,Metro East,DIII_M,2015,College,3.67
 5,Carleton College-GOP,North Central,DIII_M,2015,College,4.8
-5,Georgia College ,Southeast,DIII_M,2015,College,2.8
+5,Georgia College,Southeast,DIII_M,2015,College,2.8
 7,Claremont,Southwest,DIII_M,2015,College,3.6
 7,Davidson,Atlantic Coast,DIII_M,2015,College,4.6
 9,St Olaf,North Central,DIII_M,2015,College,4.33
@@ -2221,13 +2221,13 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 15,Lewis & Clark,Northwest,DIII_M,2015,College,3.8
 16,Elon,Atlantic Coast,DIII_M,2015,College,4.75
 1,Rice,South Central,DIII_W,2015,College,5.0
-2,Bowdoin ,New England,DIII_W,2015,College,3.5
+2,Bowdoin,New England,DIII_W,2015,College,3.5
 3,Carleton College-Eclipse,North Central,DIII_W,2015,College,4.5
 3,Truman State,South Central,DIII_W,2015,College,4.33
-5,St Olaf ,North Central,DIII_W,2015,College,4.33
+5,St Olaf,North Central,DIII_W,2015,College,4.33
 5,Williams,New England,DIII_W,2015,College,4.2
 7,Puget Sound,Northwest,DIII_W,2015,College,4.5
-7,Valparaiso ,Great Lakes,DIII_W,2015,College,4.33
+7,Valparaiso,Great Lakes,DIII_W,2015,College,4.33
 9,Claremont,Southwest,DIII_W,2015,College,4.4
 9,Lehigh,Ohio Valley,DIII_W,2015,College,2.75
 11,Grinnell,North Central,DIII_W,2015,College,5.0
@@ -2375,7 +2375,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 1,FURY,Southwest,WOMENS,2017,Club,10.2
 2,BRUTE SQUAD,Northeast,WOMENS,2017,Club,10.2
 3,MOLLY BROWN,South Central,WOMENS,2017,Club,10.0
-3,OZONE ,Southeast,WOMENS,2017,Club,10.33
+3,OZONE,Southeast,WOMENS,2017,Club,10.33
 5,RIOT,Northwest,WOMENS,2017,Club,10.33
 6,TRAFFIC,Northwest,WOMENS,2017,Club,10.71
 7,SCANDAL,Mid Atlantic,WOMENS,2017,Club,9.63
@@ -2628,46 +2628,46 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,IRIS,Northeast,WOMENS,2019,Club,10.57
 15,POP,North Central,WOMENS,2019,Club,10.0
 16,OZONE,Southeast,WOMENS,2019,Club,10.57
-1, Brown ,New England,DI_M,2019,College,11.0
-2, North Carolina,Atlantic Coast,DI_M,2019,College,9.83
-3, Cal Poly-SLO,Southwest,DI_M,2019,College,13.33
-3, Colorado,South Central,DI_M,2019,College,8.86
-5, Michigan,Great Lakes,DI_M,2019,College,11.33
-5, Ohio State,Ohio Valley,DI_M,2019,College,11.83
-5, Pittsburgh,Ohio Valley,DI_M,2019,College,10.2
-5, Wisconsin,North Central,DI_M,2019,College,11.33
-9, Georgia,Southeast,DI_M,2019,College,12.0
-9, Oregon,Northwest,DI_M,2019,College,10.0
-9, Texas,South Central,DI_M,2019,College,8.8
-9, Washington,Northwest,DI_M,2019,College,12.8
-13, Iowa State,North Central,DI_M,2019,College,11.2
-13, Minnesota,North Central,DI_M,2019,College,11.0
-13, Northeastern,New England,DI_M,2019,College,12.4
-13, Tufts,New England,DI_M,2019,College,12.0
-17, California,Southwest,DI_M,2019,College,11.8
-17, North Carolina State,Atlantic Coast,DI_M,2019,College,11.4
-17, Rutgers,Metro East,DI_M,2019,College,12.4
-17, Victoria,Northwest,DI_M,2019,College,10.6
-1, California-San Diego,Southwest,DI_W,2019,College,11.5
-2, Dartmouth,New England,DI_W,2019,College,10.17
-3, North Carolina,Atlantic Coast,DI_W,2019,College,11.17
-3, Ohio State,Ohio Valley,DI_W,2019,College,9.67
-5, California-Santa Barbara,Southwest,DI_W,2019,College,8.33
-5, Carleton College-Syzygy,North Central,DI_W,2019,College,11.83
-5, Western Washington,Northwest,DI_W,2019,College,10.17
-5, Wisconsin,North Central,DI_W,2019,College,12.67
-9, Colorado,South Central,DI_W,2019,College,10.2
-9, Georgia,Southeast,DI_W,2019,College,11.0
-9, Minnesota,North Central,DI_W,2019,College,9.8
-9, Oregon,Northwest,DI_W,2019,College,12.4
-13, Northwestern,Northwest,DI_W,2019,College,12.4
-13, Texas,South Central,DI_W,2019,College,10.8
-13, UCLA,Southwest,DI_W,2019,College,14.2
-13, Washington,Northwest,DI_W,2019,College,10.0
-17, Cornell,Metro East,DI_W,2019,College,11.2
-17, Northeastern,New England,DI_W,2019,College,10.8
-17, Pittsburgh,Ohio Valley,DI_W,2019,College,11.8
-17, Tufts,New England,DI_W,2019,College,10.2
+1,Brown,New England,DI_M,2019,College,11.0
+2,North Carolina,Atlantic Coast,DI_M,2019,College,9.83
+3,Cal Poly-SLO,Southwest,DI_M,2019,College,13.33
+3,Colorado,South Central,DI_M,2019,College,8.86
+5,Michigan,Great Lakes,DI_M,2019,College,11.33
+5,Ohio State,Ohio Valley,DI_M,2019,College,11.83
+5,Pittsburgh,Ohio Valley,DI_M,2019,College,10.2
+5,Wisconsin,North Central,DI_M,2019,College,11.33
+9,Georgia,Southeast,DI_M,2019,College,12.0
+9,Oregon,Northwest,DI_M,2019,College,10.0
+9,Texas,South Central,DI_M,2019,College,8.8
+9,Washington,Northwest,DI_M,2019,College,12.8
+13,Iowa State,North Central,DI_M,2019,College,11.2
+13,Minnesota,North Central,DI_M,2019,College,11.0
+13,Northeastern,New England,DI_M,2019,College,12.4
+13,Tufts,New England,DI_M,2019,College,12.0
+17,California,Southwest,DI_M,2019,College,11.8
+17,North Carolina State,Atlantic Coast,DI_M,2019,College,11.4
+17,Rutgers,Metro East,DI_M,2019,College,12.4
+17,Victoria,Northwest,DI_M,2019,College,10.6
+1,California-San Diego,Southwest,DI_W,2019,College,11.5
+2,Dartmouth,New England,DI_W,2019,College,10.17
+3,North Carolina,Atlantic Coast,DI_W,2019,College,11.17
+3,Ohio State,Ohio Valley,DI_W,2019,College,9.67
+5,California-Santa Barbara,Southwest,DI_W,2019,College,8.33
+5,Carleton College-Syzygy,North Central,DI_W,2019,College,11.83
+5,Western Washington,Northwest,DI_W,2019,College,10.17
+5,Wisconsin,North Central,DI_W,2019,College,12.67
+9,Colorado,South Central,DI_W,2019,College,10.2
+9,Georgia,Southeast,DI_W,2019,College,11.0
+9,Minnesota,North Central,DI_W,2019,College,9.8
+9,Oregon,Northwest,DI_W,2019,College,12.4
+13,Northwestern,Northwest,DI_W,2019,College,12.4
+13,Texas,South Central,DI_W,2019,College,10.8
+13,UCLA,Southwest,DI_W,2019,College,14.2
+13,Washington,Northwest,DI_W,2019,College,10.0
+17,Cornell,Metro East,DI_W,2019,College,11.2
+17,Northeastern,New England,DI_W,2019,College,10.8
+17,Pittsburgh,Ohio Valley,DI_W,2019,College,11.8
+17,Tufts,New England,DI_W,2019,College,10.2
 1,Middlebury,Unknown,DIII_M,2019,College,11.6
 2,Air-Force,Unknown,DIII_M,2019,College,11.75
 3,Carleton-GOP,Unknown,DIII_M,2019,College,15.5

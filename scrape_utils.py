@@ -28,10 +28,13 @@ def clean_data(df, div):
     df = df[~df.Standing.isin(['?', 'DQ', 'DNF'])]
     df['Standing'] = df['Standing'].astype(int)
 
-    df = df.rename(columns={'School': 'Team'}, )
+    df = df.rename(columns={'School': 'Team'})
 
     if div == 'club':
         df.Team = df.Team.str.upper()
+    df.Team = df.Team.str.replace('\xa0', '')
+    df.Team = df.Team.str.strip()
+
     df.loc[df.division == 'OPEN', 'division'] = 'MENS'
     df.loc[df.division == 'CO-ED', 'division'] = 'MIXED'
     df.loc[df.division == 'DI_O', 'division'] = 'DI_M'
