@@ -2,7 +2,7 @@ import pandas as pd
 from scrape_utils import get_data_for_year
 
 start_year = 1979
-end_year = 2018
+end_year = 2019
 # start_year = 2000
 # end_year = 2002
 
