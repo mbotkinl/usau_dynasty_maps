@@ -5,23 +5,33 @@ import dash_bootstrap_components as dbc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
-from visualize_usau_module import ranking_data, appearance_hist, spirit_correlation, DIVISIONS, REGIONS
+from visualize_usau_module import ranking_data, appearance_hist, spirit_correlation, COMP_DIVISIONS, DIVISIONS, REGIONS
 
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
-fig_rankings = ranking_data(division=DIVISIONS[0])
-fig_hist = appearance_hist(division=DIVISIONS[0])
-fig_spirit = spirit_correlation(division=DIVISIONS[0])
+fig_rankings = ranking_data(comp_division=COMP_DIVISIONS[0], division=DIVISIONS[0])
+fig_hist = appearance_hist(comp_division=COMP_DIVISIONS[0], division=DIVISIONS[0])
+fig_spirit = spirit_correlation(comp_division=COMP_DIVISIONS[0], division=DIVISIONS[0])
 
 app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
-    html.H1(children='USAU Club Visualization'),
+    html.H1(children='USAU Visualization'),
     dbc.Container([
         dbc.Row([
             dbc.Col([
                 html.Div(children='''
-                    Select Division
+                        Select Competitive Division
+                    '''),
+
+                dcc.Dropdown(
+                    id='comp_division_dropdown',
+                    options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
+                    value=COMP_DIVISIONS[0]),
+            ]),
+            dbc.Col([
+                html.Div(children='''
+                    Select Sub-Division
                 '''),
 
                 dcc.Dropdown(
@@ -50,12 +60,13 @@ app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
     Output('rankings_graph', 'figure'),
     Output('appearance_graph', 'figure'),
     Output('spirit_graph', 'figure')],
-    [Input('division_dropdown', 'value'), Input('region_dropdown', 'value')])
-def update_figure(division, region):
-    new_ranking = ranking_data(division, region)
-    new_hist = appearance_hist(division, region)
-    new_spirit = spirit_correlation(division, region)
+    [Input('comp_division_dropdown', 'value'), Input('division_dropdown', 'value'), Input('region_dropdown', 'value')])
+def update_figure(comp_division, division, region):
+    new_ranking = ranking_data(comp_division, division, region)
+    new_hist = appearance_hist(comp_division, division, region)
+    new_spirit = spirit_correlation(comp_division, division, region)
     return new_ranking, new_hist, new_spirit
+
 
 #
 # @app.callback([

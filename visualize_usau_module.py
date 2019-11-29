@@ -4,6 +4,7 @@ import numpy as np
 
 data = pd.read_csv('./data/national_data.csv')
 
+COMP_DIVISIONS = data.comp_division.unique()
 DIVISIONS = data.division.unique()
 REGIONS = data.Region.unique()
 
@@ -13,12 +14,18 @@ TOP_NUM = 4
 # TODO: sync colors
 
 
-# def ranking_data(division, region='all', highlight_curve=None):
-def ranking_data(division, region='all'):
+def subset_df(comp_division, division, region):
     if region == 'all':
-        div_df = data[(data.division == division)].copy()
+        div_df = data[(data.comp_division == comp_division) & (data.division == division)].copy()
     else:
-        div_df = data[(data.division == division) & (data.Region == region)].copy()
+        div_df = data[
+            (data.comp_division == comp_division) & (data.division == division) & (data.Region == region)].copy()
+    return div_df
+
+
+# def ranking_data(comp_division, division, region='all', highlight_curve=None):
+def ranking_data(comp_division, division, region='all'):
+    div_df = subset_df(comp_division, division, region)
 
     # div_df['opacity'] = 1
     # if highlight_curve:
@@ -31,7 +38,7 @@ def ranking_data(division, region='all'):
                             hoverinfo='name',
                             name=t) for t in div_df.Team.unique()]
 
-    layout = {'title': 'Club Nationals Placement',
+    layout = {'title': 'Nationals Placement',
               'hovermode': 'closest',
               'xaxis': {'title': 'Year'},
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement',
@@ -40,11 +47,9 @@ def ranking_data(division, region='all'):
     return dict(data=plot_data, layout=layout)
 
 
-def appearance_hist(division, region='all'):
-    if region == 'all':
-        div_df = data[(data.division == division)].copy()
-    else:
-        div_df = data[(data.division == division) & (data.Region == region)].copy()
+def appearance_hist(comp_division, division, region='all'):
+    div_df = subset_df(comp_division, division, region)
+
     appearances = div_df.Team.value_counts()
     hist_data = div_df[div_df.Team.isin(appearances[appearances > TOP_NUM].index.values)]
     plot_data = [go.Histogram(x=hist_data.Team)]
@@ -55,14 +60,11 @@ def appearance_hist(division, region='all'):
     return dict(data=plot_data, layout=layout)
 
 
-def spirit_correlation(division, region='all'):
-    if region == 'all':
-        div_df = data[(data.division == division)].copy()
-    else:
-        div_df = data[(data.division == division) & (data.Region == region)].copy()
+def spirit_correlation(comp_division, division, region='all'):
+    div_df = subset_df(comp_division, division, region)
 
     df = div_df.groupby('Team').agg(count=('year', 'count'),
-                                    avg_spirit=('Spirit Scores', np.nanmean),
+                                    avg_spirit=('SpiritScores', np.nanmean),
                                     avg_rank=('Standing', np.nanmean)
                                     )
     df = df[pd.notna(df.avg_spirit)]
