@@ -1639,22 +1639,22 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 17,Texas,South,D-I Women's,2010,College,4.33
 19,Harvard,New England,D-I Women's,2010,College,4.5
 19,Middlebury,New England,D-I Women's,2010,College,4.0
-1,Carleton College-GOP,Central,D-III Open,2010,College,4.5
-2,Whitman,Northwest,D-III Open,2010,College,4.8
-3,Kenyon,Great Lakes,D-III Open,2010,College,4.5
-3,Puget Sound,Northwest,D-III Open,2010,College,3.6
-5,Bentley,New England,D-III Open,2010,College,4.17
-5,Lehigh,Metro East,D-III Open,2010,College,3.8
-7,Kalamazoo,Great Lakes,D-III Open,2010,College,4.7
-7,St John's,Central,D-III Open,2010,College,4.47
-9,Princeton,Metro East,D-III Open,2010,College,4.43
-10,Franklin & Marshall,Metro East,D-III Open,2010,College,4.7
-11,Olivet Nazarene,Great Lakes,D-III Open,2010,College,4.3
-11,Rensselaer Polytech,Metro East,D-III Open,2010,College,4.2
-13,Missouri S&T,South,D-III Open,2010,College,5.0
-13,Worcester Polytech,New England,D-III Open,2010,College,4.7
-15,Oberlin,Great Lakes,D-III Open,2010,College,4.3
-15,Wentworth,New England,D-III Open,2010,College,4.9
+1,Carleton College-GOP,Central,D-III Men's,2010,College,4.5
+2,Whitman,Northwest,D-III Men's,2010,College,4.8
+3,Kenyon,Great Lakes,D-III Men's,2010,College,4.5
+3,Puget Sound,Northwest,D-III Men's,2010,College,3.6
+5,Bentley,New England,D-III Men's,2010,College,4.17
+5,Lehigh,Metro East,D-III Men's,2010,College,3.8
+7,Kalamazoo,Great Lakes,D-III Men's,2010,College,4.7
+7,St John's,Central,D-III Men's,2010,College,4.47
+9,Princeton,Metro East,D-III Men's,2010,College,4.43
+10,Franklin & Marshall,Metro East,D-III Men's,2010,College,4.7
+11,Olivet Nazarene,Great Lakes,D-III Men's,2010,College,4.3
+11,Rensselaer Polytech,Metro East,D-III Men's,2010,College,4.2
+13,Missouri S&T,South,D-III Men's,2010,College,5.0
+13,Worcester Polytech,New England,D-III Men's,2010,College,4.7
+15,Oberlin,Great Lakes,D-III Men's,2010,College,4.3
+15,Wentworth,New England,D-III Men's,2010,College,4.9
 1,Pacific Lutheran,Northwest,D-III Women's,2010,College,4.13
 2,Swarthmore,Metro East,D-III Women's,2010,College,4.33
 3,Grinnell,Central,D-III Women's,2010,College,4.69
@@ -1755,22 +1755,22 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 17,Washington University,South Central,D-I Women's,2011,College,4.83
 19,British Columbia,Northwest,D-I Women's,2011,College,3.67
 19,Virginia,Atlantic Coast,D-I Women's,2011,College,4.3
-1,Claremont,Southwest,D-III Open,2011,College,3.4
-2,St John's,North Central,D-III Open,2011,College,2.6
-3,Grinnell,North Central,D-III Open,2011,College,4.6
-3,Missouri S&T,South Central,D-III Open,2011,College,4.8
-5,North Park,Great Lakes,D-III Open,2011,College,4.4
-5,Truman State,South Central,D-III Open,2011,College,4.8
-7,Georgia College & State,Southeast,D-III Open,2011,College,4.8
-7,Harding,South Central,D-III Open,2011,College,5.0
-9,Swarthmore,Ohio Valley,D-III Open,2011,College,5.0
-9,Wake Forest,Atlantic Coast,D-III Open,2011,College,4.2
-11,Bentley,New England,D-III Open,2011,College,4.2
-11,Connecticut College,New England,D-III Open,2011,College,4.4
-13,Lewis & Clark,Northwest,D-III Open,2011,College,3.6
-14,Occidental,Southwest,D-III Open,2011,College,4.4
-15,Lehigh,Ohio Valley,D-III Open,2011,College,4.5
-16,Colby,New England,D-III Open,2011,College,4.75
+1,Claremont,Southwest,D-III Men's,2011,College,3.4
+2,St John's,North Central,D-III Men's,2011,College,2.6
+3,Grinnell,North Central,D-III Men's,2011,College,4.6
+3,Missouri S&T,South Central,D-III Men's,2011,College,4.8
+5,North Park,Great Lakes,D-III Men's,2011,College,4.4
+5,Truman State,South Central,D-III Men's,2011,College,4.8
+7,Georgia College & State,Southeast,D-III Men's,2011,College,4.8
+7,Harding,South Central,D-III Men's,2011,College,5.0
+9,Swarthmore,Ohio Valley,D-III Men's,2011,College,5.0
+9,Wake Forest,Atlantic Coast,D-III Men's,2011,College,4.2
+11,Bentley,New England,D-III Men's,2011,College,4.2
+11,Connecticut College,New England,D-III Men's,2011,College,4.4
+13,Lewis & Clark,Northwest,D-III Men's,2011,College,3.6
+14,Occidental,Southwest,D-III Men's,2011,College,4.4
+15,Lehigh,Ohio Valley,D-III Men's,2011,College,4.5
+16,Colby,New England,D-III Men's,2011,College,4.75
 1,Carleton College-B,North Central,D-III Women's,2011,College,4.0
 2,Williams,New England,D-III Women's,2011,College,3.8
 3,Smith,New England,D-III Women's,2011,College,4.2
@@ -1875,22 +1875,22 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 17,Virginia,Atlantic Coast,D-I Women's,2012,College,4.67
 19,Delaware,Atlantic Coast,D-I Women's,2012,College,4.5
 19,Ottawa,Metro East,D-I Women's,2012,College,3.5
-1,Carleton College-GOP,North Central,D-III Open,2012,College,4.86
-2,Puget Sound,Northwest,D-III Open,2012,College,4.57
-3,North Park,Great Lakes,D-III Open,2012,College,4.8
-3,Rice,South Central,D-III Open,2012,College,4.8
-5,St John's,North Central,D-III Open,2012,College,3.5
-5,St Olaf,North Central,D-III Open,2012,College,4.0
-7,Bentley,New England,D-III Open,2012,College,4.0
-7,Lewis & Clark,Northwest,D-III Open,2012,College,4.6
-9,Reed,Northwest,D-III Open,2012,College,4.2
-9,Stevens Tech,Metro East,D-III Open,2012,College,5.0
-11,Kenyon,Ohio Valley,D-III Open,2012,College,3.67
-11,Rensselaer Polytech,Metro East,D-III Open,2012,College,3.6
-13,Bowdoin,New England,D-III Open,2012,College,4.86
-13,Wake Forest,Atlantic Coast,D-III Open,2012,College,3.17
-15,Claremont,Southwest,D-III Open,2012,College,5.0
-15,Georgia College,Southeast,D-III Open,2012,College,4.67
+1,Carleton College-GOP,North Central,D-III Men's,2012,College,4.86
+2,Puget Sound,Northwest,D-III Men's,2012,College,4.57
+3,North Park,Great Lakes,D-III Men's,2012,College,4.8
+3,Rice,South Central,D-III Men's,2012,College,4.8
+5,St John's,North Central,D-III Men's,2012,College,3.5
+5,St Olaf,North Central,D-III Men's,2012,College,4.0
+7,Bentley,New England,D-III Men's,2012,College,4.0
+7,Lewis & Clark,Northwest,D-III Men's,2012,College,4.6
+9,Reed,Northwest,D-III Men's,2012,College,4.2
+9,Stevens Tech,Metro East,D-III Men's,2012,College,5.0
+11,Kenyon,Ohio Valley,D-III Men's,2012,College,3.67
+11,Rensselaer Polytech,Metro East,D-III Men's,2012,College,3.6
+13,Bowdoin,New England,D-III Men's,2012,College,4.86
+13,Wake Forest,Atlantic Coast,D-III Men's,2012,College,3.17
+15,Claremont,Southwest,D-III Men's,2012,College,5.0
+15,Georgia College,Southeast,D-III Men's,2012,College,4.67
 1,Claremont,Southwest,D-III Women's,2012,College,4.0
 2,Grinnell,North Central,D-III Women's,2012,College,5.0
 3,Carleton College-Eclipse,North Central,D-III Women's,2012,College,3.8
@@ -1995,22 +1995,22 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 17,Georgia,Southeast,D-I Women's,2013,College,3.6
 17,Northeastern,New England,D-I Women's,2013,College,3.4
 17,Texas,South Central,D-I Women's,2013,College,4.1
-1,Middlebury,New England,D-III Open,2013,College,4.5
-2,Puget Sound,Northwest,D-III Open,2013,College,4.83
-3,Amherst,New England,D-III Open,2013,College,5.0
-3,Stevens Tech,Metro East,D-III Open,2013,College,4.67
-5,Lehigh,Ohio Valley,D-III Open,2013,College,4.17
-5,Wake Forest,Atlantic Coast,D-III Open,2013,College,4.2
-7,Claremont,Southwest,D-III Open,2013,College,4.5
-7,Harding,South Central,D-III Open,2013,College,4.17
-9,Georgia College,Southeast,D-III Open,2013,College,4.6
-9,North Park,Great Lakes,D-III Open,2013,College,3.83
-11,Brandeis,New England,D-III Open,2013,College,4.6
-11,Carleton College-GOP,North Central,D-III Open,2013,College,4.83
-13,Rice,South Central,D-III Open,2013,College,4.8
-13,Wesleyan,Metro East,D-III Open,2013,College,3.67
-15,Bentley,New England,D-III Open,2013,College,4.67
-15,John Brown,South Central,D-III Open,2013,College,5.0
+1,Middlebury,New England,D-III Men's,2013,College,4.5
+2,Puget Sound,Northwest,D-III Men's,2013,College,4.83
+3,Amherst,New England,D-III Men's,2013,College,5.0
+3,Stevens Tech,Metro East,D-III Men's,2013,College,4.67
+5,Lehigh,Ohio Valley,D-III Men's,2013,College,4.17
+5,Wake Forest,Atlantic Coast,D-III Men's,2013,College,4.2
+7,Claremont,Southwest,D-III Men's,2013,College,4.5
+7,Harding,South Central,D-III Men's,2013,College,4.17
+9,Georgia College,Southeast,D-III Men's,2013,College,4.6
+9,North Park,Great Lakes,D-III Men's,2013,College,3.83
+11,Brandeis,New England,D-III Men's,2013,College,4.6
+11,Carleton College-GOP,North Central,D-III Men's,2013,College,4.83
+13,Rice,South Central,D-III Men's,2013,College,4.8
+13,Wesleyan,Metro East,D-III Men's,2013,College,3.67
+15,Bentley,New England,D-III Men's,2013,College,4.67
+15,John Brown,South Central,D-III Men's,2013,College,5.0
 1,Bowdoin,New England,D-III Women's,2013,College,4.33
 2,Williams,New England,D-III Women's,2013,College,4.5
 3,Claremont,Southwest,D-III Women's,2013,College,4.0

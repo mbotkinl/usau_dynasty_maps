@@ -54,6 +54,7 @@ def clean_data(df, div):
     df.loc[df.division == 'OPEN', 'division'] = 'MENS'
     df.loc[df.division == 'CO-ED', 'division'] = 'MIXED'
     df.loc[df.division == 'D-I Open', 'division'] = 'D-I Men\'s'
+    df.loc[df.division == 'D-III Open', 'division'] = 'D-III Men\'s'
     df.loc[df.division == 'College Championships: Open Division', 'division'] = 'Men\'s'
     df.loc[df.division == 'College Championships: Women\'s Division', 'division'] = 'Women\'s'
 
