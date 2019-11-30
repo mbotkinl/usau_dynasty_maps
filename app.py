@@ -20,7 +20,7 @@ fig_hist = appearance_hist(comp_division=init_comp_division, division=init_divis
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
 # config = {'scrollZoom': True, 'responsive': True, 'showAxisDragHandles': True}
-config = {'scrollZoom': True, 'autosizable': True}
+config = {'autosizable': True}
 
 app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
     html.H1(children='USAU Visualization'),

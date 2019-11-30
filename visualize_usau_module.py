@@ -60,7 +60,7 @@ def ranking_data(comp_division, division, region='all'):
               'showlegend': False,
               'autosize': True,
               'margin': {'t': 50, 'b': 50, 'l': 25, 'r': 25, 'p': 0},
-              'xaxis': {'title': 'Year', 'type': 'date', 'rangeslider': {'visible': True}},  #, 'fixedrange': True
+              'xaxis': {'title': 'Year', 'type': 'date', 'fixedrange': True},  #, 'fixedrange': True
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement', 'fixedrange': True}}
                         # 'range': [1, max_placement]}}  # todo: fix range
 
@@ -77,8 +77,8 @@ def appearance_hist(comp_division, division, region='all'):
         return {}
     plot_data = [go.Histogram(x=hist_data.Team)]
     layout = {'title': 'Most Nationals Appearances',
-              'yaxis': {'title': 'Number of Nationals Appearance'},
-              'xaxis': {'title': 'Team',
+              'yaxis': {'title': 'Number of Nationals Appearance', 'fixedrange': True},
+              'xaxis': {'title': 'Team', 'fixedrange': True,
                         'categoryorder': 'total descending'}}
     return dict(data=plot_data, layout=layout)
 
@@ -103,8 +103,9 @@ def spirit_correlation(comp_division, division, region='all'):
 
     # todo: subplot with size of dot
     layout = {'title': 'Spirit Score to Placement Correlation',
-              'xaxis': {'title': 'Average Spirit Score'},
-              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement'}}
+              'xaxis': {'title': 'Average Spirit Score', 'fixedrange': True},
+              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement',
+                        'fixedrange': True}}
                         # 'range': [1, max(div_df['Standing'])]}}  # todo: fix range
 
     return dict(data=plot_data, layout=layout)
