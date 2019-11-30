@@ -44,7 +44,7 @@ def ranking_data(comp_division, division, region='all'):
     plot_data = [go.Scatter(x=div_df[div_df.Team == t]['year'],
                             y=div_df[div_df.Team == t]['Standing'],
                             # opacity=div_df[div_df.Team == t]['opacity'].iloc[0],
-                            hoverinfo='name',
+                            hoverinfo='y+name',
                             name=t) for t in div_df.Team.unique()]
 
     layout = {'title': 'Nationals Placement',
