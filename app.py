@@ -54,7 +54,7 @@ app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
             ])
         ])
     ]),
-    html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
+    html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings, config={'scrollZoom': True, 'responsive': True})]),
     html.Div([dcc.Graph(id='appearance_graph', figure=fig_hist)]),
     html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
 ])
