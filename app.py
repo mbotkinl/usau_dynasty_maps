@@ -15,8 +15,6 @@ server = app.server
 
 init_comp_division = COMP_DIVISIONS[0]
 init_division = get_divisions(init_comp_division)[0]['value']
-# print('init comp div', init_comp_division)
-# print('init div', init_division)
 fig_rankings = ranking_data(comp_division=init_comp_division, division=init_division)
 fig_hist = appearance_hist(comp_division=init_comp_division, division=init_division)
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
@@ -79,8 +77,6 @@ def update_figure(comp_division, division, region):
               [Input('comp_division_dropdown', 'value')])
 def update_division_dropdown(comp_division):
     div_options = get_divisions(comp_division)
-    # print('div options are')
-    # print(div_options)
     return div_options, div_options[0]['value']
 
 
@@ -89,8 +85,6 @@ def update_division_dropdown(comp_division):
               [Input('comp_division_dropdown', 'value'), Input('division_dropdown', 'value')])
 def update_region_dropdown(comp_division, division):
     region_options = get_regions(comp_division, division)
-    # print('region options are')
-    # print(region_options)
     return region_options, region_options[0]['value']
 
 

@@ -46,9 +46,7 @@ def ranking_data(comp_division, division, region='all'):
     for t in div_df.Team.unique():
         team_df = div_df[div_df.Team == t].copy()
         team_df.set_index('year', inplace=True)
-        # print(team_df)
         team_df = team_df.reindex(list(range(min_year, max_year+1)), fill_value=None)
-        # print(team_df)
         plot_data.append(go.Scatter(x=team_df.index,
                                     y=team_df['Standing'],
                                     hoverinfo='y+name',
