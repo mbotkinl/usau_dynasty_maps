@@ -64,10 +64,10 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,ANDROMEDA,Mid Atlantic,WOMENS,1984,Club,
 4,SPINSTERS,Northeast,WOMENS,1984,Club,
 5,SHAKTI NUNS,South,WOMENS,1984,Club,
-1,Stanford,West,DI_M,1984,College,
-2,Glassboro,Mid Atlantic,DI_M,1984,College,
-3,Massachusetts,Northeast,DI_M,1984,College,
-3,Pennsylvania,Mid Atlantic,DI_M,1984,College,
+1,Stanford,West,Men's,1984,College,
+2,Glassboro,Mid Atlantic,Men's,1984,College,
+3,Massachusetts,Northeast,Men's,1984,College,
+3,Pennsylvania,Mid Atlantic,Men's,1984,College,
 1,FLYING CIRCUS,West,MENS,1985,Club,
 2,KABOOM,Northeast,MENS,1985,Club,
 3,WINDY CITY,Central,MENS,1985,Club,
@@ -83,18 +83,18 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,FISHEADS,Central,WOMENS,1985,Club,
 4,ZEPHYRS,Mid Atlantic,WOMENS,1985,Club,
 5,SHAKTI NUNS,South,WOMENS,1985,Club,
-1,Pennsylvania,Mid Atlantic,DI_M,1985,College,
-2,Massachusetts,Northeast,DI_M,1985,College,
-3,Cornell,Northeast,DI_M,1985,College,
-3,SW Missouri State,Central,DI_M,1985,College,
-5,Stanford,West,DI_M,1985,College,
-5,Texas,South,DI_M,1985,College,
-7,Cal Poly-SLO,West,DI_M,1985,College,
-7,Kansas,Central,DI_M,1985,College,
-9,MIT,Northeast,DI_M,1985,College,
-9,Oregon,West,DI_M,1985,College,
-11,Central Florida,South,DI_M,1985,College,
-11,Princeton,Mid Atlantic,DI_M,1985,College,
+1,Pennsylvania,Mid Atlantic,Men's,1985,College,
+2,Massachusetts,Northeast,Men's,1985,College,
+3,Cornell,Northeast,Men's,1985,College,
+3,SW Missouri State,Central,Men's,1985,College,
+5,Stanford,West,Men's,1985,College,
+5,Texas,South,Men's,1985,College,
+7,Cal Poly-SLO,West,Men's,1985,College,
+7,Kansas,Central,Men's,1985,College,
+9,MIT,Northeast,Men's,1985,College,
+9,Oregon,West,Men's,1985,College,
+11,Central Florida,South,Men's,1985,College,
+11,Princeton,Mid Atlantic,Men's,1985,College,
 1,WINDY CITY,Central,MENS,1986,Club,
 2,FLYING CIRCUS,West,MENS,1986,Club,
 3,TITANIC,Northeast,MENS,1986,Club,
@@ -111,18 +111,18 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 4,SMITHEREENS,Northeast,WOMENS,1986,Club,
 5,COOL MAMA SEVEN,Mid Atlantic,WOMENS,1986,Club,
 6,SHAKTI,South,WOMENS,1986,Club,
-1,Massachusetts,Northeast,DI_M,1986,College,
-2,Stanford,West,DI_M,1986,College,
-3,California-Santa Barbara,West,DI_M,1986,College,
-3,Cornell,Northeast,DI_M,1986,College,
-5,Oregon,West,DI_M,1986,College,
-5,SW Missouri State,Central,DI_M,1986,College,
-7,Kansas,Central,DI_M,1986,College,
-7,MIT,Northeast,DI_M,1986,College,
-9,Carnegie Mellon,Mid Atlantic,DI_M,1986,College,
-9,Princeton,Mid Atlantic,DI_M,1986,College,
-11,Georgia,South,DI_M,1986,College,
-11,Texas,South,DI_M,1986,College,
+1,Massachusetts,Northeast,Men's,1986,College,
+2,Stanford,West,Men's,1986,College,
+3,California-Santa Barbara,West,Men's,1986,College,
+3,Cornell,Northeast,Men's,1986,College,
+5,Oregon,West,Men's,1986,College,
+5,SW Missouri State,Central,Men's,1986,College,
+7,Kansas,Central,Men's,1986,College,
+7,MIT,Northeast,Men's,1986,College,
+9,Carnegie Mellon,Mid Atlantic,Men's,1986,College,
+9,Princeton,Mid Atlantic,Men's,1986,College,
+11,Georgia,South,Men's,1986,College,
+11,Texas,South,Men's,1986,College,
 1,NEW YORK,Northeast,MENS,1987,Club,
 2,WINDY CITY,Central,MENS,1987,Club,
 3,TUNAS,Central,MENS,1987,Club,
@@ -141,27 +141,27 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 4,SAFARI,West,WOMENS,1987,Club,
 5,COOL MAMA SEVEN,Mid Atlantic,WOMENS,1987,Club,
 6,NEMESIS,Central,WOMENS,1987,Club,
-1,Chabot CC,West,DI_M,1987,College,
-2,California-Santa Barbara,West,DI_M,1987,College,
-3,Cal Poly-SLO,West,DI_M,1987,College,
-3,Cornell,Northeast,DI_M,1987,College,
-5,SW Missouri State,Central,DI_M,1987,College,
-5,Texas,South,DI_M,1987,College,
-7,Georgia Tech,South,DI_M,1987,College,
-7,SUNY-Purchase,Northeast,DI_M,1987,College,
-9,Carnegie Mellon,Mid Atlantic,DI_M,1987,College,
-9,Princeton,Mid Atlantic,DI_M,1987,College,
-11,Kansas,Central,DI_M,1987,College,
-11,Michigan,Central,DI_M,1987,College,
-13,East Carolina,Mid Atlantic,DI_M,1987,College,
-13,Vermont,Northeast,DI_M,1987,College,
-1,Kansas,Central,DI_W,1987,College,
-2,California-Davis,West,DI_W,1987,College,
-3,Humboldt State,West,DI_W,1987,College,
-4,Massachusetts,Northeast,DI_W,1987,College,
-5,Cornell,Northeast,DI_W,1987,College,
-6,Earlham,Central,DI_W,1987,College,
-7,Vermont,Northeast,DI_W,1987,College,
+1,Chabot CC,West,Men's,1987,College,
+2,California-Santa Barbara,West,Men's,1987,College,
+3,Cal Poly-SLO,West,Men's,1987,College,
+3,Cornell,Northeast,Men's,1987,College,
+5,SW Missouri State,Central,Men's,1987,College,
+5,Texas,South,Men's,1987,College,
+7,Georgia Tech,South,Men's,1987,College,
+7,SUNY-Purchase,Northeast,Men's,1987,College,
+9,Carnegie Mellon,Mid Atlantic,Men's,1987,College,
+9,Princeton,Mid Atlantic,Men's,1987,College,
+11,Kansas,Central,Men's,1987,College,
+11,Michigan,Central,Men's,1987,College,
+13,East Carolina,Mid Atlantic,Men's,1987,College,
+13,Vermont,Northeast,Men's,1987,College,
+1,Kansas,Central,Women's,1987,College,
+2,California-Davis,West,Women's,1987,College,
+3,Humboldt State,West,Women's,1987,College,
+4,Massachusetts,Northeast,Women's,1987,College,
+5,Cornell,Northeast,Women's,1987,College,
+6,Earlham,Central,Women's,1987,College,
+7,Vermont,Northeast,Women's,1987,College,
 1,TSUNAMI,West,MENS,1988,Club,
 2,TITANIC,Northeast,MENS,1988,Club,
 3,WINDY CITY,Central,MENS,1988,Club,
@@ -182,28 +182,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 6,COOL MAMA SEVEN,Mid Atlantic,WOMENS,1988,Club,
 7,OZONE,South,WOMENS,1988,Club,
 8,STRAY COWS,Central,WOMENS,1988,Club,
-1,California-Santa Barbara,West,DI_M,1988,College,
-2,Texas,South,DI_M,1988,College,
-3,Stanford,West,DI_M,1988,College,
-4,Columbia,Northeast,DI_M,1988,College,
-5,Georgia Tech,South,DI_M,1988,College,
-5,Kansas,Central,DI_M,1988,College,
-7,Carnegie Mellon,Mid Atlantic,DI_M,1988,College,
-7,East Carolina,Mid Atlantic,DI_M,1988,College,
-9,Saint Louis,Central,DI_M,1988,College,
-9,Wesleyan,Northeast,DI_M,1988,College,
-11,Massachusetts,Northeast,DI_M,1988,College,
-11,Winona State,Central,DI_M,1988,College,
-1,California-Santa Barbara,West,DI_W,1988,College,
-2,California-Davis,West,DI_W,1988,College,
-3,Humboldt State,West,DI_W,1988,College,
-3,Oregon,West,DI_W,1988,College,
-5,Carleton College,Central,DI_W,1988,College,
-5,Massachusetts,Northeast,DI_W,1988,College,
-7,Cornell,Northeast,DI_W,1988,College,
-7,Wisconsin,Central,DI_W,1988,College,
-9,Florida,South,DI_W,1988,College,
-9,Kansas,Central,DI_W,1988,College,
+1,California-Santa Barbara,West,Men's,1988,College,
+2,Texas,South,Men's,1988,College,
+3,Stanford,West,Men's,1988,College,
+4,Columbia,Northeast,Men's,1988,College,
+5,Georgia Tech,South,Men's,1988,College,
+5,Kansas,Central,Men's,1988,College,
+7,Carnegie Mellon,Mid Atlantic,Men's,1988,College,
+7,East Carolina,Mid Atlantic,Men's,1988,College,
+9,Saint Louis,Central,Men's,1988,College,
+9,Wesleyan,Northeast,Men's,1988,College,
+11,Massachusetts,Northeast,Men's,1988,College,
+11,Winona State,Central,Men's,1988,College,
+1,California-Santa Barbara,West,Women's,1988,College,
+2,California-Davis,West,Women's,1988,College,
+3,Humboldt State,West,Women's,1988,College,
+3,Oregon,West,Women's,1988,College,
+5,Carleton College,Central,Women's,1988,College,
+5,Massachusetts,Northeast,Women's,1988,College,
+7,Cornell,Northeast,Women's,1988,College,
+7,Wisconsin,Central,Women's,1988,College,
+9,Florida,South,Women's,1988,College,
+9,Kansas,Central,Women's,1988,College,
 1,NEW YORK,Northeast,MENS,1989,Club,
 2,TSUNAMI,West,MENS,1989,Club,
 3,TITANIC,Northeast,MENS,1989,Club,
@@ -224,14 +224,14 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 5,OZONE,South,WOMENS,1989,Club,
 7,AWOL,Central,WOMENS,1989,Club,
 8,ZEPHYRS,Mid Atlantic,WOMENS,1989,Club,
-1,California-Santa Barbara,West,DI_M,1989,College,
-2,Stanford,West,DI_M,1989,College,
-3,Carnegie Mellon,Mid Atlantic,DI_M,1989,College,
-3,Texas,South,DI_M,1989,College,
-1,California-Davis,West,DI_W,1989,College,
-2,Michigan,Central,DI_W,1989,College,
-3,California-Santa Barbara,West,DI_W,1989,College,
-3,Carleton College,Central,DI_W,1989,College,
+1,California-Santa Barbara,West,Men's,1989,College,
+2,Stanford,West,Men's,1989,College,
+3,Carnegie Mellon,Mid Atlantic,Men's,1989,College,
+3,Texas,South,Men's,1989,College,
+1,California-Davis,West,Women's,1989,College,
+2,Michigan,Central,Women's,1989,College,
+3,California-Santa Barbara,West,Women's,1989,College,
+3,Carleton College,Central,Women's,1989,College,
 1,NEW YORK,Northeast,MENS,1990,Club,
 2,IGUANAS,West,MENS,1990,Club,
 3,WINDY CITY,Central,MENS,1990,Club,
@@ -256,28 +256,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 9,OZONE,South,WOMENS,1990,Club,
 11,SPIKE,Central,WOMENS,1990,Club,
 11,HUCKSTERS,South,WOMENS,1990,Club,
-1,California-Santa Barbara,West,DI_M,1990,College,
-2,North Carolina-Wilmington,Mid Atlantic,DI_M,1990,College,
-3,SUNY-Purchase,Northeast,DI_M,1990,College,
-4,Cornell,Northeast,DI_M,1990,College,
-5,Vermont,Northeast,DI_M,1990,College,
-6,California-Santa Cruz,West,DI_M,1990,College,
-7,Wisconsin,Central,DI_M,1990,College,
-8,Carleton College,Central,DI_M,1990,College,
-9,Georgia,South,DI_M,1990,College,
-9,Kansas,Central,DI_M,1990,College,
-9,Princeton,Mid Atlantic,DI_M,1990,College,
-9,Texas,South,DI_M,1990,College,
-1,California-Santa Barbara,West,DI_W,1990,College,
-2,Michigan,Central,DI_W,1990,College,
-3,Cornell,Northeast,DI_W,1990,College,
-4,Carleton College,Central,DI_W,1990,College,
-5,California-Davis,West,DI_W,1990,College,
-6,Carnegie Mellon,Mid Atlantic,DI_W,1990,College,
-7,Columbia,Northeast,DI_W,1990,College,
-7,Kansas,Central,DI_W,1990,College,
-9,Pennsylvania,Mid Atlantic,DI_W,1990,College,
-9,Wesleyan,Northeast,DI_W,1990,College,
+1,California-Santa Barbara,West,Men's,1990,College,
+2,North Carolina-Wilmington,Mid Atlantic,Men's,1990,College,
+3,SUNY-Purchase,Northeast,Men's,1990,College,
+4,Cornell,Northeast,Men's,1990,College,
+5,Vermont,Northeast,Men's,1990,College,
+6,California-Santa Cruz,West,Men's,1990,College,
+7,Wisconsin,Central,Men's,1990,College,
+8,Carleton College,Central,Men's,1990,College,
+9,Georgia,South,Men's,1990,College,
+9,Kansas,Central,Men's,1990,College,
+9,Princeton,Mid Atlantic,Men's,1990,College,
+9,Texas,South,Men's,1990,College,
+1,California-Santa Barbara,West,Women's,1990,College,
+2,Michigan,Central,Women's,1990,College,
+3,Cornell,Northeast,Women's,1990,College,
+4,Carleton College,Central,Women's,1990,College,
+5,California-Davis,West,Women's,1990,College,
+6,Carnegie Mellon,Mid Atlantic,Women's,1990,College,
+7,Columbia,Northeast,Women's,1990,College,
+7,Kansas,Central,Women's,1990,College,
+9,Pennsylvania,Mid Atlantic,Women's,1990,College,
+9,Wesleyan,Northeast,Women's,1990,College,
 1,NEW YORK,Northeast,MENS,1991,Club,
 2,BIG BROTHER,Northeast,MENS,1991,Club,
 3,IGUANAS,West,MENS,1991,Club,
@@ -302,28 +302,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 9,HUCKSTERS,South,WOMENS,1991,Club,
 11,NEMESIS,Central,WOMENS,1991,Club,
 11,I WOKE UP,Central,WOMENS,1991,Club,
-1,California-Santa Cruz,West,DI_M,1991,College,
-2,North Carolina-Wilmington,Mid Atlantic,DI_M,1991,College,
-3,California-Santa Barbara,West,DI_M,1991,College,
-4,Cornell,Northeast,DI_M,1991,College,
-5,Pennsylvania,Mid Atlantic,DI_M,1991,College,
-6,Carleton College,Central,DI_M,1991,College,
-7,Boston College,Northeast,DI_M,1991,College,
-7,Georgia,South,DI_M,1991,College,
-7,Wisconsin,Central,DI_M,1991,College,
-10,East Carolina,Mid Atlantic,DI_M,1991,College,
-11,Georgia Tech,South,DI_M,1991,College,
-11,Kansas,Central,DI_M,1991,College,
-1,California-Santa Barbara,West,DI_W,1991,College,
-2,California,West,DI_W,1991,College,
-3,Carleton College,Central,DI_W,1991,College,
-3,Cornell,Northeast,DI_W,1991,College,
-5,North Carolina-Wilmington,Mid Atlantic,DI_W,1991,College,
-5,Virginia,Mid Atlantic,DI_W,1991,College,
-7,Columbia,Northeast,DI_W,1991,College,
-7,Kansas,Central,DI_W,1991,College,
-9,Carnegie Mellon,Mid Atlantic,DI_W,1991,College,
-9,Tufts,Northeast,DI_W,1991,College,
+1,California-Santa Cruz,West,Men's,1991,College,
+2,North Carolina-Wilmington,Mid Atlantic,Men's,1991,College,
+3,California-Santa Barbara,West,Men's,1991,College,
+4,Cornell,Northeast,Men's,1991,College,
+5,Pennsylvania,Mid Atlantic,Men's,1991,College,
+6,Carleton College,Central,Men's,1991,College,
+7,Boston College,Northeast,Men's,1991,College,
+7,Georgia,South,Men's,1991,College,
+7,Wisconsin,Central,Men's,1991,College,
+10,East Carolina,Mid Atlantic,Men's,1991,College,
+11,Georgia Tech,South,Men's,1991,College,
+11,Kansas,Central,Men's,1991,College,
+1,California-Santa Barbara,West,Women's,1991,College,
+2,California,West,Women's,1991,College,
+3,Carleton College,Central,Women's,1991,College,
+3,Cornell,Northeast,Women's,1991,College,
+5,North Carolina-Wilmington,Mid Atlantic,Women's,1991,College,
+5,Virginia,Mid Atlantic,Women's,1991,College,
+7,Columbia,Northeast,Women's,1991,College,
+7,Kansas,Central,Women's,1991,College,
+9,Carnegie Mellon,Mid Atlantic,Women's,1991,College,
+9,Tufts,Northeast,Women's,1991,College,
 1,NEW YORK,Northeast,MENS,1992,Club,
 2,COMMONWEALTH,Northeast,MENS,1992,Club,
 3,WINDY CITY,Central,MENS,1992,Club,
@@ -348,20 +348,20 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 9,CORE,Northeast,WOMENS,1992,Club,
 11,MIND ERASERS,Northeast,WOMENS,1992,Club,
 11,HUCKSTERS,South,WOMENS,1992,Club,
-1,Oregon,West,DI_M,1992,College,
-2,Cornell,Northeast,DI_M,1992,College,
-3,North Carolina-Wilmington,Mid Atlantic,DI_M,1992,College,
-4,California,West,DI_M,1992,College,
-1,North Carolina-Wilmington,Mid Atlantic,DI_W,1992,College,
-2,Oregon,West,DI_W,1992,College,
-3,California,West,DI_W,1992,College,
-4,Columbia,Northeast,DI_W,1992,College,
-5,Carleton College,Central,DI_W,1992,College,
-5,Cornell,Northeast,DI_W,1992,College,
-5,Pennsylvania,Mid Atlantic,DI_W,1992,College,
-5,Kansas,Central,DI_W,1992,College,
-9,Brown,Northeast,DI_W,1992,College,
-9,Georgia Tech,South,DI_W,1992,College,
+1,Oregon,West,Men's,1992,College,
+2,Cornell,Northeast,Men's,1992,College,
+3,North Carolina-Wilmington,Mid Atlantic,Men's,1992,College,
+4,California,West,Men's,1992,College,
+1,North Carolina-Wilmington,Mid Atlantic,Women's,1992,College,
+2,Oregon,West,Women's,1992,College,
+3,California,West,Women's,1992,College,
+4,Columbia,Northeast,Women's,1992,College,
+5,Carleton College,Central,Women's,1992,College,
+5,Cornell,Northeast,Women's,1992,College,
+5,Pennsylvania,Mid Atlantic,Women's,1992,College,
+5,Kansas,Central,Women's,1992,College,
+9,Brown,Northeast,Women's,1992,College,
+9,Georgia Tech,South,Women's,1992,College,
 1,NEW YORK,Northeast,MENS,1993,Club,
 2,DOUBLE HAPPINESS,West,MENS,1993,Club,
 3,BIG BROTHER,Northeast,MENS,1993,Club,
@@ -386,28 +386,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 9,CORE,Northeast,WOMENS,1993,Club,
 11,SPIKE,Central,WOMENS,1993,Club,
 11,PHILLY PEPPERS,Mid Atlantic,WOMENS,1993,Club,
-1,North Carolina-Wilmington,Mid Atlantic,DI_M,1993,College,
-2,California-Santa Barbara,West,DI_M,1993,College,
-11,SUNY-Albany,Northeast,DI_M,1993,College,
-11,Wesleyan,Northeast,DI_M,1993,College,
-3,California-Santa Cruz,West,DI_M,1993,College,
-3,Carleton College,Central,DI_M,1993,College,
-5,East Carolina,Mid Atlantic,DI_M,1993,College,
-5,Texas,South,DI_M,1993,College,
-7,Georgia,South,DI_M,1993,College,
-7,Wisconsin,Central,DI_M,1993,College,
-9,Boston College,Northeast,DI_M,1993,College,
-9,Kansas,Central,DI_M,1993,College,
-1,California,West,DI_W,1993,College,
-2,North Carolina-Wilmington,Mid Atlantic,DI_W,1993,College,
-3,Carleton College,Central,DI_W,1993,College,
-3,Humboldt State,West,DI_W,1993,College,
-5,Columbia,Northeast,DI_W,1993,College,
-5,Cornell,Northeast,DI_W,1993,College,
-5,Indiana,Central,DI_W,1993,College,
-5,Pennsylvania,Mid Atlantic,DI_W,1993,College,
-9,Kansas,Central,DI_W,1993,College,
-9,Williams,Northeast,DI_W,1993,College,
+1,North Carolina-Wilmington,Mid Atlantic,Men's,1993,College,
+2,California-Santa Barbara,West,Men's,1993,College,
+11,SUNY-Albany,Northeast,Men's,1993,College,
+11,Wesleyan,Northeast,Men's,1993,College,
+3,California-Santa Cruz,West,Men's,1993,College,
+3,Carleton College,Central,Men's,1993,College,
+5,East Carolina,Mid Atlantic,Men's,1993,College,
+5,Texas,South,Men's,1993,College,
+7,Georgia,South,Men's,1993,College,
+7,Wisconsin,Central,Men's,1993,College,
+9,Boston College,Northeast,Men's,1993,College,
+9,Kansas,Central,Men's,1993,College,
+1,California,West,Women's,1993,College,
+2,North Carolina-Wilmington,Mid Atlantic,Women's,1993,College,
+3,Carleton College,Central,Women's,1993,College,
+3,Humboldt State,West,Women's,1993,College,
+5,Columbia,Northeast,Women's,1993,College,
+5,Cornell,Northeast,Women's,1993,College,
+5,Indiana,Central,Women's,1993,College,
+5,Pennsylvania,Mid Atlantic,Women's,1993,College,
+9,Kansas,Central,Women's,1993,College,
+9,Williams,Northeast,Women's,1993,College,
 1,DEATH OR GLORY,Northeast,MENS,1994,Club,
 2,DOUBLE HAPPINESS,West,MENS,1994,Club,
 3,CHESAPEAKE,Mid Atlantic,MENS,1994,Club,
@@ -432,28 +432,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 9,GRITS,Mid Atlantic,WOMENS,1994,Club,
 11,NY SOHO,Northeast,WOMENS,1994,Club,
 11,TWISTER,Northeast,WOMENS,1994,Club,
-1,East Carolina,Mid Atlantic,DI_M,1994,College,
-2,Stanford,West,DI_M,1994,College,
-3,California-Santa Barbara,West,DI_M,1994,College,
-3,Carleton College,Central,DI_M,1994,College,
-5,Georgia,South,DI_M,1994,College,
-5,Wisconsin,Central,DI_M,1994,College,
-7,Cornell,Northeast,DI_M,1994,College,
-7,Las Positas,West,DI_M,1994,College,
-9,Kansas,Central,DI_M,1994,College,
-9,Pennsylvania,Mid Atlantic,DI_M,1994,College,
-11,SUNY-Binghamton,Northeast,DI_M,1994,College,
-11,Texas,South,DI_M,1994,College,
-1,California-Santa Cruz,West,DI_W,1994,College,
-2,California-Santa Barbara,West,DI_W,1994,College,
-3,Indiana,Central,DI_W,1994,College,
-3,North Carolina-Wilmington,Mid Atlantic,DI_W,1994,College,
-5,Carleton College,Central,DI_W,1994,College,
-5,Columbia,Northeast,DI_W,1994,College,
-5,Cornell,Northeast,DI_W,1994,College,
-5,Kansas,Central,DI_W,1994,College,
-9,East Carolina,Mid Atlantic,DI_W,1994,College,
-9,Tufts,Northeast,DI_W,1994,College,
+1,East Carolina,Mid Atlantic,Men's,1994,College,
+2,Stanford,West,Men's,1994,College,
+3,California-Santa Barbara,West,Men's,1994,College,
+3,Carleton College,Central,Men's,1994,College,
+5,Georgia,South,Men's,1994,College,
+5,Wisconsin,Central,Men's,1994,College,
+7,Cornell,Northeast,Men's,1994,College,
+7,Las Positas,West,Men's,1994,College,
+9,Kansas,Central,Men's,1994,College,
+9,Pennsylvania,Mid Atlantic,Men's,1994,College,
+11,SUNY-Binghamton,Northeast,Men's,1994,College,
+11,Texas,South,Men's,1994,College,
+1,California-Santa Cruz,West,Women's,1994,College,
+2,California-Santa Barbara,West,Women's,1994,College,
+3,Indiana,Central,Women's,1994,College,
+3,North Carolina-Wilmington,Mid Atlantic,Women's,1994,College,
+5,Carleton College,Central,Women's,1994,College,
+5,Columbia,Northeast,Women's,1994,College,
+5,Cornell,Northeast,Women's,1994,College,
+5,Kansas,Central,Women's,1994,College,
+9,East Carolina,Mid Atlantic,Women's,1994,College,
+9,Tufts,Northeast,Women's,1994,College,
 1,DEATH OR GLORY,Northeast,MENS,1995,Club,
 2,SOCKEYE,Northwest,MENS,1995,Club,
 3,COJONES,Northeast,MENS,1995,Club,
@@ -478,28 +478,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 9,HUCKSTERS,South,WOMENS,1995,Club,
 11,JANE AIR,Central,WOMENS,1995,Club,
 11,WACK,Northeast,WOMENS,1995,Club,
-1,East Carolina,Mid Atlantic,DI_M,1995,College,
-2,California-Santa Cruz,West,DI_M,1995,College,
-3,North Carolina-Wilmington,Mid Atlantic,DI_M,1995,College,
-3,Stanford,West,DI_M,1995,College,
-5,Cornell,Northeast,DI_M,1995,College,
-5,Yale,Northeast,DI_M,1995,College,
-7,Carleton College,Central,DI_M,1995,College,
-7,LSU,South,DI_M,1995,College,
-9,Oberlin,Central,DI_M,1995,College,
-9,Williams,Northeast,DI_M,1995,College,
-11,Georgia,South,DI_M,1995,College,
-11,Indiana,Central,DI_M,1995,College,
-1,California-Santa Cruz,West,DI_W,1995,College,
-2,Stanford,West,DI_W,1995,College,
-3,Colorado,Central,DI_W,1995,College,
-3,North Carolina-Wilmington,Mid Atlantic,DI_W,1995,College,
-5,Columbia,Northeast,DI_W,1995,College,
-5,Pennsylvania,Mid Atlantic,DI_W,1995,College,
-7,Indiana,Central,DI_W,1995,College,
-7,Yale,Northeast,DI_W,1995,College,
-9,Carleton College,Central,DI_W,1995,College,
-9,Williams,Northeast,DI_W,1995,College,
+1,East Carolina,Mid Atlantic,Men's,1995,College,
+2,California-Santa Cruz,West,Men's,1995,College,
+3,North Carolina-Wilmington,Mid Atlantic,Men's,1995,College,
+3,Stanford,West,Men's,1995,College,
+5,Cornell,Northeast,Men's,1995,College,
+5,Yale,Northeast,Men's,1995,College,
+7,Carleton College,Central,Men's,1995,College,
+7,LSU,South,Men's,1995,College,
+9,Oberlin,Central,Men's,1995,College,
+9,Williams,Northeast,Men's,1995,College,
+11,Georgia,South,Men's,1995,College,
+11,Indiana,Central,Men's,1995,College,
+1,California-Santa Cruz,West,Women's,1995,College,
+2,Stanford,West,Women's,1995,College,
+3,Colorado,Central,Women's,1995,College,
+3,North Carolina-Wilmington,Mid Atlantic,Women's,1995,College,
+5,Columbia,Northeast,Women's,1995,College,
+5,Pennsylvania,Mid Atlantic,Women's,1995,College,
+7,Indiana,Central,Women's,1995,College,
+7,Yale,Northeast,Women's,1995,College,
+9,Carleton College,Central,Women's,1995,College,
+9,Williams,Northeast,Women's,1995,College,
 1,DEATH OR GLORY,Northeast,MENS,1996,Club,
 2,SOCKEYE,Northwest,MENS,1996,Club,
 3,Z,Central,MENS,1996,Club,
@@ -528,28 +528,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 11,WILD ROSES,Northeast,WOMENS,1996,Club,
 13,CATEGORY 5,Mid Atlantic,WOMENS,1996,Club,
 13,HUCKSTERS,South,WOMENS,1996,Club,
-1,California-Santa Barbara,West,DI_M,1996,College,
-2,Carleton College,Central,DI_M,1996,College,
-3,Cornell,Northeast,DI_M,1996,College,
-3,Wisconsin,Central,DI_M,1996,College,
-5,North Carolina-Wilmington,Mid Atlantic,DI_M,1996,College,
-5,Stanford,West,DI_M,1996,College,
-7,Georgia,South,DI_M,1996,College,
-7,North Carolina State,Mid Atlantic,DI_M,1996,College,
-9,Wesleyan,Northeast,DI_M,1996,College,
-9,Williams,Northeast,DI_M,1996,College,
-11,Indiana,Central,DI_M,1996,College,
-11,Florida State,South,DI_M,1996,College,
-1,North Carolina-Wilmington,Mid Atlantic,DI_W,1996,College,
-2,Stanford,West,DI_W,1996,College,
-3,California,West,DI_W,1996,College,
-3,Carleton College,Central,DI_W,1996,College,
-5,Colorado,Central,DI_W,1996,College,
-5,Cornell,Northeast,DI_W,1996,College,
-5,Indiana,Central,DI_W,1996,College,
-5,Yale,Northeast,DI_W,1996,College,
-9,Florida State,South,DI_W,1996,College,
-9,Pennsylvania,Mid Atlantic,DI_W,1996,College,
+1,California-Santa Barbara,West,Men's,1996,College,
+2,Carleton College,Central,Men's,1996,College,
+3,Cornell,Northeast,Men's,1996,College,
+3,Wisconsin,Central,Men's,1996,College,
+5,North Carolina-Wilmington,Mid Atlantic,Men's,1996,College,
+5,Stanford,West,Men's,1996,College,
+7,Georgia,South,Men's,1996,College,
+7,North Carolina State,Mid Atlantic,Men's,1996,College,
+9,Wesleyan,Northeast,Men's,1996,College,
+9,Williams,Northeast,Men's,1996,College,
+11,Indiana,Central,Men's,1996,College,
+11,Florida State,South,Men's,1996,College,
+1,North Carolina-Wilmington,Mid Atlantic,Women's,1996,College,
+2,Stanford,West,Women's,1996,College,
+3,California,West,Women's,1996,College,
+3,Carleton College,Central,Women's,1996,College,
+5,Colorado,Central,Women's,1996,College,
+5,Cornell,Northeast,Women's,1996,College,
+5,Indiana,Central,Women's,1996,College,
+5,Yale,Northeast,Women's,1996,College,
+9,Florida State,South,Women's,1996,College,
+9,Pennsylvania,Mid Atlantic,Women's,1996,College,
 1,DEATH OR GLORY,Northeast,MENS,1997,Club,
 2,SOCKEYE,Northwest,MENS,1997,Club,
 3,Z,Central,MENS,1997,Club,
@@ -578,28 +578,28 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 11,HUCKSTERS,South,WOMENS,1997,Club,
 13,CLUTCH,Central,WOMENS,1997,Club,
 13,STELLA,Northeast,WOMENS,1997,Club,
-1,California-Santa Barbara,West,DI_M,1997,College,
-2,Stanford,West,DI_M,1997,College,
-3,Carleton College,Central,DI_M,1997,College,
-3,East Carolina,Mid Atlantic,DI_M,1997,College,
-5,North Carolina-Wilmington,Mid Atlantic,DI_M,1997,College,
-5,Wisconsin,Central,DI_M,1997,College,
-7,Cornell,Northeast,DI_M,1997,College,
-7,Rice,South,DI_M,1997,College,
-9,Oberlin,Central,DI_M,1997,College,
-9,Wesleyan,Northeast,DI_M,1997,College,
-11,LSU,South,DI_M,1997,College,
-11,Yale,Northeast,DI_M,1997,College,
-1,Stanford,West,DI_W,1997,College,
-2,British Columbia,West,DI_W,1997,College,
-3,Carleton College,Central,DI_W,1997,College,
-3,Rutgers,Mid Atlantic,DI_W,1997,College,
-5,Brown,Northeast,DI_W,1997,College,
-5,North Carolina-Wilmington,Mid Atlantic,DI_W,1997,College,
-5,Oberlin,Central,DI_W,1997,College,
-5,Yale,Northeast,DI_W,1997,College,
-9,Georgia,South,DI_W,1997,College,
-9,Rice,South,DI_W,1997,College,
+1,California-Santa Barbara,West,Men's,1997,College,
+2,Stanford,West,Men's,1997,College,
+3,Carleton College,Central,Men's,1997,College,
+3,East Carolina,Mid Atlantic,Men's,1997,College,
+5,North Carolina-Wilmington,Mid Atlantic,Men's,1997,College,
+5,Wisconsin,Central,Men's,1997,College,
+7,Cornell,Northeast,Men's,1997,College,
+7,Rice,South,Men's,1997,College,
+9,Oberlin,Central,Men's,1997,College,
+9,Wesleyan,Northeast,Men's,1997,College,
+11,LSU,South,Men's,1997,College,
+11,Yale,Northeast,Men's,1997,College,
+1,Stanford,West,Women's,1997,College,
+2,British Columbia,West,Women's,1997,College,
+3,Carleton College,Central,Women's,1997,College,
+3,Rutgers,Mid Atlantic,Women's,1997,College,
+5,Brown,Northeast,Women's,1997,College,
+5,North Carolina-Wilmington,Mid Atlantic,Women's,1997,College,
+5,Oberlin,Central,Women's,1997,College,
+5,Yale,Northeast,Women's,1997,College,
+9,Georgia,South,Women's,1997,College,
+9,Rice,South,Women's,1997,College,
 1,RED FISH BLUE FISH,Northwest,MIXED,1998,Club,
 2,PIRA HAKU,Southwest,MIXED,1998,Club,
 3,BLIND DATE,Mid Atlantic,MIXED,1998,Club,
@@ -640,30 +640,30 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 11,HUCKSTERS,South,WOMENS,1998,Club,
 13,JOHNNY COCKTAIL,Central,WOMENS,1998,Club,
 13,AMBUSH,Northeast,WOMENS,1998,Club,
-1,California-Santa Barbara,West,DI_M,1998,College,
-2,Stanford,West,DI_M,1998,College,
-3,Brown,Northeast,DI_M,1998,College,
-3,North Carolina State,Mid Atlantic,DI_M,1998,College,
-5,Carleton College,Central,DI_M,1998,College,
-5,Colorado,Central,DI_M,1998,College,
-7,Harvard,Northeast,DI_M,1998,College,
-7,LSU,South,DI_M,1998,College,
-9,East Carolina,Mid Atlantic,DI_M,1998,College,
-9,Iowa,Central,DI_M,1998,College,
-11,Rice,South,DI_M,1998,College,
-11,Yale,Northeast,DI_M,1998,College,
-1,Stanford,West,DI_W,1998,College,
-2,Carleton College,Central,DI_W,1998,College,
-3,Oregon,West,DI_W,1998,College,
-3,Yale,Northeast,DI_W,1998,College,
-5,Cornell,Northeast,DI_W,1998,College,
-5,North Carolina-Wilmington,Mid Atlantic,DI_W,1998,College,
-7,Indiana,Central,DI_W,1998,College,
-7,Rutgers,Mid Atlantic,DI_W,1998,College,
-9,Georgia,South,DI_W,1998,College,
-9,MIT,Northeast,DI_W,1998,College,
-11,Rice,South,DI_W,1998,College,
-11,Wisconsin,Central,DI_W,1998,College,
+1,California-Santa Barbara,West,Men's,1998,College,
+2,Stanford,West,Men's,1998,College,
+3,Brown,Northeast,Men's,1998,College,
+3,North Carolina State,Mid Atlantic,Men's,1998,College,
+5,Carleton College,Central,Men's,1998,College,
+5,Colorado,Central,Men's,1998,College,
+7,Harvard,Northeast,Men's,1998,College,
+7,LSU,South,Men's,1998,College,
+9,East Carolina,Mid Atlantic,Men's,1998,College,
+9,Iowa,Central,Men's,1998,College,
+11,Rice,South,Men's,1998,College,
+11,Yale,Northeast,Men's,1998,College,
+1,Stanford,West,Women's,1998,College,
+2,Carleton College,Central,Women's,1998,College,
+3,Oregon,West,Women's,1998,College,
+3,Yale,Northeast,Women's,1998,College,
+5,Cornell,Northeast,Women's,1998,College,
+5,North Carolina-Wilmington,Mid Atlantic,Women's,1998,College,
+7,Indiana,Central,Women's,1998,College,
+7,Rutgers,Mid Atlantic,Women's,1998,College,
+9,Georgia,South,Women's,1998,College,
+9,MIT,Northeast,Women's,1998,College,
+11,Rice,South,Women's,1998,College,
+11,Wisconsin,Central,Women's,1998,College,
 1,RALEIGH LLAMA,Mid Atlantic,MIXED,1999,Club,
 2,RED FISH BLUE FISH,Northwest,MIXED,1999,Club,
 3,BLIND DATE,Mid Atlantic,MIXED,1999,Club,
@@ -708,34 +708,65 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,E.H.?!?,Northeast,WOMENS,1999,Club,
 15,TWISTER,Northeast,WOMENS,1999,Club,
 16,DIVA,South,WOMENS,1999,Club,
-1,North Carolina State,Atlantic Coast,DI_M,1999,College,
-2,California-Santa Barbara,Southwest,DI_M,1999,College,
-3,Brown,New England,DI_M,1999,College,
-3,Carleton College,Central,DI_M,1999,College,
-5,California-Santa Cruz,Northwest,DI_M,1999,College,
-5,Colorado,Southwest,DI_M,1999,College,
-5,North Carolina,Atlantic Coast,DI_M,1999,College,
-5,Stanford,Northwest,DI_M,1999,College,
-9,Cornell,Metro East,DI_M,1999,College,
-9,Iowa,Central,DI_M,1999,College,
-9,Michigan,Great Lakes,DI_M,1999,College,
-9,Yale,New England,DI_M,1999,College,
-13,Kansas,South,DI_M,1999,College,
-13,Oberlin,Great Lakes,DI_M,1999,College,
-13,Rice,South,DI_M,1999,College,
-13,Salisbury,Metro East,DI_M,1999,College,
-1,Stanford,Northwest,DI_W,1999,College,
-2,Carleton College,Central,DI_W,1999,College,
-3,Brown,New England,DI_W,1999,College,
-3,Georgia,Atlantic Coast,DI_W,1999,College,
-5,British Columbia,Northwest,DI_W,1999,College,
-5,California-San Diego,Southwest,DI_W,1999,College,
-7,Swarthmore,Metro East,DI_W,1999,College,
-7,Yale,New England,DI_W,1999,College,
-9,Illinois,Great Lakes,DI_W,1999,College,
-9,Princeton,Metro East,DI_W,1999,College,
-11,Kansas,South,DI_W,1999,College,
-11,Minnesota,Central,DI_W,1999,College,
+1,North Carolina State,Atlantic Coast,Men's,1999,College,
+2,California-Santa Barbara,Southwest,Men's,1999,College,
+3,Brown,New England,Men's,1999,College,
+3,Carleton College,Central,Men's,1999,College,
+5,California-Santa Cruz,Northwest,Men's,1999,College,
+5,Colorado,Southwest,Men's,1999,College,
+5,North Carolina,Atlantic Coast,Men's,1999,College,
+5,Stanford,Northwest,Men's,1999,College,
+9,Cornell,Metro East,Men's,1999,College,
+9,Iowa,Central,Men's,1999,College,
+9,Michigan,Great Lakes,Men's,1999,College,
+9,Yale,New England,Men's,1999,College,
+13,Kansas,South,Men's,1999,College,
+13,Oberlin,Great Lakes,Men's,1999,College,
+13,Rice,South,Men's,1999,College,
+13,Salisbury,Metro East,Men's,1999,College,
+1,Stanford,Northwest,Women's,1999,College,
+2,Carleton College,Central,Women's,1999,College,
+3,Brown,New England,Women's,1999,College,
+3,Georgia,Atlantic Coast,Women's,1999,College,
+5,British Columbia,Northwest,Women's,1999,College,
+5,California-San Diego,Southwest,Women's,1999,College,
+7,Swarthmore,Metro East,Women's,1999,College,
+7,Yale,New England,Women's,1999,College,
+9,Illinois,Great Lakes,Women's,1999,College,
+9,Princeton,Metro East,Women's,1999,College,
+11,Kansas,South,Women's,1999,College,
+11,Minnesota,Central,Women's,1999,College,
+1,CONDORS,Southwest,MENS,2000,Club,
+2,FURIOUS GEORGE,Northwest,MENS,2000,Club,
+3,DEATH OR GLORY,Northeast,MENS,2000,Club,
+3,JAM,Northwest,MENS,2000,Club,
+5,RING OF FIRE,Mid Atlantic,MENS,2000,Club,
+6,FLORIDA,South,MENS,2000,Club,
+7,SOCKEYE,Northwest,MENS,2000,Club,
+8,SUB ZERO,Central,MENS,2000,Club,
+9,FBI,Northwest,MENS,2000,Club,
+10,BOMB SQUAD,Northeast,MENS,2000,Club,
+11,CBASS,Mid Atlantic,MENS,2000,Club,
+12,MADISON,Central,MENS,2000,Club,
+13,SECOND WIND,Central,MENS,2000,Club,
+14,JOHNNY BRAVO,Southwest,MENS,2000,Club,
+15,HOUNDZ,South,MENS,2000,Club,
+16,BLACKJACK,Northeast,MENS,2000,Club,
+1,LADY GODIVA,Northeast,WOMENS,2000,Club,
+2,SCHWA,Northwest,WOMENS,2000,Club,
+3,PRIME,Northwest,WOMENS,2000,Club,
+3,FURY,Northwest,WOMENS,2000,Club,
+5,BACKHOE,Mid Atlantic,WOMENS,2000,Club,
+5,HOMEBROOD,Northwest,WOMENS,2000,Club,
+5,BURBAN SPRAWL,South,WOMENS,2000,Club,
+5,RARE AIR,Southwest,WOMENS,2000,Club,
+9,PHILLY PEPPERS,Mid Atlantic,WOMENS,2000,Club,
+9,ROUGUE,Northeast,WOMENS,2000,Club,
+11,BNOGO,Mid Atlantic,WOMENS,2000,Club,
+11,LADY CONDORS,Southwest,WOMENS,2000,Club,
+13,NEMESIS,Central,WOMENS,2000,Club,
+13,CLUTCH,Central,WOMENS,2000,Club,
+13,HUCKSTERS,South,WOMENS,2000,Club,
 1,SPEAR,Mid Atlantic,MIXED,2000,Club,4.0
 2,TRIGGER HAPPY,Northwest,MIXED,2000,Club,4.0
 3,PERPETRATOR,Mid Atlantic,MIXED,2000,Club,2.93
@@ -760,38 +791,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 22,DONKEY BOMB,Mid Atlantic,MIXED,2000,Club,3.71
 23,RED DYE 5,Southwest,MIXED,2000,Club,3.0
 24,RALPH,Central,MIXED,2000,Club,3.0
-1,Brown,New England,DI_M,2000,College,
-2,Carleton College,Central,DI_M,2000,College,
-3,California-Santa Barbara,Southwest,DI_M,2000,College,
-3,Colorado,Southwest,DI_M,2000,College,
-5,North Carolina,Atlantic Coast,DI_M,2000,College,
-5,North Carolina State,Atlantic Coast,DI_M,2000,College,
-5,Salisbury,Metro East,DI_M,2000,College,
-5,Stanford,Northwest,DI_M,2000,College,
-9,Michigan,Great Lakes,DI_M,2000,College,
-10,Wisconsin,Central,DI_M,2000,College,
-13,Notre Dame,Great Lakes,DI_M,2000,College,
-14,Princeton,Metro East,DI_M,2000,College,
-11,Rice,South,DI_M,2000,College,
-11,Winona State,Central,DI_M,2000,College,
-15,California-Santa Cruz,Northwest,DI_M,2000,College,
-15,Tufts,New England,DI_M,2000,College,
-1,Carleton College,Central,DI_W,2000,College,
-2,North Carolina-Wilmington,Atlantic Coast,DI_W,2000,College,
-3,California-Davis,Northwest,DI_W,2000,College,
-3,Georgia,Atlantic Coast,DI_W,2000,College,
-5,Brown,New England,DI_W,2000,College,
-5,California-San Diego,Southwest,DI_W,2000,College,
-5,Colorado,Southwest,DI_W,2000,College,
-5,Tufts,New England,DI_W,2000,College,
-9,Swarthmore,Metro East,DI_W,2000,College,
-10,Smith,New England,DI_W,2000,College,
-11,Minnesota,Central,DI_W,2000,College,
-12,Rice,South,DI_W,2000,College,
-13,Oregon,Northwest,DI_W,2000,College,
-14,Illinois,Great Lakes,DI_W,2000,College,
-15,Bucknell,Metro East,DI_W,2000,College,
-15,Notre Dame,Great Lakes,DI_W,2000,College,
+1,Brown,New England,Men's,2000,College,
+2,Carleton College,Central,Men's,2000,College,
+3,California-Santa Barbara,Southwest,Men's,2000,College,
+3,Colorado,Southwest,Men's,2000,College,
+5,North Carolina,Atlantic Coast,Men's,2000,College,
+5,North Carolina State,Atlantic Coast,Men's,2000,College,
+5,Salisbury,Metro East,Men's,2000,College,
+5,Stanford,Northwest,Men's,2000,College,
+9,Michigan,Great Lakes,Men's,2000,College,
+10,Wisconsin,Central,Men's,2000,College,
+13,Notre Dame,Great Lakes,Men's,2000,College,
+14,Princeton,Metro East,Men's,2000,College,
+11,Rice,South,Men's,2000,College,
+11,Winona State,Central,Men's,2000,College,
+15,California-Santa Cruz,Northwest,Men's,2000,College,
+15,Tufts,New England,Men's,2000,College,
+1,Carleton College,Central,Women's,2000,College,
+2,North Carolina-Wilmington,Atlantic Coast,Women's,2000,College,
+3,California-Davis,Northwest,Women's,2000,College,
+3,Georgia,Atlantic Coast,Women's,2000,College,
+5,Brown,New England,Women's,2000,College,
+5,California-San Diego,Southwest,Women's,2000,College,
+5,Colorado,Southwest,Women's,2000,College,
+5,Tufts,New England,Women's,2000,College,
+9,Swarthmore,Metro East,Women's,2000,College,
+10,Smith,New England,Women's,2000,College,
+11,Minnesota,Central,Women's,2000,College,
+12,Rice,South,Women's,2000,College,
+13,Oregon,Northwest,Women's,2000,College,
+14,Illinois,Great Lakes,Women's,2000,College,
+15,Bucknell,Metro East,Women's,2000,College,
+15,Notre Dame,Great Lakes,Women's,2000,College,
 1,TRIGGER HIPPY,Northwest,MIXED,2001,Club,4.0
 2,BRU,Mid Atlantic,MIXED,2001,Club,3.43
 3,RED FISH BLUE FISH,Northwest,MIXED,2001,Club,4.0
@@ -840,38 +871,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,BAIT,Central,WOMENS,2001,Club,3.2
 15,CLUTCH,Central,WOMENS,2001,Club,3.8
 16,WAHINE,Mid Atlantic,WOMENS,2001,Club,4.0
-1,Carleton College,Central,DI_M,2001,College,
-2,Colorado,Southwest,DI_M,2001,College,
-3,California-Santa Barbara,Southwest,DI_M,2001,College,
-4,Oregon,Northwest,DI_M,2001,College,
-5,Brown,New England,DI_M,2001,College,
-5,Cornell,Metro East,DI_M,2001,College,
-5,Michigan,Great Lakes,DI_M,2001,College,
-5,Wisconsin,Central,DI_M,2001,College,
-9,Harvard,New England,DI_M,2001,College,
-10,Pennsylvania,Metro East,DI_M,2001,College,
-11,Ohio State,Great Lakes,DI_M,2001,College,
-12,Texas A&M,South,DI_M,2001,College,
-13,Duke,Atlantic Coast,DI_M,2001,College,
-14,North Carolina-Wilmington,Atlantic Coast,DI_M,2001,College,
-15,North Carolina,Atlantic Coast,DI_M,2001,College,
-16,Tufts,New England,DI_M,2001,College,
-1,Georgia,Atlantic Coast,DI_W,2001,College,
-2,Stanford,Northwest,DI_W,2001,College,
-3,California-San Diego,Southwest,DI_W,2001,College,
-3,North Carolina-Wilmington,Atlantic Coast,DI_W,2001,College,
-5,British Columbia,Northwest,DI_W,2001,College,
-5,Brown,New England,DI_W,2001,College,
-5,Carleton College,Central,DI_W,2001,College,
-5,Tufts,New England,DI_W,2001,College,
-9,Colorado,Southwest,DI_W,2001,College,
-10,Northwestern,Great Lakes,DI_W,2001,College,
-11,Bucknell,Metro East,DI_W,2001,College,
-12,Swarthmore,Metro East,DI_W,2001,College,
-13,Illinois,Great Lakes,DI_W,2001,College,
-14,MIT,New England,DI_W,2001,College,
-15,Wisconsin,Central,DI_W,2001,College,
-16,Washington University,South,DI_W,2001,College,
+1,Carleton College,Central,Men's,2001,College,
+2,Colorado,Southwest,Men's,2001,College,
+3,California-Santa Barbara,Southwest,Men's,2001,College,
+4,Oregon,Northwest,Men's,2001,College,
+5,Brown,New England,Men's,2001,College,
+5,Cornell,Metro East,Men's,2001,College,
+5,Michigan,Great Lakes,Men's,2001,College,
+5,Wisconsin,Central,Men's,2001,College,
+9,Harvard,New England,Men's,2001,College,
+10,Pennsylvania,Metro East,Men's,2001,College,
+11,Ohio State,Great Lakes,Men's,2001,College,
+12,Texas A&M,South,Men's,2001,College,
+13,Duke,Atlantic Coast,Men's,2001,College,
+14,North Carolina-Wilmington,Atlantic Coast,Men's,2001,College,
+15,North Carolina,Atlantic Coast,Men's,2001,College,
+16,Tufts,New England,Men's,2001,College,
+1,Georgia,Atlantic Coast,Women's,2001,College,
+2,Stanford,Northwest,Women's,2001,College,
+3,California-San Diego,Southwest,Women's,2001,College,
+3,North Carolina-Wilmington,Atlantic Coast,Women's,2001,College,
+5,British Columbia,Northwest,Women's,2001,College,
+5,Brown,New England,Women's,2001,College,
+5,Carleton College,Central,Women's,2001,College,
+5,Tufts,New England,Women's,2001,College,
+9,Colorado,Southwest,Women's,2001,College,
+10,Northwestern,Great Lakes,Women's,2001,College,
+11,Bucknell,Metro East,Women's,2001,College,
+12,Swarthmore,Metro East,Women's,2001,College,
+13,Illinois,Great Lakes,Women's,2001,College,
+14,MIT,New England,Women's,2001,College,
+15,Wisconsin,Central,Women's,2001,College,
+16,Washington University,South,Women's,2001,College,
 1,DONNER PARTY,Northwest,MIXED,2002,Club,3.57
 2,HANG TIME,South,MIXED,2002,Club,3.07
 3,SPEAR,Mid Atlantic,MIXED,2002,Club,3.33
@@ -920,38 +951,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,BAIT,Central,WOMENS,2002,Club,4.29
 15,CLUTCH,Central,WOMENS,2002,Club,4.17
 16,BUTTERCUP,South,WOMENS,2002,Club,4.0
-1,Stanford,Northwest,DI_M,2002,College,4.4
-2,Wisconsin,Central,DI_M,2002,College,4.67
-3,Carleton College,Central,DI_M,2002,College,4.33
-3,William & Mary,Atlantic Coast,DI_M,2002,College,5.0
-5,California-Santa Barbara,Southwest,DI_M,2002,College,3.0
-5,Michigan,Great Lakes,DI_M,2002,College,4.4
-5,North Carolina-Wilmington,Atlantic Coast,DI_M,2002,College,3.75
-5,Tufts,New England,DI_M,2002,College,4.5
-9,Cornell,Metro East,DI_M,2002,College,4.17
-9,Illinois,Great Lakes,DI_M,2002,College,4.1
-11,California-Santa Cruz,Northwest,DI_M,2002,College,2.55
-11,Colorado,Southwest,DI_M,2002,College,4.0
-13,Iowa,Central,DI_M,2002,College,4.3
-13,Swarthmore,Metro East,DI_M,2002,College,5.0
-15,George Washington,Metro East,DI_M,2002,College,4.8
-15,Texas,South,DI_M,2002,College,4.0
-1,California-San Diego,Southwest,DI_W,2002,College,4.5
-2,Stanford,Northwest,DI_W,2002,College,4.0
-3,Colorado,Southwest,DI_W,2002,College,4.0
-3,MIT,New England,DI_W,2002,College,3.75
-5,Bucknell,Metro East,DI_W,2002,College,4.2
-5,Carleton College,Central,DI_W,2002,College,3.62
-5,North Carolina,Atlantic Coast,DI_W,2002,College,4.0
-5,Oregon,Northwest,DI_W,2002,College,4.4
-9,Brown,New England,DI_W,2002,College,4.5
-9,Northwestern,Great Lakes,DI_W,2002,College,4.33
-11,Penn State,Metro East,DI_W,2002,College,4.0
-11,Virginia,Atlantic Coast,DI_W,2002,College,4.42
-13,Georgia,Atlantic Coast,DI_W,2002,College,4.67
-13,Indiana,Great Lakes,DI_W,2002,College,4.7
-15,Texas,South,DI_W,2002,College,4.8
-15,Yale,New England,DI_W,2002,College,4.6
+1,Stanford,Northwest,Men's,2002,College,4.4
+2,Wisconsin,Central,Men's,2002,College,4.67
+3,Carleton College,Central,Men's,2002,College,4.33
+3,William & Mary,Atlantic Coast,Men's,2002,College,5.0
+5,California-Santa Barbara,Southwest,Men's,2002,College,3.0
+5,Michigan,Great Lakes,Men's,2002,College,4.4
+5,North Carolina-Wilmington,Atlantic Coast,Men's,2002,College,3.75
+5,Tufts,New England,Men's,2002,College,4.5
+9,Cornell,Metro East,Men's,2002,College,4.17
+9,Illinois,Great Lakes,Men's,2002,College,4.1
+11,California-Santa Cruz,Northwest,Men's,2002,College,2.55
+11,Colorado,Southwest,Men's,2002,College,4.0
+13,Iowa,Central,Men's,2002,College,4.3
+13,Swarthmore,Metro East,Men's,2002,College,5.0
+15,George Washington,Metro East,Men's,2002,College,4.8
+15,Texas,South,Men's,2002,College,4.0
+1,California-San Diego,Southwest,Women's,2002,College,4.5
+2,Stanford,Northwest,Women's,2002,College,4.0
+3,Colorado,Southwest,Women's,2002,College,4.0
+3,MIT,New England,Women's,2002,College,3.75
+5,Bucknell,Metro East,Women's,2002,College,4.2
+5,Carleton College,Central,Women's,2002,College,3.62
+5,North Carolina,Atlantic Coast,Women's,2002,College,4.0
+5,Oregon,Northwest,Women's,2002,College,4.4
+9,Brown,New England,Women's,2002,College,4.5
+9,Northwestern,Great Lakes,Women's,2002,College,4.33
+11,Penn State,Metro East,Women's,2002,College,4.0
+11,Virginia,Atlantic Coast,Women's,2002,College,4.42
+13,Georgia,Atlantic Coast,Women's,2002,College,4.67
+13,Indiana,Great Lakes,Women's,2002,College,4.7
+15,Texas,South,Women's,2002,College,4.8
+15,Yale,New England,Women's,2002,College,4.6
 1,DONNER PARTY,Northwest,MIXED,2003,Club,4.14
 2,HANG TIME,South,MIXED,2003,Club,4.57
 3,B+,Mid Atlantic,MIXED,2003,Club,4.13
@@ -1000,38 +1031,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,STRIKE,South,WOMENS,2003,Club,4.17
 15,BAIT,Central,WOMENS,2003,Club,4.33
 16,POUNCE,Mid Atlantic,WOMENS,2003,Club,3.71
-1,Wisconsin,Central,DI_M,2003,College,3.25
-2,Oregon,Northwest,DI_M,2003,College,4.4
-3,Carleton College,Central,DI_M,2003,College,4.0
-3,Colorado,Southwest,DI_M,2003,College,2.7
-5,Brown,New England,DI_M,2003,College,3.0
-5,Illinois,Great Lakes,DI_M,2003,College,4.3
-5,Texas,South,DI_M,2003,College,4.0
-5,William & Mary,Atlantic Coast,DI_M,2003,College,3.9
-9,Georgia,Atlantic Coast,DI_M,2003,College,3.5
-9,Michigan,Great Lakes,DI_M,2003,College,3.8
-11,North Carolina State,Atlantic Coast,DI_M,2003,College,3.2
-11,Penn State,Metro East,DI_M,2003,College,3.5
-13,Ohio State,Great Lakes,DI_M,2003,College,3.25
-14,Pennsylvania,Metro East,DI_M,2003,College,3.8
-15,Dartmouth,New England,DI_M,2003,College,4.4
-16,Williams,New England,DI_M,2003,College,4.8
-1,Stanford,Northwest,DI_W,2003,College,4.5
-2,MIT,New England,DI_W,2003,College,3.3
-3,Brown,New England,DI_W,2003,College,3.75
-3,Colorado,Southwest,DI_W,2003,College,4.25
-5,California,Northwest,DI_W,2003,College,4.7
-5,California-San Diego,Southwest,DI_W,2003,College,4.25
-5,Penn State,Metro East,DI_W,2003,College,3.67
-5,Texas,South,DI_W,2003,College,3.8
-9,Iowa,Central,DI_W,2003,College,4.7
-9,Wisconsin,Central,DI_W,2003,College,3.67
-11,Delaware,Metro East,DI_W,2003,College,4.5
-11,Duke,Atlantic Coast,DI_W,2003,College,3.6
-13,Michigan,Great Lakes,DI_W,2003,College,4.25
-14,Arizona,Southwest,DI_W,2003,College,4.7
-14,Georgia,Atlantic Coast,DI_W,2003,College,3.9
-14,Notre Dame,Great Lakes,DI_W,2003,College,5.0
+1,Wisconsin,Central,Men's,2003,College,3.25
+2,Oregon,Northwest,Men's,2003,College,4.4
+3,Carleton College,Central,Men's,2003,College,4.0
+3,Colorado,Southwest,Men's,2003,College,2.7
+5,Brown,New England,Men's,2003,College,3.0
+5,Illinois,Great Lakes,Men's,2003,College,4.3
+5,Texas,South,Men's,2003,College,4.0
+5,William & Mary,Atlantic Coast,Men's,2003,College,3.9
+9,Georgia,Atlantic Coast,Men's,2003,College,3.5
+9,Michigan,Great Lakes,Men's,2003,College,3.8
+11,North Carolina State,Atlantic Coast,Men's,2003,College,3.2
+11,Penn State,Metro East,Men's,2003,College,3.5
+13,Ohio State,Great Lakes,Men's,2003,College,3.25
+14,Pennsylvania,Metro East,Men's,2003,College,3.8
+15,Dartmouth,New England,Men's,2003,College,4.4
+16,Williams,New England,Men's,2003,College,4.8
+1,Stanford,Northwest,Women's,2003,College,4.5
+2,MIT,New England,Women's,2003,College,3.3
+3,Brown,New England,Women's,2003,College,3.75
+3,Colorado,Southwest,Women's,2003,College,4.25
+5,California,Northwest,Women's,2003,College,4.7
+5,California-San Diego,Southwest,Women's,2003,College,4.25
+5,Penn State,Metro East,Women's,2003,College,3.67
+5,Texas,South,Women's,2003,College,3.8
+9,Iowa,Central,Women's,2003,College,4.7
+9,Wisconsin,Central,Women's,2003,College,3.67
+11,Delaware,Metro East,Women's,2003,College,4.5
+11,Duke,Atlantic Coast,Women's,2003,College,3.6
+13,Michigan,Great Lakes,Women's,2003,College,4.25
+14,Arizona,Southwest,Women's,2003,College,4.7
+14,Georgia,Atlantic Coast,Women's,2003,College,3.9
+14,Notre Dame,Great Lakes,Women's,2003,College,5.0
 1,SHAZAM,Northwest,MIXED,2004,Club,4.33
 2,CHAD LARSON EXPERIENCE,Central,MIXED,2004,Club,3.83
 3,BRASS MONKEY,Northwest,MIXED,2004,Club,4.33
@@ -1080,38 +1111,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,CLUTCH,Central,WOMENS,2004,Club,4.71
 15,ELECTRIC MAYHEM,Mid Atlantic,WOMENS,2004,Club,4.29
 16,COLLIDE,Central,WOMENS,2004,Club,3.86
-1,Colorado,Southwest,DI_M,2004,College,
-2,California,Northwest,DI_M,2004,College,
-3,Brown,New England,DI_M,2004,College,
-3,Stanford,Northwest,DI_M,2004,College,
-5,California-San Diego,Southwest,DI_M,2004,College,
-5,Iowa,Central,DI_M,2004,College,
-5,North Carolina State,Atlantic Coast,DI_M,2004,College,
-5,Wisconsin,Central,DI_M,2004,College,
-9,Carleton College,Central,DI_M,2004,College,
-9,Tufts,New England,DI_M,2004,College,
-11,George Washington,Metro East,DI_M,2004,College,
-11,William & Mary,Atlantic Coast,DI_M,2004,College,
-13,Michigan State,Great Lakes,DI_M,2004,College,
-14,Illinois,Great Lakes,DI_M,2004,College,
-15,Delaware,Metro East,DI_M,2004,College,
-16,Kansas,South,DI_M,2004,College,
-1,California-Davis,Northwest,DI_W,2004,College,
-2,Carleton College,Central,DI_W,2004,College,
-3,California-San Diego,Southwest,DI_W,2004,College,
-3,Stanford,Northwest,DI_W,2004,College,
-5,Brown,New England,DI_W,2004,College,
-5,California,Northwest,DI_W,2004,College,
-5,MIT,New England,DI_W,2004,College,
-5,Texas,South,DI_W,2004,College,
-9,Dartmouth,New England,DI_W,2004,College,
-9,Iowa,Central,DI_W,2004,College,
-11,Claremont,Southwest,DI_W,2004,College,
-11,Illinois,Great Lakes,DI_W,2004,College,
-13,Penn State,Metro East,DI_W,2004,College,
-13,Virginia,Atlantic Coast,DI_W,2004,College,
-15,North Carolina State,Atlantic Coast,DI_W,2004,College,
-15,Rutgers,Metro East,DI_W,2004,College,
+1,Colorado,Southwest,Men's,2004,College,
+2,California,Northwest,Men's,2004,College,
+3,Brown,New England,Men's,2004,College,
+3,Stanford,Northwest,Men's,2004,College,
+5,California-San Diego,Southwest,Men's,2004,College,
+5,Iowa,Central,Men's,2004,College,
+5,North Carolina State,Atlantic Coast,Men's,2004,College,
+5,Wisconsin,Central,Men's,2004,College,
+9,Carleton College,Central,Men's,2004,College,
+9,Tufts,New England,Men's,2004,College,
+11,George Washington,Metro East,Men's,2004,College,
+11,William & Mary,Atlantic Coast,Men's,2004,College,
+13,Michigan State,Great Lakes,Men's,2004,College,
+14,Illinois,Great Lakes,Men's,2004,College,
+15,Delaware,Metro East,Men's,2004,College,
+16,Kansas,South,Men's,2004,College,
+1,California-Davis,Northwest,Women's,2004,College,
+2,Carleton College,Central,Women's,2004,College,
+3,California-San Diego,Southwest,Women's,2004,College,
+3,Stanford,Northwest,Women's,2004,College,
+5,Brown,New England,Women's,2004,College,
+5,California,Northwest,Women's,2004,College,
+5,MIT,New England,Women's,2004,College,
+5,Texas,South,Women's,2004,College,
+9,Dartmouth,New England,Women's,2004,College,
+9,Iowa,Central,Women's,2004,College,
+11,Claremont,Southwest,Women's,2004,College,
+11,Illinois,Great Lakes,Women's,2004,College,
+13,Penn State,Metro East,Women's,2004,College,
+13,Virginia,Atlantic Coast,Women's,2004,College,
+15,North Carolina State,Atlantic Coast,Women's,2004,College,
+15,Rutgers,Metro East,Women's,2004,College,
 1,BRASS MONKEY,Northwest,MIXED,2005,Club,4.66
 2,ROR$HACK,Northwest,MIXED,2005,Club,3.83
 3,BAD LARRY,Southwest,MIXED,2005,Club,3.28
@@ -1160,38 +1191,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,MOJO,Central,WOMENS,2005,Club,4.0
 15,BAIT,Central,WOMENS,2005,Club,4.56
 16,ZANZARA,South,WOMENS,2005,Club,4.75
-1,Brown,New England,DI_M,2005,College,
-2,Colorado,Southwest,DI_M,2005,College,
-3,California-San Diego,Southwest,DI_M,2005,College,
-3,Stanford,Northwest,DI_M,2005,College,
-5,Georgia,Atlantic Coast,DI_M,2005,College,
-5,Texas,South,DI_M,2005,College,
-5,Washington,Northwest,DI_M,2005,College,
-5,Wisconsin,Central,DI_M,2005,College,
-9,Michigan,Great Lakes,DI_M,2005,College,
-9,Michigan State,Great Lakes,DI_M,2005,College,
-11,Carleton College,Central,DI_M,2005,College,
-11,Harvard,New England,DI_M,2005,College,
-13,British Columbia,Northwest,DI_M,2005,College,
-13,Pittsburgh,Metro East,DI_M,2005,College,
-15,North Carolina,Atlantic Coast,DI_M,2005,College,
-15,Queen's,Metro East,DI_M,2005,College,
-1,Stanford,Northwest,DI_W,2005,College,
-2,Washington,Northwest,DI_W,2005,College,
-3,Colorado,Southwest,DI_W,2005,College,
-3,Texas,South,DI_W,2005,College,
-5,Brown,New England,DI_W,2005,College,
-5,California,Northwest,DI_W,2005,College,
-5,Iowa,Central,DI_W,2005,College,
-5,North Carolina State,Atlantic Coast,DI_W,2005,College,
-9,Cornell,Metro East,DI_W,2005,College,
-9,MIT,New England,DI_W,2005,College,
-11,Dartmouth,New England,DI_W,2005,College,
-11,Northwestern,Great Lakes,DI_W,2005,College,
-13,Texas A&M,South,DI_W,2005,College,
-14,Carleton College,Central,DI_W,2005,College,
-14,Purdue,Great Lakes,DI_W,2005,College,
-14,Rutgers,Metro East,DI_W,2005,College,
+1,Brown,New England,Men's,2005,College,
+2,Colorado,Southwest,Men's,2005,College,
+3,California-San Diego,Southwest,Men's,2005,College,
+3,Stanford,Northwest,Men's,2005,College,
+5,Georgia,Atlantic Coast,Men's,2005,College,
+5,Texas,South,Men's,2005,College,
+5,Washington,Northwest,Men's,2005,College,
+5,Wisconsin,Central,Men's,2005,College,
+9,Michigan,Great Lakes,Men's,2005,College,
+9,Michigan State,Great Lakes,Men's,2005,College,
+11,Carleton College,Central,Men's,2005,College,
+11,Harvard,New England,Men's,2005,College,
+13,British Columbia,Northwest,Men's,2005,College,
+13,Pittsburgh,Metro East,Men's,2005,College,
+15,North Carolina,Atlantic Coast,Men's,2005,College,
+15,Queen's,Metro East,Men's,2005,College,
+1,Stanford,Northwest,Women's,2005,College,
+2,Washington,Northwest,Women's,2005,College,
+3,Colorado,Southwest,Women's,2005,College,
+3,Texas,South,Women's,2005,College,
+5,Brown,New England,Women's,2005,College,
+5,California,Northwest,Women's,2005,College,
+5,Iowa,Central,Women's,2005,College,
+5,North Carolina State,Atlantic Coast,Women's,2005,College,
+9,Cornell,Metro East,Women's,2005,College,
+9,MIT,New England,Women's,2005,College,
+11,Dartmouth,New England,Women's,2005,College,
+11,Northwestern,Great Lakes,Women's,2005,College,
+13,Texas A&M,South,Women's,2005,College,
+14,Carleton College,Central,Women's,2005,College,
+14,Purdue,Great Lakes,Women's,2005,College,
+14,Rutgers,Metro East,Women's,2005,College,
 1,MISCHIEF,Northwest,MIXED,2006,Club,4.0
 2,SLOW WHITE,Northeast,MIXED,2006,Club,4.0
 3,BRASS MONKEY,Northwest,MIXED,2006,Club,4.71
@@ -1240,38 +1271,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,LAYUMA,South,WOMENS,2006,Club,4.57
 15,BNOGO,Mid Atlantic,WOMENS,2006,Club,4.14
 16,BOX LUNCH,Southwest,WOMENS,2006,Club,4.0
-1,Florida,Atlantic Coast,DI_M,2006,College,
-2,Wisconsin,Central,DI_M,2006,College,
-3,Georgia,Atlantic Coast,DI_M,2006,College,
-3,Stanford,Northwest,DI_M,2006,College,
-5,California-San Diego,Southwest,DI_M,2006,College,
-5,Colorado,Southwest,DI_M,2006,College,
-5,Oregon,Northwest,DI_M,2006,College,
-5,Texas,South,DI_M,2006,College,
-9,Michigan,Great Lakes,DI_M,2006,College,
-9,Michigan State,Great Lakes,DI_M,2006,College,
-11,California-Santa Barbara,Southwest,DI_M,2006,College,
-11,Kansas,South,DI_M,2006,College,
-13,Harvard,New England,DI_M,2006,College,
-13,Pittsburgh,Metro East,DI_M,2006,College,
-15,Brown,New England,DI_M,2006,College,
-15,Delaware,Metro East,DI_M,2006,College,
-1,Stanford,Northwest,DI_W,2006,College,
-2,UCLA,Southwest,DI_W,2006,College,
-3,Colorado,Southwest,DI_W,2006,College,
-3,Wisconsin,Central,DI_W,2006,College,
-5,British Columbia,Northwest,DI_W,2006,College,
-5,California-Davis,Northwest,DI_W,2006,College,
-5,Dartmouth,New England,DI_W,2006,College,
-5,Florida,Atlantic Coast,DI_W,2006,College,
-9,Georgia,Atlantic Coast,DI_W,2006,College,
-9,Michigan,Great Lakes,DI_W,2006,College,
-11,Emory,Atlantic Coast,DI_W,2006,College,
-11,Tufts,New England,DI_W,2006,College,
-13,Swarthmore,Metro East,DI_W,2006,College,
-13,Texas,South,DI_W,2006,College,
-15,Carleton College,Central,DI_W,2006,College,
-15,Delaware,Metro East,DI_W,2006,College,
+1,Florida,Atlantic Coast,Men's,2006,College,
+2,Wisconsin,Central,Men's,2006,College,
+3,Georgia,Atlantic Coast,Men's,2006,College,
+3,Stanford,Northwest,Men's,2006,College,
+5,California-San Diego,Southwest,Men's,2006,College,
+5,Colorado,Southwest,Men's,2006,College,
+5,Oregon,Northwest,Men's,2006,College,
+5,Texas,South,Men's,2006,College,
+9,Michigan,Great Lakes,Men's,2006,College,
+9,Michigan State,Great Lakes,Men's,2006,College,
+11,California-Santa Barbara,Southwest,Men's,2006,College,
+11,Kansas,South,Men's,2006,College,
+13,Harvard,New England,Men's,2006,College,
+13,Pittsburgh,Metro East,Men's,2006,College,
+15,Brown,New England,Men's,2006,College,
+15,Delaware,Metro East,Men's,2006,College,
+1,Stanford,Northwest,Women's,2006,College,
+2,UCLA,Southwest,Women's,2006,College,
+3,Colorado,Southwest,Women's,2006,College,
+3,Wisconsin,Central,Women's,2006,College,
+5,British Columbia,Northwest,Women's,2006,College,
+5,California-Davis,Northwest,Women's,2006,College,
+5,Dartmouth,New England,Women's,2006,College,
+5,Florida,Atlantic Coast,Women's,2006,College,
+9,Georgia,Atlantic Coast,Women's,2006,College,
+9,Michigan,Great Lakes,Women's,2006,College,
+11,Emory,Atlantic Coast,Women's,2006,College,
+11,Tufts,New England,Women's,2006,College,
+13,Swarthmore,Metro East,Women's,2006,College,
+13,Texas,South,Women's,2006,College,
+15,Carleton College,Central,Women's,2006,College,
+15,Delaware,Metro East,Women's,2006,College,
 1,SHAZAM RETURNS,Northwest,MIXED,2007,Club,4.1
 2,SLOW WHITE,Northeast,MIXED,2007,Club,4.2
 3,AMP,Mid Atlantic,MIXED,2007,Club,3.4
@@ -1320,38 +1351,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,LOOSE CANON,Mid Atlantic,WOMENS,2007,Club,3.0
 15,SMALL RACKAGES,Central,WOMENS,2007,Club,3.9
 16,AMBUSH,Northeast,WOMENS,2007,Club,4.6
-1,Wisconsin,Central,DI_M,2007,College,4.5
-2,Colorado,Southwest,DI_M,2007,College,3.5
-3,Florida,Atlantic Coast,DI_M,2007,College,3.13
-3,Stanford,Northwest,DI_M,2007,College,4.18
-5,Carleton College,Central,DI_M,2007,College,3.9
-5,Georgia,Atlantic Coast,DI_M,2007,College,4.6
-5,Oregon,Northwest,DI_M,2007,College,4.0
-5,Texas,South,DI_M,2007,College,3.75
-9,Ohio State,Great Lakes,DI_M,2007,College,3.5
-9,Pittsburgh,Metro East,DI_M,2007,College,3.4
-11,Brown,New England,DI_M,2007,College,3.83
-11,Indiana,Great Lakes,DI_M,2007,College,2.8
-13,North Carolina,Atlantic Coast,DI_M,2007,College,3.17
-13,Williams,New England,DI_M,2007,College,4.5
-15,Delaware,Metro East,DI_M,2007,College,4.17
-15,Kansas,South,DI_M,2007,College,4.33
-1,Stanford,Northwest,DI_W,2007,College,4.17
-2,California-Santa Barbara,Southwest,DI_W,2007,College,2.83
-3,British Columbia,Northwest,DI_W,2007,College,4.2
-3,UCLA,Southwest,DI_W,2007,College,4.6
-5,California,Northwest,DI_W,2007,College,4.38
-5,Carleton College,Central,DI_W,2007,College,4.4
-5,Northwestern,Great Lakes,DI_W,2007,College,3.92
-5,Wisconsin,Central,DI_W,2007,College,4.17
-9,California-San Diego,Southwest,DI_W,2007,College,4.6
-9,NYU,Metro East,DI_W,2007,College,3.7
-11,Delaware,Metro East,DI_W,2007,College,3.6
-11,Tufts,New England,DI_W,2007,College,4.25
-13,Florida,Atlantic Coast,DI_W,2007,College,4.0
-13,Truman State,South,DI_W,2007,College,4.08
-15,Dartmouth,New England,DI_W,2007,College,4.67
-15,Emory,Atlantic Coast,DI_W,2007,College,4.3
+1,Wisconsin,Central,Men's,2007,College,4.5
+2,Colorado,Southwest,Men's,2007,College,3.5
+3,Florida,Atlantic Coast,Men's,2007,College,3.13
+3,Stanford,Northwest,Men's,2007,College,4.18
+5,Carleton College,Central,Men's,2007,College,3.9
+5,Georgia,Atlantic Coast,Men's,2007,College,4.6
+5,Oregon,Northwest,Men's,2007,College,4.0
+5,Texas,South,Men's,2007,College,3.75
+9,Ohio State,Great Lakes,Men's,2007,College,3.5
+9,Pittsburgh,Metro East,Men's,2007,College,3.4
+11,Brown,New England,Men's,2007,College,3.83
+11,Indiana,Great Lakes,Men's,2007,College,2.8
+13,North Carolina,Atlantic Coast,Men's,2007,College,3.17
+13,Williams,New England,Men's,2007,College,4.5
+15,Delaware,Metro East,Men's,2007,College,4.17
+15,Kansas,South,Men's,2007,College,4.33
+1,Stanford,Northwest,Women's,2007,College,4.17
+2,California-Santa Barbara,Southwest,Women's,2007,College,2.83
+3,British Columbia,Northwest,Women's,2007,College,4.2
+3,UCLA,Southwest,Women's,2007,College,4.6
+5,California,Northwest,Women's,2007,College,4.38
+5,Carleton College,Central,Women's,2007,College,4.4
+5,Northwestern,Great Lakes,Women's,2007,College,3.92
+5,Wisconsin,Central,Women's,2007,College,4.17
+9,California-San Diego,Southwest,Women's,2007,College,4.6
+9,NYU,Metro East,Women's,2007,College,3.7
+11,Delaware,Metro East,Women's,2007,College,3.6
+11,Tufts,New England,Women's,2007,College,4.25
+13,Florida,Atlantic Coast,Women's,2007,College,4.0
+13,Truman State,South,Women's,2007,College,4.08
+15,Dartmouth,New England,Women's,2007,College,4.67
+15,Emory,Atlantic Coast,Women's,2007,College,4.3
 1,MENTAL TOSS FLYCOONS,Northwest,MIXED,2008,Club,4.43
 2,SHAZAM REMAINS,Northwest,MIXED,2008,Club,4.29
 3,MISCHIEF,Northwest,MIXED,2008,Club,4.0
@@ -1400,38 +1431,38 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,AMBUSH,Northeast,WOMENS,2008,Club,4.2
 15,BOX,Southwest,WOMENS,2008,Club,4.2
 16,LAYUMA,South,WOMENS,2008,Club,4.17
-1,Wisconsin,Central,DI_M,2008,College,3.6
-2,Florida,Atlantic Coast,DI_M,2008,College,2.6
-3,Carleton College,Central,DI_M,2008,College,3.5
-3,Colorado,Southwest,DI_M,2008,College,4.0
-5,Arizona,Southwest,DI_M,2008,College,5.0
-5,Georgia,Atlantic Coast,DI_M,2008,College,4.5
-5,Harvard,New England,DI_M,2008,College,4.6
-5,Illinois,Great Lakes,DI_M,2008,College,4.8
-9,California-Santa Cruz,Northwest,DI_M,2008,College,4.5
-9,Stanford,Northwest,DI_M,2008,College,4.33
-11,Pittsburgh,Metro East,DI_M,2008,College,4.83
-11,Texas,South,DI_M,2008,College,4.33
-13,Dartmouth,New England,DI_M,2008,College,5.0
-13,Michigan,Great Lakes,DI_M,2008,College,4.5
-15,Delaware,Metro East,DI_M,2008,College,4.83
-15,North Texas,South,DI_M,2008,College,3.67
-1,British Columbia,Northwest,DI_W,2008,College,3.6
-2,California-Santa Barbara,Southwest,DI_W,2008,College,3.6
-3,UCLA,Southwest,DI_W,2008,College,4.2
-3,Washington,Northwest,DI_W,2008,College,4.0
-5,Carleton College,Central,DI_W,2008,College,4.4
-5,Michigan,Great Lakes,DI_W,2008,College,3.4
-5,Ottawa,Metro East,DI_W,2008,College,2.8
-5,Wisconsin,Central,DI_W,2008,College,4.0
-9,Northeastern,New England,DI_W,2008,College,4.33
-9,Texas,South,DI_W,2008,College,3.67
-11,Maryland,Metro East,DI_W,2008,College,3.83
-11,Michigan State,Great Lakes,DI_W,2008,College,4.5
-13,Oregon,Northwest,DI_W,2008,College,3.67
-13,Wake Forest,Atlantic Coast,DI_W,2008,College,3.83
-15,MIT,New England,DI_W,2008,College,4.0
-15,North Carolina,Atlantic Coast,DI_W,2008,College,4.33
+1,Wisconsin,Central,Men's,2008,College,3.6
+2,Florida,Atlantic Coast,Men's,2008,College,2.6
+3,Carleton College,Central,Men's,2008,College,3.5
+3,Colorado,Southwest,Men's,2008,College,4.0
+5,Arizona,Southwest,Men's,2008,College,5.0
+5,Georgia,Atlantic Coast,Men's,2008,College,4.5
+5,Harvard,New England,Men's,2008,College,4.6
+5,Illinois,Great Lakes,Men's,2008,College,4.8
+9,California-Santa Cruz,Northwest,Men's,2008,College,4.5
+9,Stanford,Northwest,Men's,2008,College,4.33
+11,Pittsburgh,Metro East,Men's,2008,College,4.83
+11,Texas,South,Men's,2008,College,4.33
+13,Dartmouth,New England,Men's,2008,College,5.0
+13,Michigan,Great Lakes,Men's,2008,College,4.5
+15,Delaware,Metro East,Men's,2008,College,4.83
+15,North Texas,South,Men's,2008,College,3.67
+1,British Columbia,Northwest,Women's,2008,College,3.6
+2,California-Santa Barbara,Southwest,Women's,2008,College,3.6
+3,UCLA,Southwest,Women's,2008,College,4.2
+3,Washington,Northwest,Women's,2008,College,4.0
+5,Carleton College,Central,Women's,2008,College,4.4
+5,Michigan,Great Lakes,Women's,2008,College,3.4
+5,Ottawa,Metro East,Women's,2008,College,2.8
+5,Wisconsin,Central,Women's,2008,College,4.0
+9,Northeastern,New England,Women's,2008,College,4.33
+9,Texas,South,Women's,2008,College,3.67
+11,Maryland,Metro East,Women's,2008,College,3.83
+11,Michigan State,Great Lakes,Women's,2008,College,4.5
+13,Oregon,Northwest,Women's,2008,College,3.67
+13,Wake Forest,Atlantic Coast,Women's,2008,College,3.83
+15,MIT,New England,Women's,2008,College,4.0
+15,North Carolina,Atlantic Coast,Women's,2008,College,4.33
 1,AXIS OF C'VILLE,Mid Atlantic,MIXED,2009,Club,4.83
 2,CHAD LARSON EXPERIENCE,Central,MIXED,2009,Club,3.57
 3,MENTAL TOSS FLYCOONS,Northwest,MIXED,2009,Club,4.33
@@ -1480,46 +1511,46 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,RARE AIR,Southwest,WOMENS,2009,Club,3.5
 15,POP,Central,WOMENS,2009,Club,4.14
 16,WILDCARD,Mid Atlantic,WOMENS,2009,Club,4.21
-1,Carleton College,Central,DI_M,2009,College,3.14
-2,Colorado,Southwest,DI_M,2009,College,4.0
-3,Stanford,Northwest,DI_M,2009,College,4.0
-3,Texas,South,DI_M,2009,College,4.67
-5,Michigan,Great Lakes,DI_M,2009,College,4.83
-5,Pittsburgh,Metro East,DI_M,2009,College,4.5
-5,Virginia,Atlantic Coast,DI_M,2009,College,4.5
-5,Wisconsin,Central,DI_M,2009,College,3.83
-9,Cornell,Metro East,DI_M,2009,College,4.5
-9,Williams,New England,DI_M,2009,College,4.43
-11,Luther,Central,DI_M,2009,College,4.71
-11,Tufts,New England,DI_M,2009,College,4.57
-13,California-San Diego,Southwest,DI_M,2009,College,4.43
-13,Minnesota,Central,DI_M,2009,College,4.67
-15,California-Santa Barbara,Southwest,DI_M,2009,College,4.0
-15,North Carolina State,Atlantic Coast,DI_M,2009,College,4.83
-17,Illinois,Great Lakes,DI_M,2009,College,5.0
-17,Kansas,South,DI_M,2009,College,3.83
-19,California,Northwest,DI_M,2009,College,4.6
-19,Georgia,Atlantic Coast,DI_M,2009,College,4.8
-1,California-Santa Barbara,Southwest,DI_W,2009,College,4.67
-2,Washington,Northwest,DI_W,2009,College,4.0
-3,Oregon,Northwest,DI_W,2009,College,4.0
-3,Stanford,Northwest,DI_W,2009,College,4.29
-5,Ottawa,Metro East,DI_W,2009,College,2.4
-5,Pennsylvania,Metro East,DI_W,2009,College,4.17
-5,UCLA,Southwest,DI_W,2009,College,4.5
-5,Wisconsin,Central,DI_W,2009,College,4.6
-9,Carleton College,Central,DI_W,2009,College,3.14
-9,Michigan,Great Lakes,DI_W,2009,College,4.29
-11,North Carolina,Atlantic Coast,DI_W,2009,College,4.14
-11,North Carolina-Wilmington,Atlantic Coast,DI_W,2009,College,2.57
-13,Dartmouth,New England,DI_W,2009,College,4.14
-13,Saint Louis,South,DI_W,2009,College,3.29
-15,Colorado,Southwest,DI_W,2009,College,3.71
-15,Iowa State,Central,DI_W,2009,College,4.14
-17,Northeastern,New England,DI_W,2009,College,3.67
-17,Washington University,South,DI_W,2009,College,4.17
-19,Illinois,Great Lakes,DI_W,2009,College,4.0
-19,Southern California,Southwest,DI_W,2009,College,4.83
+1,Carleton College,Central,Men's,2009,College,3.14
+2,Colorado,Southwest,Men's,2009,College,4.0
+3,Stanford,Northwest,Men's,2009,College,4.0
+3,Texas,South,Men's,2009,College,4.67
+5,Michigan,Great Lakes,Men's,2009,College,4.83
+5,Pittsburgh,Metro East,Men's,2009,College,4.5
+5,Virginia,Atlantic Coast,Men's,2009,College,4.5
+5,Wisconsin,Central,Men's,2009,College,3.83
+9,Cornell,Metro East,Men's,2009,College,4.5
+9,Williams,New England,Men's,2009,College,4.43
+11,Luther,Central,Men's,2009,College,4.71
+11,Tufts,New England,Men's,2009,College,4.57
+13,California-San Diego,Southwest,Men's,2009,College,4.43
+13,Minnesota,Central,Men's,2009,College,4.67
+15,California-Santa Barbara,Southwest,Men's,2009,College,4.0
+15,North Carolina State,Atlantic Coast,Men's,2009,College,4.83
+17,Illinois,Great Lakes,Men's,2009,College,5.0
+17,Kansas,South,Men's,2009,College,3.83
+19,California,Northwest,Men's,2009,College,4.6
+19,Georgia,Atlantic Coast,Men's,2009,College,4.8
+1,California-Santa Barbara,Southwest,Women's,2009,College,4.67
+2,Washington,Northwest,Women's,2009,College,4.0
+3,Oregon,Northwest,Women's,2009,College,4.0
+3,Stanford,Northwest,Women's,2009,College,4.29
+5,Ottawa,Metro East,Women's,2009,College,2.4
+5,Pennsylvania,Metro East,Women's,2009,College,4.17
+5,UCLA,Southwest,Women's,2009,College,4.5
+5,Wisconsin,Central,Women's,2009,College,4.6
+9,Carleton College,Central,Women's,2009,College,3.14
+9,Michigan,Great Lakes,Women's,2009,College,4.29
+11,North Carolina,Atlantic Coast,Women's,2009,College,4.14
+11,North Carolina-Wilmington,Atlantic Coast,Women's,2009,College,2.57
+13,Dartmouth,New England,Women's,2009,College,4.14
+13,Saint Louis,South,Women's,2009,College,3.29
+15,Colorado,Southwest,Women's,2009,College,3.71
+15,Iowa State,Central,Women's,2009,College,4.14
+17,Northeastern,New England,Women's,2009,College,3.67
+17,Washington University,South,Women's,2009,College,4.17
+19,Illinois,Great Lakes,Women's,2009,College,4.0
+19,Southern California,Southwest,Women's,2009,College,4.83
 1,POLAR BEARS,Northwest,MIXED,2010,Club,4.14
 2,DISTRICT 5,Northeast,MIXED,2010,Club,4.43
 3,CHAD LARSON EXPERIENCE,Central,MIXED,2010,Club,4.38
@@ -1568,74 +1599,74 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,REVOLOUTION,South,WOMENS,2010,Club,4.0
 15,STORM,Northeast,WOMENS,2010,Club,4.29
 16,SAFARI,Southwest,WOMENS,2010,Club,2.71
-1,Florida,Atlantic Coast,DI_M,2010,College,3.71
-2,Carleton College,Central,DI_M,2010,College,4.57
-3,Cornell,Metro East,DI_M,2010,College,4.83
-3,Pittsburgh,Metro East,DI_M,2010,College,4.33
-5,California,Northwest,DI_M,2010,College,5.0
-5,Michigan,Great Lakes,DI_M,2010,College,3.83
-5,Minnesota,Central,DI_M,2010,College,4.83
-5,North Carolina-Wilmington,Atlantic Coast,DI_M,2010,College,3.83
-9,California-Santa Barbara,Southwest,DI_M,2010,College,4.57
-9,Iowa,Central,DI_M,2010,College,4.57
-11,Middlebury,New England,DI_M,2010,College,5.0
-11,Wisconsin,Central,DI_M,2010,College,3.29
-13,Colorado,Southwest,DI_M,2010,College,3.57
-14,Georgia,Atlantic Coast,DI_M,2010,College,4.67
-14,Oregon,Northwest,DI_M,2010,College,4.67
-16,Harvard,New England,DI_M,2010,College,5.0
-17,California-San Diego,Southwest,DI_M,2010,College,4.33
-17,Illinois,Great Lakes,DI_M,2010,College,5.0
-19,Kansas,South,DI_M,2010,College,4.5
-19,Texas State,South,DI_M,2010,College,4.0
-1,Oregon,Northwest,DI_W,2010,College,4.57
-2,California-Santa Barbara,Southwest,DI_W,2010,College,4.5
-3,Colorado,Southwest,DI_W,2010,College,4.43
-3,Wisconsin,Central,DI_W,2010,College,4.17
-5,California,Northwest,DI_W,2010,College,4.6
-5,North Carolina-Wilmington,Atlantic Coast,DI_W,2010,College,3.83
-5,Southern California,Southwest,DI_W,2010,College,4.83
-5,UCLA,Southwest,DI_W,2010,College,4.0
-9,Pittsburgh,Metro East,DI_W,2010,College,4.29
-9,Washington,Northwest,DI_W,2010,College,4.14
-11,Carleton College,Central,DI_W,2010,College,4.14
-11,Michigan,Great Lakes,DI_W,2010,College,3.57
-13,North Carolina,Atlantic Coast,DI_W,2010,College,4.57
-13,Stanford,Northwest,DI_W,2010,College,4.57
-15,Maryland,Metro East,DI_W,2010,College,4.14
-15,Washington University,South,DI_W,2010,College,4.86
-17,Northwestern,Great Lakes,DI_W,2010,College,4.17
-17,Texas,South,DI_W,2010,College,4.33
-19,Harvard,New England,DI_W,2010,College,4.5
-19,Middlebury,New England,DI_W,2010,College,4.0
-1,Carleton College-GOP,Central,DIII_M,2010,College,4.5
-2,Whitman,Northwest,DIII_M,2010,College,4.8
-3,Kenyon,Great Lakes,DIII_M,2010,College,4.5
-3,Puget Sound,Northwest,DIII_M,2010,College,3.6
-5,Bentley,New England,DIII_M,2010,College,4.17
-5,Lehigh,Metro East,DIII_M,2010,College,3.8
-7,Kalamazoo,Great Lakes,DIII_M,2010,College,4.7
-7,St John's,Central,DIII_M,2010,College,4.47
-9,Princeton,Metro East,DIII_M,2010,College,4.43
-10,Franklin & Marshall,Metro East,DIII_M,2010,College,4.7
-11,Olivet Nazarene,Great Lakes,DIII_M,2010,College,4.3
-11,Rensselaer Polytech,Metro East,DIII_M,2010,College,4.2
-13,Missouri S&T,South,DIII_M,2010,College,5.0
-13,Worcester Polytech,New England,DIII_M,2010,College,4.7
-15,Oberlin,Great Lakes,DIII_M,2010,College,4.3
-15,Wentworth,New England,DIII_M,2010,College,4.9
-1,Pacific Lutheran,Northwest,DIII_W,2010,College,4.13
-2,Swarthmore,Metro East,DIII_W,2010,College,4.33
-3,Grinnell,Central,DIII_W,2010,College,4.69
-3,Valparaiso,Great Lakes,DIII_W,2010,College,4.2
-5,Georgia College & State,South,DIII_W,2010,College,4.43
-5,Truman State,South,DIII_W,2010,College,4.3
-7,Stonehill,New England,DIII_W,2010,College,4.5
-7,Wellesley,New England,DIII_W,2010,College,4.42
-9,Oberlin,Great Lakes,DIII_W,2010,College,4.5
-10,John Brown,South,DIII_W,2010,College,5.0
-11,Ohio Wesleyan,Great Lakes,DIII_W,2010,College,4.5
-12,Bentley,New England,DIII_W,2010,College,4.8
+1,Florida,Atlantic Coast,D-I Men's,2010,College,3.71
+2,Carleton College,Central,D-I Men's,2010,College,4.57
+3,Cornell,Metro East,D-I Men's,2010,College,4.83
+3,Pittsburgh,Metro East,D-I Men's,2010,College,4.33
+5,California,Northwest,D-I Men's,2010,College,5.0
+5,Michigan,Great Lakes,D-I Men's,2010,College,3.83
+5,Minnesota,Central,D-I Men's,2010,College,4.83
+5,North Carolina-Wilmington,Atlantic Coast,D-I Men's,2010,College,3.83
+9,California-Santa Barbara,Southwest,D-I Men's,2010,College,4.57
+9,Iowa,Central,D-I Men's,2010,College,4.57
+11,Middlebury,New England,D-I Men's,2010,College,5.0
+11,Wisconsin,Central,D-I Men's,2010,College,3.29
+13,Colorado,Southwest,D-I Men's,2010,College,3.57
+14,Georgia,Atlantic Coast,D-I Men's,2010,College,4.67
+14,Oregon,Northwest,D-I Men's,2010,College,4.67
+16,Harvard,New England,D-I Men's,2010,College,5.0
+17,California-San Diego,Southwest,D-I Men's,2010,College,4.33
+17,Illinois,Great Lakes,D-I Men's,2010,College,5.0
+19,Kansas,South,D-I Men's,2010,College,4.5
+19,Texas State,South,D-I Men's,2010,College,4.0
+1,Oregon,Northwest,D-I Women's,2010,College,4.57
+2,California-Santa Barbara,Southwest,D-I Women's,2010,College,4.5
+3,Colorado,Southwest,D-I Women's,2010,College,4.43
+3,Wisconsin,Central,D-I Women's,2010,College,4.17
+5,California,Northwest,D-I Women's,2010,College,4.6
+5,North Carolina-Wilmington,Atlantic Coast,D-I Women's,2010,College,3.83
+5,Southern California,Southwest,D-I Women's,2010,College,4.83
+5,UCLA,Southwest,D-I Women's,2010,College,4.0
+9,Pittsburgh,Metro East,D-I Women's,2010,College,4.29
+9,Washington,Northwest,D-I Women's,2010,College,4.14
+11,Carleton College,Central,D-I Women's,2010,College,4.14
+11,Michigan,Great Lakes,D-I Women's,2010,College,3.57
+13,North Carolina,Atlantic Coast,D-I Women's,2010,College,4.57
+13,Stanford,Northwest,D-I Women's,2010,College,4.57
+15,Maryland,Metro East,D-I Women's,2010,College,4.14
+15,Washington University,South,D-I Women's,2010,College,4.86
+17,Northwestern,Great Lakes,D-I Women's,2010,College,4.17
+17,Texas,South,D-I Women's,2010,College,4.33
+19,Harvard,New England,D-I Women's,2010,College,4.5
+19,Middlebury,New England,D-I Women's,2010,College,4.0
+1,Carleton College-GOP,Central,D-III Open,2010,College,4.5
+2,Whitman,Northwest,D-III Open,2010,College,4.8
+3,Kenyon,Great Lakes,D-III Open,2010,College,4.5
+3,Puget Sound,Northwest,D-III Open,2010,College,3.6
+5,Bentley,New England,D-III Open,2010,College,4.17
+5,Lehigh,Metro East,D-III Open,2010,College,3.8
+7,Kalamazoo,Great Lakes,D-III Open,2010,College,4.7
+7,St John's,Central,D-III Open,2010,College,4.47
+9,Princeton,Metro East,D-III Open,2010,College,4.43
+10,Franklin & Marshall,Metro East,D-III Open,2010,College,4.7
+11,Olivet Nazarene,Great Lakes,D-III Open,2010,College,4.3
+11,Rensselaer Polytech,Metro East,D-III Open,2010,College,4.2
+13,Missouri S&T,South,D-III Open,2010,College,5.0
+13,Worcester Polytech,New England,D-III Open,2010,College,4.7
+15,Oberlin,Great Lakes,D-III Open,2010,College,4.3
+15,Wentworth,New England,D-III Open,2010,College,4.9
+1,Pacific Lutheran,Northwest,D-III Women's,2010,College,4.13
+2,Swarthmore,Metro East,D-III Women's,2010,College,4.33
+3,Grinnell,Central,D-III Women's,2010,College,4.69
+3,Valparaiso,Great Lakes,D-III Women's,2010,College,4.2
+5,Georgia College & State,South,D-III Women's,2010,College,4.43
+5,Truman State,South,D-III Women's,2010,College,4.3
+7,Stonehill,New England,D-III Women's,2010,College,4.5
+7,Wellesley,New England,D-III Women's,2010,College,4.42
+9,Oberlin,Great Lakes,D-III Women's,2010,College,4.5
+10,John Brown,South,D-III Women's,2010,College,5.0
+11,Ohio Wesleyan,Great Lakes,D-III Women's,2010,College,4.5
+12,Bentley,New England,D-III Women's,2010,College,4.8
 1,BLACKBIRD,Northwest,MIXED,2011,Club,3.94
 2,POLAR BEARS,Northwest,MIXED,2011,Club,3.86
 3,DISCTRICT 5,Northeast,MIXED,2011,Club,4.14
@@ -1684,78 +1715,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,SAFARI,Southwest,WOMENS,2011,Club,4.29
 15,DESOTO,South,WOMENS,2011,Club,3.86
 16,BENT,Northeast,WOMENS,2011,Club,4.29
-1,Carleton College,North Central,DI_M,2011,College,4.57
-2,Wisconsin,North Central,DI_M,2011,College,4.79
-3,Colorado,South Central,DI_M,2011,College,4.5
-3,Iowa,North Central,DI_M,2011,College,4.2
-5,Harvard,New England,DI_M,2011,College,4.5
-5,Oregon,Northwest,DI_M,2011,College,4.44
-5,Pittsburgh,Ohio Valley,DI_M,2011,College,2.83
-5,Stanford,Southwest,DI_M,2011,College,3.67
-9,British Columbia,Northwest,DI_M,2011,College,4.38
-10,Tufts,New England,DI_M,2011,College,4.64
-11,Washington,Northwest,DI_M,2011,College,4.86
-12,Luther,North Central,DI_M,2011,College,4.57
-13,Texas,South Central,DI_M,2011,College,4.83
-13,Virginia,Atlantic Coast,DI_M,2011,College,4.63
-15,Cornell,Metro East,DI_M,2011,College,4.83
-15,Whitman,Northwest,DI_M,2011,College,4.83
-17,Illinois,Great Lakes,DI_M,2011,College,3.83
-18,California-Santa Cruz,Southwest,DI_M,2011,College,4.8
-18,Colorado College,South Central,DI_M,2011,College,5.0
-18,Florida,Southeast,DI_M,2011,College,3.67
-1,California-Santa Barbara,Southwest,DI_W,2011,College,4.42
-2,Michigan,Great Lakes,DI_W,2011,College,3.64
-3,Oregon,Northwest,DI_W,2011,College,4.64
-3,Stanford,Southwest,DI_W,2011,College,4.17
-5,Colorado College,South Central,DI_W,2011,College,3.92
-5,Iowa,North Central,DI_W,2011,College,4.42
-5,North Carolina,Atlantic Coast,DI_W,2011,College,4.21
-5,North Carolina-Wilmington,Atlantic Coast,DI_W,2011,College,3.67
-9,Washington,Northwest,DI_W,2011,College,4.36
-10,Iowa State,North Central,DI_W,2011,College,4.06
-11,California,Southwest,DI_W,2011,College,4.5
-12,Carleton College,North Central,DI_W,2011,College,4.38
-13,Northwestern,Great Lakes,DI_W,2011,College,4.7
-13,Ottawa,Metro East,DI_W,2011,College,4.0
-15,Florida,Southeast,DI_W,2011,College,3.67
-15,Tufts,New England,DI_W,2011,College,4.17
-17,Ohio State,Ohio Valley,DI_W,2011,College,3.92
-17,Washington University,South Central,DI_W,2011,College,4.83
-19,British Columbia,Northwest,DI_W,2011,College,3.67
-19,Virginia,Atlantic Coast,DI_W,2011,College,4.3
-1,Claremont,Southwest,DIII_M,2011,College,3.4
-2,St John's,North Central,DIII_M,2011,College,2.6
-3,Grinnell,North Central,DIII_M,2011,College,4.6
-3,Missouri S&T,South Central,DIII_M,2011,College,4.8
-5,North Park,Great Lakes,DIII_M,2011,College,4.4
-5,Truman State,South Central,DIII_M,2011,College,4.8
-7,Georgia College & State,Southeast,DIII_M,2011,College,4.8
-7,Harding,South Central,DIII_M,2011,College,5.0
-9,Swarthmore,Ohio Valley,DIII_M,2011,College,5.0
-9,Wake Forest,Atlantic Coast,DIII_M,2011,College,4.2
-11,Bentley,New England,DIII_M,2011,College,4.2
-11,Connecticut College,New England,DIII_M,2011,College,4.4
-13,Lewis & Clark,Northwest,DIII_M,2011,College,3.6
-14,Occidental,Southwest,DIII_M,2011,College,4.4
-15,Lehigh,Ohio Valley,DIII_M,2011,College,4.5
-16,Colby,New England,DIII_M,2011,College,4.75
-1,Carleton College-B,North Central,DIII_W,2011,College,4.0
-2,Williams,New England,DIII_W,2011,College,3.8
-3,Smith,New England,DIII_W,2011,College,4.2
-3,Valparaiso,Great Lakes,DIII_W,2011,College,4.2
-5,Claremont,Southwest,DIII_W,2011,College,3.75
-5,Occidental,Southwest,DIII_W,2011,College,4.4
-7,Grinnell,North Central,DIII_W,2011,College,4.0
-7,St Olaf,North Central,DIII_W,2011,College,3.6
-9,Princeton,Metro East,DIII_W,2011,College,3.8
-9,Wellesley,New England,DIII_W,2011,College,4.4
-11,Haverford,Ohio Valley,DIII_W,2011,College,4.2
-11,Mary Washington,Atlantic Coast,DIII_W,2011,College,3.6
-13,Macalester,North Central,DIII_W,2011,College,4.8
-14,Franklin & Marshall,Ohio Valley,DIII_W,2011,College,4.6
-15,Oberlin,Ohio Valley,DIII_W,2011,College,4.8
-16,St Mary's (Maryland),Atlantic Coast,DIII_W,2011,College,3.6
+1,Carleton College,North Central,D-I Men's,2011,College,4.57
+2,Wisconsin,North Central,D-I Men's,2011,College,4.79
+3,Colorado,South Central,D-I Men's,2011,College,4.5
+3,Iowa,North Central,D-I Men's,2011,College,4.2
+5,Harvard,New England,D-I Men's,2011,College,4.5
+5,Oregon,Northwest,D-I Men's,2011,College,4.44
+5,Pittsburgh,Ohio Valley,D-I Men's,2011,College,2.83
+5,Stanford,Southwest,D-I Men's,2011,College,3.67
+9,British Columbia,Northwest,D-I Men's,2011,College,4.38
+10,Tufts,New England,D-I Men's,2011,College,4.64
+11,Washington,Northwest,D-I Men's,2011,College,4.86
+12,Luther,North Central,D-I Men's,2011,College,4.57
+13,Texas,South Central,D-I Men's,2011,College,4.83
+13,Virginia,Atlantic Coast,D-I Men's,2011,College,4.63
+15,Cornell,Metro East,D-I Men's,2011,College,4.83
+15,Whitman,Northwest,D-I Men's,2011,College,4.83
+17,Illinois,Great Lakes,D-I Men's,2011,College,3.83
+18,California-Santa Cruz,Southwest,D-I Men's,2011,College,4.8
+18,Colorado College,South Central,D-I Men's,2011,College,5.0
+18,Florida,Southeast,D-I Men's,2011,College,3.67
+1,California-Santa Barbara,Southwest,D-I Women's,2011,College,4.42
+2,Michigan,Great Lakes,D-I Women's,2011,College,3.64
+3,Oregon,Northwest,D-I Women's,2011,College,4.64
+3,Stanford,Southwest,D-I Women's,2011,College,4.17
+5,Colorado College,South Central,D-I Women's,2011,College,3.92
+5,Iowa,North Central,D-I Women's,2011,College,4.42
+5,North Carolina,Atlantic Coast,D-I Women's,2011,College,4.21
+5,North Carolina-Wilmington,Atlantic Coast,D-I Women's,2011,College,3.67
+9,Washington,Northwest,D-I Women's,2011,College,4.36
+10,Iowa State,North Central,D-I Women's,2011,College,4.06
+11,California,Southwest,D-I Women's,2011,College,4.5
+12,Carleton College,North Central,D-I Women's,2011,College,4.38
+13,Northwestern,Great Lakes,D-I Women's,2011,College,4.7
+13,Ottawa,Metro East,D-I Women's,2011,College,4.0
+15,Florida,Southeast,D-I Women's,2011,College,3.67
+15,Tufts,New England,D-I Women's,2011,College,4.17
+17,Ohio State,Ohio Valley,D-I Women's,2011,College,3.92
+17,Washington University,South Central,D-I Women's,2011,College,4.83
+19,British Columbia,Northwest,D-I Women's,2011,College,3.67
+19,Virginia,Atlantic Coast,D-I Women's,2011,College,4.3
+1,Claremont,Southwest,D-III Open,2011,College,3.4
+2,St John's,North Central,D-III Open,2011,College,2.6
+3,Grinnell,North Central,D-III Open,2011,College,4.6
+3,Missouri S&T,South Central,D-III Open,2011,College,4.8
+5,North Park,Great Lakes,D-III Open,2011,College,4.4
+5,Truman State,South Central,D-III Open,2011,College,4.8
+7,Georgia College & State,Southeast,D-III Open,2011,College,4.8
+7,Harding,South Central,D-III Open,2011,College,5.0
+9,Swarthmore,Ohio Valley,D-III Open,2011,College,5.0
+9,Wake Forest,Atlantic Coast,D-III Open,2011,College,4.2
+11,Bentley,New England,D-III Open,2011,College,4.2
+11,Connecticut College,New England,D-III Open,2011,College,4.4
+13,Lewis & Clark,Northwest,D-III Open,2011,College,3.6
+14,Occidental,Southwest,D-III Open,2011,College,4.4
+15,Lehigh,Ohio Valley,D-III Open,2011,College,4.5
+16,Colby,New England,D-III Open,2011,College,4.75
+1,Carleton College-B,North Central,D-III Women's,2011,College,4.0
+2,Williams,New England,D-III Women's,2011,College,3.8
+3,Smith,New England,D-III Women's,2011,College,4.2
+3,Valparaiso,Great Lakes,D-III Women's,2011,College,4.2
+5,Claremont,Southwest,D-III Women's,2011,College,3.75
+5,Occidental,Southwest,D-III Women's,2011,College,4.4
+7,Grinnell,North Central,D-III Women's,2011,College,4.0
+7,St Olaf,North Central,D-III Women's,2011,College,3.6
+9,Princeton,Metro East,D-III Women's,2011,College,3.8
+9,Wellesley,New England,D-III Women's,2011,College,4.4
+11,Haverford,Ohio Valley,D-III Women's,2011,College,4.2
+11,Mary Washington,Atlantic Coast,D-III Women's,2011,College,3.6
+13,Macalester,North Central,D-III Women's,2011,College,4.8
+14,Franklin & Marshall,Ohio Valley,D-III Women's,2011,College,4.6
+15,Oberlin,Ohio Valley,D-III Women's,2011,College,4.8
+16,St Mary's (Maryland),Atlantic Coast,D-III Women's,2011,College,3.6
 1,BLACKBIRD,Southwest,MIXED,2012,Club,3.29
 2,POLAR BEARS,Southwest,MIXED,2012,Club,4.14
 3,DRAG'N THRUST,North Central,MIXED,2012,Club,3.57
@@ -1804,78 +1835,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,HOT METAL,Mid Atlantic,WOMENS,2012,Club,4.29
 15,UNDERGROUND,Northwest,WOMENS,2012,Club,4.0
 16,SCHWA,Northwest,WOMENS,2012,Club,4.43
-1,Pittsburgh,Ohio Valley,DI_M,2012,College,3.71
-2,Wisconsin,North Central,DI_M,2012,College,4.86
-3,Carleton College,North Central,DI_M,2012,College,4.17
-3,Oregon,Northwest,DI_M,2012,College,3.83
-5,Central Florida,Southeast,DI_M,2012,College,4.5
-5,Luther,North Central,DI_M,2012,College,4.17
-5,Minnesota,North Central,DI_M,2012,College,4.17
-5,Tufts,New England,DI_M,2012,College,4.0
-9,Colorado,South Central,DI_M,2012,College,4.29
-10,Texas,South Central,DI_M,2012,College,4.71
-11,California,Southwest,DI_M,2012,College,4.43
-12,Georgia Tech,Southeast,DI_M,2012,College,5.0
-13,North Carolina,Atlantic Coast,DI_M,2012,College,2.92
-13,Washington,Northwest,DI_M,2012,College,4.67
-15,Michigan,Great Lakes,DI_M,2012,College,3.83
-15,Minnesota-Duluth,North Central,DI_M,2012,College,5.0
-17,Michigan State,Great Lakes,DI_M,2012,College,4.5
-17,Ohio,Ohio Valley,DI_M,2012,College,4.83
-19,California-Davis,Southwest,DI_M,2012,College,4.83
-19,Cornell,Metro East,DI_M,2012,College,4.17
-1,Washington,Northwest,DI_W,2012,College,4.62
-2,Oregon,Northwest,DI_W,2012,College,4.38
-3,Michigan,Great Lakes,DI_W,2012,College,4.33
-3,Tufts,New England,DI_W,2012,College,4.5
-5,Iowa,North Central,DI_W,2012,College,4.3
-5,North Carolina,Atlantic Coast,DI_W,2012,College,4.5
-5,Ohio State,Ohio Valley,DI_W,2012,College,4.5
-5,Texas,South Central,DI_W,2012,College,4.4
-9,California,Southwest,DI_W,2012,College,4.43
-10,Iowa State,North Central,DI_W,2012,College,4.29
-11,British Columbia,Northwest,DI_W,2012,College,4.14
-12,UCLA,Southwest,DI_W,2012,College,4.57
-13,Florida,Southeast,DI_W,2012,College,4.67
-13,Stanford,Southwest,DI_W,2012,College,4.17
-15,Sonoma State,Southwest,DI_W,2012,College,4.17
-15,Wisconsin,North Central,DI_W,2012,College,3.17
-17,Humboldt State,Southwest,DI_W,2012,College,4.17
-17,Virginia,Atlantic Coast,DI_W,2012,College,4.67
-19,Delaware,Atlantic Coast,DI_W,2012,College,4.5
-19,Ottawa,Metro East,DI_W,2012,College,3.5
-1,Carleton College-GOP,North Central,DIII_M,2012,College,4.86
-2,Puget Sound,Northwest,DIII_M,2012,College,4.57
-3,North Park,Great Lakes,DIII_M,2012,College,4.8
-3,Rice,South Central,DIII_M,2012,College,4.8
-5,St John's,North Central,DIII_M,2012,College,3.5
-5,St Olaf,North Central,DIII_M,2012,College,4.0
-7,Bentley,New England,DIII_M,2012,College,4.0
-7,Lewis & Clark,Northwest,DIII_M,2012,College,4.6
-9,Reed,Northwest,DIII_M,2012,College,4.2
-9,Stevens Tech,Metro East,DIII_M,2012,College,5.0
-11,Kenyon,Ohio Valley,DIII_M,2012,College,3.67
-11,Rensselaer Polytech,Metro East,DIII_M,2012,College,3.6
-13,Bowdoin,New England,DIII_M,2012,College,4.86
-13,Wake Forest,Atlantic Coast,DIII_M,2012,College,3.17
-15,Claremont,Southwest,DIII_M,2012,College,5.0
-15,Georgia College,Southeast,DIII_M,2012,College,4.67
-1,Claremont,Southwest,DIII_W,2012,College,4.0
-2,Grinnell,North Central,DIII_W,2012,College,5.0
-3,Carleton College-Eclipse,North Central,DIII_W,2012,College,3.8
-3,Haverford,Ohio Valley,DIII_W,2012,College,4.33
-5,Lehigh,Ohio Valley,DIII_W,2012,College,3.0
-5,Valparaiso,Great Lakes,DIII_W,2012,College,4.8
-7,Bowdoin,New England,DIII_W,2012,College,4.4
-7,Truman State,South Central,DIII_W,2012,College,4.4
-9,Pacific Lutheran,Northwest,DIII_W,2012,College,4.17
-9,St Olaf,North Central,DIII_W,2012,College,5.0
-11,Elon,Atlantic Coast,DIII_W,2012,College,4.5
-11,Mary Washington,Atlantic Coast,DIII_W,2012,College,4.33
-13,Princeton,Metro East,DIII_W,2012,College,4.6
-13,Willamette,Northwest,DIII_W,2012,College,4.2
-15,Hendrix,South Central,DIII_W,2012,College,4.8
-15,Stonehill,New England,DIII_W,2012,College,4.6
+1,Pittsburgh,Ohio Valley,D-I Men's,2012,College,3.71
+2,Wisconsin,North Central,D-I Men's,2012,College,4.86
+3,Carleton College,North Central,D-I Men's,2012,College,4.17
+3,Oregon,Northwest,D-I Men's,2012,College,3.83
+5,Central Florida,Southeast,D-I Men's,2012,College,4.5
+5,Luther,North Central,D-I Men's,2012,College,4.17
+5,Minnesota,North Central,D-I Men's,2012,College,4.17
+5,Tufts,New England,D-I Men's,2012,College,4.0
+9,Colorado,South Central,D-I Men's,2012,College,4.29
+10,Texas,South Central,D-I Men's,2012,College,4.71
+11,California,Southwest,D-I Men's,2012,College,4.43
+12,Georgia Tech,Southeast,D-I Men's,2012,College,5.0
+13,North Carolina,Atlantic Coast,D-I Men's,2012,College,2.92
+13,Washington,Northwest,D-I Men's,2012,College,4.67
+15,Michigan,Great Lakes,D-I Men's,2012,College,3.83
+15,Minnesota-Duluth,North Central,D-I Men's,2012,College,5.0
+17,Michigan State,Great Lakes,D-I Men's,2012,College,4.5
+17,Ohio,Ohio Valley,D-I Men's,2012,College,4.83
+19,California-Davis,Southwest,D-I Men's,2012,College,4.83
+19,Cornell,Metro East,D-I Men's,2012,College,4.17
+1,Washington,Northwest,D-I Women's,2012,College,4.62
+2,Oregon,Northwest,D-I Women's,2012,College,4.38
+3,Michigan,Great Lakes,D-I Women's,2012,College,4.33
+3,Tufts,New England,D-I Women's,2012,College,4.5
+5,Iowa,North Central,D-I Women's,2012,College,4.3
+5,North Carolina,Atlantic Coast,D-I Women's,2012,College,4.5
+5,Ohio State,Ohio Valley,D-I Women's,2012,College,4.5
+5,Texas,South Central,D-I Women's,2012,College,4.4
+9,California,Southwest,D-I Women's,2012,College,4.43
+10,Iowa State,North Central,D-I Women's,2012,College,4.29
+11,British Columbia,Northwest,D-I Women's,2012,College,4.14
+12,UCLA,Southwest,D-I Women's,2012,College,4.57
+13,Florida,Southeast,D-I Women's,2012,College,4.67
+13,Stanford,Southwest,D-I Women's,2012,College,4.17
+15,Sonoma State,Southwest,D-I Women's,2012,College,4.17
+15,Wisconsin,North Central,D-I Women's,2012,College,3.17
+17,Humboldt State,Southwest,D-I Women's,2012,College,4.17
+17,Virginia,Atlantic Coast,D-I Women's,2012,College,4.67
+19,Delaware,Atlantic Coast,D-I Women's,2012,College,4.5
+19,Ottawa,Metro East,D-I Women's,2012,College,3.5
+1,Carleton College-GOP,North Central,D-III Open,2012,College,4.86
+2,Puget Sound,Northwest,D-III Open,2012,College,4.57
+3,North Park,Great Lakes,D-III Open,2012,College,4.8
+3,Rice,South Central,D-III Open,2012,College,4.8
+5,St John's,North Central,D-III Open,2012,College,3.5
+5,St Olaf,North Central,D-III Open,2012,College,4.0
+7,Bentley,New England,D-III Open,2012,College,4.0
+7,Lewis & Clark,Northwest,D-III Open,2012,College,4.6
+9,Reed,Northwest,D-III Open,2012,College,4.2
+9,Stevens Tech,Metro East,D-III Open,2012,College,5.0
+11,Kenyon,Ohio Valley,D-III Open,2012,College,3.67
+11,Rensselaer Polytech,Metro East,D-III Open,2012,College,3.6
+13,Bowdoin,New England,D-III Open,2012,College,4.86
+13,Wake Forest,Atlantic Coast,D-III Open,2012,College,3.17
+15,Claremont,Southwest,D-III Open,2012,College,5.0
+15,Georgia College,Southeast,D-III Open,2012,College,4.67
+1,Claremont,Southwest,D-III Women's,2012,College,4.0
+2,Grinnell,North Central,D-III Women's,2012,College,5.0
+3,Carleton College-Eclipse,North Central,D-III Women's,2012,College,3.8
+3,Haverford,Ohio Valley,D-III Women's,2012,College,4.33
+5,Lehigh,Ohio Valley,D-III Women's,2012,College,3.0
+5,Valparaiso,Great Lakes,D-III Women's,2012,College,4.8
+7,Bowdoin,New England,D-III Women's,2012,College,4.4
+7,Truman State,South Central,D-III Women's,2012,College,4.4
+9,Pacific Lutheran,Northwest,D-III Women's,2012,College,4.17
+9,St Olaf,North Central,D-III Women's,2012,College,5.0
+11,Elon,Atlantic Coast,D-III Women's,2012,College,4.5
+11,Mary Washington,Atlantic Coast,D-III Women's,2012,College,4.33
+13,Princeton,Metro East,D-III Women's,2012,College,4.6
+13,Willamette,Northwest,D-III Women's,2012,College,4.2
+15,Hendrix,South Central,D-III Women's,2012,College,4.8
+15,Stonehill,New England,D-III Women's,2012,College,4.6
 1,REVOLVER,Southwest,MENS,2013,Club,5.0
 2,SOCKEYE,Northwest,MENS,2013,Club,4.43
 3,IRONSIDE,Northeast,MENS,2013,Club,4.29
@@ -1924,78 +1955,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,PHOENIX,Southeast,WOMENS,2013,Club,4.33
 15,SCHWA,Northwest,WOMENS,2013,Club,4.33
 16,NOVA,Northeast,WOMENS,2013,Club,4.0
-1,Pittsburgh,Ohio Valley,DI_M,2013,College,4.2
-2,Central Florida,Southeast,DI_M,2013,College,4.2
-3,Carleton College,North Central,DI_M,2013,College,4.2
-3,Oregon,Northwest,DI_M,2013,College,4.8
-5,California-Davis,Southwest,DI_M,2013,College,4.33
-5,Dartmouth,New England,DI_M,2013,College,4.83
-5,North Carolina,Atlantic Coast,DI_M,2013,College,4.67
-5,North Carolina-Wilmington,Atlantic Coast,DI_M,2013,College,2.67
-9,Colorado,South Central,DI_M,2013,College,4.8
-9,Harvard,New England,DI_M,2013,College,4.6
-9,Texas,South Central,DI_M,2013,College,4.4
-9,Wisconsin,North Central,DI_M,2013,College,3.2
-13,Arizona,Southwest,DI_M,2013,College,4.8
-13,Cornell,Metro East,DI_M,2013,College,4.0
-13,Luther,North Central,DI_M,2013,College,3.4
-13,Washington,Northwest,DI_M,2013,College,4.4
-17,Florida State,Southeast,DI_M,2013,College,3.6
-17,Georgia,Southeast,DI_M,2013,College,4.6
-17,Illinois,Great Lakes,DI_M,2013,College,4.4
-17,Ohio,Ohio Valley,DI_M,2013,College,4.6
-1,Oregon,Northwest,DI_W,2013,College,3.6
-2,Carleton College,North Central,DI_W,2013,College,3.8
-3,Iowa,North Central,DI_W,2013,College,4.0
-3,Ohio State,Ohio Valley,DI_W,2013,College,4.2
-5,British Columbia,Northwest,DI_W,2013,College,4.5
-5,Tufts,New England,DI_W,2013,College,4.0
-5,Virginia,Atlantic Coast,DI_W,2013,College,3.83
-5,Washington,Northwest,DI_W,2013,College,4.17
-9,Iowa State,North Central,DI_W,2013,College,4.2
-9,Minnesota,North Central,DI_W,2013,College,4.0
-9,Northwestern,Great Lakes,DI_W,2013,College,3.8
-9,Wisconsin,North Central,DI_W,2013,College,3.8
-13,California-Santa Barbara,Southwest,DI_W,2013,College,3.4
-13,Ottawa,Metro East,DI_W,2013,College,3.0
-13,Stanford,Southwest,DI_W,2013,College,3.8
-13,Whitman,Northwest,DI_W,2013,College,3.8
-17,Central Florida,Southeast,DI_W,2013,College,3.2
-17,Georgia,Southeast,DI_W,2013,College,3.6
-17,Northeastern,New England,DI_W,2013,College,3.4
-17,Texas,South Central,DI_W,2013,College,4.1
-1,Middlebury,New England,DIII_M,2013,College,4.5
-2,Puget Sound,Northwest,DIII_M,2013,College,4.83
-3,Amherst,New England,DIII_M,2013,College,5.0
-3,Stevens Tech,Metro East,DIII_M,2013,College,4.67
-5,Lehigh,Ohio Valley,DIII_M,2013,College,4.17
-5,Wake Forest,Atlantic Coast,DIII_M,2013,College,4.2
-7,Claremont,Southwest,DIII_M,2013,College,4.5
-7,Harding,South Central,DIII_M,2013,College,4.17
-9,Georgia College,Southeast,DIII_M,2013,College,4.6
-9,North Park,Great Lakes,DIII_M,2013,College,3.83
-11,Brandeis,New England,DIII_M,2013,College,4.6
-11,Carleton College-GOP,North Central,DIII_M,2013,College,4.83
-13,Rice,South Central,DIII_M,2013,College,4.8
-13,Wesleyan,Metro East,DIII_M,2013,College,3.67
-15,Bentley,New England,DIII_M,2013,College,4.67
-15,John Brown,South Central,DIII_M,2013,College,5.0
-1,Bowdoin,New England,DIII_W,2013,College,4.33
-2,Williams,New England,DIII_W,2013,College,4.5
-3,Claremont,Southwest,DIII_W,2013,College,4.0
-3,Valparaiso,Great Lakes,DIII_W,2013,College,4.0
-5,Philadelphia,Ohio Valley,DIII_W,2013,College,4.5
-5,Swarthmore,Ohio Valley,DIII_W,2013,College,2.5
-7,Carleton College-Eclipse,North Central,DIII_W,2013,College,3.33
-7,Truman State,South Central,DIII_W,2013,College,5.0
-9,Elon,Atlantic Coast,DIII_W,2013,College,4.33
-9,Grinnell,North Central,DIII_W,2013,College,4.2
-11,Oberlin,Ohio Valley,DIII_W,2013,College,4.6
-11,SUNY-Oneonta,Metro East,DIII_W,2013,College,3.17
-13,Bentley,New England,DIII_W,2013,College,4.0
-13,St Benedict,North Central,DIII_W,2013,College,3.67
-15,Georgia College,Southeast,DIII_W,2013,College,4.0
-15,Mary Washington,Atlantic Coast,DIII_W,2013,College,4.4
+1,Pittsburgh,Ohio Valley,D-I Men's,2013,College,4.2
+2,Central Florida,Southeast,D-I Men's,2013,College,4.2
+3,Carleton College,North Central,D-I Men's,2013,College,4.2
+3,Oregon,Northwest,D-I Men's,2013,College,4.8
+5,California-Davis,Southwest,D-I Men's,2013,College,4.33
+5,Dartmouth,New England,D-I Men's,2013,College,4.83
+5,North Carolina,Atlantic Coast,D-I Men's,2013,College,4.67
+5,North Carolina-Wilmington,Atlantic Coast,D-I Men's,2013,College,2.67
+9,Colorado,South Central,D-I Men's,2013,College,4.8
+9,Harvard,New England,D-I Men's,2013,College,4.6
+9,Texas,South Central,D-I Men's,2013,College,4.4
+9,Wisconsin,North Central,D-I Men's,2013,College,3.2
+13,Arizona,Southwest,D-I Men's,2013,College,4.8
+13,Cornell,Metro East,D-I Men's,2013,College,4.0
+13,Luther,North Central,D-I Men's,2013,College,3.4
+13,Washington,Northwest,D-I Men's,2013,College,4.4
+17,Florida State,Southeast,D-I Men's,2013,College,3.6
+17,Georgia,Southeast,D-I Men's,2013,College,4.6
+17,Illinois,Great Lakes,D-I Men's,2013,College,4.4
+17,Ohio,Ohio Valley,D-I Men's,2013,College,4.6
+1,Oregon,Northwest,D-I Women's,2013,College,3.6
+2,Carleton College,North Central,D-I Women's,2013,College,3.8
+3,Iowa,North Central,D-I Women's,2013,College,4.0
+3,Ohio State,Ohio Valley,D-I Women's,2013,College,4.2
+5,British Columbia,Northwest,D-I Women's,2013,College,4.5
+5,Tufts,New England,D-I Women's,2013,College,4.0
+5,Virginia,Atlantic Coast,D-I Women's,2013,College,3.83
+5,Washington,Northwest,D-I Women's,2013,College,4.17
+9,Iowa State,North Central,D-I Women's,2013,College,4.2
+9,Minnesota,North Central,D-I Women's,2013,College,4.0
+9,Northwestern,Great Lakes,D-I Women's,2013,College,3.8
+9,Wisconsin,North Central,D-I Women's,2013,College,3.8
+13,California-Santa Barbara,Southwest,D-I Women's,2013,College,3.4
+13,Ottawa,Metro East,D-I Women's,2013,College,3.0
+13,Stanford,Southwest,D-I Women's,2013,College,3.8
+13,Whitman,Northwest,D-I Women's,2013,College,3.8
+17,Central Florida,Southeast,D-I Women's,2013,College,3.2
+17,Georgia,Southeast,D-I Women's,2013,College,3.6
+17,Northeastern,New England,D-I Women's,2013,College,3.4
+17,Texas,South Central,D-I Women's,2013,College,4.1
+1,Middlebury,New England,D-III Open,2013,College,4.5
+2,Puget Sound,Northwest,D-III Open,2013,College,4.83
+3,Amherst,New England,D-III Open,2013,College,5.0
+3,Stevens Tech,Metro East,D-III Open,2013,College,4.67
+5,Lehigh,Ohio Valley,D-III Open,2013,College,4.17
+5,Wake Forest,Atlantic Coast,D-III Open,2013,College,4.2
+7,Claremont,Southwest,D-III Open,2013,College,4.5
+7,Harding,South Central,D-III Open,2013,College,4.17
+9,Georgia College,Southeast,D-III Open,2013,College,4.6
+9,North Park,Great Lakes,D-III Open,2013,College,3.83
+11,Brandeis,New England,D-III Open,2013,College,4.6
+11,Carleton College-GOP,North Central,D-III Open,2013,College,4.83
+13,Rice,South Central,D-III Open,2013,College,4.8
+13,Wesleyan,Metro East,D-III Open,2013,College,3.67
+15,Bentley,New England,D-III Open,2013,College,4.67
+15,John Brown,South Central,D-III Open,2013,College,5.0
+1,Bowdoin,New England,D-III Women's,2013,College,4.33
+2,Williams,New England,D-III Women's,2013,College,4.5
+3,Claremont,Southwest,D-III Women's,2013,College,4.0
+3,Valparaiso,Great Lakes,D-III Women's,2013,College,4.0
+5,Philadelphia,Ohio Valley,D-III Women's,2013,College,4.5
+5,Swarthmore,Ohio Valley,D-III Women's,2013,College,2.5
+7,Carleton College-Eclipse,North Central,D-III Women's,2013,College,3.33
+7,Truman State,South Central,D-III Women's,2013,College,5.0
+9,Elon,Atlantic Coast,D-III Women's,2013,College,4.33
+9,Grinnell,North Central,D-III Women's,2013,College,4.2
+11,Oberlin,Ohio Valley,D-III Women's,2013,College,4.6
+11,SUNY-Oneonta,Metro East,D-III Women's,2013,College,3.17
+13,Bentley,New England,D-III Women's,2013,College,4.0
+13,St Benedict,North Central,D-III Women's,2013,College,3.67
+15,Georgia College,Southeast,D-III Women's,2013,College,4.0
+15,Mary Washington,Atlantic Coast,D-III Women's,2013,College,4.4
 1,JOHNNY BRAVO,South Central,MENS,2014,Club,14.0
 2,IRONSIDE,Northeast,MENS,2014,Club,13.29
 3,GOAT,Northeast,MENS,2014,Club,12.0
@@ -2044,78 +2075,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,CAPITALS,Northeast,WOMENS,2014,Club,13.17
 15,GREEN MEANS GO,Mid Atlantic,WOMENS,2014,Club,13.43
 16,TABBY ROSA,Southeast,WOMENS,2014,Club,15.29
-1,Colorado,South Central,DI_M,2014,College,11.25
-2,North Carolina,Atlantic Coast,DI_M,2014,College,16.0
-3,North Carolina-Wilmington,Atlantic Coast,DI_M,2014,College,15.0
-3,Oregon,Northwest,DI_M,2014,College,16.0
-5,Michigan,Great Lakes,DI_M,2014,College,10.5
-5,Pittsburgh,Ohio Valley,DI_M,2014,College,16.6
-5,Texas,South Central,DI_M,2014,College,14.67
-5,Wisconsin,North Central,DI_M,2014,College,11.8
-9,Carleton College,North Central,DI_M,2014,College,16.8
-9,Central Florida,Southeast,DI_M,2014,College,14.8
-9,Harvard,New England,DI_M,2014,College,15.4
-9,Tufts,New England,DI_M,2014,College,13.75
-13,California-San Diego,Southwest,DI_M,2014,College,11.4
-13,Florida,Southeast,DI_M,2014,College,12.75
-13,Florida State,Southeast,DI_M,2014,College,15.2
-13,Massachusetts,New England,DI_M,2014,College,12.6
-17,Dartmouth,New England,DI_M,2014,College,14.2
-17,Eastern Michigan,Great Lakes,DI_M,2014,College,13.75
-17,Rutgers,Metro East,DI_M,2014,College,14.63
-17,Texas A&M,South Central,DI_M,2014,College,14.8
-1,Ohio State,Ohio Valley,DI_W,2014,College,13.2
-2,Oregon,Northwest,DI_W,2014,College,10.2
-3,Central Florida,Southeast,DI_W,2014,College,8.6
-3,Washington,Northwest,DI_W,2014,College,14.6
-5,British Columbia,Northwest,DI_W,2014,College,11.0
-5,Carleton College,North Central,DI_W,2014,College,12.5
-5,Michigan,Great Lakes,DI_W,2014,College,12.5
-5,Viriginia,Atlantic Coast,DI_W,2014,College,10.42
-9,California-Santa Barbara,Southwest,DI_W,2014,College,11.8
-9,Colorado College,South Central,DI_W,2014,College,12.4
-9,Tufts,New England,DI_W,2014,College,12.6
-9,UCLA,Southwest,DI_W,2014,College,12.0
-13,Colorado,South Central,DI_W,2014,College,9.75
-13,Kansas,South Central,DI_W,2014,College,11.6
-13,Stanford,Southwest,DI_W,2014,College,11.6
-13,Victoria,Northwest,DI_W,2014,College,10.4
-17,Cornell,Metro East,DI_W,2014,College,14.2
-17,Northeastern,New England,DI_W,2014,College,8.4
-17,Western Washigton,Northwest,DI_W,2014,College,11.6
-17,Whitman,Northwest,DI_W,2014,College,15.6
-1,Bentley,New England,DIII_M,2014,College,4.17
-2,Elon,Atlantic Coast,DIII_M,2014,College,4.83
-3,Claremont,Southwest,DIII_M,2014,College,4.0
-3,Carleton College-GOP,North Central,DIII_M,2014,College,5.0
-5,Brandeis,New England,DIII_M,2014,College,4.2
-5,Lehigh,Ohio Valley,DIII_M,2014,College,4.67
-7,Georgia College,Southeast,DIII_M,2014,College,3.8
-7,Richmond,Atlantic Coast,DIII_M,2014,College,5.0
-9,Bryant,New England,DIII_M,2014,College,4.5
-9,Cedarville,Ohio Valley,DIII_M,2014,College,5.0
-11,Kenyon,Ohio Valley,DIII_M,2014,College,4.4
-11,Olivet Nazarene,Great Lakes,DIII_M,2014,College,5.0
-13,Lewis & Clark,Northwest,DIII_M,2014,College,3.83
-13,St John's,North Central,DIII_M,2014,College,4.0
-15,John Brown,South Central,DIII_M,2014,College,5.0
-15,SUNY-Geneseo,Metro East,DIII_M,2014,College,4.5
-1,Rice,South Central,DIII_W,2014,College,4.33
-2,Carleton College-Eclipse,North Central,DIII_W,2014,College,4.0
-3,Haverford,Ohio Valley,DIII_W,2014,College,4.4
-3,Wake Forest,Atlantic Coast,DIII_W,2014,College,3.5
-5,St Olaf,North Central,DIII_W,2014,College,4.67
-5,Truman State,South Central,DIII_W,2014,College,4.17
-7,Claremont,Southwest,DIII_W,2014,College,4.83
-7,Williams,New England,DIII_W,2014,College,3.8
-9,Harding,South Central,DIII_W,2014,College,4.2
-9,St Benedict,North Central,DIII_W,2014,College,3.8
-11,Elon,Atlantic Coast,DIII_W,2014,College,4.0
-11,Georgia College,Southeast,DIII_W,2014,College,3.83
-13,Hamilton,Metro East,DIII_W,2014,College,3.8
-13,Valparaiso,Great Lakes,DIII_W,2014,College,4.33
-15,Bowdoin,New England,DIII_W,2014,College,4.33
-15,Wooster,Ohio Valley,DIII_W,2014,College,5.0
+1,Colorado,South Central,D-I Men's,2014,College,11.25
+2,North Carolina,Atlantic Coast,D-I Men's,2014,College,16.0
+3,North Carolina-Wilmington,Atlantic Coast,D-I Men's,2014,College,15.0
+3,Oregon,Northwest,D-I Men's,2014,College,16.0
+5,Michigan,Great Lakes,D-I Men's,2014,College,10.5
+5,Pittsburgh,Ohio Valley,D-I Men's,2014,College,16.6
+5,Texas,South Central,D-I Men's,2014,College,14.67
+5,Wisconsin,North Central,D-I Men's,2014,College,11.8
+9,Carleton College,North Central,D-I Men's,2014,College,16.8
+9,Central Florida,Southeast,D-I Men's,2014,College,14.8
+9,Harvard,New England,D-I Men's,2014,College,15.4
+9,Tufts,New England,D-I Men's,2014,College,13.75
+13,California-San Diego,Southwest,D-I Men's,2014,College,11.4
+13,Florida,Southeast,D-I Men's,2014,College,12.75
+13,Florida State,Southeast,D-I Men's,2014,College,15.2
+13,Massachusetts,New England,D-I Men's,2014,College,12.6
+17,Dartmouth,New England,D-I Men's,2014,College,14.2
+17,Eastern Michigan,Great Lakes,D-I Men's,2014,College,13.75
+17,Rutgers,Metro East,D-I Men's,2014,College,14.63
+17,Texas A&M,South Central,D-I Men's,2014,College,14.8
+1,Ohio State,Ohio Valley,D-I Women's,2014,College,13.2
+2,Oregon,Northwest,D-I Women's,2014,College,10.2
+3,Central Florida,Southeast,D-I Women's,2014,College,8.6
+3,Washington,Northwest,D-I Women's,2014,College,14.6
+5,British Columbia,Northwest,D-I Women's,2014,College,11.0
+5,Carleton College,North Central,D-I Women's,2014,College,12.5
+5,Michigan,Great Lakes,D-I Women's,2014,College,12.5
+5,Viriginia,Atlantic Coast,D-I Women's,2014,College,10.42
+9,California-Santa Barbara,Southwest,D-I Women's,2014,College,11.8
+9,Colorado College,South Central,D-I Women's,2014,College,12.4
+9,Tufts,New England,D-I Women's,2014,College,12.6
+9,UCLA,Southwest,D-I Women's,2014,College,12.0
+13,Colorado,South Central,D-I Women's,2014,College,9.75
+13,Kansas,South Central,D-I Women's,2014,College,11.6
+13,Stanford,Southwest,D-I Women's,2014,College,11.6
+13,Victoria,Northwest,D-I Women's,2014,College,10.4
+17,Cornell,Metro East,D-I Women's,2014,College,14.2
+17,Northeastern,New England,D-I Women's,2014,College,8.4
+17,Western Washigton,Northwest,D-I Women's,2014,College,11.6
+17,Whitman,Northwest,D-I Women's,2014,College,15.6
+1,Bentley,New England,D-III Men's,2014,College,4.17
+2,Elon,Atlantic Coast,D-III Men's,2014,College,4.83
+3,Claremont,Southwest,D-III Men's,2014,College,4.0
+3,Carleton College-GOP,North Central,D-III Men's,2014,College,5.0
+5,Brandeis,New England,D-III Men's,2014,College,4.2
+5,Lehigh,Ohio Valley,D-III Men's,2014,College,4.67
+7,Georgia College,Southeast,D-III Men's,2014,College,3.8
+7,Richmond,Atlantic Coast,D-III Men's,2014,College,5.0
+9,Bryant,New England,D-III Men's,2014,College,4.5
+9,Cedarville,Ohio Valley,D-III Men's,2014,College,5.0
+11,Kenyon,Ohio Valley,D-III Men's,2014,College,4.4
+11,Olivet Nazarene,Great Lakes,D-III Men's,2014,College,5.0
+13,Lewis & Clark,Northwest,D-III Men's,2014,College,3.83
+13,St John's,North Central,D-III Men's,2014,College,4.0
+15,John Brown,South Central,D-III Men's,2014,College,5.0
+15,SUNY-Geneseo,Metro East,D-III Men's,2014,College,4.5
+1,Rice,South Central,D-III Women's,2014,College,4.33
+2,Carleton College-Eclipse,North Central,D-III Women's,2014,College,4.0
+3,Haverford,Ohio Valley,D-III Women's,2014,College,4.4
+3,Wake Forest,Atlantic Coast,D-III Women's,2014,College,3.5
+5,St Olaf,North Central,D-III Women's,2014,College,4.67
+5,Truman State,South Central,D-III Women's,2014,College,4.17
+7,Claremont,Southwest,D-III Women's,2014,College,4.83
+7,Williams,New England,D-III Women's,2014,College,3.8
+9,Harding,South Central,D-III Women's,2014,College,4.2
+9,St Benedict,North Central,D-III Women's,2014,College,3.8
+11,Elon,Atlantic Coast,D-III Women's,2014,College,4.0
+11,Georgia College,Southeast,D-III Women's,2014,College,3.83
+13,Hamilton,Metro East,D-III Women's,2014,College,3.8
+13,Valparaiso,Great Lakes,D-III Women's,2014,College,4.33
+15,Bowdoin,New England,D-III Women's,2014,College,4.33
+15,Wooster,Ohio Valley,D-III Women's,2014,College,5.0
 1,REVOLVER,Southwest,MENS,2015,Club,11.6
 2,SOCKEYE,Northwest,MENS,2015,Club,13.17
 3,MACHINE,Great Lakes,MENS,2015,Club,12.25
@@ -2164,78 +2195,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,BENT,Northeast,WOMENS,2015,Club,7.43
 15,SHOWDOWN,South Central,WOMENS,2015,Club,8.14
 16,NEMESIS,Great Lakes,WOMENS,2015,Club,11.0
-1,North Carolina,Atlantic Coast,DI_M,2015,College,16.2
-2,Oregon,Northwest,DI_M,2015,College,17.2
-3,Central Florida,Southeast,DI_M,2015,College,14.6
-3,Florida State,Southeast,DI_M,2015,College,17.7
-5,Colorado,South Central,DI_M,2015,College,18.0
-5,Massachusetts,New England,DI_M,2015,College,16.0
-5,Pittsburgh,Ohio Valley,DI_M,2015,College,11.6
-5,Texas,South Central,DI_M,2015,College,12.6
-9,Georgia,Southeast,DI_M,2015,College,14.8
-9,Minnesota,North Central,DI_M,2015,College,16.0
-9,North Carolina-Wilmington,Atlantic Coast,DI_M,2015,College,10.4
-9,Texas A&M,South Central,DI_M,2015,College,17.4
-13,Auburn,Southeast,DI_M,2015,College,13.5
-13,Illinois,Great Lakes,DI_M,2015,College,16.2
-13,Western Washington,Northwest,DI_M,2015,College,17.0
-13,Wisconsin,North Central,DI_M,2015,College,13.8
-17,California-Santa Barbara,Southwest,DI_M,2015,College,17.8
-17,Cincinnati,Ohio Valley,DI_M,2015,College,14.8
-17,Cornell,Metro East,DI_M,2015,College,14.2
-17,Maryland,Atlantic Coast,DI_M,2015,College,16.8
-1,Oregon,Northwest,DI_W,2015,College,16.6
-2,Stanford,Southwest,DI_W,2015,College,16.2
-3,British Columbia,Northwest,DI_W,2015,College,16.2
-3,Carleton College,North Central,DI_W,2015,College,14.8
-5,Colorado,South Central,DI_W,2015,College,14.0
-5,Dartmouth,New England,DI_W,2015,College,14.2
-5,Virginia,Atlantic Coast,DI_W,2015,College,15.0
-5,Whitman,Northwest,DI_W,2015,College,13.5
-9,Florida State,Southeast,DI_W,2015,College,12.8
-9,Ohio State,Ohio Valley,DI_W,2015,College,13.8
-9,Texas,South Central,DI_W,2015,College,14.0
-9,Victoria,Northwest,DI_W,2015,College,17.4
-13,Central Florida,Southeast,DI_W,2015,College,15.2
-13,Princeton,Metro East,DI_W,2015,College,18.4
-13,UCLA,Southwest,DI_W,2015,College,13.8
-13,Washington,Northwest,DI_W,2015,College,15.6
-17,Kansas,South Central,DI_W,2015,College,15.8
-17,Middlebury,New England,DI_W,2015,College,14.5
-17,Notre Dame,Great Lakes,DI_W,2015,College,15.8
-17,Pittsburgh,Ohio Valley,DI_W,2015,College,15.4
-1,Franciscan,Ohio Valley,DIII_M,2015,College,4.4
-2,Brandeis,New England,DIII_M,2015,College,4.25
-3,Bryant,New England,DIII_M,2015,College,3.6
-3,SUNY-Geneseo,Metro East,DIII_M,2015,College,3.67
-5,Carleton College-GOP,North Central,DIII_M,2015,College,4.8
-5,Georgia College,Southeast,DIII_M,2015,College,2.8
-7,Claremont,Southwest,DIII_M,2015,College,3.6
-7,Davidson,Atlantic Coast,DIII_M,2015,College,4.6
-9,St Olaf,North Central,DIII_M,2015,College,4.33
-9,Truman State,South Central,DIII_M,2015,College,4.67
-11,Middlebury,New England,DIII_M,2015,College,4.5
-11,North Park,Great Lakes,DIII_M,2015,College,3.25
-13,Bowdoin,New England,DIII_M,2015,College,3.75
-13,John Brown,South Central,DIII_M,2015,College,5.0
-15,Lewis & Clark,Northwest,DIII_M,2015,College,3.8
-16,Elon,Atlantic Coast,DIII_M,2015,College,4.75
-1,Rice,South Central,DIII_W,2015,College,5.0
-2,Bowdoin,New England,DIII_W,2015,College,3.5
-3,Carleton College-Eclipse,North Central,DIII_W,2015,College,4.5
-3,Truman State,South Central,DIII_W,2015,College,4.33
-5,St Olaf,North Central,DIII_W,2015,College,4.33
-5,Williams,New England,DIII_W,2015,College,4.2
-7,Puget Sound,Northwest,DIII_W,2015,College,4.5
-7,Valparaiso,Great Lakes,DIII_W,2015,College,4.33
-9,Claremont,Southwest,DIII_W,2015,College,4.4
-9,Lehigh,Ohio Valley,DIII_W,2015,College,2.75
-11,Grinnell,North Central,DIII_W,2015,College,5.0
-11,Wake Forest,Atlantic Coast,DIII_W,2015,College,4.33
-13,Hamilton,Metro East,DIII_W,2015,College,4.2
-13,St Benedict,North Central,DIII_W,2015,College,4.6
-15,Georgia College,Southeast,DIII_W,2015,College,4.8
-15,Luther,North Central,DIII_W,2015,College,4.0
+1,North Carolina,Atlantic Coast,D-I Men's,2015,College,16.2
+2,Oregon,Northwest,D-I Men's,2015,College,17.2
+3,Central Florida,Southeast,D-I Men's,2015,College,14.6
+3,Florida State,Southeast,D-I Men's,2015,College,17.7
+5,Colorado,South Central,D-I Men's,2015,College,18.0
+5,Massachusetts,New England,D-I Men's,2015,College,16.0
+5,Pittsburgh,Ohio Valley,D-I Men's,2015,College,11.6
+5,Texas,South Central,D-I Men's,2015,College,12.6
+9,Georgia,Southeast,D-I Men's,2015,College,14.8
+9,Minnesota,North Central,D-I Men's,2015,College,16.0
+9,North Carolina-Wilmington,Atlantic Coast,D-I Men's,2015,College,10.4
+9,Texas A&M,South Central,D-I Men's,2015,College,17.4
+13,Auburn,Southeast,D-I Men's,2015,College,13.5
+13,Illinois,Great Lakes,D-I Men's,2015,College,16.2
+13,Western Washington,Northwest,D-I Men's,2015,College,17.0
+13,Wisconsin,North Central,D-I Men's,2015,College,13.8
+17,California-Santa Barbara,Southwest,D-I Men's,2015,College,17.8
+17,Cincinnati,Ohio Valley,D-I Men's,2015,College,14.8
+17,Cornell,Metro East,D-I Men's,2015,College,14.2
+17,Maryland,Atlantic Coast,D-I Men's,2015,College,16.8
+1,Oregon,Northwest,D-I Women's,2015,College,16.6
+2,Stanford,Southwest,D-I Women's,2015,College,16.2
+3,British Columbia,Northwest,D-I Women's,2015,College,16.2
+3,Carleton College,North Central,D-I Women's,2015,College,14.8
+5,Colorado,South Central,D-I Women's,2015,College,14.0
+5,Dartmouth,New England,D-I Women's,2015,College,14.2
+5,Virginia,Atlantic Coast,D-I Women's,2015,College,15.0
+5,Whitman,Northwest,D-I Women's,2015,College,13.5
+9,Florida State,Southeast,D-I Women's,2015,College,12.8
+9,Ohio State,Ohio Valley,D-I Women's,2015,College,13.8
+9,Texas,South Central,D-I Women's,2015,College,14.0
+9,Victoria,Northwest,D-I Women's,2015,College,17.4
+13,Central Florida,Southeast,D-I Women's,2015,College,15.2
+13,Princeton,Metro East,D-I Women's,2015,College,18.4
+13,UCLA,Southwest,D-I Women's,2015,College,13.8
+13,Washington,Northwest,D-I Women's,2015,College,15.6
+17,Kansas,South Central,D-I Women's,2015,College,15.8
+17,Middlebury,New England,D-I Women's,2015,College,14.5
+17,Notre Dame,Great Lakes,D-I Women's,2015,College,15.8
+17,Pittsburgh,Ohio Valley,D-I Women's,2015,College,15.4
+1,Franciscan,Ohio Valley,D-III Men's,2015,College,4.4
+2,Brandeis,New England,D-III Men's,2015,College,4.25
+3,Bryant,New England,D-III Men's,2015,College,3.6
+3,SUNY-Geneseo,Metro East,D-III Men's,2015,College,3.67
+5,Carleton College-GOP,North Central,D-III Men's,2015,College,4.8
+5,Georgia College,Southeast,D-III Men's,2015,College,2.8
+7,Claremont,Southwest,D-III Men's,2015,College,3.6
+7,Davidson,Atlantic Coast,D-III Men's,2015,College,4.6
+9,St Olaf,North Central,D-III Men's,2015,College,4.33
+9,Truman State,South Central,D-III Men's,2015,College,4.67
+11,Middlebury,New England,D-III Men's,2015,College,4.5
+11,North Park,Great Lakes,D-III Men's,2015,College,3.25
+13,Bowdoin,New England,D-III Men's,2015,College,3.75
+13,John Brown,South Central,D-III Men's,2015,College,5.0
+15,Lewis & Clark,Northwest,D-III Men's,2015,College,3.8
+16,Elon,Atlantic Coast,D-III Men's,2015,College,4.75
+1,Rice,South Central,D-III Women's,2015,College,5.0
+2,Bowdoin,New England,D-III Women's,2015,College,3.5
+3,Carleton College-Eclipse,North Central,D-III Women's,2015,College,4.5
+3,Truman State,South Central,D-III Women's,2015,College,4.33
+5,St Olaf,North Central,D-III Women's,2015,College,4.33
+5,Williams,New England,D-III Women's,2015,College,4.2
+7,Puget Sound,Northwest,D-III Women's,2015,College,4.5
+7,Valparaiso,Great Lakes,D-III Women's,2015,College,4.33
+9,Claremont,Southwest,D-III Women's,2015,College,4.4
+9,Lehigh,Ohio Valley,D-III Women's,2015,College,2.75
+11,Grinnell,North Central,D-III Women's,2015,College,5.0
+11,Wake Forest,Atlantic Coast,D-III Women's,2015,College,4.33
+13,Hamilton,Metro East,D-III Women's,2015,College,4.2
+13,St Benedict,North Central,D-III Women's,2015,College,4.6
+15,Georgia College,Southeast,D-III Women's,2015,College,4.8
+15,Luther,North Central,D-III Women's,2015,College,4.0
 1,IRONSIDE,Northeast,MENS,2016,Club,9.5
 2,REVOLVER,Southwest,MENS,2016,Club,12.4
 3,JOHNNY BRAVO,South Central,MENS,2016,Club,12.2
@@ -2284,62 +2315,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,WILDFIRE,Southwest,WOMENS,2016,Club,8.0
 15,GREEN MEANS GO,Mid Atlantic,WOMENS,2016,Club,9.21
 16,SCHWA,Northwest,WOMENS,2016,Club,10.7
-1,Minnesota,North Central,DI_M,2016,College,11.99
-2,Harvard,New England,DI_M,2016,College,14.25
-3,North Carolina,Atlantic Coast,DI_M,2016,College,13.67
-3,Pittsburgh,Ohio Valley,DI_M,2016,College,16.0
-5,Auburn,Southeast,DI_M,2016,College,15.0
-5,Colorado,South Central,DI_M,2016,College,13.0
-5,Georgia,Southeast,DI_M,2016,College,14.5
-5,Wisconsin,North Central,DI_M,2016,College,8.99
-9,Massachusetts,New England,DI_M,2016,College,9.0
-9,Michigan,Great Lakes,DI_M,2016,College,12.0
-9,Oregon,Northwest,DI_M,2016,College,12.75
-9,Texas A&M,South Central,DI_M,2016,College,10.5
-13,Carleton College,North Central,DI_M,2016,College,13.0
-13,Connecticut,Metro East,DI_M,2016,College,11.4
-13,North Carolina-Wilmington,Atlantic Coast,DI_M,2016,College,7.75
-13,Utah,Northwest,DI_M,2016,College,13.5
-17,Cal Poly-SLO,Southwest,DI_M,2016,College,11.75
-17,Case Western Reserve,Ohio Valley,DI_M,2016,College,14.34
-17,Florida State,Southeast,DI_M,2016,College,16.33
-17,Washington,Northwest,DI_M,2016,College,14.5
-1,Stanford,Southwest,DIII_M,2016,College,12.5
-2,Whitman,Northwest,DIII_M,2016,College,13.0
-3,Oregon,Northwest,DIII_M,2016,College,14.0
-3,Virginia,Atlantic Coast,DIII_M,2016,College,12.0
-5,British Columbia,Northwest,DIII_M,2016,College,9.67
-5,Colorado,South Central,DIII_M,2016,College,11.5
-5,Dartmouth,New England,DIII_M,2016,College,13.0
-5,UCLA,Southwest,DIII_M,2016,College,13.33
-9,Michigan,Great Lakes,DIII_M,2016,College,11.4
-9,Texas,South Central,DIII_M,2016,College,11.2
-9,Washington,Northwest,DIII_M,2016,College,12.25
-9,Wisconsin,North Central,DIII_M,2016,College,11.17
-13,California,Southwest,DIII_M,2016,College,11.0
-13,Western Washington**,Northwest,DIII_M,2016,College,11.8
-13,Colorado College,South Central,DIII_M,2016,College,10.0
-13,Pittsburgh,Ohio Valley,DIII_M,2016,College,12.25
-17,Central Florida,Southeast,DIII_M,2016,College,8.25
-17,Ohio State,Ohio Valley,DIII_M,2016,College,10.75
-17,Ottawa,Metro East,DIII_M,2016,College,12.33
-17,Southern California,Southwest,DIII_M,2016,College,13.32
-1,Georgia College,Southeast,DIII_W,2016,College,8.0
-2,Brandeis,New England,DIII_W,2016,College,14.67
-3,Air Force,South Central,DIII_W,2016,College,11.75
-3,Lewis & Clark,Northwest,DIII_W,2016,College,12.0
-5,Franciscan,Ohio Valley,DIII_W,2016,College,11.2
-5,Knox,Great Lakes,DIII_W,2016,College,12.0
-7,Bryant,New England,DIII_W,2016,College,12.67
-7,Carleton College-GOP,North Central,DIII_W,2016,College,15.0
-9,Richmond,Atlantic Coast,DIII_W,2016,College,16.33
-9,Wheaton (Illinois),Great Lakes,DIII_W,2016,College,14.67
-11,Colorado College,South Central,DIII_W,2016,College,14.0
-11,John Brown,South Central,DIII_W,2016,College,13.33
-13,Claremont,Southwest,DIII_W,2016,College,11.25
-13,North Carolina-Asheville,Atlantic Coast,DIII_W,2016,College,15.25
-15,Connecticut College,Metro East,DIII_W,2016,College,10.25
-15,Indiana Wesleyan,Great Lakes,DIII_W,2016,College,14.67
+1,Minnesota,North Central,D-I Men's,2016,College,11.99
+2,Harvard,New England,D-I Men's,2016,College,14.25
+3,North Carolina,Atlantic Coast,D-I Men's,2016,College,13.67
+3,Pittsburgh,Ohio Valley,D-I Men's,2016,College,16.0
+5,Auburn,Southeast,D-I Men's,2016,College,15.0
+5,Colorado,South Central,D-I Men's,2016,College,13.0
+5,Georgia,Southeast,D-I Men's,2016,College,14.5
+5,Wisconsin,North Central,D-I Men's,2016,College,8.99
+9,Massachusetts,New England,D-I Men's,2016,College,9.0
+9,Michigan,Great Lakes,D-I Men's,2016,College,12.0
+9,Oregon,Northwest,D-I Men's,2016,College,12.75
+9,Texas A&M,South Central,D-I Men's,2016,College,10.5
+13,Carleton College,North Central,D-I Men's,2016,College,13.0
+13,Connecticut,Metro East,D-I Men's,2016,College,11.4
+13,North Carolina-Wilmington,Atlantic Coast,D-I Men's,2016,College,7.75
+13,Utah,Northwest,D-I Men's,2016,College,13.5
+17,Cal Poly-SLO,Southwest,D-I Men's,2016,College,11.75
+17,Case Western Reserve,Ohio Valley,D-I Men's,2016,College,14.34
+17,Florida State,Southeast,D-I Men's,2016,College,16.33
+17,Washington,Northwest,D-I Men's,2016,College,14.5
+1,Stanford,Southwest,D-I Women's,2016,College,12.5
+2,Whitman,Northwest,D-I Women's,2016,College,13.0
+3,Oregon,Northwest,D-I Women's,2016,College,14.0
+3,Virginia,Atlantic Coast,D-I Women's,2016,College,12.0
+5,British Columbia,Northwest,D-I Women's,2016,College,9.67
+5,Colorado,South Central,D-I Women's,2016,College,11.5
+5,Dartmouth,New England,D-I Women's,2016,College,13.0
+5,UCLA,Southwest,D-I Women's,2016,College,13.33
+9,Michigan,Great Lakes,D-I Women's,2016,College,11.4
+9,Texas,South Central,D-I Women's,2016,College,11.2
+9,Washington,Northwest,D-I Women's,2016,College,12.25
+9,Wisconsin,North Central,D-I Women's,2016,College,11.17
+13,California,Southwest,D-I Women's,2016,College,11.0
+13,Western Washington**,Northwest,D-I Women's,2016,College,11.8
+13,Colorado College,South Central,D-I Women's,2016,College,10.0
+13,Pittsburgh,Ohio Valley,D-I Women's,2016,College,12.25
+17,Central Florida,Southeast,D-I Women's,2016,College,8.25
+17,Ohio State,Ohio Valley,D-I Women's,2016,College,10.75
+17,Ottawa,Metro East,D-I Women's,2016,College,12.33
+17,Southern California,Southwest,D-I Women's,2016,College,13.32
+1,Georgia College,Southeast,D-III Men's,2016,College,8.0
+2,Brandeis,New England,D-III Men's,2016,College,14.67
+3,Air Force,South Central,D-III Men's,2016,College,11.75
+3,Lewis & Clark,Northwest,D-III Men's,2016,College,12.0
+5,Franciscan,Ohio Valley,D-III Men's,2016,College,11.2
+5,Knox,Great Lakes,D-III Men's,2016,College,12.0
+7,Bryant,New England,D-III Men's,2016,College,12.67
+7,Carleton College-GOP,North Central,D-III Men's,2016,College,15.0
+9,Richmond,Atlantic Coast,D-III Men's,2016,College,16.33
+9,Wheaton (Illinois),Great Lakes,D-III Men's,2016,College,14.67
+11,Colorado College,South Central,D-III Men's,2016,College,14.0
+11,John Brown,South Central,D-III Men's,2016,College,13.33
+13,Claremont,Southwest,D-III Men's,2016,College,11.25
+13,North Carolina-Asheville,Atlantic Coast,D-III Men's,2016,College,15.25
+15,Connecticut College,Metro East,D-III Men's,2016,College,10.25
+15,Indiana Wesleyan,Great Lakes,D-III Men's,2016,College,14.67
+1,Carleton College-Eclipse,North Central,D-III Women's,2016,College,14.0
+2,Rice,South Central,D-III Women's,2016,College,11.8
+3,Puget Sound,Northwest,D-III Women's,2016,College,16.25
+3,St Olaf,North Central,D-III Women's,2016,College,19.75
+5,Truman State,South Central,D-III Women's,2016,College,14.5
+5,Williams,New England,D-III Women's,2016,College,7.0
+7,Bates,New England,D-III Women's,2016,College,11.0
+7,Claremont,Southwest,D-III Women's,2016,College,15.5
+9,Luther,North Central,D-III Women's,2016,College,14.0
+9,Wesleyan,Metro East,D-III Women's,2016,College,16.0
+11,Amherst,New England,D-III Women's,2016,College,13.2
+11,Mount Holyoke,New England,D-III Women's,2016,College,15.67
+13,Elon,Atlantic Coast,D-III Women's,2016,College,13.0
+13,Valparaiso,Great Lakes,D-III Women's,2016,College,13.67
+15,Georgia College,Southeast,D-III Women's,2016,College,16.0
+15,Oberlin,Ohio Valley,D-III Women's,2016,College,13.33
 1,REVOLVER,Southwest,MENS,2017,Club,11.2
 2,DOUBLEWIDE,South Central,MENS,2017,Club,10.33
 3,RING OF FIRE,Southeast,MENS,2017,Club,10.67
@@ -2388,78 +2435,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,POP,North Central,WOMENS,2017,Club,9.86
 15,NEMESIS,Great Lakes,WOMENS,2017,Club,10.14
 16,SHOWDOWN,South Central,WOMENS,2017,Club,9.5
-1,Carleton College,North Central,DI_M,2017,College,13.8
-2,North Carolina-Wilmington,Atlantic Coast,DI_M,2017,College,9.2
-3,Massachusetts,New England,DI_M,2017,College,9.1
-3,North Carolina,Atlantic Coast,DI_M,2017,College,11.8
-5,Minnesota,North Central,DI_M,2017,College,10.6
-5,Pittsburgh,Ohio Valley,DI_M,2017,College,10.5
-5,Washington,Northwest,DI_M,2017,College,14.0
-5,Wisconsin,North Central,DI_M,2017,College,11.2
-9,Auburn,Southeast,DI_M,2017,College,11.5
-9,Cal Poly-SLO,Southwest,DI_M,2017,College,12.2
-9,Michigan,Great Lakes,DI_M,2017,College,11.0
-9,Oregon,Northwest,DI_M,2017,College,10.2
-13,British Columbia,Northwest,DI_M,2017,College,13.0
-13,Connecticut,Metro East,DI_M,2017,College,11.6
-13,Stanford,Southwest,DI_M,2017,College,13.6
-13,Texas A&M,South Central,DI_M,2017,College,13.2
-17,Colorado,South Central,DI_M,2017,College,10.8
-17,Colorado State,South Central,DI_M,2017,College,14.4
-17,Oregon State,Northwest,DI_M,2017,College,9.6
-17,Virginia Tech,Atlantic Coast,DI_M,2017,College,15.0
-1,Dartmouth,New England,DI_W,2017,College,8.5
-2,Texas,South Central,DI_W,2017,College,8.5
-3,British Columbia,Northwest,DI_W,2017,College,11.4
-3,Colorado,South Central,DI_W,2017,College,12.0
-5,Oregon,Northwest,DI_W,2017,College,10.8
-5,Stanford,Southwest,DI_W,2017,College,13.4
-5,Virginia,Atlantic Coast,DI_W,2017,College,9.5
-5,UCLA,Southwest,DI_W,2017,College,10.6
-9,California,Southwest,DI_W,2017,College,12.2
-9,Carleton College,North Central,DI_W,2017,College,7.6
-9,Michigan,Great Lakes,DI_W,2017,College,11.4
-9,Notre Dame,Great Lakes,DI_W,2017,College,11.8
-13,California-San Diego,Southwest,DI_W,2017,College,12.0
-13,Delaware,Atlantic Coast,DI_W,2017,College,11.6
-13,North Carolina,Atlantic Coast,DI_W,2017,College,11.0
-13,Ohio State,Ohio Valley,DI_W,2017,College,12.6
-17,Connecticut,Metro East,DI_W,2017,College,12.1
-17,Florida,Southeast,DI_W,2017,College,8.6
-17,Pittsburgh,Ohio Valley,DI_W,2017,College,13.2
-17,Tufts,New England,DI_W,2017,College,10.6
-1,Richmond,Atlantic Coast,DIII_M,2017,College,14.3
-2,Davidson,Atlantic Coast,DIII_M,2017,College,16.2
-3,Alabama-Huntsville,Southeast,DIII_M,2017,College,13.3
-3,Bryant,New England,DIII_M,2017,College,11.9
-5,Franciscan,Ohio Valley,DIII_M,2017,College,11.7
-5,John Brown,South Central,DIII_M,2017,College,18.1
-7,Dartmouth,New England,DIII_M,2017,College,11.6
-7,Wheaton (IL),Great Lakes,DIII_M,2017,College,13.8
-9,St. John's,North Central,DIII_M,2017,College,9.6
-10,Army,Metro East,DIII_M,2017,College,14.5
-11,Air Force,South Central,DIII_M,2017,College,13.0
-11,North Carolina-Asheville,Atlantic Coast,DIII_M,2017,College,14.8
-13,Colorado College,South Central,DIII_M,2017,College,13.1
-14,Portland,Northwest,DIII_M,2017,College,16.6
-15,Occidental,Southwest,DIII_M,2017,College,17.5
-16,Amherst,New England,DIII_M,2017,College,12.6
-1,Carleton College-Eclipse,North Central,DIII_W,2017,College,11.9
-2,Wesleyan,Metro East,DIII_W,2017,College,12.0
-3,Puget Sound,Northwest,DIII_W,2017,College,11.5
-3,Valparaiso,Great Lakes,DIII_W,2017,College,13.2
-5,Portland,Northwest,DIII_W,2017,College,12.4
-5,Williams,New England,DIII_W,2017,College,15.6
-7,St. Olaf,North Central,DIII_W,2017,College,13.0
-7,Truman State,South Central,DIII_W,2017,College,12.5
-9,Bowdoin,New England,DIII_W,2017,College,15.1
-10,Bates,New England,DIII_W,2017,College,14.4
-11,Georgia College,Southeast,DIII_W,2017,College,16.8
-12,Mount Holyoke,New England,DIII_W,2017,College,11.4
-13,Haverford,Ohio Valley,DIII_W,2017,College,12.6
-14,Catholic,Atlantic Coast,DIII_W,2017,College,13.1
-15,Lehigh,Ohio Valley,DIII_W,2017,College,12.1
-16,Claremont,Southwest,DIII_W,2017,College,15.1
+1,Carleton College,North Central,D-I Men's,2017,College,13.8
+2,North Carolina-Wilmington,Atlantic Coast,D-I Men's,2017,College,9.2
+3,Massachusetts,New England,D-I Men's,2017,College,9.1
+3,North Carolina,Atlantic Coast,D-I Men's,2017,College,11.8
+5,Minnesota,North Central,D-I Men's,2017,College,10.6
+5,Pittsburgh,Ohio Valley,D-I Men's,2017,College,10.5
+5,Washington,Northwest,D-I Men's,2017,College,14.0
+5,Wisconsin,North Central,D-I Men's,2017,College,11.2
+9,Auburn,Southeast,D-I Men's,2017,College,11.5
+9,Cal Poly-SLO,Southwest,D-I Men's,2017,College,12.2
+9,Michigan,Great Lakes,D-I Men's,2017,College,11.0
+9,Oregon,Northwest,D-I Men's,2017,College,10.2
+13,British Columbia,Northwest,D-I Men's,2017,College,13.0
+13,Connecticut,Metro East,D-I Men's,2017,College,11.6
+13,Stanford,Southwest,D-I Men's,2017,College,13.6
+13,Texas A&M,South Central,D-I Men's,2017,College,13.2
+17,Colorado,South Central,D-I Men's,2017,College,10.8
+17,Colorado State,South Central,D-I Men's,2017,College,14.4
+17,Oregon State,Northwest,D-I Men's,2017,College,9.6
+17,Virginia Tech,Atlantic Coast,D-I Men's,2017,College,15.0
+1,Dartmouth,New England,D-I Women's,2017,College,8.5
+2,Texas,South Central,D-I Women's,2017,College,8.5
+3,British Columbia,Northwest,D-I Women's,2017,College,11.4
+3,Colorado,South Central,D-I Women's,2017,College,12.0
+5,Oregon,Northwest,D-I Women's,2017,College,10.8
+5,Stanford,Southwest,D-I Women's,2017,College,13.4
+5,Virginia,Atlantic Coast,D-I Women's,2017,College,9.5
+5,UCLA,Southwest,D-I Women's,2017,College,10.6
+9,California,Southwest,D-I Women's,2017,College,12.2
+9,Carleton College,North Central,D-I Women's,2017,College,7.6
+9,Michigan,Great Lakes,D-I Women's,2017,College,11.4
+9,Notre Dame,Great Lakes,D-I Women's,2017,College,11.8
+13,California-San Diego,Southwest,D-I Women's,2017,College,12.0
+13,Delaware,Atlantic Coast,D-I Women's,2017,College,11.6
+13,North Carolina,Atlantic Coast,D-I Women's,2017,College,11.0
+13,Ohio State,Ohio Valley,D-I Women's,2017,College,12.6
+17,Connecticut,Metro East,D-I Women's,2017,College,12.1
+17,Florida,Southeast,D-I Women's,2017,College,8.6
+17,Pittsburgh,Ohio Valley,D-I Women's,2017,College,13.2
+17,Tufts,New England,D-I Women's,2017,College,10.6
+1,Richmond,Atlantic Coast,D-III Men's,2017,College,14.3
+2,Davidson,Atlantic Coast,D-III Men's,2017,College,16.2
+3,Alabama-Huntsville,Southeast,D-III Men's,2017,College,13.3
+3,Bryant,New England,D-III Men's,2017,College,11.9
+5,Franciscan,Ohio Valley,D-III Men's,2017,College,11.7
+5,John Brown,South Central,D-III Men's,2017,College,18.1
+7,Dartmouth,New England,D-III Men's,2017,College,11.6
+7,Wheaton (IL),Great Lakes,D-III Men's,2017,College,13.8
+9,St. John's,North Central,D-III Men's,2017,College,9.6
+10,Army,Metro East,D-III Men's,2017,College,14.5
+11,Air Force,South Central,D-III Men's,2017,College,13.0
+11,North Carolina-Asheville,Atlantic Coast,D-III Men's,2017,College,14.8
+13,Colorado College,South Central,D-III Men's,2017,College,13.1
+14,Portland,Northwest,D-III Men's,2017,College,16.6
+15,Occidental,Southwest,D-III Men's,2017,College,17.5
+16,Amherst,New England,D-III Men's,2017,College,12.6
+1,Carleton College-Eclipse,North Central,D-III Women's,2017,College,11.9
+2,Wesleyan,Metro East,D-III Women's,2017,College,12.0
+3,Puget Sound,Northwest,D-III Women's,2017,College,11.5
+3,Valparaiso,Great Lakes,D-III Women's,2017,College,13.2
+5,Portland,Northwest,D-III Women's,2017,College,12.4
+5,Williams,New England,D-III Women's,2017,College,15.6
+7,St. Olaf,North Central,D-III Women's,2017,College,13.0
+7,Truman State,South Central,D-III Women's,2017,College,12.5
+9,Bowdoin,New England,D-III Women's,2017,College,15.1
+10,Bates,New England,D-III Women's,2017,College,14.4
+11,Georgia College,Southeast,D-III Women's,2017,College,16.8
+12,Mount Holyoke,New England,D-III Women's,2017,College,11.4
+13,Haverford,Ohio Valley,D-III Women's,2017,College,12.6
+14,Catholic,Atlantic Coast,D-III Women's,2017,College,13.1
+15,Lehigh,Ohio Valley,D-III Women's,2017,College,12.1
+16,Claremont,Southwest,D-III Women's,2017,College,15.1
 1,PONY,Northeast,MENS,2018,Club,8.6
 2,REVOLVER,Southwest,MENS,2018,Club,10.2
 3,SOCKEYE,Northwest,MENS,2018,Club,8.4
@@ -2508,78 +2555,78 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,PHOENIX,Southeast,WOMENS,2018,Club,10.14
 15,TRAFFIC,Northwest,WOMENS,2018,Club,10.57
 16,HEIST,North Central,WOMENS,2018,Club,10.14
-1,North Carolina,Atlantic Coast,DI_M,2018,College,9.8
-2,Pittsburgh,Ohio Valley,DI_M,2018,College,9.2
-3,Carleton College,North Central,DI_M,2018,College,10.8
-3,Oregon,Northwest,DI_M,2018,College,9.2
-5,Brown,New England,DI_M,2018,College,10.6
-5,Georgia,Southeast,DI_M,2018,College,11.7
-5,Washington,Northwest,DI_M,2018,College,11.0
-5,Wisconsin,North Central,DI_M,2018,College,9.0
-9,Massachusetts,New England,DI_M,2018,College,11.2
-9,Minnesota,North Central,DI_M,2018,College,11.0
-9,Northwestern,Great Lakes,DI_M,2018,College,11.8
-9,Texas,South Central,DI_M,2018,College,9.8
-13,Auburn,Southeast,DI_M,2018,College,11.2
-13,Connecticut,Metro East,DI_M,2018,College,9.6
-13,Florida State,Southeast,DI_M,2018,College,10.4
-13,William & Mary,Atlantic Coast,DI_M,2018,College,13.2
-17,Georgetown,Atlantic Coast,DI_M,2018,College,12.8
-17,Maryland,South Central,DI_M,2018,College,11.2
-17,Stanford,Southwest,DI_M,2018,College,13.4
-17,Victoria,Northwest,DI_M,2018,College,9.6
-1,Dartmouth,New England,DI_W,2018,College,11.2
-2,Colorado,South Central,DI_W,2018,College,10.0
-3,Pittsburgh,Ohio Valley,DI_W,2018,College,10.2
-3,Stanford,Southwest,DI_W,2018,College,10.4
-5,British Columbia,Northwest,DI_W,2018,College,11.0
-5,North Carolina,Atlantic Coast,DI_W,2018,College,11.5
-5,Oregon,Northwest,DI_W,2018,College,12.17
-5,Texas,South Central,DI_W,2018,College,8.4
-9,California-San Diego,Southwest,DI_W,2018,College,11.0
-9,Michigan,Great Lakes,DI_W,2018,College,10.8
-9,North Carolina State,Atlantic Coast,DI_W,2018,College,10.2
-9,Tufts,New England,DI_W,2018,College,10.8
-13,Carleton College,North Central,DI_W,2018,College,13.2
-13,Ohio State,Ohio Valley,DI_W,2018,College,11.4
-13,West Chester,Ohio Valley,DI_W,2018,College,12.2
-13,Western Washington,Northwest,DI_W,2018,College,7.6
-17,California-Santa Barbara,Southwest,DI_W,2018,College,9.8
-17,Cornell,Metro East,DI_W,2018,College,11.4
-17,Florida,Southeast,DI_W,2018,College,11.2
-17,Whitman,New England,DI_W,2018,College,12.6
-1,Bryant,New England,DIII_M,2018,College,11.0
-2,Air-Force,South Central,DIII_M,2018,College,11.0
-3,Carleton-GOP,North Central,DIII_M,2018,College,14.0
-3,Middlebury,New England,DIII_M,2018,College,13.2
-5,Bowdoin,New England,DIII_M,2018,College,15.0
-5,Georgia College,Southeast,DIII_M,2018,College,7.6
-5,Mary Washington,Atlantic Coast,DIII_M,2018,College,12.0
-5,Whitman,Northwest,DIII_M,2018,College,11.4
-9,Occidental,Southwest,DIII_M,2018,College,13.2
-9,Richmond,Atlantic Coast,DIII_M,2018,College,13.5
-11,Missouri S&T,South Central,DIII_M,2018,College,13.25
-11,Oberlin,Ohio Valley,DIII_M,2018,College,15.8
-13,John Brown,South Central,DIII_M,2018,College,13.33
-13,North Park,Great Lakes,DIII_M,2018,College,11.4
-13,Puget Sound,Northwest,DIII_M,2018,College,16.25
-13,Rensselaer Polytech,Metro East,DIII_M,2018,College,12.25
-1,St. Olaf,North Central,DIII_W,2018,College,12.33
-2,Bates,New England,DIII_W,2018,College,14.2
-3,Lehigh,Ohio Valley,DIII_W,2018,College,9.8
-3,Puget Sound,Northwest,DIII_W,2018,College,11.83
-5,Mount Holyoke,New England,DIII_W,2018,College,11.6
-5,Rensselaer Polytech,Metro East,DIII_W,2018,College,14.8
-5,Wesleyan,Metro East,DIII_W,2018,College,10.5
-5,Williams,New England,DIII_W,2018,College,13.25
-9,Catholic,Atlantic Coast,DIII_W,2018,College,15.25
-9,Oberlin,Ohio Valley,DIII_W,2018,College,12.0
-11,Claremont,Southwest,DIII_W,2018,College,13.5
-11,Georgia College,Southeast,DIII_W,2018,College,14.4
-13,Amherst,New England,DIII_W,2018,College,13.4
-13,North Park,Great Lakes,DIII_W,2018,College,10.75
-13,Pacific Lutheran,Northwest,DIII_W,2018,College,14.75
-13,Rice,South Central,DIII_W,2018,College,12.25
+1,North Carolina,Atlantic Coast,D-I Men's,2018,College,9.8
+2,Pittsburgh,Ohio Valley,D-I Men's,2018,College,9.2
+3,Carleton College,North Central,D-I Men's,2018,College,10.8
+3,Oregon,Northwest,D-I Men's,2018,College,9.2
+5,Brown,New England,D-I Men's,2018,College,10.6
+5,Georgia,Southeast,D-I Men's,2018,College,11.7
+5,Washington,Northwest,D-I Men's,2018,College,11.0
+5,Wisconsin,North Central,D-I Men's,2018,College,9.0
+9,Massachusetts,New England,D-I Men's,2018,College,11.2
+9,Minnesota,North Central,D-I Men's,2018,College,11.0
+9,Northwestern,Great Lakes,D-I Men's,2018,College,11.8
+9,Texas,South Central,D-I Men's,2018,College,9.8
+13,Auburn,Southeast,D-I Men's,2018,College,11.2
+13,Connecticut,Metro East,D-I Men's,2018,College,9.6
+13,Florida State,Southeast,D-I Men's,2018,College,10.4
+13,William & Mary,Atlantic Coast,D-I Men's,2018,College,13.2
+17,Georgetown,Atlantic Coast,D-I Men's,2018,College,12.8
+17,Maryland,South Central,D-I Men's,2018,College,11.2
+17,Stanford,Southwest,D-I Men's,2018,College,13.4
+17,Victoria,Northwest,D-I Men's,2018,College,9.6
+1,Dartmouth,New England,D-I Women's,2018,College,11.2
+2,Colorado,South Central,D-I Women's,2018,College,10.0
+3,Pittsburgh,Ohio Valley,D-I Women's,2018,College,10.2
+3,Stanford,Southwest,D-I Women's,2018,College,10.4
+5,British Columbia,Northwest,D-I Women's,2018,College,11.0
+5,North Carolina,Atlantic Coast,D-I Women's,2018,College,11.5
+5,Oregon,Northwest,D-I Women's,2018,College,12.17
+5,Texas,South Central,D-I Women's,2018,College,8.4
+9,California-San Diego,Southwest,D-I Women's,2018,College,11.0
+9,Michigan,Great Lakes,D-I Women's,2018,College,10.8
+9,North Carolina State,Atlantic Coast,D-I Women's,2018,College,10.2
+9,Tufts,New England,D-I Women's,2018,College,10.8
+13,Carleton College,North Central,D-I Women's,2018,College,13.2
+13,Ohio State,Ohio Valley,D-I Women's,2018,College,11.4
+13,West Chester,Ohio Valley,D-I Women's,2018,College,12.2
+13,Western Washington,Northwest,D-I Women's,2018,College,7.6
+17,California-Santa Barbara,Southwest,D-I Women's,2018,College,9.8
+17,Cornell,Metro East,D-I Women's,2018,College,11.4
+17,Florida,Southeast,D-I Women's,2018,College,11.2
+17,Whitman,New England,D-I Women's,2018,College,12.6
+1,Bryant,New England,D-III Men's,2018,College,11.0
+2,Air-Force,South Central,D-III Men's,2018,College,11.0
+3,Carleton-GOP,North Central,D-III Men's,2018,College,14.0
+3,Middlebury,New England,D-III Men's,2018,College,13.2
+5,Bowdoin,New England,D-III Men's,2018,College,15.0
+5,Georgia College,Southeast,D-III Men's,2018,College,7.6
+5,Mary Washington,Atlantic Coast,D-III Men's,2018,College,12.0
+5,Whitman,Northwest,D-III Men's,2018,College,11.4
+9,Occidental,Southwest,D-III Men's,2018,College,13.2
+9,Richmond,Atlantic Coast,D-III Men's,2018,College,13.5
+11,Missouri S&T,South Central,D-III Men's,2018,College,13.25
+11,Oberlin,Ohio Valley,D-III Men's,2018,College,15.8
+13,John Brown,South Central,D-III Men's,2018,College,13.33
+13,North Park,Great Lakes,D-III Men's,2018,College,11.4
+13,Puget Sound,Northwest,D-III Men's,2018,College,16.25
+13,Rensselaer Polytech,Metro East,D-III Men's,2018,College,12.25
+1,St. Olaf,North Central,D-III Women's,2018,College,12.33
+2,Bates,New England,D-III Women's,2018,College,14.2
+3,Lehigh,Ohio Valley,D-III Women's,2018,College,9.8
+3,Puget Sound,Northwest,D-III Women's,2018,College,11.83
+5,Mount Holyoke,New England,D-III Women's,2018,College,11.6
+5,Rensselaer Polytech,Metro East,D-III Women's,2018,College,14.8
+5,Wesleyan,Metro East,D-III Women's,2018,College,10.5
+5,Williams,New England,D-III Women's,2018,College,13.25
+9,Catholic,Atlantic Coast,D-III Women's,2018,College,15.25
+9,Oberlin,Ohio Valley,D-III Women's,2018,College,12.0
+11,Claremont,Southwest,D-III Women's,2018,College,13.5
+11,Georgia College,Southeast,D-III Women's,2018,College,14.4
+13,Amherst,New England,D-III Women's,2018,College,13.4
+13,North Park,Great Lakes,D-III Women's,2018,College,10.75
+13,Pacific Lutheran,Northwest,D-III Women's,2018,College,14.75
+13,Rice,South Central,D-III Women's,2018,College,12.25
 1,SOCKEYE,Northwest,MENS,2019,Club,10.2
 2,MACHINE,Great Lakes,MENS,2019,Club,9.8
 3,RING OF FIRE,Southeast,MENS,2019,Club,9.6
@@ -2628,75 +2675,75 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 14,IRIS,Northeast,WOMENS,2019,Club,10.57
 15,POP,North Central,WOMENS,2019,Club,10.0
 16,OZONE,Southeast,WOMENS,2019,Club,10.57
-1,Brown,New England,DI_M,2019,College,11.0
-2,North Carolina,Atlantic Coast,DI_M,2019,College,9.83
-3,Cal Poly-SLO,Southwest,DI_M,2019,College,13.33
-3,Colorado,South Central,DI_M,2019,College,8.86
-5,Michigan,Great Lakes,DI_M,2019,College,11.33
-5,Ohio State,Ohio Valley,DI_M,2019,College,11.83
-5,Pittsburgh,Ohio Valley,DI_M,2019,College,10.2
-5,Wisconsin,North Central,DI_M,2019,College,11.33
-9,Georgia,Southeast,DI_M,2019,College,12.0
-9,Oregon,Northwest,DI_M,2019,College,10.0
-9,Texas,South Central,DI_M,2019,College,8.8
-9,Washington,Northwest,DI_M,2019,College,12.8
-13,Iowa State,North Central,DI_M,2019,College,11.2
-13,Minnesota,North Central,DI_M,2019,College,11.0
-13,Northeastern,New England,DI_M,2019,College,12.4
-13,Tufts,New England,DI_M,2019,College,12.0
-17,California,Southwest,DI_M,2019,College,11.8
-17,North Carolina State,Atlantic Coast,DI_M,2019,College,11.4
-17,Rutgers,Metro East,DI_M,2019,College,12.4
-17,Victoria,Northwest,DI_M,2019,College,10.6
-1,California-San Diego,Southwest,DI_W,2019,College,11.5
-2,Dartmouth,New England,DI_W,2019,College,10.17
-3,North Carolina,Atlantic Coast,DI_W,2019,College,11.17
-3,Ohio State,Ohio Valley,DI_W,2019,College,9.67
-5,California-Santa Barbara,Southwest,DI_W,2019,College,8.33
-5,Carleton College,North Central,DI_W,2019,College,11.83
-5,Western Washington,Northwest,DI_W,2019,College,10.17
-5,Wisconsin,North Central,DI_W,2019,College,12.67
-9,Colorado,South Central,DI_W,2019,College,10.2
-9,Georgia,Southeast,DI_W,2019,College,11.0
-9,Minnesota,North Central,DI_W,2019,College,9.8
-9,Oregon,Northwest,DI_W,2019,College,12.4
-13,Northwestern,Northwest,DI_W,2019,College,12.4
-13,Texas,South Central,DI_W,2019,College,10.8
-13,UCLA,Southwest,DI_W,2019,College,14.2
-13,Washington,Northwest,DI_W,2019,College,10.0
-17,Cornell,Metro East,DI_W,2019,College,11.2
-17,Northeastern,New England,DI_W,2019,College,10.8
-17,Pittsburgh,Ohio Valley,DI_W,2019,College,11.8
-17,Tufts,New England,DI_W,2019,College,10.2
-1,Middlebury,Unknown,DIII_M,2019,College,11.6
-2,Air-Force,Unknown,DIII_M,2019,College,11.75
-3,Carleton-GOP,Unknown,DIII_M,2019,College,15.5
-3,Richmond,Unknown,DIII_M,2019,College,12.6
-5,Bowdoin,Unknown,DIII_M,2019,College,14.17
-5,Missouri S&T,Unknown,DIII_M,2019,College,14.33
-7,Bryant,Unknown,DIII_M,2019,College,9.83
-7,Luther,Unknown,DIII_M,2019,College,11.67
-9,Portland,Unknown,DIII_M,2019,College,13.0
-9,Franciscan,Unknown,DIII_M,2019,College,12.0
-11,Berry,Unknown,DIII_M,2019,College,12.25
-11,Valparaiso,Unknown,DIII_M,2019,College,13.75
-13,Colby,Unknown,DIII_M,2019,College,14.8
-13,Michigan Tech,Unknown,DIII_M,2019,College,12.4
-15,Claremont,Unknown,DIII_M,2019,College,15.6
-15,Hamilton,Unknown,DIII_M,2019,College,14.2
-1,Oberlin,Unknown,DIII_W,2019,College,12.0
-2,Bates,Unknown,DIII_W,2019,College,12.8
-3,North Park,Unknown,DIII_W,2019,College,13.17
-3,St. Olaf,Unknown,DIII_W,2019,College,9.92
-5,Middlebury,Unknown,DIII_W,2019,College,11.8
-5,Puget Sound,Unknown,DIII_W,2019,College,13.33
-7,Portland,Unknown,DIII_W,2019,College,11.67
-7,Truman State,Unknown,DIII_W,2019,College,12.8
-9,Williams,Unknown,DIII_W,2019,College,11.0
-9,Lewis & Clark,Unknown,DIII_W,2019,College,13.8
-11,Carleton College-Eclipse,Unknown,DIII_W,2019,College,12.5
-11,North Georgia,Unknown,DIII_W,2019,College,11.25
-13,Occidental,Unknown,DIII_W,2019,College,13.2
-13,Mount Holyoke,Unknown,DIII_W,2019,College,13.38
-15,Mary Washington,Unknown,DIII_W,2019,College,13.0
-15,Wesleyan,Unknown,DIII_W,2019,College,12.6
+1,Brown,New England,D-I Men's,2019,College,11.0
+2,North Carolina,Atlantic Coast,D-I Men's,2019,College,9.83
+3,Cal Poly-SLO,Southwest,D-I Men's,2019,College,13.33
+3,Colorado,South Central,D-I Men's,2019,College,8.86
+5,Michigan,Great Lakes,D-I Men's,2019,College,11.33
+5,Ohio State,Ohio Valley,D-I Men's,2019,College,11.83
+5,Pittsburgh,Ohio Valley,D-I Men's,2019,College,10.2
+5,Wisconsin,North Central,D-I Men's,2019,College,11.33
+9,Georgia,Southeast,D-I Men's,2019,College,12.0
+9,Oregon,Northwest,D-I Men's,2019,College,10.0
+9,Texas,South Central,D-I Men's,2019,College,8.8
+9,Washington,Northwest,D-I Men's,2019,College,12.8
+13,Iowa State,North Central,D-I Men's,2019,College,11.2
+13,Minnesota,North Central,D-I Men's,2019,College,11.0
+13,Northeastern,New England,D-I Men's,2019,College,12.4
+13,Tufts,New England,D-I Men's,2019,College,12.0
+17,California,Southwest,D-I Men's,2019,College,11.8
+17,North Carolina State,Atlantic Coast,D-I Men's,2019,College,11.4
+17,Rutgers,Metro East,D-I Men's,2019,College,12.4
+17,Victoria,Northwest,D-I Men's,2019,College,10.6
+1,California-San Diego,Southwest,D-I Women's,2019,College,11.5
+2,Dartmouth,New England,D-I Women's,2019,College,10.17
+3,North Carolina,Atlantic Coast,D-I Women's,2019,College,11.17
+3,Ohio State,Ohio Valley,D-I Women's,2019,College,9.67
+5,California-Santa Barbara,Southwest,D-I Women's,2019,College,8.33
+5,Carleton College,North Central,D-I Women's,2019,College,11.83
+5,Western Washington,Northwest,D-I Women's,2019,College,10.17
+5,Wisconsin,North Central,D-I Women's,2019,College,12.67
+9,Colorado,South Central,D-I Women's,2019,College,10.2
+9,Georgia,Southeast,D-I Women's,2019,College,11.0
+9,Minnesota,North Central,D-I Women's,2019,College,9.8
+9,Oregon,Northwest,D-I Women's,2019,College,12.4
+13,Northwestern,Northwest,D-I Women's,2019,College,12.4
+13,Texas,South Central,D-I Women's,2019,College,10.8
+13,UCLA,Southwest,D-I Women's,2019,College,14.2
+13,Washington,Northwest,D-I Women's,2019,College,10.0
+17,Cornell,Metro East,D-I Women's,2019,College,11.2
+17,Northeastern,New England,D-I Women's,2019,College,10.8
+17,Pittsburgh,Ohio Valley,D-I Women's,2019,College,11.8
+17,Tufts,New England,D-I Women's,2019,College,10.2
+1,Middlebury,Unknown,D-III Men's,2019,College,11.6
+2,Air-Force,Unknown,D-III Men's,2019,College,11.75
+3,Carleton-GOP,Unknown,D-III Men's,2019,College,15.5
+3,Richmond,Unknown,D-III Men's,2019,College,12.6
+5,Bowdoin,Unknown,D-III Men's,2019,College,14.17
+5,Missouri S&T,Unknown,D-III Men's,2019,College,14.33
+7,Bryant,Unknown,D-III Men's,2019,College,9.83
+7,Luther,Unknown,D-III Men's,2019,College,11.67
+9,Portland,Unknown,D-III Men's,2019,College,13.0
+9,Franciscan,Unknown,D-III Men's,2019,College,12.0
+11,Berry,Unknown,D-III Men's,2019,College,12.25
+11,Valparaiso,Unknown,D-III Men's,2019,College,13.75
+13,Colby,Unknown,D-III Men's,2019,College,14.8
+13,Michigan Tech,Unknown,D-III Men's,2019,College,12.4
+15,Claremont,Unknown,D-III Men's,2019,College,15.6
+15,Hamilton,Unknown,D-III Men's,2019,College,14.2
+1,Oberlin,Unknown,D-III Women's,2019,College,12.0
+2,Bates,Unknown,D-III Women's,2019,College,12.8
+3,North Park,Unknown,D-III Women's,2019,College,13.17
+3,St. Olaf,Unknown,D-III Women's,2019,College,9.92
+5,Middlebury,Unknown,D-III Women's,2019,College,11.8
+5,Puget Sound,Unknown,D-III Women's,2019,College,13.33
+7,Portland,Unknown,D-III Women's,2019,College,11.67
+7,Truman State,Unknown,D-III Women's,2019,College,12.8
+9,Williams,Unknown,D-III Women's,2019,College,11.0
+9,Lewis & Clark,Unknown,D-III Women's,2019,College,13.8
+11,Carleton College-Eclipse,Unknown,D-III Women's,2019,College,12.5
+11,North Georgia,Unknown,D-III Women's,2019,College,11.25
+13,Occidental,Unknown,D-III Women's,2019,College,13.2
+13,Mount Holyoke,Unknown,D-III Women's,2019,College,13.38
+15,Mary Washington,Unknown,D-III Women's,2019,College,13.0
+15,Wesleyan,Unknown,D-III Women's,2019,College,12.6

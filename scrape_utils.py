@@ -2,16 +2,31 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-DIV_NAMES = [' MIXED ', ' MENS ', 'CO-ED ', ' OPEN ', ' WOMENS ']
+CLUB_DIV_NAMES = [' MIXED ', ' MENS ', 'CO-ED ', ' OPEN ', ' WOMENS ']
+COLLEGE_DIV_NAMES = [['D-I ', 'Open'], ['D-I ', 'Men\'s'], ['D-I ', 'Women\'s'], ['D-III ', 'Open'],
+                     ['D-III ', 'Men\'s'], ['D-III ', 'Women\'s']]
+COLLEGE_DIV_NAMES_2 = ['College Championships: Open Division',
+                       'College Championships: Women\'s Division']
 
-# TODO: do this for college
+
+def parse_college_div(divisions):
+    new_divs = []
+    for div in divisions:
+        for name in COLLEGE_DIV_NAMES:
+            if all([n in div for n in name]):
+                new_divs.append(''.join(name))
+    if not new_divs:
+        for div in divisions:
+            for name in COLLEGE_DIV_NAMES_2:
+                if name in div:
+                    new_divs.append(name.strip())
+    return new_divs
 
 
 def parse_club_div(divisions):
-    # todo: do this better
     new_divs = []
     for div in divisions:
-        for name in DIV_NAMES:
+        for name in CLUB_DIV_NAMES:
             if name in div:
                 new_divs.append(name.strip())
     return new_divs
@@ -19,7 +34,8 @@ def parse_club_div(divisions):
 
 def clean_data(df, div):
     df = df.copy()
-    df.dropna(inplace=True)
+    df = df.rename(columns={'School': 'Team'})
+    df.dropna(subset=['Standing', 'Team'], how='any', inplace=True)
 
     df.columns = df.columns.str.replace(' ', '')
 
@@ -27,8 +43,6 @@ def clean_data(df, div):
     df.Standing = df.Standing.str.replace(' ', '')
     df = df[~df.Standing.isin(['?', 'DQ', 'DNF'])]
     df['Standing'] = df['Standing'].astype(int)
-
-    df = df.rename(columns={'School': 'Team'})
 
     if div == 'club':
         df.Team = df.Team.str.upper()
@@ -39,8 +53,9 @@ def clean_data(df, div):
 
     df.loc[df.division == 'OPEN', 'division'] = 'MENS'
     df.loc[df.division == 'CO-ED', 'division'] = 'MIXED'
-    df.loc[df.division == 'DI_O', 'division'] = 'DI_M'
-    df.loc[df.division == 'DIII_O', 'division'] = 'DIII_M'
+    df.loc[df.division == 'D-I Open', 'division'] = 'D-I Men\'s'
+    df.loc[df.division == 'College Championships: Open Division', 'division'] = 'Men\'s'
+    df.loc[df.division == 'College Championships: Women\'s Division', 'division'] = 'Women\'s'
 
     df.Region = df.Region.str.replace('\xa0', '')
     df.loc[df.Region == 'Sothwest', 'Region'] = 'Southwest'
@@ -68,20 +83,22 @@ def get_data_for_year(year, div='club'):
     soup = BeautifulSoup(response.text, 'html.parser')
     divisions = []
     for d in soup.find_all('h3'):
+        # print(d)
         if d.a:
-            # for a in d.find_all('a'):
-            a = d.find('a')
-            div_name = a.attrs.get('name', None)
-            # print(div_name)
-            if div_name and div_name.startswith('nats_'):
-                divisions.append(d.span.text.upper().replace("'", ""))
-            elif div_name and div_name.startswith('D') and (div_name.find('_') != -1):
-                divisions.append(div_name)
-
+            if div == 'club':
+                for a in d.find_all('a'):
+                    div_name = a.attrs.get('name', None)
+                    if div_name and div_name.startswith('nats_'):
+                        divisions.append(d.span.text.upper().replace("'", ""))
+            elif div == 'college':
+                if d.text and ((d.text.find('-') != -1) | (d.text.find(':') != -1)):
+                    divisions.append(d.text)
 
     print(divisions)
     if div == 'club':
         divisions = parse_club_div(divisions)
+    elif div == 'college':
+        divisions = parse_college_div(divisions)
     print(divisions)
 
     tables = soup.find_all('table', {'class': 'tablesorter'})
