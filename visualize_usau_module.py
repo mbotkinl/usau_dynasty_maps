@@ -52,12 +52,16 @@ def ranking_data(comp_division, division, region='all'):
                                     hoverinfo='y+name',
                                     mode='lines+markers',
                                     connectgaps=False,
+                                    # hoveron='points+fills',
                                     name=t))
 
     layout = {'title': 'Nationals Placement',
               'hovermode': 'closest',
-              'xaxis': {'title': 'Year'},
-              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement'}}
+              'showlegend': False,
+              'autosize': True,
+              'margin': {'t': 50, 'b': 50, 'l': 25, 'r': 25, 'p': 0},
+              'xaxis': {'title': 'Year', 'type': 'date', 'rangeslider': {'visible': True}},  #, 'fixedrange': True
+              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement', 'fixedrange': True}}
                         # 'range': [1, max_placement]}}  # todo: fix range
 
     return dict(data=plot_data, layout=layout)

@@ -19,6 +19,9 @@ fig_rankings = ranking_data(comp_division=init_comp_division, division=init_divi
 fig_hist = appearance_hist(comp_division=init_comp_division, division=init_division)
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
+# config = {'scrollZoom': True, 'responsive': True, 'showAxisDragHandles': True}
+config = {'scrollZoom': True, 'autosizable': True}
+
 app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
     html.H1(children='USAU Visualization'),
     dbc.Container([
@@ -54,7 +57,7 @@ app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
             ])
         ])
     ]),
-    html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings, config={'scrollZoom': True, 'responsive': True})]),
+    html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings, config=config)]),
     html.Div([dcc.Graph(id='appearance_graph', figure=fig_hist)]),
     html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
 ])
