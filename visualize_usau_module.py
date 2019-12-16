@@ -71,7 +71,8 @@ def appearance_hist(comp_division, division, region='all'):
     hist_data = div_df[div_df.Team.isin(appearances.iloc[0:min(len(appearances), MAX_HIST)].index.values)]
     if hist_data.empty:
         return {}
-    plot_data = [go.Histogram(x=hist_data.Team)]
+    plot_data = [go.Histogram(x=hist_data.Team,
+                              hoverinfo='y')]
     layout = {'title': 'Most Nationals Appearances',
               'yaxis': {'title': 'Number of Nationals Appearance'},
               'xaxis': {'title': 'Team',
@@ -92,9 +93,13 @@ def spirit_correlation(comp_division, division, region='all'):
         return {}
     plot_data = [go.Scatter(x=df['avg_spirit'],
                             y=df['avg_rank'],
-                            marker_size=df['count'] * 2,
+                            marker_size=df['count'] + 6,
                             hoverinfo='text',
-                            hovertext=df.index,
+                            hovertext=df.index.values +
+                                      '<br><sub>Apperances with reported spirit: ' + df['count'].astype(str).values + '</sub>' +
+                                      '<br><sub>Average spirit score: ' + np.round(df['avg_spirit'], decimals=2).astype(str).values + '</sub>' +
+                                      '<br><sub>Average placement: ' + np.round(df['avg_rank'], decimals=2).astype(str).values + '</sub>'
+                            ,
                             mode='markers')]
 
     # todo: subplot with size of dot
