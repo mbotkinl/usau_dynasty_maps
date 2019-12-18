@@ -43,7 +43,8 @@ def ranking_data(comp_division, division, region='all'):
     min_year = div_df.year.min()
     max_year = div_df.year.max()
     plot_data = []
-    for t in div_df.Team.unique():
+    appearances = div_df.Team.value_counts()
+    for t in appearances.keys():
         team_df = div_df[div_df.Team == t].copy()
         team_df.set_index('year', inplace=True)
         team_df = team_df.reindex(list(range(min_year, max_year+1)), fill_value=None)
