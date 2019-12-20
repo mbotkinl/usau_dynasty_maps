@@ -12,6 +12,9 @@ MAX_HIST = 12
 COMP_DIVISIONS = data.comp_division.unique()
 
 
+BACKGROUND_COLOR = '#f0f0f0'
+
+
 def get_divisions(comp_division):
     divisions = data[data.comp_division == comp_division].division.unique()
     return [{'label': d, 'value': d} for d in divisions]
@@ -53,11 +56,17 @@ def ranking_data(comp_division, division, region='all'):
                                     hoverinfo='y+name',
                                     mode='lines+markers',
                                     connectgaps=False,
+                                    line={'shape': 'spline', 'smoothing': 0.7},
+                                    marker={'size': 8},
                                     name=t))
 
     layout = {'title': 'Nationals Placement',
               'hovermode': 'closest',
+              'height': 900,
+              # 'template': TEMPLATE,
+              'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
               'xaxis': {'title': 'Year'},
+              'plot_bgcolor': BACKGROUND_COLOR,
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement'}}
                         # 'range': [1, max_placement]}}  # todo: fix range
 
@@ -75,6 +84,8 @@ def appearance_hist(comp_division, division, region='all'):
     plot_data = [go.Histogram(x=hist_data.Team,
                               hoverinfo='y')]
     layout = {'title': 'Most Nationals Appearances',
+              'plot_bgcolor': BACKGROUND_COLOR,
+              # 'template': TEMPLATE,
               'yaxis': {'title': 'Number of Nationals Appearance'},
               'xaxis': {'title': 'Team',
                         'categoryorder': 'total descending'}}
@@ -104,7 +115,9 @@ def spirit_correlation(comp_division, division, region='all'):
                             mode='markers')]
 
     # todo: subplot with size of dot
-    layout = {'title': 'Spirit Score to Placement Correlation',
+    layout = {'title': 'Spirit Score to Placement Correlation <br><sub>Size corresponds to number of appearances with reported spirit score</sub>',
+              # 'template': TEMPLATE,
+              'plot_bgcolor': BACKGROUND_COLOR,
               'xaxis': {'title': 'Average Spirit Score'},
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement'}}
                         # 'range': [1, max(div_df['Standing'])]}}  # todo: fix range
