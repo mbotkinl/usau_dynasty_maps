@@ -6,9 +6,6 @@ data = pd.read_csv('./data/national_data.csv')
 
 MAX_HIST = 12
 
-# TODO: change hover and click behavoir
-# TODO: sync colors
-
 COMP_DIVISIONS = data.comp_division.unique()
 
 BACKGROUND_COLOR = '#f0f0f0'
@@ -85,7 +82,7 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
               # 'xaxis': {'title': 'Year'},
               'plot_bgcolor': BACKGROUND_COLOR,
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement'}}
-    # 'range': [1, max_placement]}}  # todo: fix range
+              # 'range': [1, max(div_df['Standing'])]}
 
     return dict(data=plot_data, layout=layout)
 
@@ -134,13 +131,14 @@ def spirit_correlation(comp_division, division, region='all'):
                             ,
                             mode='markers')]
 
-    # todo: subplot with size of dot
     layout = {
-        'title': 'Spirit Score to Placement Correlation <br><sub>Size corresponds to number of appearances with reported spirit score</sub>',
+        'title': 'Spirit Score to Placement Correlation <br><sub>'
+                 'Size corresponds to number of appearances with reported spirit score</sub>',
         # 'template': TEMPLATE,
         'plot_bgcolor': BACKGROUND_COLOR,
+        'height': 550,
         'xaxis': {'title': 'Average Spirit Score'},
         'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement'}}
-    # 'range': [1, max(div_df['Standing'])]}}  # todo: fix range
+        # 'range': [1, max(div_df['Standing'])]}
 
     return dict(data=plot_data, layout=layout)
