@@ -1,6 +1,12 @@
 import plotly.graph_objects as go
+from plotly.colors import DEFAULT_PLOTLY_COLORS
 import pandas as pd
 import numpy as np
+
+# import plotly.io as pio
+# pio.templates.default = "plotly_dark"
+
+TEMPLATE = 'plotly_dark'
 
 data = pd.read_csv('./data/national_data.csv')
 
@@ -9,6 +15,7 @@ MAX_HIST = 12
 COMP_DIVISIONS = data.comp_division.unique()
 
 BACKGROUND_COLOR = '#f0f0f0'
+AXIS_TITLE_SIZE = 18
 
 
 def get_divisions(comp_division):
@@ -75,13 +82,14 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
                                     showlegend=False,
                                     name=t))
 
-    layout = {'title': 'Nationals Placement',
+    layout = {'title': {'text': 'Nationals Placement', 'font': {'size': 35}},
               'hovermode': 'closest',
               'height': 760,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
               # 'xaxis': {'title': 'Year'},
               'plot_bgcolor': BACKGROUND_COLOR,
-              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement'}}
+              'yaxis': {'autorange': 'reversed', 'zeroline': False,
+                        'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
               # 'range': [1, max(div_df['Standing'])]}
 
     return dict(data=plot_data, layout=layout)
@@ -132,13 +140,17 @@ def spirit_correlation(comp_division, division, region='all'):
                             mode='markers')]
 
     layout = {
-        'title': 'Spirit Score to Placement Correlation <br><sub>'
+        'title': {'text': 'Spirit Score to Placement Correlation <br><sub>'
                  'Size corresponds to number of appearances with reported spirit score</sub>',
+                  'font': {'size': 30}},
         # 'template': TEMPLATE,
         'plot_bgcolor': BACKGROUND_COLOR,
         'height': 550,
-        'xaxis': {'title': 'Average Spirit Score'},
-        'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement'}}
+        'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}}},
+        'yaxis': {'autorange': 'reversed', 'zeroline': False,
+                  'title': {'text': 'Average Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}
+                  }
+    }
         # 'range': [1, max(div_df['Standing'])]}
 
     return dict(data=plot_data, layout=layout)

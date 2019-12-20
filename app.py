@@ -8,12 +8,13 @@ from dash.dependencies import Input, Output, State
 import pandas as pd
 
 from visualize_usau_module import ranking_data, appearance_hist, spirit_correlation, \
-    COMP_DIVISIONS, get_divisions, get_regions, table_data
+    COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR
 
 style = {}
-# style={'backgroundColor': 'white'}
+# style={'backgroundColor': 'black'}
 # external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
-external_stylesheets = [dbc.themes.CERULEAN]
+external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css']
+# external_stylesheets = [dbc.themes.FLATLY]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
@@ -28,6 +29,7 @@ fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_
 app.layout = html.Div(style=style, children=[
     html.H1(children='USAU Visualization', style={
             'textAlign': 'center', 'font-weight': 'bold', 'font-size': '65px'}),
+    html.Hr(),
     html.Hr(),
     dbc.Container([
         dbc.Row([
@@ -62,6 +64,7 @@ app.layout = html.Div(style=style, children=[
             ])
         ])
     ], fluid=True),
+    html.Hr(),
     html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
 
     html.Div([dash_table.DataTable(
@@ -74,7 +77,8 @@ app.layout = html.Div(style=style, children=[
         selected_rows=list(range(len(df))),
         fixed_rows={'headers': True, 'data': 0},
         style_header={'font-weight': 'bold',
-                      'font-size': '18px'},
+                      'font-size': '18px',
+                      'backgroundColor': BACKGROUND_COLOR},
         style_table={
             'maxHeight': '300px',
             'overflowY': 'auto',
