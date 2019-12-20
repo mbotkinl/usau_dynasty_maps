@@ -62,9 +62,6 @@ app.layout = html.Div(style=style, children=[
     ]),
     # html.Div([dbc.Row(dbc.Col(html.Div(id='college_note', children='Test')), justify="center")]),
     html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
-    # todo: use colors from plot to style
-    # todo: fix initial callback error
-    # TODO: fix double scroll bar
 
     html.Div([dash_table.DataTable(
         id='ranking_table',
@@ -72,14 +69,26 @@ app.layout = html.Div(style=style, children=[
         data=df.to_dict('records'),
         style_as_list_view=True,
         row_selectable="multi",
-        # todo: fix selection before implementing this
-        # sort_action='native',
+        sort_action='native',
         selected_rows=list(range(len(df))),
         fixed_rows={'headers': True, 'data': 0},
+        style_header={'font-weight': 'bold',
+                      'font-size': '18px'},
         style_table={
             'maxHeight': '300px',
-            'overflowY': 'scroll'
+            'overflowY': 'auto',
         },
+        style_cell={'textAlign': 'center', 'width': '25%'},
+        style_data_conditional=[
+            {
+                'if': {'column_id': 'Team'},
+                'textAlign': 'left'
+            },
+            {
+                'if': {'row_index': 'odd'},
+                'backgroundColor': 'rgb(248, 248, 248)'
+            }
+        ]
     )]),
     html.Button('Select/Un-Select All', id='select-all-button'),
     html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
@@ -139,7 +148,7 @@ def select_all(n_clicks, data):
               [Input('comp_division_dropdown', 'value'),
                Input('division_dropdown', 'value'),
                Input('region_dropdown', 'value'),
-               Input('ranking_table', 'selected_rows')],
+               Input('ranking_table', 'derived_virtual_selected_rows')],
               [State('ranking_table', 'derived_virtual_data')])
 def update_ranking_figure(comp_division, division, region, rows, data):
     table_df = pd.DataFrame(data)

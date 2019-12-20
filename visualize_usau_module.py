@@ -36,12 +36,15 @@ def subset_df(comp_division, division, region):
 def table_data(comp_division, division, region='all'):
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
-        return {}
+        return pd.DataFrame()
     table_df = div_df.groupby('Team').agg(num_appearances=('year', 'count'),
                                           avg_place=('Standing', 'mean'),
                                           avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
     table_df = table_df.round(2)
     table_df = table_df.sort_values('num_appearances', ascending=False)
+    table_df = table_df.rename(columns={'num_appearances': 'Number of Appearances',
+                                        'avg_place': 'Average Placement',
+                                        'avg_spirit': 'Average Spirit Score'})
     return table_df
 
 
@@ -70,14 +73,14 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
                                     mode='lines+markers',
                                     connectgaps=False,
                                     opacity=opacity,
-                                    line={'shape': 'spline', 'smoothing': 0.7},
+                                    line={'shape': 'spline', 'smoothing': 0.5},
                                     marker={'size': 8},
                                     showlegend=False,
                                     name=t))
 
     layout = {'title': 'Nationals Placement',
               'hovermode': 'closest',
-              'height': 900,
+              'height': 760,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
               # 'xaxis': {'title': 'Year'},
               'plot_bgcolor': BACKGROUND_COLOR,
