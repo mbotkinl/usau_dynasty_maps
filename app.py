@@ -1,25 +1,31 @@
 # -*- coding: utf-8 -*-
 import dash
+import dash_table
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import dash_html_components as html
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
+import pandas as pd
 
 from visualize_usau_module import ranking_data, appearance_hist, spirit_correlation, \
-    COMP_DIVISIONS, get_divisions, get_regions
+    COMP_DIVISIONS, get_divisions, get_regions, table_data
 
-external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
-
+style = {}
+# style={'backgroundColor': 'white'}
+# external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
+external_stylesheets = [dbc.themes.CERULEAN]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 init_comp_division = COMP_DIVISIONS[0]
 init_division = get_divisions(init_comp_division)[0]['value']
-fig_rankings = ranking_data(comp_division=init_comp_division, division=init_division)
+
+df = table_data(init_comp_division, init_division)
+fig_rankings = ranking_data(comp_division=init_comp_division, division=init_division, highlight_teams=df.Team.tolist())
 fig_hist = appearance_hist(comp_division=init_comp_division, division=init_division)
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
-app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
+app.layout = html.Div(style=style, children=[
     html.H1(children='USAU Visualization'),
     dbc.Container([
         dbc.Row([
@@ -54,22 +60,38 @@ app.layout = html.Div(style={'backgroundColor': 'white'}, children=[
             ])
         ])
     ]),
+    # html.Div([dbc.Row(dbc.Col(html.Div(id='college_note', children='Test')), justify="center")]),
     html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
-    html.Div([dcc.Graph(id='appearance_graph', figure=fig_hist)]),
+    # todo: use colors from plot to style
+    # todo: fix initial callback error
+    # TODO: fix double scroll bar
+
+    html.Div([dash_table.DataTable(
+        id='ranking_table',
+        columns=[{"name": i, "id": i} for i in df.columns],
+        data=df.to_dict('records'),
+        style_as_list_view=True,
+        row_selectable="multi",
+        # todo: fix selection before implementing this
+        # sort_action='native',
+        selected_rows=list(range(len(df))),
+        fixed_rows={'headers': True, 'data': 0},
+        style_table={
+            'maxHeight': '300px',
+            'overflowY': 'scroll'
+        },
+    )]),
+    html.Button('Select/Un-Select All', id='select-all-button'),
     html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
 ])
 
 
-@app.callback([
-    Output('rankings_graph', 'figure'),
-    Output('appearance_graph', 'figure'),
-    Output('spirit_graph', 'figure')],
+@app.callback(
+    Output('spirit_graph', 'figure'),
     [Input('comp_division_dropdown', 'value'), Input('division_dropdown', 'value'), Input('region_dropdown', 'value')])
-def update_figure(comp_division, division, region):
-    new_ranking = ranking_data(comp_division, division, region)
-    new_hist = appearance_hist(comp_division, division, region)
+def update_spirit_figure(comp_division, division, region):
     new_spirit = spirit_correlation(comp_division, division, region)
-    return new_ranking, new_hist, new_spirit
+    return new_spirit
 
 
 @app.callback([Output('division_dropdown', 'options'),
@@ -88,6 +110,45 @@ def update_region_dropdown(comp_division, division):
     return region_options, region_options[0]['value']
 
 
+@app.callback(Output('ranking_table', 'data'),
+              [Input('comp_division_dropdown', 'value'),
+               Input('division_dropdown', 'value'),
+               Input('region_dropdown', 'value')])
+def update_table(comp_division, division, region):
+    table_df = table_data(comp_division, division, region)
+    return table_df.to_dict('records')
+
+
+@app.callback(
+    Output('ranking_table', "selected_rows"),
+    [Input('select-all-button', 'n_clicks'),
+     Input('ranking_table', "derived_virtual_data")]
+)
+def select_all(n_clicks, data):
+    if data is None:
+        return []
+    if n_clicks is None:
+        n_clicks = 0
+    if n_clicks % 2 == 1:
+        return []
+    else:
+        return [i for i in range(len(data))]
+
+
+@app.callback(Output('rankings_graph', 'figure'),
+              [Input('comp_division_dropdown', 'value'),
+               Input('division_dropdown', 'value'),
+               Input('region_dropdown', 'value'),
+               Input('ranking_table', 'selected_rows')],
+              [State('ranking_table', 'derived_virtual_data')])
+def update_ranking_figure(comp_division, division, region, rows, data):
+    table_df = pd.DataFrame(data)
+    if table_df.empty or (not rows):
+        teams = []
+    else:
+        teams = table_df.iloc[rows].Team.tolist()
+    new_ranking = ranking_data(comp_division, division, region, teams)
+    return new_ranking
 
 
 # @app.callback([

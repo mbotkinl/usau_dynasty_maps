@@ -11,7 +11,6 @@ MAX_HIST = 12
 
 COMP_DIVISIONS = data.comp_division.unique()
 
-
 BACKGROUND_COLOR = '#f0f0f0'
 
 
@@ -34,41 +33,56 @@ def subset_df(comp_division, division, region):
     return div_df
 
 
-# def ranking_data(comp_division, division, region='all', highlight_curve=None):
-def ranking_data(comp_division, division, region='all'):
+def table_data(comp_division, division, region='all'):
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
         return {}
-    # div_df['opacity'] = 1
-    # if highlight_curve:
-    #     div_df['opacity'] = 0.3
-    #     div_df.loc[highlight_curve, 'opacity'] = 1
+    table_df = div_df.groupby('Team').agg(num_appearances=('year', 'count'),
+                                          avg_place=('Standing', 'mean'),
+                                          avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
+    table_df = table_df.round(2)
+    table_df = table_df.sort_values('num_appearances', ascending=False)
+    return table_df
+
+
+# def ranking_data(comp_division, division, region='all', highlight_curve=None):
+def ranking_data(comp_division, division, region='all', highlight_teams=None):
+    div_df = subset_df(comp_division, division, region)
+    if highlight_teams is None:
+        highlight_teams = div_df.Team.tolist()
+    if div_df.empty:
+        return {}
     min_year = div_df.year.min()
     max_year = div_df.year.max()
     plot_data = []
     appearances = div_df.Team.value_counts()
     for t in appearances.keys():
+        if t in highlight_teams:
+            opacity = 1
+        else:
+            opacity = 0.05
         team_df = div_df[div_df.Team == t].copy()
         team_df.set_index('year', inplace=True)
-        team_df = team_df.reindex(list(range(min_year, max_year+1)), fill_value=None)
+        team_df = team_df.reindex(list(range(min_year, max_year + 1)), fill_value=None)
         plot_data.append(go.Scatter(x=team_df.index,
                                     y=team_df['Standing'],
                                     hoverinfo='y+name',
                                     mode='lines+markers',
                                     connectgaps=False,
+                                    opacity=opacity,
                                     line={'shape': 'spline', 'smoothing': 0.7},
                                     marker={'size': 8},
+                                    showlegend=False,
                                     name=t))
 
     layout = {'title': 'Nationals Placement',
               'hovermode': 'closest',
               'height': 900,
-              # 'template': TEMPLATE,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
-              'xaxis': {'title': 'Year'},
+              # 'xaxis': {'title': 'Year'},
               'plot_bgcolor': BACKGROUND_COLOR,
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Nationals Placement'}}
-                        # 'range': [1, max_placement]}}  # todo: fix range
+    # 'range': [1, max_placement]}}  # todo: fix range
 
     return dict(data=plot_data, layout=layout)
 
@@ -108,18 +122,22 @@ def spirit_correlation(comp_division, division, region='all'):
                             marker_size=df['count'] + 6,
                             hoverinfo='text',
                             hovertext=df.index.values +
-                                      '<br><sub>Apperances with reported spirit: ' + df['count'].astype(str).values + '</sub>' +
-                                      '<br><sub>Average spirit score: ' + np.round(df['avg_spirit'], decimals=2).astype(str).values + '</sub>' +
-                                      '<br><sub>Average placement: ' + np.round(df['avg_rank'], decimals=2).astype(str).values + '</sub>'
+                                      '<br><sub>Apperances with reported spirit: ' + df['count'].astype(
+                                str).values + '</sub>' +
+                                      '<br><sub>Average spirit score: ' + np.round(df['avg_spirit'], decimals=2).astype(
+                                str).values + '</sub>' +
+                                      '<br><sub>Average placement: ' + np.round(df['avg_rank'], decimals=2).astype(
+                                str).values + '</sub>'
                             ,
                             mode='markers')]
 
     # todo: subplot with size of dot
-    layout = {'title': 'Spirit Score to Placement Correlation <br><sub>Size corresponds to number of appearances with reported spirit score</sub>',
-              # 'template': TEMPLATE,
-              'plot_bgcolor': BACKGROUND_COLOR,
-              'xaxis': {'title': 'Average Spirit Score'},
-              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement'}}
-                        # 'range': [1, max(div_df['Standing'])]}}  # todo: fix range
+    layout = {
+        'title': 'Spirit Score to Placement Correlation <br><sub>Size corresponds to number of appearances with reported spirit score</sub>',
+        # 'template': TEMPLATE,
+        'plot_bgcolor': BACKGROUND_COLOR,
+        'xaxis': {'title': 'Average Spirit Score'},
+        'yaxis': {'autorange': 'reversed', 'zeroline': False, 'title': 'Average Nationals Placement'}}
+    # 'range': [1, max(div_df['Standing'])]}}  # todo: fix range
 
     return dict(data=plot_data, layout=layout)
