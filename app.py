@@ -26,7 +26,9 @@ fig_hist = appearance_hist(comp_division=init_comp_division, division=init_divis
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
 app.layout = html.Div(style=style, children=[
-    html.H1(children='USAU Visualization'),
+    html.H1(children='USAU Visualization', style={
+            'textAlign': 'center', 'font-weight': 'bold', 'font-size': '65px'}),
+    html.Hr(),
     dbc.Container([
         dbc.Row([
             dbc.Col([
@@ -59,8 +61,7 @@ app.layout = html.Div(style=style, children=[
                     value='all')
             ])
         ])
-    ]),
-    # html.Div([dbc.Row(dbc.Col(html.Div(id='college_note', children='Test')), justify="center")]),
+    ], fluid=True),
     html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
 
     html.Div([dash_table.DataTable(
@@ -91,6 +92,7 @@ app.layout = html.Div(style=style, children=[
         ]
     )]),
     html.Button('Select/Un-Select All', id='select-all-button'),
+    html.Hr(),
     html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
 ])
 
