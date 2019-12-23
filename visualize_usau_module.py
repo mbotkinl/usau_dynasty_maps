@@ -41,7 +41,7 @@ def table_data(comp_division, division, region='all'):
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
         return pd.DataFrame()
-    table_df = div_df.groupby('Team').agg(num_appearances=('year', 'count'),
+    table_df = div_df.groupby(['Region', 'Team']).agg(num_appearances=('year', 'count'),
                                           avg_place=('Standing', 'mean'),
                                           avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
     table_df = table_df.round(2)
