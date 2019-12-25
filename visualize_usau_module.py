@@ -66,14 +66,16 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
     for t in appearances.keys():
         if t in highlight_teams:
             opacity = 1
+            hover_info = 'y+name'
         else:
             opacity = 0.05
+            hover_info = 'skip'
         team_df = div_df[div_df.Team == t].copy()
         team_df.set_index('year', inplace=True)
         team_df = team_df.reindex(list(range(min_year, max_year + 1)), fill_value=None)
         plot_data.append(go.Scatter(x=team_df.index,
                                     y=team_df['Standing'],
-                                    hoverinfo='y+name',
+                                    hoverinfo=hover_info,
                                     mode='lines+markers',
                                     connectgaps=False,
                                     opacity=opacity,
@@ -84,7 +86,7 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
 
     layout = {'title': {'text': 'Nationals Placement', 'font': {'size': 35}},
               'hovermode': 'closest',
-              'height': 760,
+              'height': 740,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
               # 'xaxis': {'title': 'Year'},
               'plot_bgcolor': BACKGROUND_COLOR,

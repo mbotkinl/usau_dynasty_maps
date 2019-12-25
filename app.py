@@ -66,7 +66,8 @@ app.layout = html.Div(style=style, children=[
     ], fluid=True),
     html.Hr(),
     html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
-
+    html.H3(children='Use checkboxes in table to pick which teams to show', style={
+            'textAlign': 'center', 'font-size': '18px'}),
     html.Div([dash_table.DataTable(
         id='ranking_table',
         columns=[{"name": i, "id": i} for i in df.columns],
