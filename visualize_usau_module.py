@@ -14,8 +14,17 @@ MAX_HIST = 12
 
 COMP_DIVISIONS = data.comp_division.unique()
 
-BACKGROUND_COLOR = '#f0f0f0'
+# purples
+PLOT_BACKGROUND_COLOR = '#e0e0eb'
+BACKGROUND_COLOR_LIGHT = '#b3b3cc'
+BACKGROUND_COLOR_DARK = '#9494b8'
+
+# grays
+# PLOT_BACKGROUND_COLOR = '#f0f0f0'
+# BACKGROUND_COLOR_LIGHT = '#cccccc'
+# BACKGROUND_COLOR_DARK = '#808080'
 AXIS_TITLE_SIZE = 18
+AXIS_TICK_SIZE = 18
 
 
 def get_divisions(comp_division):
@@ -58,6 +67,7 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
     if highlight_teams is None:
         highlight_teams = div_df.Team.tolist()
     if div_df.empty:
+        print('empty div_df')
         return {}
     min_year = div_df.year.min()
     max_year = div_df.year.max()
@@ -89,8 +99,9 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
               'height': 740,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
               # 'xaxis': {'title': 'Year'},
-              'plot_bgcolor': BACKGROUND_COLOR,
-              'yaxis': {'autorange': 'reversed', 'zeroline': False,
+              'paper_bgcolor': 'rgba(0,0,0,0)',
+              'plot_bgcolor': PLOT_BACKGROUND_COLOR,
+              'yaxis': {'autorange': 'reversed', 'zeroline': False, # 'tickfont': {'size': '50px'},
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
               # 'range': [1, max(div_df['Standing'])]}
 
@@ -108,7 +119,8 @@ def appearance_hist(comp_division, division, region='all'):
     plot_data = [go.Histogram(x=hist_data.Team,
                               hoverinfo='y')]
     layout = {'title': 'Most Nationals Appearances',
-              'plot_bgcolor': BACKGROUND_COLOR,
+              'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
+              'plot_bgcolor': PLOT_BACKGROUND_COLOR,
               # 'template': TEMPLATE,
               'yaxis': {'title': 'Number of Nationals Appearance'},
               'xaxis': {'title': 'Team',
@@ -130,6 +142,7 @@ def spirit_correlation(comp_division, division, region='all'):
     plot_data = [go.Scatter(x=df['avg_spirit'],
                             y=df['avg_rank'],
                             marker_size=df['count'] + 6,
+                            marker_color=BACKGROUND_COLOR_DARK,
                             hoverinfo='text',
                             hovertext=df.index.values +
                                       '<br><sub>Apperances with reported spirit: ' + df['count'].astype(
@@ -146,7 +159,8 @@ def spirit_correlation(comp_division, division, region='all'):
                  'Size corresponds to number of appearances with reported spirit score</sub>',
                   'font': {'size': 30}},
         # 'template': TEMPLATE,
-        'plot_bgcolor': BACKGROUND_COLOR,
+        'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
+        'plot_bgcolor': PLOT_BACKGROUND_COLOR,
         'height': 550,
         'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}}},
         'yaxis': {'autorange': 'reversed', 'zeroline': False,

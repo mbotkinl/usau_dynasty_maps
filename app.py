@@ -8,12 +8,13 @@ from dash.dependencies import Input, Output, State
 import pandas as pd
 
 from visualize_usau_module import ranking_data, appearance_hist, spirit_correlation, \
-    COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR
+    COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
+    PLOT_BACKGROUND_COLOR
 
-style = {}
-# style={'backgroundColor': 'black'}
-# external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
-external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css']
+# style = {}
+style = {'backgroundColor': BACKGROUND_COLOR_LIGHT}
+external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
+# external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css']
 # external_stylesheets = [dbc.themes.FLATLY]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
@@ -27,7 +28,7 @@ fig_hist = appearance_hist(comp_division=init_comp_division, division=init_divis
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
 app.layout = html.Div(style=style, children=[
-    html.H1(children='USAU Visualization', style={
+    html.H1(children='USAU Visualization', style={'backgroundColor': BACKGROUND_COLOR_DARK,
             'textAlign': 'center', 'font-weight': 'bold', 'font-size': '65px'}),
     html.Hr(),
     html.Hr(),
@@ -41,6 +42,8 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='comp_division_dropdown',
                     options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
+                    style={'backgroundColor': BACKGROUND_COLOR_DARK},
+                    clearable=False,
                     value=init_comp_division),
             ]),
             dbc.Col([
@@ -51,6 +54,8 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='division_dropdown',
                     options=get_divisions(init_comp_division),
+                    style={'backgroundColor': BACKGROUND_COLOR_DARK},
+                    clearable=False,
                     value=init_division),
             ]),
             dbc.Col([
@@ -60,6 +65,8 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='region_dropdown',
                     options=get_regions(init_comp_division, init_division),
+                    style={'backgroundColor': BACKGROUND_COLOR_DARK},
+                    clearable=False,
                     value='all')
             ])
         ])
@@ -79,7 +86,7 @@ app.layout = html.Div(style=style, children=[
         fixed_rows={'headers': True, 'data': 0},
         style_header={'font-weight': 'bold',
                       'font-size': '18px',
-                      'backgroundColor': BACKGROUND_COLOR},
+                      'backgroundColor': BACKGROUND_COLOR_DARK},
         style_table={
             'maxHeight': '300px',
             'overflowY': 'auto',
@@ -92,11 +99,15 @@ app.layout = html.Div(style=style, children=[
             },
             {
                 'if': {'row_index': 'odd'},
-                'backgroundColor': 'rgb(248, 248, 248)'
+                'backgroundColor': BACKGROUND_COLOR_LIGHT
+            },
+            {
+                'if': {'row_index': 'even'},
+                'backgroundColor': PLOT_BACKGROUND_COLOR
             }
         ]
     )]),
-    html.Button('Select/Un-Select All', id='select-all-button'),
+    html.Button('Select/Un-Select All', id='select-all-button', style={'backgroundColor': BACKGROUND_COLOR_DARK}),
     html.Hr(),
     html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
 ])
