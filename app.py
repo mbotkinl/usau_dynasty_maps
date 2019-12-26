@@ -178,12 +178,10 @@ def select_all(n_clicks, data):
                Input('ranking_table', 'derived_virtual_selected_rows')],
               [State('ranking_table', 'derived_virtual_data')])
 def update_ranking_figure(comp_division, division, region, rows, data):
-    table_df = pd.DataFrame(data)
-    if table_df.empty or (not rows):
+    if (not data) or (not rows):
         teams = []
     else:
-        # todo: do this faster without converting to df
-        teams = table_df.iloc[rows].Team.tolist()
+        teams = [t['Team'] for i, t in enumerate(data) if i in rows]
     new_ranking = ranking_data(comp_division, division, region, teams)
     return new_ranking
 
