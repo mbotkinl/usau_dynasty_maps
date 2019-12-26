@@ -181,24 +181,5 @@ def update_ranking_figure(comp_division, division, region, rows, data):
     return new_ranking
 
 
-# @app.callback([
-#     Output('rankings_graph', 'figure'),
-#     Output('appearance_graph', 'figure'),
-#     Output('spirit_graph', 'figure')],
-#     [Input('division_dropdown', 'value'),
-#      Input('region_dropdown', 'value'),
-#      Input('rankings_graph', 'clickData')])
-# def update_figure(division, region, click_data):
-#     curve_number = None
-#     if click_data:
-#         print(click_data)
-#         curve_number = click_data['points'][0]['curveNumber']
-#         print(curve_number)
-#     new_ranking = ranking_data(division, region, curve_number)
-#     new_hist = appearance_hist(division, region)
-#     new_spirit = spirit_correlation(division, region)
-#     return new_ranking, new_hist, new_spirit
-
-
 if __name__ == '__main__':
     app.run_server(debug=True)

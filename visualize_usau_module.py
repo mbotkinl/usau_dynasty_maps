@@ -77,14 +77,13 @@ def table_data(comp_division, division, region='all'):
     return table_df
 
 
-# def ranking_data(comp_division, division, region='all', highlight_curve=None):
 def ranking_data(comp_division, division, region='all', highlight_teams=None):
     div_df = subset_df(comp_division, division, region)
     if highlight_teams is None:
         highlight_teams = div_df.Team.tolist()
     if div_df.empty:
         print('empty div_df')
-        return {}
+        return None
     min_year = div_df.year.min()
     max_year = div_df.year.max()
     plot_data = []
