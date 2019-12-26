@@ -122,14 +122,6 @@ app.layout = html.Div(style=style, children=[
 ])
 
 
-@app.callback(
-    Output('spirit_graph', 'figure'),
-    [Input('comp_division_dropdown', 'value'), Input('division_dropdown', 'value'), Input('region_dropdown', 'value')])
-def update_spirit_figure(comp_division, division, region):
-    new_spirit = spirit_correlation(comp_division, division, region)
-    return new_spirit
-
-
 @app.callback([Output('division_dropdown', 'options'),
                Output('division_dropdown', 'value')],
               [Input('comp_division_dropdown', 'value')])
@@ -184,6 +176,22 @@ def update_ranking_figure(comp_division, division, region, rows, data):
         teams = [t['Team'] for i, t in enumerate(data) if i in rows]
     new_ranking = ranking_data(comp_division, division, region, teams)
     return new_ranking
+
+
+@app.callback(
+    Output('spirit_graph', 'figure'),
+    [Input('comp_division_dropdown', 'value'),
+     Input('division_dropdown', 'value'),
+     Input('region_dropdown', 'value'),
+     Input('ranking_table', 'derived_virtual_selected_rows')],
+    [State('ranking_table', 'derived_virtual_data')])
+def update_spirit_figure(comp_division, division, region, rows, data):
+    if (not data) or (not rows):
+        teams = []
+    else:
+        teams = [t['Team'] for i, t in enumerate(data) if i in rows]
+    new_spirit = spirit_correlation(comp_division, division, region, teams)
+    return new_spirit
 
 
 if __name__ == '__main__':

@@ -10,9 +10,7 @@ TEMPLATE = 'plotly_dark'
 
 data = pd.read_csv('./data/national_data.csv')
 
-
 COMP_DIVISIONS = data.comp_division.unique()
-
 
 PLOT_BACKGROUND_COLOR = '#FDFDFF'
 BACKGROUND_COLOR_LIGHT = '#C6C5B9'
@@ -38,6 +36,8 @@ BACKGROUND_COLOR_DARK = '#62929E'
 # BACKGROUND_COLOR_DARK = '#808080'
 
 AXIS_TITLE_SIZE = 18
+
+
 # AXIS_TICK_SIZE = 18
 
 
@@ -66,8 +66,8 @@ def table_data(comp_division, division, region='all'):
         return pd.DataFrame()
     # table_df = div_df.groupby(['Region', 'Team']).agg(num_appearances=('year', 'count'),
     table_df = div_df.groupby(['Team']).agg(num_appearances=('year', 'count'),
-                                          avg_place=('Standing', 'mean'),
-                                          avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
+                                            avg_place=('Standing', 'mean'),
+                                            avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
     table_df = table_df.round(2)
     table_df = table_df.sort_values('num_appearances', ascending=False)
     table_df = table_df.rename(columns={'num_appearances': 'Number of Appearances',
@@ -114,52 +114,72 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
               # 'xaxis': {'title': 'Year'},
               'paper_bgcolor': 'rgba(0,0,0,0)',
               'plot_bgcolor': PLOT_BACKGROUND_COLOR,
-              'yaxis': {'autorange': 'reversed', 'zeroline': False, # 'tickfont': {'size': '50px'},
+              'yaxis': {'autorange': 'reversed', 'zeroline': False,  # 'tickfont': {'size': '50px'},
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
-              # 'range': [1, max(div_df['Standing'])]}
+    # 'range': [1, max(div_df['Standing'])]}
 
     return dict(data=plot_data, layout=layout)
 
 
-def spirit_correlation(comp_division, division, region='all'):
+def spirit_correlation(comp_division, division, region='all', highlight_teams=None):
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
-        return {}
-    df = div_df.groupby('Team').agg(count=('year', 'count'),
-                                    avg_spirit=('SpiritScores', np.nanmean),
-                                    avg_rank=('Standing', np.nanmean)
-                                    )
-    df = df[pd.notna(df.avg_spirit)]
-    if df.empty:
-        return {}
-    plot_data = [go.Scatter(x=df['avg_spirit'],
-                            y=df['avg_rank'],
-                            marker_size=df['count'] + 6,
-                            marker_color=BACKGROUND_COLOR_DARK,
-                            hoverinfo='text',
-                            hovertext=df.index.values +
-                                      '<br><sub>Apperances with reported spirit: ' + df['count'].astype(
-                                str).values + '</sub>' +
-                                      '<br><sub>Average spirit score: ' + np.round(df['avg_spirit'], decimals=2).astype(
-                                str).values + '</sub>' +
-                                      '<br><sub>Average placement: ' + np.round(df['avg_rank'], decimals=2).astype(
-                                str).values + '</sub>'
-                            ,
-                            mode='markers')]
+        return None
+
+    plot_data = []
+    if highlight_teams is None:
+        highlight_teams = div_df.Team.tolist()
+
+    if highlight_teams:
+        df = div_df[div_df['Team'].isin(highlight_teams)]. \
+            groupby('Team').agg(count=('year', 'count'),
+                                avg_spirit=('SpiritScores', np.nanmean),
+                                avg_rank=('Standing', np.nanmean))
+        df = df[pd.notna(df.avg_spirit)]
+        if not df.empty:
+            plot_data = [go.Scatter(x=df['avg_spirit'],
+                                    y=df['avg_rank'],
+                                    marker_size=df['count'] + 6,
+                                    marker_color=BACKGROUND_COLOR_DARK,
+                                    hoverinfo='text',
+                                    hovertext=df.index.values +
+                                              '<br><sub>Apperances with reported spirit: ' + df['count'].astype(
+                                        str).values + '</sub>' +
+                                              '<br><sub>Average spirit score: ' + np.round(df['avg_spirit'], decimals=2).astype(
+                                        str).values + '</sub>' +
+                                              '<br><sub>Average placement: ' + np.round(df['avg_rank'], decimals=2).astype(
+                                        str).values + '</sub>'
+                                    ,
+                                    mode='markers')]
+    if any(~div_df['Team'].isin(highlight_teams)):
+        df_clear = div_df[~div_df['Team'].isin(highlight_teams)]. \
+            groupby('Team').agg(count=('year', 'count'),
+                                avg_spirit=('SpiritScores', np.nanmean),
+                                avg_rank=('Standing', np.nanmean))
+        df_clear = df_clear[pd.notna(df_clear.avg_spirit)]
+        if not df_clear.empty:
+            plot_data += [go.Scatter(x=df_clear['avg_spirit'],
+                                     y=df_clear['avg_rank'],
+                                     marker_size=df_clear['count'] + 6,
+                                     marker_color=BACKGROUND_COLOR_DARK,
+                                     hoverinfo='text',
+                                     opacity=0.2,
+                                     mode='markers')]
 
     layout = {
         'title': {'text': 'Spirit Score to Placement Correlation <br><sub>'
-                 'Size corresponds to number of appearances with reported spirit score</sub>',
+                          'Size corresponds to number of appearances with reported spirit score</sub>',
                   'font': {'size': 30}},
         # 'template': TEMPLATE,
         'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
         'plot_bgcolor': PLOT_BACKGROUND_COLOR,
+        'showlegend': False,
         'height': 550,
         'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}}},
         'yaxis': {'autorange': 'reversed', 'zeroline': False,
                   'title': {'text': 'Average Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}
                   }
     }
-        # 'range': [1, max(div_df['Standing'])]}
+    # 'range': [1, max(div_df['Standing'])]}
 
     return dict(data=plot_data, layout=layout)
