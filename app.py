@@ -75,7 +75,12 @@ app.layout = html.Div(style=style, children=[
         ])
     ], fluid=True),
     html.Hr(),
-    html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
+    dcc.Loading(
+        id="loading-rankings",
+        children=[html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)])],
+        type="circle",
+    ),
+    # html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
     html.H3(children='Use checkboxes in table to pick which teams to show', style={
             'textAlign': 'center', 'font-size': '18px'}),
     html.Div([dash_table.DataTable(
@@ -112,7 +117,12 @@ app.layout = html.Div(style=style, children=[
     )]),
     html.Button('Select/Un-Select All', id='select-all-button', style={'backgroundColor': BACKGROUND_COLOR_DARK}),
     html.Hr(),
-    html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
+    dcc.Loading(
+        id="loading-spirit",
+        children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
+        type="circle",
+    )
+    # html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
 ])
 
 
@@ -176,6 +186,7 @@ def update_ranking_figure(comp_division, division, region, rows, data):
     if table_df.empty or (not rows):
         teams = []
     else:
+        # todo: do this faster without converting to df
         teams = table_df.iloc[rows].Team.tolist()
     new_ranking = ranking_data(comp_division, division, region, teams)
     return new_ranking

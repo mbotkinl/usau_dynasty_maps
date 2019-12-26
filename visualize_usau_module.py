@@ -82,7 +82,6 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
     if highlight_teams is None:
         highlight_teams = div_df.Team.tolist()
     if div_df.empty:
-        print('empty div_df')
         return None
     min_year = div_df.year.min()
     max_year = div_df.year.max()
