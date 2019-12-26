@@ -7,12 +7,9 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 import pandas as pd
 
-from visualize_usau_module import ranking_data, appearance_hist, spirit_correlation, \
+from visualize_usau_module import ranking_data, spirit_correlation, \
     COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
     PLOT_BACKGROUND_COLOR
-
-# TODO: show current region/division or past region/division
-# if we show current region/division then there will still be teams in old regions
 
 # style = {}
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT}
@@ -27,7 +24,6 @@ init_division = get_divisions(init_comp_division)[0]['value']
 
 df = table_data(init_comp_division, init_division)
 fig_rankings = ranking_data(comp_division=init_comp_division, division=init_division, highlight_teams=df.Team.tolist())
-fig_hist = appearance_hist(comp_division=init_comp_division, division=init_division)
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
 app.layout = html.Div(style=style, children=[

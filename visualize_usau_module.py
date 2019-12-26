@@ -10,7 +10,6 @@ TEMPLATE = 'plotly_dark'
 
 data = pd.read_csv('./data/national_data.csv')
 
-MAX_HIST = 12
 
 COMP_DIVISIONS = data.comp_division.unique()
 
@@ -119,26 +118,6 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
               # 'range': [1, max(div_df['Standing'])]}
 
-    return dict(data=plot_data, layout=layout)
-
-
-def appearance_hist(comp_division, division, region='all'):
-    div_df = subset_df(comp_division, division, region)
-    if div_df.empty:
-        return {}
-    appearances = div_df.Team.value_counts()
-    hist_data = div_df[div_df.Team.isin(appearances.iloc[0:min(len(appearances), MAX_HIST)].index.values)]
-    if hist_data.empty:
-        return {}
-    plot_data = [go.Histogram(x=hist_data.Team,
-                              hoverinfo='y')]
-    layout = {'title': 'Most Nationals Appearances',
-              'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
-              'plot_bgcolor': PLOT_BACKGROUND_COLOR,
-              # 'template': TEMPLATE,
-              'yaxis': {'title': 'Number of Nationals Appearance'},
-              'xaxis': {'title': 'Team',
-                        'categoryorder': 'total descending'}}
     return dict(data=plot_data, layout=layout)
 
 
