@@ -8,6 +8,8 @@ COLLEGE_DIV_NAMES = [['D-I ', 'Open'], ['D-I ', 'Men\'s'], ['D-I ', 'Women\'s'],
 COLLEGE_DIV_NAMES_2 = ['College Championships: Open Division',
                        'College Championships: Women\'s Division']
 
+# todo: double check all for spelling/duplicate teams (use fuzzy matching) after region/division rework
+
 
 def parse_college_div(divisions):
     new_divs = []

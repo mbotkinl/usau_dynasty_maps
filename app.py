@@ -11,10 +11,13 @@ from visualize_usau_module import ranking_data, appearance_hist, spirit_correlat
     COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
     PLOT_BACKGROUND_COLOR
 
+# TODO: show current region/division or past region/division
+# if we show current region/division then there will still be teams in old regions
+
 # style = {}
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT}
-external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
-# external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css']
+# external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
+external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css']
 # external_stylesheets = [dbc.themes.FLATLY]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
@@ -91,7 +94,7 @@ app.layout = html.Div(style=style, children=[
             'maxHeight': '300px',
             'overflowY': 'auto',
         },
-        style_cell={'textAlign': 'center', 'width': '20%'},
+        style_cell={'textAlign': 'center', 'width': '25%'},
         style_data_conditional=[
             {
                 'if': {'column_id': 'Team'},
