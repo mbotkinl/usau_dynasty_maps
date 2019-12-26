@@ -168,7 +168,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,NEW YORK,Northeast,MENS,1988,Club,
 5,LOONEY TUNES,Mid Atlantic,MENS,1988,Club,
 5,CONDORS,West,MENS,1988,Club,
-7,GRAFITTI,Northeast,MENS,1988,Club,
+7,GRAFFITI,Northeast,MENS,1988,Club,
 7,POLO CLUB,West,MENS,1988,Club,
 9,PHILMORE,Mid Atlantic,MENS,1988,Club,
 9,MIAMI,South,MENS,1988,Club,
@@ -757,7 +757,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,PRIME,Northwest,WOMENS,2000,Club,
 3,FURY,Northwest,WOMENS,2000,Club,
 5,BACKHOE,Mid Atlantic,WOMENS,2000,Club,
-5,HOMEBROOD,Northwest,WOMENS,2000,Club,
+5,HOME BROOD,Northwest,WOMENS,2000,Club,
 5,BURBAN SPRAWL,South,WOMENS,2000,Club,
 5,RARE AIR,Southwest,WOMENS,2000,Club,
 9,PHILLY PEPPERS,Mid Atlantic,WOMENS,2000,Club,
@@ -986,7 +986,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 1,DONNER PARTY,Northwest,MIXED,2003,Club,4.14
 2,HANG TIME,South,MIXED,2003,Club,4.57
 3,B+,Mid Atlantic,MIXED,2003,Club,4.13
-3,HOLES AND POLES,South,MIXED,2003,Club,4.64
+3,HOLES & POLES,South,MIXED,2003,Club,4.64
 5,RED FISH BLUE FISH,Northwest,MIXED,2003,Club,4.38
 6,BLAH,Central,MIXED,2003,Club,4.39
 7,DRIVE THRU LIQUOR,Southwest,MIXED,2003,Club,4.25
@@ -1068,7 +1068,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,BRASS MONKEY,Northwest,MIXED,2004,Club,4.33
 3,6 TRAINED MONKEYS,Northeast,MIXED,2004,Club,4.33
 5,BAD LARRY,Southwest,MIXED,2004,Club,4.25
-5,HOLES AND POLES,South,MIXED,2004,Club,3.0
+5,HOLES & POLES,South,MIXED,2004,Club,3.0
 7,DRIVE THRU LIQUOR,Southwest,MIXED,2004,Club,3.86
 8,B+,Mid Atlantic,MIXED,2004,Club,4.0
 9,RED FISH BLUE FISH,Northwest,MIXED,2004,Club,4.14
@@ -1187,7 +1187,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 10,BOX LUNCH,Southwest,WOMENS,2005,Club,4.14
 11,SCHWA,Northwest,WOMENS,2005,Club,4.25
 12,BNOGO,Mid Atlantic,WOMENS,2005,Club,4.13
-13,HOMEBROOD,Northwest,WOMENS,2005,Club,3.5
+13,HOME BROOD,Northwest,WOMENS,2005,Club,3.5
 14,MOJO,Central,WOMENS,2005,Club,4.0
 15,BAIT,Central,WOMENS,2005,Club,4.56
 16,ZANZARA,South,WOMENS,2005,Club,4.75
@@ -1489,7 +1489,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 8,JOHNNY BRAVO,Southwest,MENS,2009,Club,4.5
 9,TRUCK STOP,Mid Atlantic,MENS,2009,Club,4.38
 10,MADISON CLUB,Central,MENS,2009,Club,2.0
-11,BOHDI,Northeast,MENS,2009,Club,4.57
+11,BODHI,Northeast,MENS,2009,Club,4.57
 12,GOAT,Northeast,MENS,2009,Club,3.63
 13,MADCOW,Central,MENS,2009,Club,3.71
 14,MACHINE,Central,MENS,2009,Club,3.57
@@ -1669,7 +1669,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 12,Bentley,New England,D-III Women's,2010,College,4.8
 1,BLACKBIRD,Northwest,MIXED,2011,Club,3.94
 2,POLAR BEARS,Northwest,MIXED,2011,Club,3.86
-3,DISCTRICT 5,Northeast,MIXED,2011,Club,4.14
+3,DISTRICT 5,Northeast,MIXED,2011,Club,4.14
 3,WOLVERWINES,Northwest,MIXED,2011,Club,2.86
 5,SLOW WHITE,Northeast,MIXED,2011,Club,4.29
 6,THE GHOSTS,Northeast,MIXED,2011,Club,4.0
@@ -1792,7 +1792,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,DRAG'N THRUST,North Central,MIXED,2012,Club,3.57
 3,MISCHIEF,Southwest,MIXED,2012,Club,3.75
 5,COSA NOSTRA,South Central,MIXED,2012,Club,3.38
-6,ODYSSEE,Northeast,MIXED,2012,Club,3.86
+6,ODYSSÉE.,Northeast,MIXED,2012,Club,3.86
 7,CHAD LARSON EXPERIENCE,North Central,MIXED,2012,Club,3.83
 7,THE GHOSTS,Northeast,MIXED,2012,Club,4.0
 9,BUCKET,Southeast,MIXED,2012,Club,3.83
@@ -1936,7 +1936,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 11,THE DOH ABIDES,Northwest,MIXED,2013,Club,4.0
 12,CAHOOTS,Southeast,MIXED,2013,Club,4.17
 13,7 FIGURES,Southwest,MIXED,2013,Club,4.25
-14,7EXPRESS,Northeast,MIXED,2013,Club,4.0
+14,7 EXPRESS,Northeast,MIXED,2013,Club,4.0
 15,AMBIGUOUS GREY,Mid Atlantic,MIXED,2013,Club,3.83
 16,STEAMBOAT,Great Lakes,MIXED,2013,Club,4.5
 1,SCANDAL,Mid Atlantic,WOMENS,2013,Club,4.36
@@ -2412,7 +2412,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 7,DRAG'N THRUST,North Central,MIXED,2017,Club,11.25
 8,METRO NORTH,Northeast,MIXED,2017,Club,13.0
 9,NO TOUCHING!,North Central,MIXED,2017,Club,10.14
-9,SHAME,South Central,MIXED,2017,Club,10.83
+9,SHAME.,South Central,MIXED,2017,Club,10.83
 11,BLACKBIRD,Southwest,MIXED,2017,Club,11.14
 12,TORO,Southeast,MIXED,2017,Club,10.43
 13,MISCHIEF,Southwest,MIXED,2017,Club,11.29
@@ -2537,7 +2537,7 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 12,JUGHANDLE,Mid Atlantic,MIXED,2018,Club,11.86
 13,SLOW WHITE,Northeast,MIXED,2018,Club,11.43
 14,NO TOUCHING!,North Central,MIXED,2018,Club,11.0
-15,COLUMBUS COCKTAILS,Great Lakes,MIXED,2018,Club,12.29
+15,COCKTAILS,Great Lakes,MIXED,2018,Club,12.29
 16,POLAR BEARS,Southwest,MIXED,2018,Club,11.57
 1,FURY,Southwest,WOMENS,2018,Club,11.2
 2,BRUTE SQUAD,Northeast,WOMENS,2018,Club,9.6
