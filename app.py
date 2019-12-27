@@ -23,6 +23,8 @@ server = app.server
 # todo: Set what shows on tab in browser
 # todo: images? background image for title??
 
+# TODO: error when switching from club women northeast to college
+
 HEADER_2_SIZE = '30px'
 
 init_comp_division = COMP_DIVISIONS[0]
@@ -52,7 +54,7 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='comp_division_dropdown',
                     options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
-                    style={'backgroundColor': PLOT_BACKGROUND_COLOR},
+                    style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
                     clearable=False,
                     value=init_comp_division),
             ]),
@@ -64,7 +66,7 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='division_dropdown',
                     options=get_divisions(init_comp_division),
-                    style={'backgroundColor': PLOT_BACKGROUND_COLOR},
+                    style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
                     clearable=False,
                     value=init_division),
             ]),
@@ -75,7 +77,7 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='region_dropdown',
                     options=get_regions(init_comp_division, init_division),
-                    style={'backgroundColor': PLOT_BACKGROUND_COLOR},
+                    style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
                     clearable=False,
                     value='all')
             ])
