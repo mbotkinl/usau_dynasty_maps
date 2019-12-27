@@ -12,12 +12,18 @@ from visualize_usau_module import ranking_data, spirit_correlation, \
     PLOT_BACKGROUND_COLOR
 
 # style = {}
-style = {'backgroundColor': BACKGROUND_COLOR_LIGHT}
+style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 # external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css']
 # external_stylesheets = [dbc.themes.FLATLY]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+# app.title = 'Test'
 server = app.server
+
+# todo: Set what shows on tab in browser
+# todo: images? background image for title??
+
+HEADER_2_SIZE = '30px'
 
 init_comp_division = COMP_DIVISIONS[0]
 init_division = get_divisions(init_comp_division)[0]['value']
@@ -27,15 +33,15 @@ fig_rankings = ranking_data(comp_division=init_comp_division, division=init_divi
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
 # TODO: write this
-intro_paragraph = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus aliquam eleifend mi in. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Risus ultricies tristique nulla aliquet enim tortor at. Habitant morbi tristique senectus et netus. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Feugiat vivamus at augue eget. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Lacinia at quis risus sed vulputate. Vel pharetra vel turpis nunc eget lorem. Tellus integer feugiat scelerisque varius morbi enim nunc. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Sit amet porttitor eget dolor morbi non arcu risus quis. Vivamus at augue eget arcu. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Iaculis urna id volutpat lacus laoreet non. Sed nisi lacus sed viverra tellus.'
-
+intro_paragraph = 'INTRO HERE <br> Use checkboxes in table to pick which teams to show'
 app.layout = html.Div(style=style, children=[
     html.H1(children='USA Ultimate Data Project', style={'backgroundColor': BACKGROUND_COLOR_DARK,
                                                          'textAlign': 'center', 'font-weight': 'bold',
-                                                         'font-size': '65px'}),
-    html.Hr(),
+                                                         'font-size': '65px', 'padding': 40}),
     html.P(children=intro_paragraph),
-    html.Hr(),
+    html.H2(children='Data Subsetting', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+                                               'textAlign': 'center', 'padding': 10,
+                                               'font-size': HEADER_2_SIZE}),
     dbc.Container([
         dbc.Row([
             dbc.Col([
@@ -46,7 +52,7 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='comp_division_dropdown',
                     options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
-                    style={'backgroundColor': BACKGROUND_COLOR_DARK},
+                    style={'backgroundColor': PLOT_BACKGROUND_COLOR},
                     clearable=False,
                     value=init_comp_division),
             ]),
@@ -58,7 +64,7 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='division_dropdown',
                     options=get_divisions(init_comp_division),
-                    style={'backgroundColor': BACKGROUND_COLOR_DARK},
+                    style={'backgroundColor': PLOT_BACKGROUND_COLOR},
                     clearable=False,
                     value=init_division),
             ]),
@@ -69,21 +75,15 @@ app.layout = html.Div(style=style, children=[
                 dcc.Dropdown(
                     id='region_dropdown',
                     options=get_regions(init_comp_division, init_division),
-                    style={'backgroundColor': BACKGROUND_COLOR_DARK},
+                    style={'backgroundColor': PLOT_BACKGROUND_COLOR},
                     clearable=False,
                     value='all')
             ])
         ])
-    ], fluid=True),
-    html.Hr(),
-    dcc.Loading(
-        id="loading-rankings",
-        children=[html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)])],
-        type="circle",
-    ),
-    # html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
-    html.H3(children='Use checkboxes in table to pick which teams to show', style={
-        'textAlign': 'center', 'font-size': '18px'}),
+    ], fluid=True, style={'padding': 20}),
+    html.H2(children='Team Summary Table', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+                                                  'textAlign': 'center', 'padding': 10,
+                                                  'font-size': HEADER_2_SIZE}),
     html.Div([dash_table.DataTable(
         id='ranking_table',
         columns=[{"name": i, "id": i} for i in df.columns],
@@ -95,12 +95,12 @@ app.layout = html.Div(style=style, children=[
         fixed_rows={'headers': True, 'data': 0},
         style_header={'font-weight': 'bold',
                       'font-size': '18px',
-                      'backgroundColor': BACKGROUND_COLOR_DARK},
+                      'backgroundColor': BACKGROUND_COLOR_LIGHT},
         style_table={
             'maxHeight': '300px',
             'overflowY': 'auto',
         },
-        style_cell={'textAlign': 'center', 'width': '25%'},
+        style_cell={'textAlign': 'center', 'width': '25%', 'font_family': 'Arial'},
         style_data_conditional=[
             {
                 'if': {'column_id': 'Team'},
@@ -115,9 +115,23 @@ app.layout = html.Div(style=style, children=[
                 'backgroundColor': PLOT_BACKGROUND_COLOR
             }
         ]
-    )]),
-    html.Button('Select/Un-Select All', id='select-all-button', style={'backgroundColor': BACKGROUND_COLOR_DARK}),
-    html.Hr(),
+    )], style={'padding': 10}),
+    html.Div([html.Button('Select/Un-Select All', id='select-all-button',
+                          style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 10}),
+    html.H2(children='Nationals Placement by Year', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+                                                           'textAlign': 'center','padding': 10,
+                                                           'font-size': HEADER_2_SIZE}),
+    dcc.Loading(
+        id="loading-rankings",
+        children=[html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)])],
+        type="circle",
+    ),
+    # html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
+    html.H2(children='Spirit Score to Placement Correlation',
+            style={'backgroundColor': BACKGROUND_COLOR_DARK, 'textAlign': 'center', 'padding': 10,
+                   'font-size': HEADER_2_SIZE}),
+    html.H3(children='Size corresponds to number of appearances with reported spirit score',
+            style={'textAlign': 'center', 'font-size': '18px'}),
     dcc.Loading(
         id="loading-spirit",
         children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
@@ -141,7 +155,8 @@ app.layout = html.Div(style=style, children=[
                                  'width': '3%',
                              }
                          )
-                     ], href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank")])
+                     ], href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank",
+                         style={'align': 'center'})])
 ])
 
 

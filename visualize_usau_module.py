@@ -109,13 +109,13 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
                                     showlegend=False,
                                     name=t))
 
-    layout = {'title': {'text': 'Nationals Placement', 'font': {'size': 35}},
-              'hovermode': 'closest',
+    layout = {'hovermode': 'closest',
               'height': 740,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
               # 'xaxis': {'title': 'Year'},
               'paper_bgcolor': 'rgba(0,0,0,0)',
               'plot_bgcolor': PLOT_BACKGROUND_COLOR,
+              'margin': {'t': 0},
               'xaxis': {'fixedrange': True},
               'yaxis': {'autorange': 'reversed', 'zeroline': False,  'fixedrange': True,
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
@@ -170,14 +170,12 @@ def spirit_correlation(comp_division, division, region='all', highlight_teams=No
                                      mode='markers')]
 
     layout = {
-        'title': {'text': 'Spirit Score to Placement Correlation <br><sub>'
-                          'Size corresponds to number of appearances with reported spirit score</sub>',
-                  'font': {'size': 30}},
         # 'template': TEMPLATE,
         'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
         'plot_bgcolor': PLOT_BACKGROUND_COLOR,
         'showlegend': False,
         'height': 550,
+        'margin': {'t': 0},
         'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}},
                   'fixedrange': True},
         'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
