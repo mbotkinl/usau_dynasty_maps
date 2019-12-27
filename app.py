@@ -11,9 +11,6 @@ from visualize_usau_module import ranking_data, spirit_correlation, \
     COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
     PLOT_BACKGROUND_COLOR
 
-# TODO: add intro paragraph
-# TODO: change wording
-
 # style = {}
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT}
 # external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
@@ -29,10 +26,15 @@ df = table_data(init_comp_division, init_division)
 fig_rankings = ranking_data(comp_division=init_comp_division, division=init_division, highlight_teams=df.Team.tolist())
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
+# TODO: write this
+intro_paragraph = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus aliquam eleifend mi in. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Risus ultricies tristique nulla aliquet enim tortor at. Habitant morbi tristique senectus et netus. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Feugiat vivamus at augue eget. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Lacinia at quis risus sed vulputate. Vel pharetra vel turpis nunc eget lorem. Tellus integer feugiat scelerisque varius morbi enim nunc. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Sit amet porttitor eget dolor morbi non arcu risus quis. Vivamus at augue eget arcu. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Iaculis urna id volutpat lacus laoreet non. Sed nisi lacus sed viverra tellus.'
+
 app.layout = html.Div(style=style, children=[
-    html.H1(children='USAU Visualization', style={'backgroundColor': BACKGROUND_COLOR_DARK,
-            'textAlign': 'center', 'font-weight': 'bold', 'font-size': '65px'}),
+    html.H1(children='USA Ultimate Data Project', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+                                                         'textAlign': 'center', 'font-weight': 'bold',
+                                                         'font-size': '65px'}),
     html.Hr(),
+    html.P(children=intro_paragraph),
     html.Hr(),
     dbc.Container([
         dbc.Row([
@@ -81,7 +83,7 @@ app.layout = html.Div(style=style, children=[
     ),
     # html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
     html.H3(children='Use checkboxes in table to pick which teams to show', style={
-            'textAlign': 'center', 'font-size': '18px'}),
+        'textAlign': 'center', 'font-size': '18px'}),
     html.Div([dash_table.DataTable(
         id='ranking_table',
         columns=[{"name": i, "id": i} for i in df.columns],
@@ -120,8 +122,26 @@ app.layout = html.Div(style=style, children=[
         id="loading-spirit",
         children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
         type="circle",
-    )
-    # html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])
+    ),
+    html.P(children=['©2019 by Micah Botkin-Levy.',
+                     html.A([
+                         html.Img(
+                             src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png',
+                             style={
+                                 'height': '3%',
+                                 'width': '3%',
+                             }
+                         )
+                     ], href='https://www.linkedin.com/in/micahbotkinlevy/', target="_blank"),
+                     html.A([
+                         html.Img(
+                             src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
+                             style={
+                                 'height': '3%',
+                                 'width': '3%',
+                             }
+                         )
+                     ], href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank")])
 ])
 
 
