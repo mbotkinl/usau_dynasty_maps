@@ -11,6 +11,9 @@ from visualize_usau_module import ranking_data, spirit_correlation, \
     COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
     PLOT_BACKGROUND_COLOR
 
+# TODO: add intro paragraph
+# TODO: change wording
+
 # style = {}
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT}
 # external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']

@@ -12,6 +12,8 @@ data = pd.read_csv('./data/national_data.csv')
 
 COMP_DIVISIONS = data.comp_division.unique()
 
+# TODO: work on theme
+
 PLOT_BACKGROUND_COLOR = '#FDFDFF'
 BACKGROUND_COLOR_LIGHT = '#C6C5B9'
 BACKGROUND_COLOR_DARK = '#62929E'
@@ -114,7 +116,8 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
               # 'xaxis': {'title': 'Year'},
               'paper_bgcolor': 'rgba(0,0,0,0)',
               'plot_bgcolor': PLOT_BACKGROUND_COLOR,
-              'yaxis': {'autorange': 'reversed', 'zeroline': False,  # 'tickfont': {'size': '50px'},
+              'xaxis': {'fixedrange': True},
+              'yaxis': {'autorange': 'reversed', 'zeroline': False,  'fixedrange': True,
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
     # 'range': [1, max(div_df['Standing'])]}
 
@@ -175,8 +178,9 @@ def spirit_correlation(comp_division, division, region='all', highlight_teams=No
         'plot_bgcolor': PLOT_BACKGROUND_COLOR,
         'showlegend': False,
         'height': 550,
-        'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}}},
-        'yaxis': {'autorange': 'reversed', 'zeroline': False,
+        'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}},
+                  'fixedrange': True},
+        'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
                   'title': {'text': 'Average Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}
                   }
     }
