@@ -18,8 +18,9 @@ app.title = 'USAU Data Project'
 server = app.server
 
 HEADER_2_SIZE = '30px'
-BACKGROUND_IMAGE = 'https://www.naturesseed.com/media/cache/1200x400/e47cf16f3d5bd49571ce8f0606b63dc4/b/e/best-grass-seed-choices-for-athletic-fields.jpg'
-
+BACKGROUND_IMAGE = app.get_asset_url('turf.jpg')
+LINKEDIN_IMAGE = app.get_asset_url('LinkedIn.png')
+GITHUB_IMAGE = app.get_asset_url('GitHub.png')
 # todo: parallax scrolling working on mobile
 # todo: section by background (alltrails)
 
@@ -159,7 +160,7 @@ app.layout = html.Div(style=style, children=[
     html.Div([html.P(children=['©2019 by Micah Botkin-Levy.',
                                html.A([
                                    html.Img(
-                                       src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png',
+                                       src=LINKEDIN_IMAGE,
                                        style={
                                            'height': '3%',
                                            'width': '3%',
@@ -168,7 +169,7 @@ app.layout = html.Div(style=style, children=[
                                ], href='https://www.linkedin.com/in/micahbotkinlevy/', target="_blank"),
                                html.A([
                                    html.Img(
-                                       src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
+                                       src=GITHUB_IMAGE,
                                        style={
                                            'height': '3%',
                                            'width': '3%',
