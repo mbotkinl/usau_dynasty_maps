@@ -3,20 +3,21 @@ from plotly.colors import DEFAULT_PLOTLY_COLORS
 import pandas as pd
 import numpy as np
 
-# import plotly.io as pio
-# pio.templates.default = "plotly_dark"
-
-TEMPLATE = 'plotly_dark'
-
 data = pd.read_csv('./data/national_data.csv')
 
 COMP_DIVISIONS = data.comp_division.unique()
 
 # TODO: work on theme
 
-PLOT_BACKGROUND_COLOR = '#FDFDFF'
-BACKGROUND_COLOR_LIGHT = '#C6C5B9'
-BACKGROUND_COLOR_DARK = '#62929E'
+PLOT_BACKGROUND_COLOR = '#f0f0f0'
+BACKGROUND_COLOR_LIGHT = '#DAE1D4'
+# BACKGROUND_COLOR_LIGHT = '#DAE3D3'
+BACKGROUND_COLOR_DARK = '#1a6600'
+
+# ok theme
+# PLOT_BACKGROUND_COLOR = '#FDFDFF'
+# BACKGROUND_COLOR_LIGHT = '#C6C5B9'
+# BACKGROUND_COLOR_DARK = '#62929E'
 
 # https://www.w3schools.com/colors/colors_picker.asp
 # https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff

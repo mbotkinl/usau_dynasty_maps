@@ -23,10 +23,10 @@ server = app.server
 # todo: Set what shows on tab in browser
 # todo: images? background image for title??
 
-# TODO: error when switching from club women northeast to college
-
 HEADER_2_SIZE = '30px'
+BACKGROUND_IMAGE = 'https://www.naturesseed.com/media/cache/1200x400/e47cf16f3d5bd49571ce8f0606b63dc4/b/e/best-grass-seed-choices-for-athletic-fields.jpg'
 
+# todo: change to start with women/mixed
 init_comp_division = COMP_DIVISIONS[0]
 init_division = get_divisions(init_comp_division)[0]['value']
 
@@ -34,14 +34,34 @@ df = table_data(init_comp_division, init_division)
 fig_rankings = ranking_data(comp_division=init_comp_division, division=init_division, highlight_teams=df.Team.tolist())
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
-# TODO: write this
-intro_paragraph = 'INTRO HERE <br> Use checkboxes in table to pick which teams to show'
 app.layout = html.Div(style=style, children=[
-    html.H1(children='USA Ultimate Data Project', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+    html.H1(children='USA Ultimate Data Project', style={'background-image': f'url({BACKGROUND_IMAGE})',
+        # 'backgroundColor': BACKGROUND_COLOR_DARK,
                                                          'textAlign': 'center', 'font-weight': 'bold',
                                                          'font-size': '65px', 'padding': 40}),
-    html.P(children=intro_paragraph),
-    html.H2(children='Data Subsetting', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+    # html.P(children=intro_paragraph),
+    html.Div([dcc.Markdown('''
+    ## About the project
+    As a frisbee player, I was interested to see the rise and fall of teams in each region over the years. 
+    To build this I scraped data from the USAU archives of nationals. 
+    
+    
+    ## How to use
+    * Use the Data Subsetting section to pick a division, a sub-division, and a region
+    * Use checkboxes in table to pick which teams to show
+    * The graphs will update automatically and can be hovered over for information
+    
+    ### Notes
+    * Divisions are named based on current USAU naming except in the case of college where there are separate 
+    sub divisions for before and after the DI/DIII separaration
+    * Due to regional boundary redrawing, the regionals of teams change over the years
+    
+    Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom. 
+    ''')]),
+    html.H2(children='Data Subsetting', style={'background-image': f'url({BACKGROUND_IMAGE})',
+                                               # todo: mess with these options
+                                               'background-postion': 'bottom',
+                                               'background-size': 'cover', 'background-repeat': 'no-repeat',
                                                'textAlign': 'center', 'padding': 10,
                                                'font-size': HEADER_2_SIZE}),
     dbc.Container([
@@ -83,7 +103,7 @@ app.layout = html.Div(style=style, children=[
             ])
         ])
     ], fluid=True, style={'padding': 20}),
-    html.H2(children='Team Summary Table', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+    html.H2(children='Team Summary Table', style={'background-image': f'url({BACKGROUND_IMAGE})',
                                                   'textAlign': 'center', 'padding': 10,
                                                   'font-size': HEADER_2_SIZE}),
     html.Div([dash_table.DataTable(
@@ -120,7 +140,7 @@ app.layout = html.Div(style=style, children=[
     )], style={'padding': 10}),
     html.Div([html.Button('Select/Un-Select All', id='select-all-button',
                           style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 10}),
-    html.H2(children='Nationals Placement by Year', style={'backgroundColor': BACKGROUND_COLOR_DARK,
+    html.H2(children='Nationals Placement by Year', style={'background-image': f'url({BACKGROUND_IMAGE})',
                                                            'textAlign': 'center','padding': 10,
                                                            'font-size': HEADER_2_SIZE}),
     dcc.Loading(
@@ -130,7 +150,7 @@ app.layout = html.Div(style=style, children=[
     ),
     # html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)]),
     html.H2(children='Spirit Score to Placement Correlation',
-            style={'backgroundColor': BACKGROUND_COLOR_DARK, 'textAlign': 'center', 'padding': 10,
+            style={'background-image': f'url({BACKGROUND_IMAGE})', 'textAlign': 'center', 'padding': 10,
                    'font-size': HEADER_2_SIZE}),
     html.H3(children='Size corresponds to number of appearances with reported spirit score',
             style={'textAlign': 'center', 'font-size': '18px'}),
@@ -139,7 +159,7 @@ app.layout = html.Div(style=style, children=[
         children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
         type="circle",
     ),
-    html.P(children=['©2019 by Micah Botkin-Levy.',
+    html.Div([html.P(children=['©2019 by Micah Botkin-Levy.',
                      html.A([
                          html.Img(
                              src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png',
@@ -158,7 +178,8 @@ app.layout = html.Div(style=style, children=[
                              }
                          )
                      ], href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank",
-                         style={'align': 'center'})])
+                         style={'align': 'center'})])],
+             style={'textAlign': 'right', 'background-image': f'url({BACKGROUND_IMAGE})', 'padding': 20})
 ])
 
 
