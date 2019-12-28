@@ -5,22 +5,16 @@ import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
-import pandas as pd
 
 from visualize_usau_module import ranking_data, spirit_correlation, \
     COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
     PLOT_BACKGROUND_COLOR
 
-# style = {}
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
-# external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
-external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css']
-# external_stylesheets = [dbc.themes.FLATLY]
+external_stylesheets = [dbc.themes.FLATLY]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-# app.title = 'Test'
+app.title = 'USAU Data Project'
 server = app.server
-
-# todo: Set what shows on tab in browser
 
 HEADER_2_SIZE = '30px'
 BACKGROUND_IMAGE = 'https://www.naturesseed.com/media/cache/1200x400/e47cf16f3d5bd49571ce8f0606b63dc4/b/e/best-grass-seed-choices-for-athletic-fields.jpg'
@@ -255,4 +249,6 @@ def update_spirit_figure(comp_division, division, region, rows, data):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # app.run_server(debug=True)
+    server.run()
+
