@@ -184,7 +184,7 @@ def spirit_correlation(comp_division, division, region='all', highlight_teams=No
                                      marker_size=df_clear['count'] + 6,
                                      marker_color=BACKGROUND_COLOR_DARK,
                                      hoverinfo='text',
-                                     opacity=0.2,
+                                     opacity=0.1,
                                      mode='markers')]
     if not plot_data:
         plot_data = []

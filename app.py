@@ -21,7 +21,6 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 # todo: Set what shows on tab in browser
-# todo: images? background image for title??
 
 HEADER_2_SIZE = '30px'
 BACKGROUND_IMAGE = 'https://www.naturesseed.com/media/cache/1200x400/e47cf16f3d5bd49571ce8f0606b63dc4/b/e/best-grass-seed-choices-for-athletic-fields.jpg'
