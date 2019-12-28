@@ -20,15 +20,7 @@ server = app.server
 HEADER_2_SIZE = '30px'
 BACKGROUND_IMAGE = 'https://www.naturesseed.com/media/cache/1200x400/e47cf16f3d5bd49571ce8f0606b63dc4/b/e/best-grass-seed-choices-for-athletic-fields.jpg'
 
-PARALLAX_DIV = html.Div([], style={'background-image': f'url({BACKGROUND_IMAGE})',
-                                   'min-height': '500px',
-                                   'background-attachment': 'fixed',
-                                   'background-position': 'center',
-                                   'background-repeat': 'no-repeat',
-                                   'background-size': 'cover',
-                                   })
-
-# todo: parallax scrolling
+# todo: parallax scrolling working on mobile
 # todo: section by background (alltrails)
 
 # todo: change to start with women/mixed
@@ -40,12 +32,16 @@ fig_rankings = ranking_data(comp_division=init_comp_division, division=init_divi
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
 app.layout = html.Div(style=style, children=[
-    PARALLAX_DIV,
-    html.H1(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold',
-                                                         'font-size': '65px', 'padding': 40}),
-    PARALLAX_DIV,
-    # html.P(children=intro_paragraph),
-    # todo: margins
+    html.Div([html.P(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold',
+                                                                  'font-size': '65px', 'position': 'absolute',
+                                                                  'top': '50%', 'width': '100%'})],
+             style={'background-image': f'url({BACKGROUND_IMAGE})',
+                                       'min-height': '800px',
+                                       'background-attachment': 'fixed',
+                                       'background-position': 'center',
+                                       'background-repeat': 'no-repeat',
+                                       'background-size': 'cover',
+                                       }),
     html.Div([dcc.Markdown('''
     ## About the project
     As a frisbee player, I was interested to see the rise and fall of teams in each region over the years. 
@@ -63,8 +59,9 @@ app.layout = html.Div(style=style, children=[
     * Due to regional boundary redrawing, the regionals of teams change over the years
     
     Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom. 
-    ''')]),
-    PARALLAX_DIV,
+    ''', style={'backgroundColor': PLOT_BACKGROUND_COLOR,
+                'margin-left': '50px', 'margin-right': '50px', 'padding': 20})],
+             style={'backgroundColor': PLOT_BACKGROUND_COLOR}),
     html.H2(children='Data Subsetting', style={'textAlign': 'center', 'padding': 10,
                                                'font-size': HEADER_2_SIZE}),
     dbc.Container([
@@ -106,8 +103,6 @@ app.layout = html.Div(style=style, children=[
             ])
         ])
     ], fluid=True, style={'padding': 20}),
-    PARALLAX_DIV,
-
     html.H2(children='Team Summary Table', style={'textAlign': 'center', 'padding': 10,
                                                   'font-size': HEADER_2_SIZE}),
     html.Div([dash_table.DataTable(
@@ -144,7 +139,6 @@ app.layout = html.Div(style=style, children=[
     )], style={'padding': 10}),
     html.Div([html.Button('Select/Un-Select All', id='select-all-button',
                           style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 10}),
-    PARALLAX_DIV,
     html.H2(children='Nationals Placement by Year', style={'textAlign': 'center', 'padding': 10,
                                                            'font-size': HEADER_2_SIZE}),
     dcc.Loading(
@@ -152,7 +146,6 @@ app.layout = html.Div(style=style, children=[
         children=[html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)])],
         type="circle",
     ),
-    PARALLAX_DIV,
     html.H2(children='Spirit Score to Placement Correlation',
             style={'textAlign': 'center', 'padding': 10,
                    'font-size': HEADER_2_SIZE}),
@@ -163,7 +156,6 @@ app.layout = html.Div(style=style, children=[
         children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
         type="circle",
     ),
-    PARALLAX_DIV,
     html.Div([html.P(children=['©2019 by Micah Botkin-Levy.',
                                html.A([
                                    html.Img(
@@ -185,7 +177,7 @@ app.layout = html.Div(style=style, children=[
                                ], href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank",
                                    style={'align': 'center'})])],
              style={'textAlign': 'right', 'padding': 20}),
-    PARALLAX_DIV
+
 ])
 
 

@@ -1,5 +1,4 @@
 import plotly.graph_objects as go
-from plotly.colors import DEFAULT_PLOTLY_COLORS
 import pandas as pd
 import numpy as np
 
@@ -7,11 +6,8 @@ data = pd.read_csv('./data/national_data.csv')
 
 COMP_DIVISIONS = data.comp_division.unique()
 
-# TODO: work on theme
-
 PLOT_BACKGROUND_COLOR = '#f0f0f0'
 BACKGROUND_COLOR_LIGHT = '#DAE1D4'
-# BACKGROUND_COLOR_LIGHT = '#DAE3D3'
 BACKGROUND_COLOR_DARK = '#1a6600'
 
 # ok theme
