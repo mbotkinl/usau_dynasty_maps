@@ -34,12 +34,11 @@ fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_
 app.layout = html.Div(style=style, children=[
     html.Div([html.P(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold',
                                                                   'font-size': '65px', 'vertical-align': 'middle',
-                                                                  'padding': 120
+                                                                  'padding': 180
                                                                   # 'position': 'absolute', 'top': '50%', 'width': '100%'
                                                                   })],
              style={'background-image': f'url({BACKGROUND_IMAGE})',
-                                        # todo: parallax scrolling working on mobile
-                                        'min-height': '600px',
+                                        'min-height': '800px',
                                         'background-attachment': 'fixed',
                                         'background-position': 'center',
                                         'background-repeat': 'no-repeat',
