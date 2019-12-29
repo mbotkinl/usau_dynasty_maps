@@ -157,8 +157,10 @@ app.layout = html.Div(style=style, children=[
         children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
         type="circle",
     ),
+
+    # Footer section
     # todo: parallax here
-    html.Div([html.P(children=['©2019 by Micah Botkin-Levy.',
+    html.Div([html.P(children=['©2019 by Micah Botkin-Levy. ',
                                html.A([
                                    html.Img(
                                        src=LINKEDIN_IMAGE,
@@ -168,6 +170,7 @@ app.layout = html.Div(style=style, children=[
                                        }
                                    )
                                ], href='https://www.linkedin.com/in/micahbotkinlevy/', target="_blank"),
+                               ' ',
                                html.A([
                                    html.Img(
                                        src=GITHUB_IMAGE,
@@ -179,7 +182,6 @@ app.layout = html.Div(style=style, children=[
                                ], href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank",
                                    style={'align': 'center'})])],
              style={'textAlign': 'right', 'padding': 20}),
-
 ])
 
 
