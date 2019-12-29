@@ -23,9 +23,8 @@ LINKEDIN_IMAGE = app.get_asset_url('LinkedIn.png')
 GITHUB_IMAGE = app.get_asset_url('GitHub.png')
 # todo: section by background (alltrails)
 
-# todo: change to start with women/mixed
 init_comp_division = COMP_DIVISIONS[0]
-init_division = get_divisions(init_comp_division)[0]['value']
+init_division = get_divisions(init_comp_division)[1]['value']
 
 df = table_data(init_comp_division, init_division)
 fig_rankings = ranking_data(comp_division=init_comp_division, division=init_division, highlight_teams=df.Team.tolist())
@@ -189,7 +188,7 @@ app.layout = html.Div(style=style, children=[
               [Input('comp_division_dropdown', 'value')])
 def update_division_dropdown(comp_division):
     div_options = get_divisions(comp_division)
-    return div_options, div_options[0]['value']
+    return div_options, div_options[1]['value']
 
 
 @app.callback([Output('region_dropdown', 'options'),
