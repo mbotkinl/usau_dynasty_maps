@@ -21,7 +21,6 @@ HEADER_2_SIZE = '30px'
 BACKGROUND_IMAGE = app.get_asset_url('turf.jpg')
 LINKEDIN_IMAGE = app.get_asset_url('LinkedIn.png')
 GITHUB_IMAGE = app.get_asset_url('GitHub.png')
-# todo: parallax scrolling working on mobile
 # todo: section by background (alltrails)
 
 # todo: change to start with women/mixed
@@ -34,14 +33,17 @@ fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_
 
 app.layout = html.Div(style=style, children=[
     html.Div([html.P(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold',
-                                                                  'font-size': '65px', 'position': 'absolute',
-                                                                  'top': '50%', 'width': '100%'})],
+                                                                  'font-size': '65px', 'vertical-align': 'middle',
+                                                                  'padding': 120
+                                                                  # 'position': 'absolute', 'top': '50%', 'width': '100%'
+                                                                  })],
              style={'background-image': f'url({BACKGROUND_IMAGE})',
-                                       'min-height': '800px',
-                                       'background-attachment': 'fixed',
-                                       'background-position': 'center',
-                                       'background-repeat': 'no-repeat',
-                                       'background-size': 'cover',
+                                        # todo: parallax scrolling working on mobile
+                                        'min-height': '600px',
+                                        'background-attachment': 'fixed',
+                                        'background-position': 'center',
+                                        'background-repeat': 'no-repeat',
+                                        'background-size': 'cover',
                                        }),
     html.Div([dcc.Markdown('''
     ## About the project
@@ -157,6 +159,7 @@ app.layout = html.Div(style=style, children=[
         children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
         type="circle",
     ),
+    # todo: parallax here
     html.Div([html.P(children=['©2019 by Micah Botkin-Levy.',
                                html.A([
                                    html.Img(
