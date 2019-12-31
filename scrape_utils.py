@@ -66,6 +66,7 @@ def clean_data(df, div):
     df.loc[df.Team == 'HOMEBROOD', 'Team'] = 'HOME BROOD'
     df.loc[df.Team == '7EXPRESS', 'Team'] = '7 EXPRESS'
     df.loc[df.Team == 'COLUMBUS COCKTAILS', 'Team'] = 'COCKTAILS'
+    df.loc[df.Team == 'LOOSE CANON', 'Team'] = 'LOOSE CANNON'
 
     df.loc[df.division == 'OPEN', 'division'] = 'MENS'
     df.loc[df.division == 'CO-ED', 'division'] = 'MIXED'
