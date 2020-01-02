@@ -7,21 +7,22 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 
 from visualize_usau_module import ranking_data, spirit_correlation, \
-    COMP_DIVISIONS, get_divisions, get_regions, table_data, BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
-    PLOT_BACKGROUND_COLOR
+    COMP_DIVISIONS, get_divisions, get_regions, table_data
 
-style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial',
-         }
+from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
+    PLOT_BACKGROUND_COLOR, HEADER_2_SIZE
+
+style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
+
 external_stylesheets = [dbc.themes.FLATLY]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'USAU Data Project'
 server = app.server
 
-HEADER_2_SIZE = '30px'
-BACKGROUND_IMAGE = app.get_asset_url('turf.jpg')
+TURF_LINE_IMAGE = app.get_asset_url('turf.jpg')
+GRASS_IMAGE = app.get_asset_url('grass.jpg')
 LINKEDIN_IMAGE = app.get_asset_url('LinkedIn.png')
 GITHUB_IMAGE = app.get_asset_url('GitHub.png')
-# todo: section by background (alltrails)
 
 init_comp_division = COMP_DIVISIONS[0]
 init_division = get_divisions(init_comp_division)[1]['value']
@@ -36,110 +37,136 @@ app.layout = html.Div(style=style, children=[
                                                                   'padding': 180
                                                                   # 'position': 'absolute', 'top': '50%', 'width': '100%'
                                                                   })],
-             style={'background-image': f'url({BACKGROUND_IMAGE})',
-                                        'min-height': '800px',
+             style={'background-image': f'url({TURF_LINE_IMAGE})',
+                                        'min-height': '700px',
                                         'background-attachment': 'fixed',
                                         'background-position': 'center',
                                         'background-repeat': 'no-repeat',
                                         'background-size': 'cover',
                                        }),
+
+    # intro section
     html.Div([dcc.Markdown('''
     ## About the project
-    As a frisbee player, I was interested to see the rise and fall of teams in each region over the years. 
-    To build this I scraped data from the USAU archives of nationals. 
-    
-    
+    As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
+    To build this I scraped data from the USAU archives of nationals.
+
+
     ## How to use
     * Use the Data Subsetting section to pick a division, a sub-division, and a region
     * Use checkboxes in table to pick which teams to show
     * The graphs will update automatically and can be hovered over for information
-    
+
     ### Notes
-    * Divisions are named based on current USAU naming except in the case of college where there are separate 
+    * Divisions are named based on current USAU naming except in the case of college where there are separate
     sub divisions for before and after the DI/DIII separaration
     * Due to regional boundary redrawing, the regionals of teams change over the years
-    
-    Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom. 
+
+    Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.
     ''', style={'backgroundColor': PLOT_BACKGROUND_COLOR,
-                'margin-left': '50px', 'margin-right': '50px', 'padding': 20})],
-             style={'backgroundColor': PLOT_BACKGROUND_COLOR}),
-    html.H2(children='Data Subsetting', style={'textAlign': 'center', 'padding': 10,
-                                               'font-size': HEADER_2_SIZE}),
-    dbc.Container([
-        dbc.Row([
-            dbc.Col([
-                html.Div(children='''
-                        Select Competitive Division
+                'margin-left': '60px', 'margin-right': '60px', 'padding': 2})],
+             style={
+                 # 'backgroundColor': PLOT_BACKGROUND_COLOR,
+                      'background-image': f'url({TURF_LINE_IMAGE})',
+                      'min-height': '650px',
+                      'background-attachment': 'fixed',
+                      'background-position': 'center',
+                      'background-repeat': 'no-repeat',
+                      'background-size': 'cover'}),
+
+    # subsetting section
+    html.Div([
+        html.H2(children='Data Subsetting', style={'textAlign': 'center', 'padding': 1, 'font-weight': 'bold',
+                                                   'font-size': HEADER_2_SIZE}),
+        dbc.Container([
+            dbc.Row([
+                dbc.Col([
+                    html.Div(children='''
+                            Select Competitive Division
+                        '''),
+
+                    dcc.Dropdown(
+                        id='comp_division_dropdown',
+                        options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
+                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
+                        clearable=False,
+                        value=init_comp_division),
+                ]),
+                dbc.Col([
+                    html.Div(children='''
+                        Select Sub-Division
                     '''),
 
-                dcc.Dropdown(
-                    id='comp_division_dropdown',
-                    options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
-                    style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
-                    clearable=False,
-                    value=init_comp_division),
-            ]),
-            dbc.Col([
-                html.Div(children='''
-                    Select Sub-Division
-                '''),
-
-                dcc.Dropdown(
-                    id='division_dropdown',
-                    options=get_divisions(init_comp_division),
-                    style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
-                    clearable=False,
-                    value=init_division),
-            ]),
-            dbc.Col([
-                html.Div(children='''
-                    Region of Team
-                    '''),
-                dcc.Dropdown(
-                    id='region_dropdown',
-                    options=get_regions(init_comp_division, init_division),
-                    style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
-                    clearable=False,
-                    value='all')
+                    dcc.Dropdown(
+                        id='division_dropdown',
+                        options=get_divisions(init_comp_division),
+                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
+                        clearable=False,
+                        value=init_division),
+                ]),
+                dbc.Col([
+                    html.Div(children='''
+                        Region of Team
+                        '''),
+                    dcc.Dropdown(
+                        id='region_dropdown',
+                        options=get_regions(init_comp_division, init_division),
+                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
+                        clearable=False,
+                        value='all')
+                ])
             ])
-        ])
-    ], fluid=True, style={'padding': 20}),
-    html.H2(children='Team Summary Table', style={'textAlign': 'center', 'padding': 10,
-                                                  'font-size': HEADER_2_SIZE}),
-    html.Div([dash_table.DataTable(
-        id='ranking_table',
-        columns=[{"name": i, "id": i} for i in df.columns],
-        data=df.to_dict('records'),
-        style_as_list_view=True,
-        row_selectable="multi",
-        sort_action='native',
-        selected_rows=list(range(len(df))),
-        fixed_rows={'headers': True, 'data': 0},
-        style_header={'font-weight': 'bold',
-                      'font-size': '18px',
-                      'backgroundColor': BACKGROUND_COLOR_LIGHT},
-        style_table={
-            'maxHeight': '300px',
-            'overflowY': 'auto',
-        },
-        style_cell={'textAlign': 'center', 'width': '25%', 'font_family': 'Arial'},
-        style_data_conditional=[
-            {
-                'if': {'column_id': 'Team'},
-                'textAlign': 'left'
+        ], fluid=True, style={'padding': 40})
+    ], style={'padding': 10, 'background-image': f'url({TURF_LINE_IMAGE})',
+              'min-height': '250px',
+              'background-attachment': 'fixed',
+              'background-position': 'center',
+              'background-repeat': 'no-repeat',
+              'background-size': 'cover',
+              }),
+        # style={'background-image': f'url({GRASS_IMAGE})', 'background-size': 'cover', 'padding': 100}),
+
+    # table section
+    html.Div([
+        html.H2(children='Team Summary Table', style={'textAlign': 'center', 'padding': 10,
+                                                      'font-size': HEADER_2_SIZE}),
+        html.Div([dash_table.DataTable(
+            id='ranking_table',
+            columns=[{"name": i, "id": i} for i in df.columns],
+            data=df.to_dict('records'),
+            # style_as_list_view=True,
+            row_selectable="multi",
+            sort_action='native',
+            selected_rows=list(range(len(df))),
+            fixed_rows={'headers': True, 'data': 0},
+            style_header={'font-weight': 'bold',
+                          'font-size': '18px',
+                          'backgroundColor': BACKGROUND_COLOR_LIGHT},
+            style_table={
+                'maxHeight': '300px',
+                'overflowY': 'auto',
             },
-            {
-                'if': {'row_index': 'odd'},
-                'backgroundColor': BACKGROUND_COLOR_LIGHT
-            },
-            {
-                'if': {'row_index': 'even'},
-                'backgroundColor': PLOT_BACKGROUND_COLOR
-            }
-        ]
-    )], style={'padding': 10}),
-    html.Div([html.Button('Select/Un-Select All', id='select-all-button',
-                          style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 10}),
+            style_cell={'textAlign': 'center', 'width': '25%', 'font_family': 'Arial'},
+            style_data_conditional=[
+                {
+                    'if': {'column_id': 'Team'},
+                    'textAlign': 'left'
+                },
+                {
+                    'if': {'row_index': 'odd'},
+                    'backgroundColor': 'white'
+                },
+                {
+                    'if': {'row_index': 'even'},
+                    'backgroundColor': PLOT_BACKGROUND_COLOR
+                }
+            ]
+        )], style={'padding': 10}),
+        html.Div([html.Button('Select/Un-Select All', id='select-all-button',
+                              style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 10}),
+    ], style={'backgroundColor': PLOT_BACKGROUND_COLOR}),
+
+    # placement graph
     html.H2(children='Nationals Placement by Year', style={'textAlign': 'center', 'padding': 10,
                                                            'font-size': HEADER_2_SIZE}),
     dcc.Loading(
@@ -147,6 +174,8 @@ app.layout = html.Div(style=style, children=[
         children=[html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)])],
         type="circle",
     ),
+
+    # spirit graph
     html.H2(children='Spirit Score to Placement Correlation',
             style={'textAlign': 'center', 'padding': 10,
                    'font-size': HEADER_2_SIZE}),
@@ -159,7 +188,6 @@ app.layout = html.Div(style=style, children=[
     ),
 
     # Footer section
-    # todo: parallax here
     html.Div([html.P(children=['©2019 by Micah Botkin-Levy. ',
                                html.A([
                                    html.Img(
