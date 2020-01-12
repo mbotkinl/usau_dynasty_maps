@@ -1,3 +1,6 @@
+## How to access
+https://usau-dash.herokuapp.com/
+
 ## About the project
 As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
 To build this I scraped data from the USAU archives of nationals.
