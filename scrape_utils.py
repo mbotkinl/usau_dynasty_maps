@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
+# used for renaming divisions
 CLUB_DIV_NAMES = [' MIXED ', ' MENS ', 'CO-ED ', ' OPEN ', ' WOMENS ']
 COLLEGE_DIV_NAMES = [['D-I ', 'Open'], ['D-I ', 'Men\'s'], ['D-I ', 'Women\'s'], ['D-III ', 'Open'],
                      ['D-III ', 'Men\'s'], ['D-III ', 'Women\'s']]
@@ -11,7 +12,7 @@ COLLEGE_DIV_NAMES_2 = ['College Championships: Open Division',
 # todo: double check all for spelling/duplicate teams (use fuzzy matching) after region/division rework
 
 
-def parse_college_div(divisions):
+def parse_college_div(divisions: list) -> list:
     new_divs = []
     for div in divisions:
         for name in COLLEGE_DIV_NAMES:
@@ -25,7 +26,7 @@ def parse_college_div(divisions):
     return new_divs
 
 
-def parse_club_div(divisions):
+def parse_club_div(divisions: list) -> list:
     new_divs = []
     for div in divisions:
         for name in CLUB_DIV_NAMES:
@@ -34,16 +35,16 @@ def parse_club_div(divisions):
     return new_divs
 
 
-def clean_data(df, div):
+def clean_data(df: pd.DataFrame, div: str) -> pd.DataFrame:
     df = df.copy()
     df = df.rename(columns={'School': 'Team'})
     df.dropna(subset=['Standing', 'Team'], how='any', inplace=True)
 
     df.columns = df.columns.str.replace(' ', '')
 
-    df.Standing = df.Standing.str.replace('T', '')
+    df.Standing = df.Standing.str.replace('T', '')  # ties
     df.Standing = df.Standing.str.replace(' ', '')
-    df = df[~df.Standing.isin(['?', 'DQ', 'DNF'])]
+    df = df[~df.Standing.isin(['?', 'DQ', 'DNF'])]  # remove DQ'd teams
     df['Standing'] = df['Standing'].astype(int)
 
     if div == 'club':
@@ -52,7 +53,7 @@ def clean_data(df, div):
     df.Team = df.Team.str.strip()
 
     # team name corrections
-    #college
+    # college
     df.loc[df.Team == 'Carleton College-Syzygy', 'Team'] = 'Carleton College'
     df.loc[df.Team == 'Massachussets', 'Team'] = 'Massachusetts'
 
@@ -68,6 +69,7 @@ def clean_data(df, div):
     df.loc[df.Team == 'COLUMBUS COCKTAILS', 'Team'] = 'COCKTAILS'
     df.loc[df.Team == 'LOOSE CANON', 'Team'] = 'LOOSE CANNON'
 
+    # division corrections
     df.loc[df.division == 'OPEN', 'division'] = 'MENS'
     df.loc[df.division == 'CO-ED', 'division'] = 'MIXED'
     df.loc[df.division == 'D-I Open', 'division'] = 'D-I Men\'s'
@@ -75,6 +77,7 @@ def clean_data(df, div):
     df.loc[df.division == 'College Championships: Open Division', 'division'] = 'Men\'s'
     df.loc[df.division == 'College Championships: Women\'s Division', 'division'] = 'Women\'s'
 
+    # region corrections
     df.Region = df.Region.str.replace('\xa0', '')
     df.loc[df.Region == 'Sothwest', 'Region'] = 'Southwest'
     df.loc[df.Region == 'Norwest', 'Region'] = 'Northwest'
@@ -85,6 +88,7 @@ def clean_data(df, div):
     df.loc[pd.isna(df.Region), 'Region'] = 'Unknown'
     df.loc[df.Region == '', 'Region'] = 'Unknown'
 
+    # spirit scores corrections
     if 'SpiritScores' in df.columns:
         df['SpiritScores'] = df['SpiritScores'].str.replace(' *', '')
         df['SpiritScores'] = df['SpiritScores'].str.replace('*', '')
@@ -95,13 +99,17 @@ def clean_data(df, div):
     return df
 
 
-def get_data_for_year(year, div='club'):
+def get_data_for_year(year: int, div: str) -> pd.DataFrame:
+
+    # get request from usau archives site
     url = f'https://www.usaultimate.org/archives/{year}_{div}.aspx'
     response = requests.get(url)
+
     soup = BeautifulSoup(response.text, 'html.parser')
+
+    # get divisions from headers
     divisions = []
     for d in soup.find_all('h3'):
-        # print(d)
         if d.a:
             if div == 'club':
                 for a in d.find_all('a'):
@@ -112,6 +120,7 @@ def get_data_for_year(year, div='club'):
                 if d.text and ((d.text.find('-') != -1) | (d.text.find(':') != -1)):
                     divisions.append(d.text)
 
+    # rename divisions
     print(divisions)
     if div == 'club':
         divisions = parse_club_div(divisions)
@@ -119,7 +128,9 @@ def get_data_for_year(year, div='club'):
         divisions = parse_college_div(divisions)
     print(divisions)
 
+    # placement data are in tables
     tables = soup.find_all('table', {'class': 'tablesorter'})
+
     # assumes nationals tables are first
     tables = tables[0:len(divisions)]
     year_df = pd.DataFrame()
@@ -138,6 +149,9 @@ def get_data_for_year(year, div='club'):
 
     if year_df.empty:
         return pd.DataFrame()
+
+    # clean data
     year_df = clean_data(year_df, div)
     year_df['year'] = year
+
     return year_df

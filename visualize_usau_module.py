@@ -8,17 +8,17 @@ data = pd.read_csv('./data/national_data.csv')
 COMP_DIVISIONS = data.comp_division.unique()
 
 
-def get_divisions(comp_division):
+def get_divisions(comp_division: str) -> list:
     divisions = data[data.comp_division == comp_division].division.unique()
     return [{'label': d, 'value': d} for d in divisions]
 
 
-def get_regions(comp_division, division):
+def get_regions(comp_division: str, division: str) -> list:
     regions = subset_df(comp_division, division, 'all').Region.unique()
     return [{'label': 'All Regions', 'value': 'all'}] + [{'label': r, 'value': r} for r in regions]
 
 
-def subset_df(comp_division, division, region):
+def subset_df(comp_division: str, division: str, region: str) -> pd.DataFrame:
     if region == 'all':
         div_df = data[(data.comp_division == comp_division) & (data.division == division)].copy()
     else:
@@ -27,11 +27,10 @@ def subset_df(comp_division, division, region):
     return div_df
 
 
-def table_data(comp_division, division, region='all'):
+def table_data(comp_division: str, division: str, region: str = 'all') -> pd.DataFrame:
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
         return pd.DataFrame()
-    # table_df = div_df.groupby(['Region', 'Team']).agg(num_appearances=('year', 'count'),
     table_df = div_df.groupby(['Team']).agg(num_appearances=('year', 'count'),
                                             avg_place=('Standing', 'mean'),
                                             avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
@@ -43,7 +42,7 @@ def table_data(comp_division, division, region='all'):
     return table_df
 
 
-def ranking_data(comp_division, division, region='all', highlight_teams=None):
+def ranking_data(comp_division: str, division: str, region: str = 'all', highlight_teams: list = None) -> dict:
     layout = {'hovermode': 'closest',
               'height': 740,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
@@ -90,7 +89,7 @@ def ranking_data(comp_division, division, region='all', highlight_teams=None):
     return dict(data=plot_data, layout=layout)
 
 
-def spirit_correlation(comp_division, division, region='all', highlight_teams=None):
+def spirit_correlation(comp_division: str, division: str, region: str = 'all', highlight_teams: list = None) -> dict:
     layout = {
         # 'template': TEMPLATE,
         'paper_bgcolor': BACKGROUND_COLOR_LIGHT,

@@ -1,7 +1,6 @@
+# constants used in app.py
+
 HEADER_2_SIZE = '30px'
-
-
-
 
 PLOT_BACKGROUND_COLOR = '#f0f0f0'
 BACKGROUND_COLOR_LIGHT = '#DAE1D4'
@@ -12,29 +11,4 @@ BACKGROUND_ALPHA = 0.8
 BACKGROUND_LIGHT_RGB = tuple(int(BACKGROUND_COLOR_LIGHT.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
 BACKGROUND_DARK_RGB = tuple(int(BACKGROUND_COLOR_DARK.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
 
-# ok theme
-# PLOT_BACKGROUND_COLOR = '#FDFDFF'
-# BACKGROUND_COLOR_LIGHT = '#C6C5B9'
-# BACKGROUND_COLOR_DARK = '#62929E'
-
-# https://www.w3schools.com/colors/colors_picker.asp
-# https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff
-
-
-# decent theme
-# PLOT_BACKGROUND_COLOR = '#BFBFBF'
-# BACKGROUND_COLOR_LIGHT = '#96939B'
-# BACKGROUND_COLOR_DARK = '#564256'
-
-# purples
-# PLOT_BACKGROUND_COLOR = '#e0e0eb'
-# BACKGROUND_COLOR_LIGHT = '#b3b3cc'
-# BACKGROUND_COLOR_DARK = '#9494b8'
-
-# grays
-# PLOT_BACKGROUND_COLOR = '#f0f0f0'
-# BACKGROUND_COLOR_LIGHT = '#cccccc'
-# BACKGROUND_COLOR_DARK = '#808080'
-
 AXIS_TITLE_SIZE = 18
-# AXIS_TICK_SIZE = 18
