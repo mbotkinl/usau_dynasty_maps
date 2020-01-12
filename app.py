@@ -32,6 +32,8 @@ fig_rankings = ranking_data(comp_division=init_comp_division, division=init_divi
 fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_division)
 
 app.layout = html.Div(style=style, children=[
+
+    # title
     html.Div([html.P(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold',
                                                                   'font-size': '65px', 'vertical-align': 'middle',
                                                                   'padding': 180

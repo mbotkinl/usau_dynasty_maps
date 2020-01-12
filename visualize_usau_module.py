@@ -9,16 +9,44 @@ COMP_DIVISIONS = data.comp_division.unique()
 
 
 def get_divisions(comp_division: str) -> list:
+    """ Get list of gendered sub divisions from competitive division
+
+    Args:
+        comp_division (str): competitive division name
+
+    Returns:
+        list
+
+    """
     divisions = data[data.comp_division == comp_division].division.unique()
     return [{'label': d, 'value': d} for d in divisions]
 
 
 def get_regions(comp_division: str, division: str) -> list:
+    """ Get list of regions from competitive division and sub division name
+
+    Args:
+        comp_division (str): competitive division name
+        division (str): gendered sub division name
+
+    Returns:
+        list
+    """
     regions = subset_df(comp_division, division, 'all').Region.unique()
     return [{'label': 'All Regions', 'value': 'all'}] + [{'label': r, 'value': r} for r in regions]
 
 
 def subset_df(comp_division: str, division: str, region: str) -> pd.DataFrame:
+    """ Subset all results df using subset parameters
+
+    Args:
+        comp_division (str): competitive division name
+        division (str): gendered sub division name
+        region (str): region name
+
+    Returns:
+        pd.DataFrame
+    """
     if region == 'all':
         div_df = data[(data.comp_division == comp_division) & (data.division == division)].copy()
     else:
@@ -28,6 +56,16 @@ def subset_df(comp_division: str, division: str, region: str) -> pd.DataFrame:
 
 
 def table_data(comp_division: str, division: str, region: str = 'all') -> pd.DataFrame:
+    """ Get summary table from subset parameters
+
+    Args:
+        comp_division (str): competitive division name
+        division (str): gendered sub division name
+        region (str): region name
+
+    Returns:
+        pd.DataFrame
+    """
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
         return pd.DataFrame()
@@ -43,10 +81,20 @@ def table_data(comp_division: str, division: str, region: str = 'all') -> pd.Dat
 
 
 def ranking_data(comp_division: str, division: str, region: str = 'all', highlight_teams: list = None) -> dict:
+    """ Prepare placement scatter plot
+
+    Args:
+        comp_division (str): competitive division name
+        division (str): gendered sub division name
+        region (str): region name
+        highlight_teams (list): list of teams to highlight
+
+    Returns:
+        dict
+    """
     layout = {'hovermode': 'closest',
               'height': 740,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
-              # 'xaxis': {'title': 'Year'},
               'paper_bgcolor': 'rgba(0,0,0,0)',
               'plot_bgcolor': PLOT_BACKGROUND_COLOR,
               'margin': {'t': 0},
@@ -84,12 +132,21 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
                                     showlegend=False,
                                     name=t))
 
-    # 'range': [1, max(div_df['Standing'])]}
-    # print('data for ranking', plot_data)
     return dict(data=plot_data, layout=layout)
 
 
 def spirit_correlation(comp_division: str, division: str, region: str = 'all', highlight_teams: list = None) -> dict:
+    """ Prepare spirit scatter plot
+
+    Args:
+        comp_division (str): competitive division name
+        division (str): gendered sub division name
+        region (str): region name
+        highlight_teams (list): list of teams to highlight
+
+    Returns:
+        dict
+    """
     layout = {
         # 'template': TEMPLATE,
         'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
@@ -151,9 +208,5 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      mode='markers')]
     if not plot_data:
         plot_data = []
-
-
-    # 'range': [1, max(div_df['Standing'])]}
-    # print('data for spirit', plot_data)
 
     return dict(data=plot_data, layout=layout)
