@@ -240,13 +240,15 @@ def update_region_dropdown(comp_division, division):
     return region_options, region_options[0]['value']
 
 
-@app.callback(Output('ranking_table', 'data'),
+@app.callback([Output('ranking_table', 'data'),
+               Output('select-all-button', 'n_clicks')],
               [Input('comp_division_dropdown', 'value'),
                Input('division_dropdown', 'value'),
                Input('region_dropdown', 'value')])
 def update_table(comp_division, division, region):
     table_df = table_data(comp_division, division, region)
-    return table_df.to_dict('records')
+
+    return table_df.to_dict('records'), 0
 
 
 @app.callback(
