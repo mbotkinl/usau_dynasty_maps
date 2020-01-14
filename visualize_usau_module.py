@@ -182,6 +182,7 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      y=df['avg_rank'],
                                      marker_size=df['count'] + 6,
                                      marker_color=BACKGROUND_COLOR_DARK,
+                                     hoverlabel={'font': {'color': 'white'}},
                                      hoverinfo='text',
                                      hovertext='<b>Team: ' + df.index.values +
                                                '</b><br>Apperances with reported spirit: ' + df['count'].astype(
