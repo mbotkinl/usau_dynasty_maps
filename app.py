@@ -12,6 +12,8 @@ from visualize_usau_module import ranking_data, spirit_correlation, \
 from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
     PLOT_BACKGROUND_COLOR, HEADER_2_SIZE, BACKGROUND_LIGHT_RGB, BACKGROUND_ALPHA
 
+# TODO: fix scaling on apple products
+
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
 external_stylesheets = [dbc.themes.FLATLY]
@@ -58,6 +60,7 @@ app.layout = html.Div(style=style, children=[
                                         'background-size': 'cover',
                                        }),
 
+    # TODO: can this be combined into above div?
     # intro section
     html.Div([
         html.Div([
@@ -71,6 +74,7 @@ app.layout = html.Div(style=style, children=[
                 * Use the Data Subsetting section to pick a division, a sub-division, and a region
                 * Use checkboxes in table to pick which teams to show
                 * The graphs will update automatically and can be hovered over for information
+                * Hover over or click on data points in graphs for more info
             
                 ### Notes
                 * Divisions are named based on current USAU naming except in the case of college where there are separate

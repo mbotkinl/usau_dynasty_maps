@@ -114,16 +114,18 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
     for t in appearances.keys():
         if t in highlight_teams:
             opacity = 1
-            hover_info = 'y+name'
+            hover_template = '<b>Team: %{fullData.name}</b><br>Year: %{x}<br>Placement: %{y}<extra></extra>'
         else:
             opacity = 0.05
-            hover_info = 'skip'
+            hover_template = ''
         team_df = div_df[div_df.Team == t].copy()
         team_df.set_index('year', inplace=True)
         team_df = team_df.reindex(list(range(min_year, max_year + 1)), fill_value=None)
         plot_data.append(go.Scatter(x=team_df.index,
                                     y=team_df['Standing'],
-                                    hoverinfo=hover_info,
+                                    # hoverinfo=hover_info,
+                                    hoverinfo='skip',
+                                    hovertemplate=hover_template,
                                     mode='lines+markers',
                                     connectgaps=False,
                                     opacity=opacity,
@@ -181,15 +183,15 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      marker_size=df['count'] + 6,
                                      marker_color=BACKGROUND_COLOR_DARK,
                                      hoverinfo='text',
-                                     hovertext=df.index.values +
-                                               '<br><sub>Apperances with reported spirit: ' + df['count'].astype(
-                                         str).values + '</sub>' +
-                                               '<br><sub>Average spirit score: ' + np.round(df['avg_spirit'],
+                                     hovertext='<b>Team: ' + df.index.values +
+                                               '</b><br>Apperances with reported spirit: ' + df['count'].astype(
+                                         str).values +
+                                               '<br>Average spirit score: ' + np.round(df['avg_spirit'],
                                                                                             decimals=2).astype(
-                                         str).values + '</sub>' +
-                                               '<br><sub>Average placement: ' + np.round(df['avg_rank'],
+                                         str).values +
+                                               '<br>Average placement: ' + np.round(df['avg_rank'],
                                                                                          decimals=2).astype(
-                                         str).values + '</sub>'
+                                         str).values
                                      ,
                                      mode='markers')]
     if any(~div_df['Team'].isin(highlight_teams)):
