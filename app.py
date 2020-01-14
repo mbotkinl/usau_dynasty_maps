@@ -167,31 +167,36 @@ app.layout = html.Div(style=style, children=[
                     'backgroundColor': PLOT_BACKGROUND_COLOR
                 }
             ]
-        )], style={'padding': 10}),
+        )], style={'padding': 2}),
         html.Div([html.Button('Select/Un-Select All', id='select-all-button',
                               style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 10}),
-    ], style={'backgroundColor': PLOT_BACKGROUND_COLOR}),
+    ], style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'padding': 80}),
 
-    # placement graph
-    html.H2(children='Nationals Placement by Year', style={'textAlign': 'center', 'padding': 10,
-                                                           'font-size': HEADER_2_SIZE}),
-    dcc.Loading(
-        id="loading-rankings",
-        children=[html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)])],
-        type="circle",
-    ),
 
-    # spirit graph
-    html.H2(children='Spirit Score to Placement Correlation',
-            style={'textAlign': 'center', 'padding': 10,
-                   'font-size': HEADER_2_SIZE}),
-    html.H3(children='Size corresponds to number of appearances with reported spirit score',
-            style={'textAlign': 'center', 'font-size': '18px'}),
-    dcc.Loading(
-        id="loading-spirit",
-        children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
-        type="circle",
-    ),
+    # graph section
+    html.Div([
+        # placement graph
+        html.H2(children='Nationals Placement by Year', style={'textAlign': 'center', 'padding': 10,
+                                                               'font-size': HEADER_2_SIZE}),
+        dcc.Loading(
+            id="loading-rankings",
+            children=[html.Div([dcc.Graph(id='rankings_graph', figure=fig_rankings)])],
+            type="circle",
+        ),
+
+        # spirit graph
+        html.H2(children='Spirit Score to Placement Correlation',
+                style={'textAlign': 'center', 'padding': 10,
+                       'font-size': HEADER_2_SIZE}),
+        html.H3(children='Size corresponds to number of appearances with reported spirit score',
+                style={'textAlign': 'center', 'font-size': '18px'}),
+        dcc.Loading(
+            id="loading-spirit",
+            children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],
+            type="circle",
+        ),
+
+    ], style={'padding': 80}),
 
     # Footer section
     html.Div([html.P(children=['©2019 by Micah Botkin-Levy. ',
