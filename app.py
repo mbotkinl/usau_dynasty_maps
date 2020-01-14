@@ -86,10 +86,7 @@ app.layout = html.Div(style=style, children=[
         dbc.Container([
             dbc.Row([
                 dbc.Col([
-                    html.Div(children='''
-                            Select Competitive Division
-                        '''),
-
+                    html.P(children='Select Competitive Division'),
                     dcc.Dropdown(
                         id='comp_division_dropdown',
                         options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
@@ -98,10 +95,7 @@ app.layout = html.Div(style=style, children=[
                         value=init_comp_division),
                 ]),
                 dbc.Col([
-                    html.Div(children='''
-                        Select Sub-Division
-                    '''),
-
+                    html.P(children=' Select Sub-Division'),
                     dcc.Dropdown(
                         id='division_dropdown',
                         options=get_divisions(init_comp_division),
@@ -110,9 +104,7 @@ app.layout = html.Div(style=style, children=[
                         value=init_division),
                 ]),
                 dbc.Col([
-                    html.Div(children='''
-                        Region of Team
-                        '''),
+                    html.P(children='Region of Team'),
                     dcc.Dropdown(
                         id='region_dropdown',
                         options=get_regions(init_comp_division, init_division),
