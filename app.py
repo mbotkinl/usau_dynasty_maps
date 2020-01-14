@@ -34,13 +34,24 @@ fig_spirit = spirit_correlation(comp_division=init_comp_division, division=init_
 app.layout = html.Div(style=style, children=[
 
     # title
-    html.Div([html.P(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold',
-                                                                  'font-size': '65px', 'vertical-align': 'middle',
-                                                                  'padding': 180
-                                                                  # 'position': 'absolute', 'top': '50%', 'width': '100%'
-                                                                  })],
+    html.Div([
+        html.Div([], style={'padding': 150}),
+        html.Div([
+            html.Div([], style={'padding': 10}),
+            html.Hr(style={'width': '50%', 'border': '2px solid black'}),
+            html.P(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold', 'color': 'black',
+                                                                      'font-size': '65px', 'vertical-align': 'middle',
+                                                                      'padding': 10
+                                                                      # 'position': 'absolute', 'top': '50%', 'width': '100%'
+                                                                      }),
+            html.Hr(style={'width': '50%', 'border': '4px solid black'}),
+            html.Div([], style={'padding': 10})
+        ], style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
+                  'margin-left': '300px', 'margin-right': '300px', 'padding': 10, 'vertical-align': 'middle'}),
+        html.Div([], style={'padding': 150})
+    ],
              style={'background-image': f'url({TURF_LINE_IMAGE})',
-                                        'min-height': '700px',
+                                        'min-height': '900px',
                                         'background-attachment': 'fixed',
                                         'background-position': 'center',
                                         'background-repeat': 'no-repeat',
@@ -69,7 +80,7 @@ app.layout = html.Div(style=style, children=[
                 Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.
                 ''', style={'margin-left': '20px', 'margin-right': '20px'})],
             style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
-                   'margin-left': '40px', 'margin-right': '40px', 'padding': 2, 'vertical-align': 'middle'})],
+                   'margin-left': '40px', 'margin-right': '40px', 'padding': 20, 'vertical-align': 'middle'})],
              style={
                  # 'backgroundColor': PLOT_BACKGROUND_COLOR,
                       'background-image': f'url({TURF_LINE_IMAGE})',
@@ -81,12 +92,14 @@ app.layout = html.Div(style=style, children=[
 
     # subsetting section
     html.Div([
-        html.H2(children='Data Subsetting', style={'textAlign': 'center', 'padding': 1, 'font-weight': 'bold',
-                                                   'font-size': HEADER_2_SIZE}),
+        html.H2(children='SELECTION FILTERS', style={'textAlign': 'center', 'padding': 1, 'font-weight': 'bold',
+                                                     'font-size': HEADER_2_SIZE, 'color': 'white',
+                                                     'letter-spacing': '5px'}),
+        html.Div([], style={'padding': 30}),
         dbc.Container([
             dbc.Row([
                 dbc.Col([
-                    html.P(children='Select Competitive Division'),
+                    html.P(children='Select Competitive Division', style={'color': 'white'}),
                     dcc.Dropdown(
                         id='comp_division_dropdown',
                         options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
@@ -95,7 +108,7 @@ app.layout = html.Div(style=style, children=[
                         value=init_comp_division),
                 ]),
                 dbc.Col([
-                    html.P(children=' Select Sub-Division'),
+                    html.P(children=' Select Sub-Division', style={'color': 'white'}),
                     dcc.Dropdown(
                         id='division_dropdown',
                         options=get_divisions(init_comp_division),
@@ -104,7 +117,7 @@ app.layout = html.Div(style=style, children=[
                         value=init_division),
                 ]),
                 dbc.Col([
-                    html.P(children='Region of Team'),
+                    html.P(children='Region of Team', style={'color': 'white'}),
                     dcc.Dropdown(
                         id='region_dropdown',
                         options=get_regions(init_comp_division, init_division),
@@ -113,21 +126,25 @@ app.layout = html.Div(style=style, children=[
                         value='all')
                 ])
             ])
-        ], fluid=True, style={'padding': 20,
-                              'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}'})
-    ], style={'padding': 10, 'background-image': f'url({TURF_LINE_IMAGE})',
-              'min-height': '250px',
-              'background-attachment': 'fixed',
-              'background-position': 'center',
-              'background-repeat': 'no-repeat',
-              'background-size': 'cover',
+        ], fluid=True, style={'padding': 1,
+                              # 'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}'
+                              }),
+        html.Div([], style={'padding': 10}),
+    ], style={'padding': 80,
+              'backgroundColor': BACKGROUND_COLOR_DARK
+              # 'background-image': f'url({TURF_LINE_IMAGE})',
+              # 'min-height': '250px',
+              # 'background-attachment': 'fixed',
+              # 'background-position': 'center',
+              # 'background-repeat': 'no-repeat',
+              # 'background-size': 'cover',
               }),
-        # style={'background-image': f'url({GRASS_IMAGE})', 'background-size': 'cover', 'padding': 100}),
 
     # table section
     html.Div([
-        html.H2(children='Team Summary Table', style={'textAlign': 'center', 'padding': 10,
-                                                      'font-size': HEADER_2_SIZE}),
+        html.H2(children='TEAM SUMMARY TABLE', style={'textAlign': 'center', 'padding': 1,
+                                                      'font-size': HEADER_2_SIZE, 'letter-spacing': '2px'}),
+        html.Div([], style={'padding': 30}),
         html.Div([dash_table.DataTable(
             id='ranking_table',
             columns=[{"name": i, "id": i} for i in df.columns],
@@ -159,10 +176,10 @@ app.layout = html.Div(style=style, children=[
                     'backgroundColor': PLOT_BACKGROUND_COLOR
                 }
             ]
-        )], style={'padding': 2}),
+        )], style={'padding': 1}),
         html.Div([html.Button('Select/Un-Select All', id='select-all-button',
-                              style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 10}),
-    ], style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'padding': 80}),
+                              style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 20}),
+    ], style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'padding': 60}),
 
 
     # graph section
