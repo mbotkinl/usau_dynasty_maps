@@ -50,7 +50,30 @@ app.layout = html.Div(style=style, children=[
             html.Div([], style={'padding': 10})
         ], style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
                   'margin-left': '300px', 'margin-right': '300px', 'padding': 10, 'vertical-align': 'middle'}),
-        html.Div([], style={'padding': 150})
+        html.Div([], style={'padding': 150}),
+        html.Div([
+            dcc.Markdown('''
+              ## About the project
+              As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
+              To build this I scraped data from the USAU archives of nationals.
+
+
+              ## How to use
+              * Use the Data Subsetting section to pick a division, a sub-division, and a region
+              * Use checkboxes in table to pick which teams to show
+              * The graphs will update automatically and can be hovered over for information
+              * Hover over or click on data points in graphs for more info
+
+              ### Notes
+              * Divisions are named based on current USAU naming except in the case of college where there are separate
+              sub divisions for before and after the DI/DIII separation
+              * Due to regional boundary redrawing, the regionals of teams change over the years
+
+              Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.
+              ''', style={'margin-left': '20px', 'margin-right': '20px'})],
+            style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
+                   'margin-left': '40px', 'margin-right': '40px', 'padding': 20, 'vertical-align': 'middle'}),
+        html.Div([], style={'padding': 150}),
     ],
              style={'background-image': f'url({TURF_LINE_IMAGE})',
                                         'min-height': '900px',
@@ -60,45 +83,46 @@ app.layout = html.Div(style=style, children=[
                                         'background-size': 'cover',
                                        }),
 
-    # TODO: can this be combined into above div?
-    # intro section
-    html.Div([
-        html.Div([
-            dcc.Markdown('''
-                ## About the project
-                As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
-                To build this I scraped data from the USAU archives of nationals.
-            
-            
-                ## How to use
-                * Use the Data Subsetting section to pick a division, a sub-division, and a region
-                * Use checkboxes in table to pick which teams to show
-                * The graphs will update automatically and can be hovered over for information
-                * Hover over or click on data points in graphs for more info
-            
-                ### Notes
-                * Divisions are named based on current USAU naming except in the case of college where there are separate
-                sub divisions for before and after the DI/DIII separation
-                * Due to regional boundary redrawing, the regionals of teams change over the years
-            
-                Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.
-                ''', style={'margin-left': '20px', 'margin-right': '20px'})],
-            style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
-                   'margin-left': '40px', 'margin-right': '40px', 'padding': 20, 'vertical-align': 'middle'})],
-             style={
-                 # 'backgroundColor': PLOT_BACKGROUND_COLOR,
-                      'background-image': f'url({TURF_LINE_IMAGE})',
-                      'min-height': '650px',
-                      'background-attachment': 'fixed',
-                      'background-position': 'center',
-                      'background-repeat': 'no-repeat',
-                      'background-size': 'cover'}),
+    # # TODO: can this be combined into above div?
+    # # intro section
+    # html.Div([
+    #     html.Div([
+    #         dcc.Markdown('''
+    #             ## About the project
+    #             As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
+    #             To build this I scraped data from the USAU archives of nationals.
+    #
+    #
+    #             ## How to use
+    #             * Use the Data Subsetting section to pick a division, a sub-division, and a region
+    #             * Use checkboxes in table to pick which teams to show
+    #             * The graphs will update automatically and can be hovered over for information
+    #             * Hover over or click on data points in graphs for more info
+    #
+    #             ### Notes
+    #             * Divisions are named based on current USAU naming except in the case of college where there are separate
+    #             sub divisions for before and after the DI/DIII separation
+    #             * Due to regional boundary redrawing, the regionals of teams change over the years
+    #
+    #             Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.
+    #             ''', style={'margin-left': '20px', 'margin-right': '20px'})],
+    #         style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
+    #                'margin-left': '40px', 'margin-right': '40px', 'padding': 20, 'vertical-align': 'middle'})
+    # ],
+    #          style={
+    #              # 'backgroundColor': PLOT_BACKGROUND_COLOR,
+    #                   'background-image': f'url({TURF_LINE_IMAGE})',
+    #                   'min-height': '650px',
+    #                   'background-attachment': 'fixed',
+    #                   'background-position': 'center',
+    #                   'background-repeat': 'no-repeat',
+    #                   'background-size': 'cover'}),
 
     # subsetting section
     html.Div([
         html.H2(children='SELECTION FILTERS', style={'textAlign': 'center', 'padding': 1, 'font-weight': 'bold',
                                                      'font-size': HEADER_2_SIZE, 'color': 'white',
-                                                     'letter-spacing': '5px'}),
+                                                     'letter-spacing': '2px'}),
         html.Div([], style={'padding': 30}),
         dbc.Container([
             dbc.Row([
