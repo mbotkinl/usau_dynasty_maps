@@ -55,13 +55,13 @@ app.layout = html.Div(style=style, children=[
             dcc.Markdown('''
               ## About the project
               As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
-              To build this I scraped data from the USAU archives of nationals.
+              To get a better sense of the ultimate frisbee dynasties and other fun stats, I scraped data from the USAU 
+              archives of nationals and then built this dashboard.
 
 
               ## How to use
               * Use the Data Subsetting section to pick a division, a sub-division, and a region
-              * Use checkboxes in table to pick which teams to show
-              * The graphs will update automatically and can be hovered over for information
+              * Use checkboxes in the table to pick which teams to show in the graphs (update automatically)
               * Hover over or click on data points in graphs for more info
 
               ### Notes
