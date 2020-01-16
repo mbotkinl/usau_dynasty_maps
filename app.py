@@ -76,7 +76,7 @@ app.layout = html.Div(style=style, children=[
         html.Div([], style={'padding': 150}),
     ],
              style={'background-image': f'url({TURF_LINE_IMAGE})',
-                                        'min-height': '900px',
+                                        # 'min-height': '20px',
                                         'background-attachment': 'fixed',
                                         'background-position': 'center',
                                         'background-repeat': 'no-repeat',
