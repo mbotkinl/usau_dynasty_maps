@@ -17,7 +17,34 @@ from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
 external_stylesheets = [dbc.themes.FLATLY]
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
+                meta_tags=[
+                    # A description of the app, used by e.g.
+                    # search engines when displaying search results.
+                    {
+                        'name': 'USAU Data Project',
+                        'content': 'USAU Data Project'
+                    },
+                    # A tag that tells Internet Explorer (IE)
+                    # to use the latest renderer version available
+                    # to that browser (e.g. Edge)
+                    {
+                        'http-equiv': 'X-UA-Compatible',
+                        'content': 'IE=edge'
+                    },
+                    # A tag that tells the browser not to scale
+                    # desktop widths to fit mobile screens.
+                    # Sets the width of the viewport (browser)
+                    # to the width of the device, and the zoom level
+                    # (initial scale) to 1.
+                    #
+                    # Necessary for "true" mobile support.
+                    {
+                        'name': 'viewport',
+                        'content': 'width=device-width, initial-scale=1.0'
+                    }
+                ]
+                )
 app.title = 'USAU Data Project'
 server = app.server
 
