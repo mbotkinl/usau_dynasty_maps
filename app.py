@@ -188,7 +188,10 @@ app.layout = html.Div(style=style, children=[
             style_table={
                 'maxHeight': '300px',
                 'overflowY': 'auto',
+                'maxWidth': '3000px',
+                'overflowX': 'auto',
             },
+            # fill_width=False,
             style_cell={'textAlign': 'center', 'width': '25%', 'font_family': 'Arial'},
             style_data_conditional=[
                 {
