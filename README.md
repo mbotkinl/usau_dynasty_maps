@@ -7,13 +7,13 @@ To get a better sense of the ultimate frisbee dynasties and other fun stats, I s
 
 
 ## How to use
-* Use the Data Subsetting section to pick a division, a sub-division, and a region
+* Use the selection filters to pick a division, a sub-division, and a region
 * Use checkboxes in the summary table to pick which teams to show in the graphs
 * The graphs will update automatically and can be hovered over for more information
 
 ### Notes
 * Divisions are named based on current USAU naming except in the case of college where there are separate
 sub divisions for before and after the DI/DIII separation
-* Due to regional boundary redrawing, the regionals of teams change over the years
+* Due to regional boundary redrawing, the regional of teams change over the years
 
 Feel free to reach out with suggestions or questions. 

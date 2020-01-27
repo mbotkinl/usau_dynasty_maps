@@ -89,14 +89,14 @@ app.layout = html.Div(style=style, children=[
 
 
               ## How to use
-              * Use the Data Subsetting section to pick a division, a sub-division, and a region
+              * Use the selection filters to pick a division, a sub-division, and a region
               * Use checkboxes in the table to pick which teams to show in the graphs (update automatically)
               * Hover over or click on data points in graphs for more info
 
               ### Notes
               * Divisions are named based on current USAU naming except in the case of college where there are separate
               sub divisions for before and after the DI/DIII separation
-              * Due to regional boundary redrawing, the regionals of teams change over the years
+              * Due to regional boundary redrawing, the regional of teams change over the years
 
               Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.
               ''', style={'margin-left': '20px', 'margin-right': '20px'})],
