@@ -188,11 +188,14 @@ app.layout = html.Div(style=style, children=[
             style_table={
                 'maxHeight': '300px',
                 'overflowY': 'auto',
-                'maxWidth': '100px',
-                'overflowX': 'auto',
+                # 'maxWidth': '100px',
+                # 'overflowX': 'auto',
             },
             # fill_width=False,
-            style_cell={'textAlign': 'center', 'width': '25%', 'font_family': 'Arial'},
+            style_cell={'textAlign': 'center',
+                        # 'width': '25%',
+                        'minWidth': '0px', 'maxWidth': '10px',
+                        'font_family': 'Arial'},
             style_data_conditional=[
                 {
                     'if': {'column_id': 'Team'},
