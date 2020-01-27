@@ -38,10 +38,10 @@ META = [
                     # (initial scale) to 1.
                     #
                     # Necessary for "true" mobile support.
-                    # {
-                    #     'name': 'viewport',
-                    #     'content': 'width=device-width, initial-scale=1'
-                    # }
+                    {
+                        'name': 'viewport',
+                        'content': 'width=device-width, initial-scale=0.4'
+                    }
                 ]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
                 meta_tags=META
