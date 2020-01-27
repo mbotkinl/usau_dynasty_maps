@@ -41,7 +41,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
                     # Necessary for "true" mobile support.
                     {
                         'name': 'viewport',
-                        'content': 'width=device-width, initial-scale=0.3'
+                        'content': 'width=device-width, initial-scale=1'
                     }
                 ]
                 )
@@ -105,7 +105,7 @@ app.layout = html.Div(style=style, children=[
              style={'background-image': f'url({TURF_LINE_IMAGE})',
                                         # 'min-height': '20px',
                     # 'max-height': '1000px',
-                    'background-attachment': 'fixed',
+                    'background-attachment': 'scroll',
                     'background-position': 'center center',
                     'background-repeat': 'no-repeat',
                     'background-size': 'cover',
