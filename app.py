@@ -17,8 +17,7 @@ from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
 external_stylesheets = [dbc.themes.FLATLY]
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
-                meta_tags=[
+META = [
                     # A description of the app, used by e.g.
                     # search engines when displaying search results.
                     {
@@ -39,16 +38,19 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
                     # (initial scale) to 1.
                     #
                     # Necessary for "true" mobile support.
-                    {
-                        'name': 'viewport',
-                        'content': 'width=device-width, initial-scale=1'
-                    }
+                    # {
+                    #     'name': 'viewport',
+                    #     'content': 'width=device-width, initial-scale=1'
+                    # }
                 ]
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
+                meta_tags=META
                 )
 app.title = 'USAU Data Project'
 server = app.server
 
-TURF_LINE_IMAGE = app.get_asset_url('turf.jpg')
+# TURF_LINE_IMAGE = app.get_asset_url('turf.jpg')
+TURF_LINE_IMAGE = app.get_asset_url('grass.jpg')
 GRASS_IMAGE = app.get_asset_url('grass.jpg')
 LINKEDIN_IMAGE = app.get_asset_url('LinkedIn.png')
 GITHUB_IMAGE = app.get_asset_url('GitHub.png')
@@ -105,10 +107,12 @@ app.layout = html.Div(style=style, children=[
              style={'background-image': f'url({TURF_LINE_IMAGE})',
                                         # 'min-height': '20px',
                     # 'max-height': '1000px',
-                    'background-attachment': 'scroll',
+                    'background-attachment': 'fixed',
                     'background-position': 'center center',
                     'background-repeat': 'no-repeat',
                     'background-size': 'cover',
+                    # 'height': '200vh',
+                    # 'z-index': -1,
                     # 'background-clip': 'content-box	',
                     # 'overflow': 'hidden',
 
