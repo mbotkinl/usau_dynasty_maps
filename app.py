@@ -12,8 +12,6 @@ from visualize_usau_module import ranking_data, spirit_correlation, \
 from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
     PLOT_BACKGROUND_COLOR, HEADER_2_SIZE, BACKGROUND_LIGHT_RGB, BACKGROUND_ALPHA
 
-# TODO: fix scaling on apple products
-
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
 external_stylesheets = [dbc.themes.FLATLY]
@@ -86,7 +84,6 @@ app.layout = html.Div(style=style, children=[
               As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
               To get a better sense of the ultimate frisbee dynasties and other fun stats, I scraped data from the USAU 
               archives of nationals and then built this dashboard.
-
 
               ## How to use
               * Use the selection filters to pick a division, a sub-division, and a region
