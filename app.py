@@ -194,11 +194,13 @@ app.layout = html.Div(style=style, children=[
             # fill_width=False,
             style_cell={'textAlign': 'center',
                         # 'width': '25%',
+                        'textOverflow': 'ellipsis',
                         'minWidth': '0px', 'maxWidth': '10px',
                         'font_family': 'Arial'},
             style_data_conditional=[
                 {
                     'if': {'column_id': 'Team'},
+                    'width': '18%',
                     'textAlign': 'left'
                 },
                 {
