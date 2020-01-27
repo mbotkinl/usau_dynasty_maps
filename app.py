@@ -38,10 +38,10 @@ META = [
                     # (initial scale) to 1.
                     #
                     # Necessary for "true" mobile support.
-                    {
-                        'name': 'viewport',
-                        'content': 'width=device-width, initial-scale=0.4'
-                    }
+                    # {
+                    #     'name': 'viewport',
+                    #     'content': 'width=device-width, initial-scale=0.4'
+                    # }
                 ]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
                 meta_tags=META
@@ -188,7 +188,7 @@ app.layout = html.Div(style=style, children=[
             style_table={
                 'maxHeight': '300px',
                 'overflowY': 'auto',
-                'maxWidth': '3000px',
+                'maxWidth': '100px',
                 'overflowX': 'auto',
             },
             # fill_width=False,
