@@ -9,10 +9,12 @@ from dash.dependencies import Input, Output, State
 from visualize_usau_module import ranking_data, spirit_correlation, \
     COMP_DIVISIONS, get_divisions, get_regions, table_data
 
-from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, \
+from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, TEXT_SIZE, \
     PLOT_BACKGROUND_COLOR, HEADER_2_SIZE, BACKGROUND_LIGHT_RGB, BACKGROUND_ALPHA
 
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
+
+# TODO: align fonts
 
 external_stylesheets = [dbc.themes.FLATLY]
 META = [
@@ -79,24 +81,29 @@ app.layout = html.Div(style=style, children=[
                   'margin-left': '300px', 'margin-right': '300px', 'padding': 10, 'vertical-align': 'middle'}),
         html.Div([], style={'padding': 150}),
         html.Div([
-            dcc.Markdown('''
-              ## About the project
-              As a frisbee player, I was interested to see the rise and fall of teams in each region over the years.
-              To get a better sense of the ultimate frisbee dynasties and other fun stats, I scraped data from the USAU 
-              archives of nationals and then built this dashboard.
-
-              ## How to use
-              * Use the selection filters to pick a division, a sub-division, and a region
-              * Use checkboxes in the table to pick which teams to show in the graphs (update automatically)
-              * Hover over or click on data points in graphs for more info
-
-              ### Notes
-              * Divisions are named based on current USAU naming except in the case of college where there are separate
-              sub divisions for before and after the DI/DIII separation
-              * Due to regional boundary redrawing, the regional of teams change over the years
-
-              Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.
-              ''', style={'margin-left': '20px', 'margin-right': '20px'})],
+            html.Div([
+                html.H2('About the project'),
+                html.P(children='As a frisbee player, I was interested to see the rise and fall of teams in each region over the years. '
+                            'To get a better sense of the ultimate frisbee dynasties and other fun stats, I scraped data from the USAU '
+                            'archives of nationals and then built this dashboard.', style={'font-size': TEXT_SIZE}),
+                html.Br(),
+                html.H2('How to use'),
+                html.Ul(children=[
+                    html.Li('Use the selection filters to pick a division, a sub-division, and a region'),
+                    html.Li('Use checkboxes in the table to pick which teams to show in the graphs (updates automatically)'),
+                    html.Li('Hover over or click on data points in graphs for more info')
+                ], style={'font-size': TEXT_SIZE}),
+                html.Br(),
+                html.H2('Notes'),
+                html.Ul(children=[
+                    html.Li('Divisions are named based on current USAU naming except in the case of college where there are separate sub divisions for before and after the DI/DIII separation'),
+                    html.Li('Due to regional boundary redrawing, the regional of teams change over the years')
+                ], style={'font-size': TEXT_SIZE}),
+                html.Br(),
+                html.P('Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.',
+                       style={'font-size': TEXT_SIZE}),
+            ], style={'margin-left': '20px', 'margin-right': '20px'}),
+        ],
             style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
                    'margin-left': '40px', 'margin-right': '40px', 'padding': 20, 'vertical-align': 'middle'}),
         html.Div([], style={'padding': 150}),
@@ -119,34 +126,37 @@ app.layout = html.Div(style=style, children=[
     html.Div([
         html.H2(children='SELECTION FILTERS', style={'textAlign': 'center', 'padding': 1, 'font-weight': 'bold',
                                                      'font-size': HEADER_2_SIZE, 'color': 'white',
-                                                     'letter-spacing': '2px'}),
+                                                     'letter-spacing': '1px'}),
         html.Div([], style={'padding': 30}),
         dbc.Container([
             dbc.Row([
                 dbc.Col([
-                    html.P(children='Select Competitive Division', style={'color': 'white'}),
+                    html.P(children='Competitive Division', style={'color': 'white', 'font-size': TEXT_SIZE}),
                     dcc.Dropdown(
                         id='comp_division_dropdown',
                         options=[{'label': d, 'value': d} for d in COMP_DIVISIONS],
-                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
+                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999',
+                               'font-size': TEXT_SIZE},
                         clearable=False,
                         value=init_comp_division),
                 ]),
                 dbc.Col([
-                    html.P(children=' Select Sub-Division', style={'color': 'white'}),
+                    html.P(children='Sub-Division', style={'color': 'white', 'font-size': TEXT_SIZE}),
                     dcc.Dropdown(
                         id='division_dropdown',
                         options=get_divisions(init_comp_division),
-                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
+                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999',
+                               'font-size': TEXT_SIZE},
                         clearable=False,
                         value=init_division),
                 ]),
                 dbc.Col([
-                    html.P(children='Region of Team', style={'color': 'white'}),
+                    html.P(children='Region of Team', style={'color': 'white', 'font-size': TEXT_SIZE}),
                     dcc.Dropdown(
                         id='region_dropdown',
                         options=get_regions(init_comp_division, init_division),
-                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999'},
+                        style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'position': 'relative', 'zIndex': '999',
+                               'font-size': TEXT_SIZE},
                         clearable=False,
                         value='all')
                 ])
@@ -168,7 +178,7 @@ app.layout = html.Div(style=style, children=[
     # table section
     html.Div([
         html.H2(children='TEAM SUMMARY TABLE', style={'textAlign': 'center', 'padding': 1,
-                                                      'font-size': HEADER_2_SIZE, 'letter-spacing': '2px'}),
+                                                      'font-size': HEADER_2_SIZE, 'letter-spacing': '1px'}),
         html.Div([], style={'padding': 30}),
         html.Div([dash_table.DataTable(
             id='ranking_table',
@@ -180,10 +190,10 @@ app.layout = html.Div(style=style, children=[
             selected_rows=list(range(len(df))),
             fixed_rows={'headers': True, 'data': 0},
             style_header={'font-weight': 'bold',
-                          'font-size': '18px',
+                          'font-size': TEXT_SIZE,
                           'backgroundColor': BACKGROUND_COLOR_LIGHT},
             style_table={
-                'maxHeight': '300px',
+                'maxHeight': '400px',
                 'overflowY': 'auto',
                 # 'maxWidth': '100px',
                 # 'overflowX': 'auto',
@@ -191,6 +201,7 @@ app.layout = html.Div(style=style, children=[
             # fill_width=False,
             style_cell={'textAlign': 'center',
                         # 'width': '25%',
+                        'font-size': '20px',
                         'textOverflow': 'ellipsis',
                         'minWidth': '0px', 'maxWidth': '10px',
                         'font_family': 'Arial'},
@@ -211,7 +222,8 @@ app.layout = html.Div(style=style, children=[
             ]
         )], style={'padding': 1}),
         html.Div([html.Button('Select/Un-Select All', id='select-all-button',
-                              style={'backgroundColor': BACKGROUND_COLOR_LIGHT})], style={'padding': 20}),
+                              style={'backgroundColor': BACKGROUND_COLOR_LIGHT})],
+                 style={'padding': 20,'font-size': TEXT_SIZE}),
     ], style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'padding': 60}),
 
 
@@ -231,7 +243,7 @@ app.layout = html.Div(style=style, children=[
                 style={'textAlign': 'center', 'padding': 10,
                        'font-size': HEADER_2_SIZE}),
         html.H3(children='Size corresponds to number of appearances with reported spirit score',
-                style={'textAlign': 'center', 'font-size': '18px'}),
+                style={'textAlign': 'center', 'font-size': TEXT_SIZE}),
         dcc.Loading(
             id="loading-spirit",
             children=[html.Div([dcc.Graph(id='spirit_graph', figure=fig_spirit)])],

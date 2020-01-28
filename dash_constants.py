@@ -1,6 +1,7 @@
 # constants used in app.py
 
-HEADER_2_SIZE = '30px'
+HEADER_2_SIZE = '36px'
+TEXT_SIZE = '22px'
 
 PLOT_BACKGROUND_COLOR = '#f0f0f0'
 BACKGROUND_COLOR_LIGHT = '#d7ded3'
@@ -11,4 +12,5 @@ BACKGROUND_ALPHA = 0.9
 BACKGROUND_LIGHT_RGB = tuple(int(BACKGROUND_COLOR_LIGHT.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
 BACKGROUND_DARK_RGB = tuple(int(BACKGROUND_COLOR_DARK.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
 
-AXIS_TITLE_SIZE = 18
+AXIS_TITLE_SIZE = 26
+TICK_SIZE = 20

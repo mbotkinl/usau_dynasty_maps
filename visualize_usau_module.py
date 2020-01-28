@@ -1,7 +1,8 @@
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
-from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, PLOT_BACKGROUND_COLOR, AXIS_TITLE_SIZE
+from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, PLOT_BACKGROUND_COLOR, AXIS_TITLE_SIZE, \
+    TICK_SIZE
 
 data = pd.read_csv('./data/national_data.csv')
 
@@ -74,7 +75,7 @@ def table_data(comp_division: str, division: str, region: str = 'all') -> pd.Dat
                                             avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
     table_df = table_df.round(2)
     table_df = table_df.sort_values('num_appearances', ascending=False)
-    table_df = table_df.rename(columns={'num_appearances': 'Number of Appearances',
+    table_df = table_df.rename(columns={'num_appearances': 'Appearances',
                                         'avg_place': 'Average Placement',
                                         'avg_spirit': 'Average Spirit Score'})
     return table_df
@@ -98,6 +99,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
               'paper_bgcolor': 'rgba(0,0,0,0)',
               'plot_bgcolor': PLOT_BACKGROUND_COLOR,
               'margin': {'t': 0},
+              'font': {'size': TICK_SIZE},
               'xaxis': {'fixedrange': True},
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
@@ -156,6 +158,7 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
         'showlegend': False,
         'height': 550,
         'margin': {'t': 0},
+        'font': {'size': TICK_SIZE},
         'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}},
                   'fixedrange': True},
         'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
