@@ -99,7 +99,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
               'paper_bgcolor': 'rgba(0,0,0,0)',
               'plot_bgcolor': PLOT_BACKGROUND_COLOR,
               'margin': {'t': 0},
-              'font': {'size': TICK_SIZE},
+              'font': {'size': TICK_SIZE, 'family': 'Arial'},
               'xaxis': {'fixedrange': True},
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
@@ -158,7 +158,7 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
         'showlegend': False,
         'height': 550,
         'margin': {'t': 0},
-        'font': {'size': TICK_SIZE},
+        'font': {'size': TICK_SIZE, 'family': 'Arial'},
         'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}},
                   'fixedrange': True},
         'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,

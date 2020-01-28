@@ -109,17 +109,10 @@ app.layout = html.Div(style=style, children=[
         html.Div([], style={'padding': 150}),
     ],
              style={'background-image': f'url({TURF_LINE_IMAGE})',
-                                        # 'min-height': '20px',
-                    # 'max-height': '1000px',
                     'background-attachment': 'fixed',
                     'background-position': 'center center',
                     'background-repeat': 'no-repeat',
                     'background-size': 'cover',
-                    # 'height': '200vh',
-                    # 'z-index': -1,
-                    # 'background-clip': 'content-box	',
-                    # 'overflow': 'hidden',
-
                                        }),
 
     # subsetting section
@@ -193,14 +186,10 @@ app.layout = html.Div(style=style, children=[
                           'font-size': TEXT_SIZE,
                           'backgroundColor': BACKGROUND_COLOR_LIGHT},
             style_table={
-                'maxHeight': '400px',
+                'maxHeight': '500px',
                 'overflowY': 'auto',
-                # 'maxWidth': '100px',
-                # 'overflowX': 'auto',
             },
-            # fill_width=False,
             style_cell={'textAlign': 'center',
-                        # 'width': '25%',
                         'font-size': '20px',
                         'textOverflow': 'ellipsis',
                         'minWidth': '0px', 'maxWidth': '10px',
@@ -223,7 +212,7 @@ app.layout = html.Div(style=style, children=[
         )], style={'padding': 1}),
         html.Div([html.Button('Select/Un-Select All', id='select-all-button',
                               style={'backgroundColor': BACKGROUND_COLOR_LIGHT})],
-                 style={'padding': 20,'font-size': TEXT_SIZE}),
+                 style={'padding': 20, 'font-size': TEXT_SIZE}),
     ], style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'padding': 60}),
 
 
