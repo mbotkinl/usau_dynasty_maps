@@ -131,9 +131,9 @@ app.layout = html.Div(style=style, children=[
 
     # subsetting section
     html.Div([
-        html.H2(children='SELECTION FILTERS', style={'textAlign': 'center', 'padding': 1, 'font-weight': 'bold',
-                                                     'font-size': HEADER_2_SIZE, 'color': 'white',
-                                                     'letter-spacing': '1px'}),
+        html.H2(children='SELECT FILTERS', style={'textAlign': 'center', 'padding': 1, 'font-weight': 'bold',
+                                                  'font-size': HEADER_2_SIZE, 'color': 'white',
+                                                  'letter-spacing': '1px'}),
         html.Div([], style={'padding': 30}),
         dbc.Container([
             dbc.Row([
@@ -169,23 +169,16 @@ app.layout = html.Div(style=style, children=[
                 ])
             ])
         ], fluid=True, style={'padding': 1,
-                              # 'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}'
                               }),
         html.Div([], style={'padding': 10}),
     ], style={'padding': 80,
               'backgroundColor': BACKGROUND_COLOR_DARK
-              # 'background-image': f'url({TURF_LINE_IMAGE})',
-              # 'min-height': '250px',
-              # 'background-attachment': 'fixed',
-              # 'background-position': 'center',
-              # 'background-repeat': 'no-repeat',
-              # 'background-size': 'cover',
               }),
 
     # table section
     html.Div([
-        html.H2(children='NATIONALS SUMMARY TABLE', style={'textAlign': 'center', 'padding': 1,
-                                                            'font-size': HEADER_2_SIZE, 'letter-spacing': '1px'}),
+        html.H2(children='NATIONALS SUMMARY BY TEAM', style={'textAlign': 'center', 'padding': 1,
+                                                             'font-size': HEADER_2_SIZE, 'letter-spacing': '1px'}),
         html.Div([], style={'padding': 30}),
         html.Div([dash_table.DataTable(
             id='ranking_table',
@@ -244,7 +237,7 @@ app.layout = html.Div(style=style, children=[
         html.H2(children='Spirit Score to Placement Correlation',
                 style={'textAlign': 'center', 'padding': 10,
                        'font-size': HEADER_2_SIZE}),
-        html.H3(children='Size corresponds to number of appearances with reported spirit score',
+        html.H3(children='Bubble size corresponds to number of appearances with reported spirit score',
                 style={'textAlign': 'center', 'font-size': TEXT_SIZE}),
         dcc.Loading(
             id="loading-spirit",
