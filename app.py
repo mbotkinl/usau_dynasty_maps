@@ -14,8 +14,9 @@ from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, TEXT_S
 
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
-# TODO: align fonts
-
+# todo: combine regions?
+# todo: add cool filters to look at?
+# TODO: order regions that are inactive last
 
 TITLE = 'USA Ultimate Nationals Explorer'
 external_stylesheets = [dbc.themes.FLATLY]
@@ -90,7 +91,7 @@ app.layout = html.Div(style=style, children=[
                               'over the years. To get a better sense of the ultimate frisbee dynasties and other '
                               'fun stats, I scraped data from the ',
                               html.A('USAU Archives', href='https://www.usaultimate.org/archives/', target="_blank",
-                               style={'color': BACKGROUND_COLOR_DARK}),
+                                     style={'color': BACKGROUND_COLOR_DARK}),
                               ' of nationals and then built this dashboard.'], style={'font-size': TEXT_SIZE}),
                 html.Br(),
                 html.H2('How To Use:'),
@@ -281,7 +282,12 @@ app.layout = html.Div(style=style, children=[
               [Input('comp_division_dropdown', 'value')])
 def update_division_dropdown(comp_division):
     div_options = get_divisions(comp_division)
-    return div_options, div_options[1]['value']
+    if 'D-I Women\'s' in [f['value'] for f in div_options]:
+        value = 'D-I Women\'s'
+    else:
+        value = div_options[1]['value']
+
+    return div_options, value
 
 
 @app.callback([Output('region_dropdown', 'options'),

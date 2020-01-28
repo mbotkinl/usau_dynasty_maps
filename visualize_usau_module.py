@@ -8,6 +8,8 @@ data = pd.read_csv('./data/national_data.csv')
 
 COMP_DIVISIONS = data.comp_division.unique()
 
+# TODO fix axises
+
 
 def get_divisions(comp_division: str) -> list:
     """ Get list of gendered sub divisions from competitive division
