@@ -18,31 +18,31 @@ style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
 external_stylesheets = [dbc.themes.FLATLY]
 META = [
-                    # A description of the app, used by e.g.
-                    # search engines when displaying search results.
-                    {
-                        'name': 'USAU Data Project',
-                        'content': 'USAU Data Project'
-                    },
-                    # A tag that tells Internet Explorer (IE)
-                    # to use the latest renderer version available
-                    # to that browser (e.g. Edge)
-                    {
-                        'http-equiv': 'X-UA-Compatible',
-                        'content': 'IE=edge'
-                    },
-                    # A tag that tells the browser not to scale
-                    # desktop widths to fit mobile screens.
-                    # Sets the width of the viewport (browser)
-                    # to the width of the device, and the zoom level
-                    # (initial scale) to 1.
-                    #
-                    # Necessary for "true" mobile support.
-                    # {
-                    #     'name': 'viewport',
-                    #     'content': 'width=device-width, initial-scale=0.4'
-                    # }
-                ]
+    # A description of the app, used by e.g.
+    # search engines when displaying search results.
+    {
+        'name': 'USAU Data Project',
+        'content': 'USAU Data Project'
+    },
+    # A tag that tells Internet Explorer (IE)
+    # to use the latest renderer version available
+    # to that browser (e.g. Edge)
+    {
+        'http-equiv': 'X-UA-Compatible',
+        'content': 'IE=edge'
+    },
+    # A tag that tells the browser not to scale
+    # desktop widths to fit mobile screens.
+    # Sets the width of the viewport (browser)
+    # to the width of the device, and the zoom level
+    # (initial scale) to 1.
+    #
+    # Necessary for "true" mobile support.
+    # {
+    #     'name': 'viewport',
+    #     'content': 'width=device-width, initial-scale=0.4'
+    # }
+]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
                 meta_tags=META
                 )
@@ -70,11 +70,12 @@ app.layout = html.Div(style=style, children=[
         html.Div([
             html.Div([], style={'padding': 10}),
             html.Hr(style={'width': '50%', 'border': '2px solid black'}),
-            html.P(children='USA Ultimate Data Project', style={'textAlign': 'center', 'font-weight': 'bold', 'color': 'black',
-                                                                      'font-size': '65px', 'vertical-align': 'middle',
-                                                                      'padding': 10
-                                                                      # 'position': 'absolute', 'top': '50%', 'width': '100%'
-                                                                      }),
+            html.P(children='USA Ultimate Data Project',
+                   style={'textAlign': 'center', 'font-weight': 'bold', 'color': 'black',
+                          'font-size': '65px', 'vertical-align': 'middle',
+                          'padding': 10
+                          # 'position': 'absolute', 'top': '50%', 'width': '100%'
+                          }),
             html.Hr(style={'width': '50%', 'border': '4px solid black'}),
             html.Div([], style={'padding': 10})
         ], style={'backgroundColor': f'rgba{BACKGROUND_LIGHT_RGB + (BACKGROUND_ALPHA,)}',
@@ -83,20 +84,23 @@ app.layout = html.Div(style=style, children=[
         html.Div([
             html.Div([
                 html.H2('About the project'),
-                html.P(children='As a frisbee player, I was interested to see the rise and fall of teams in each region over the years. '
-                            'To get a better sense of the ultimate frisbee dynasties and other fun stats, I scraped data from the USAU '
-                            'archives of nationals and then built this dashboard.', style={'font-size': TEXT_SIZE}),
+                html.P(
+                    children='As a frisbee player, I was interested to see the rise and fall of teams in each region over the years. '
+                             'To get a better sense of the ultimate frisbee dynasties and other fun stats, I scraped data from the USAU '
+                             'archives of nationals and then built this dashboard.', style={'font-size': TEXT_SIZE}),
                 html.Br(),
                 html.H2('How to use'),
                 html.Ul(children=[
                     html.Li('Use the selection filters to pick a division, a sub-division, and a region'),
-                    html.Li('Use checkboxes in the table to pick which teams to show in the graphs (updates automatically)'),
+                    html.Li(
+                        'Use checkboxes in the table to pick which teams to show in the graphs (updates automatically)'),
                     html.Li('Hover over or click on data points in graphs for more info')
                 ], style={'font-size': TEXT_SIZE}),
                 html.Br(),
                 html.H2('Notes'),
                 html.Ul(children=[
-                    html.Li('Divisions are named based on current USAU naming except in the case of college where there are separate sub divisions for before and after the DI/DIII separation'),
+                    html.Li(
+                        'Divisions are named based on current USAU naming except in the case of college where there are separate sub divisions for before and after the DI/DIII separation'),
                     html.Li('Due to regional boundary redrawing, the regional of teams change over the years')
                 ], style={'font-size': TEXT_SIZE}),
                 html.Br(),
@@ -108,12 +112,12 @@ app.layout = html.Div(style=style, children=[
                    'margin-left': '40px', 'margin-right': '40px', 'padding': 20, 'vertical-align': 'middle'}),
         html.Div([], style={'padding': 150}),
     ],
-             style={'background-image': f'url({TURF_LINE_IMAGE})',
-                    'background-attachment': 'fixed',
-                    'background-position': 'center center',
-                    'background-repeat': 'no-repeat',
-                    'background-size': 'cover',
-                                       }),
+        style={'background-image': f'url({TURF_LINE_IMAGE})',
+               'background-attachment': 'fixed',
+               'background-position': 'center center',
+               'background-repeat': 'no-repeat',
+               'background-size': 'cover',
+               }),
 
     # subsetting section
     html.Div([
@@ -214,7 +218,6 @@ app.layout = html.Div(style=style, children=[
                               style={'backgroundColor': BACKGROUND_COLOR_LIGHT})],
                  style={'padding': 20, 'font-size': TEXT_SIZE}),
     ], style={'backgroundColor': PLOT_BACKGROUND_COLOR, 'padding': 60}),
-
 
     # graph section
     html.Div([
