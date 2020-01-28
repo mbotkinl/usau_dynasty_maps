@@ -183,7 +183,7 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
         if not df.empty:
             plot_data += [go.Scatter(x=df['avg_spirit'],
                                      y=df['avg_rank'],
-                                     marker_size=df['count'] + 6,
+                                     marker_size=df['count']*1.5 + 10,
                                      marker_color=BACKGROUND_COLOR_DARK,
                                      hoverlabel={'font': {'color': 'white'}},
                                      hoverinfo='text',
