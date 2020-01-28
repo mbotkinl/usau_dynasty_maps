@@ -83,28 +83,38 @@ app.layout = html.Div(style=style, children=[
         html.Div([], style={'padding': 150}),
         html.Div([
             html.Div([
-                html.H2('About the project'),
+                html.H2('About The Project'),
                 html.P(
-                    children='As a frisbee player, I was interested to see the rise and fall of teams in each region over the years. '
-                             'To get a better sense of the ultimate frisbee dynasties and other fun stats, I scraped data from the USAU '
-                             'archives of nationals and then built this dashboard.', style={'font-size': TEXT_SIZE}),
+                    children=['As a frisbee player, I was interested to see the rise and fall of teams in each region '
+                              'over the years. To get a better sense of the ultimate frisbee dynasties and other '
+                              'fun stats, I scraped data from the ',
+                              html.A('USAU Archives', href='https://www.usaultimate.org/archives/', target="_blank",
+                               style={'color': BACKGROUND_COLOR_DARK}),
+                              ' of nationals and then built this dashboard.'], style={'font-size': TEXT_SIZE}),
                 html.Br(),
-                html.H2('How to use'),
+                html.H2('How To Use:'),
                 html.Ul(children=[
-                    html.Li('Use the selection filters to pick a division, a sub-division, and a region'),
+                    html.Li('Use the filters to pick a division, a sub-division, and a region.'),
                     html.Li(
-                        'Use checkboxes in the table to pick which teams to show in the graphs (updates automatically)'),
-                    html.Li('Hover over or click on data points in graphs for more info')
+                        'Use checkboxes in the table to pick which teams to show in the graphs.'),
+                    html.Li('Hover over or click on data points in graphs for more information.')
                 ], style={'font-size': TEXT_SIZE}),
                 html.Br(),
                 html.H2('Notes'),
                 html.Ul(children=[
-                    html.Li(
-                        'Divisions are named based on current USAU naming except in the case of college where there are separate sub divisions for before and after the DI/DIII separation'),
-                    html.Li('Due to regional boundary redrawing, the regional of teams change over the years')
+                    html.Li('Divisions are named based on current USAU naming except in the case of college where'
+                            ' there are separate sub divisions for before and after the DI/DIII separation.'),
+                    html.Li('Due to regional boundary redrawing, the regions of teams change over the years.')
                 ], style={'font-size': TEXT_SIZE}),
                 html.Br(),
-                html.P('Questions/comments? Feel free to contact on LinkedIn or GitHub with the links at the bottom.',
+                html.P(children=
+                       ['Questions/comments? Feel free to reach out on ',
+                        html.A('LinkedIn', href='https://www.linkedin.com/in/micahbotkinlevy/', target="_blank",
+                               style={'color': BACKGROUND_COLOR_DARK}),
+                        ' or ',
+                        html.A('Github', href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank",
+                               style={'color': BACKGROUND_COLOR_DARK}), '.'
+                        ],
                        style={'font-size': TEXT_SIZE}),
             ], style={'margin-left': '20px', 'margin-right': '20px'}),
         ],
