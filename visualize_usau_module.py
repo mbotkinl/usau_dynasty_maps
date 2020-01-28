@@ -215,6 +215,8 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
     if not plot_data:
         return {
             "layout": {
+                'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
+                'plot_bgcolor': PLOT_BACKGROUND_COLOR,
                 "xaxis": {
                     "visible": False
                 },

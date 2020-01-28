@@ -174,8 +174,8 @@ app.layout = html.Div(style=style, children=[
 
     # table section
     html.Div([
-        html.H2(children='TEAM SUMMARY TABLE', style={'textAlign': 'center', 'padding': 1,
-                                                      'font-size': HEADER_2_SIZE, 'letter-spacing': '1px'}),
+        html.H2(children='NATIONALS SUMMARY TABLE', style={'textAlign': 'center', 'padding': 1,
+                                                            'font-size': HEADER_2_SIZE, 'letter-spacing': '1px'}),
         html.Div([], style={'padding': 30}),
         html.Div([dash_table.DataTable(
             id='ranking_table',
