@@ -213,6 +213,26 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      opacity=0.1,
                                      mode='markers')]
     if not plot_data:
-        plot_data = []
+        return {
+            "layout": {
+                "xaxis": {
+                    "visible": False
+                },
+                "yaxis": {
+                    "visible": False
+                },
+                "annotations": [
+                    {
+                        "text": "No Spirit data found",
+                        "xref": "paper",
+                        "yref": "paper",
+                        "showarrow": False,
+                        "font": {
+                            "size": 28
+                        }
+                    }
+                ]
+            }
+        }
 
     return dict(data=plot_data, layout=layout)
