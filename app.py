@@ -268,8 +268,10 @@ app.layout = html.Div(style=style, children=[
                                        }
                                    )
                                ], href='https://github.com/mbotkinl/usau_dynasty_maps', target="_blank",
-                                   style={'align': 'center'})])],
-             style={'textAlign': 'right', 'padding': 20}),
+                                   style={'align': 'center'})
+                               ])],
+             style={'textAlign': 'right', 'padding': 10, 'backgroundColor': BACKGROUND_COLOR_DARK, 'color': 'white',
+                    'font-size': '16px'}),
 ])
 
 
