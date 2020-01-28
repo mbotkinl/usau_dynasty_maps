@@ -88,6 +88,19 @@ def clean_data(df: pd.DataFrame, div: str) -> pd.DataFrame:
     df.loc[pd.isna(df.Region), 'Region'] = 'Unknown'
     df.loc[df.Region == '', 'Region'] = 'Unknown'
 
+    if div == 'club':
+        df.loc[df.Region == 'Central', 'Region'] = 'Central (pre-2012)'
+        df.loc[df.Region == 'South', 'Region'] = 'South (pre-2012)'
+        df.loc[df.Region == 'West', 'Region'] = 'West (pre-1995)'
+    elif div == 'college':
+        df.loc[df.division == 'Men\'s', 'division'] = 'Men\'s (pre-2010)'
+        df.loc[df.division == 'Women\'s', 'division'] = 'Women\'s (pre-2010)'
+        df.loc[df.Region == 'Central', 'Region'] = 'Central (pre-2011)'
+        df.loc[df.Region == 'South', 'Region'] = 'South (pre-2011)'
+        df.loc[df.Region == 'Mid Atlantic', 'Region'] = 'Mid Atlantic (pre-1999)'
+        df.loc[df.Region == 'Northeast', 'Region'] = 'Northeast (pre-1999)'
+        df.loc[df.Region == 'West', 'Region'] = 'West (pre-1999)'
+
     # spirit scores corrections
     if 'SpiritScores' in df.columns:
         df['SpiritScores'] = df['SpiritScores'].str.replace(' *', '')

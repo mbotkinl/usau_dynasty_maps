@@ -1,696 +1,696 @@
 Standing,Team,Region,division,year,comp_division,SpiritScores
 1,GLASSBORO,Mid Atlantic,MENS,1979,Club,
-2,CONDORS,West,MENS,1979,Club,
-3,MICHIGAN STATE,Central,MENS,1979,Club,
-4,ORLANDO,South,MENS,1979,Club,
+2,CONDORS,West (pre-1995),MENS,1979,Club,
+3,MICHIGAN STATE,Central (pre-2012),MENS,1979,Club,
+4,ORLANDO,South (pre-2012),MENS,1979,Club,
 5,CORNELL,Northeast,MENS,1979,Club,
 1,GLASSBORO,Mid Atlantic,MENS,1980,Club,
 2,AERODISC,Northeast,MENS,1980,Club,
-3,MICHIGAN STATE,Central,MENS,1980,Club,
-4,CONDORS,West,MENS,1980,Club,
-5,SKY PILOTS,South,MENS,1980,Club,
-1,CONDORS,West,MENS,1981,Club,
+3,MICHIGAN STATE,Central (pre-2012),MENS,1980,Club,
+4,CONDORS,West (pre-1995),MENS,1980,Club,
+5,SKY PILOTS,South (pre-2012),MENS,1980,Club,
+1,CONDORS,West (pre-1995),MENS,1981,Club,
 2,KNIGHTS OF NEE,Mid Atlantic,MENS,1981,Club,
-3,SKY PILOTS,South,MENS,1981,Club,
+3,SKY PILOTS,South (pre-2012),MENS,1981,Club,
 4,HOSTAGES,Northeast,MENS,1981,Club,
-5,MICHIGAN STATE,Central,MENS,1981,Club,
+5,MICHIGAN STATE,Central (pre-2012),MENS,1981,Club,
 1,B.L.U.,Northeast,WOMENS,1981,Club,
-2,SYNERGY,West,WOMENS,1981,Club,
+2,SYNERGY,West (pre-1995),WOMENS,1981,Club,
 3,GLASSBORO,Mid Atlantic,WOMENS,1981,Club,
-4,WILD AND READY,South,WOMENS,1981,Club,
-5,FISHEADS,Central,WOMENS,1981,Club,
+4,WILD AND READY,South (pre-2012),WOMENS,1981,Club,
+5,FISHEADS,Central (pre-2012),WOMENS,1981,Club,
 1,RUDE BOYS,Northeast,MENS,1982,Club,
-2,TUNAS,Central,MENS,1982,Club,
+2,TUNAS,Central (pre-2012),MENS,1982,Club,
 3,GANG,Mid Atlantic,MENS,1982,Club,
 4,HOSTAGES,Northeast,MENS,1982,Club,
-5,WINDY CITY,Central,MENS,1982,Club,
-6,SKY PILOTS,South,MENS,1982,Club,
-7,CHAIN LIGHTNING,South,MENS,1982,Club,
+5,WINDY CITY,Central (pre-2012),MENS,1982,Club,
+6,SKY PILOTS,South (pre-2012),MENS,1982,Club,
+7,CHAIN LIGHTNING,South (pre-2012),MENS,1982,Club,
 8,GLASSBORO,Mid Atlantic,MENS,1982,Club,
-9,FUN HOGS,West,MENS,1982,Club,
-10,FLYING CIRCUS,West,MENS,1982,Club,
+9,FUN HOGS,West (pre-1995),MENS,1982,Club,
+10,FLYING CIRCUS,West (pre-1995),MENS,1982,Club,
 1,ZULU,Northeast,WOMENS,1982,Club,
-2,FISHEADS,Central,WOMENS,1982,Club,
-3,DARK STAR,West,WOMENS,1982,Club,
-4,ATHENS AIRWAVES,South,WOMENS,1982,Club,
+2,FISHEADS,Central (pre-2012),WOMENS,1982,Club,
+3,DARK STAR,West (pre-1995),WOMENS,1982,Club,
+4,ATHENS AIRWAVES,South (pre-2012),WOMENS,1982,Club,
 5,UVA,Mid Atlantic,WOMENS,1982,Club,
-1,WINDY CITY,Central,MENS,1983,Club,
-2,SPINOFFS,West,MENS,1983,Club,
-3,SKY PILOTS,South,MENS,1983,Club,
-3,CONDORS,West,MENS,1983,Club,
-5,TUNAS,Central,MENS,1983,Club,
+1,WINDY CITY,Central (pre-2012),MENS,1983,Club,
+2,SPINOFFS,West (pre-1995),MENS,1983,Club,
+3,SKY PILOTS,South (pre-2012),MENS,1983,Club,
+3,CONDORS,West (pre-1995),MENS,1983,Club,
+5,TUNAS,Central (pre-2012),MENS,1983,Club,
 5,RUDE BOYS,Northeast,MENS,1983,Club,
 7,THE GANG,Mid Atlantic,MENS,1983,Club,
 7,STATIC DISC,Mid Atlantic,MENS,1983,Club,
 9,KABOOM,Northeast,MENS,1983,Club,
-9,FAT WOMEN,South,MENS,1983,Club,
-1,FISHEADS,Central,WOMENS,1983,Club,
+9,FAT WOMEN,South (pre-2012),MENS,1983,Club,
+1,FISHEADS,Central (pre-2012),WOMENS,1983,Club,
 2,SPINSTERS,Northeast,WOMENS,1983,Club,
-3,DARK STAR,West,WOMENS,1983,Club,
+3,DARK STAR,West (pre-1995),WOMENS,1983,Club,
 4,ANDROMEDA,Mid Atlantic,WOMENS,1983,Club,
-5,UFDA,South,WOMENS,1983,Club,
-1,TUNAS,Central,MENS,1984,Club,
-2,FLYING CIRCUS,West,MENS,1984,Club,
-3,WINDY CITY,Central,MENS,1984,Club,
-3,CONDORS,West,MENS,1984,Club,
+5,UFDA,South (pre-2012),WOMENS,1983,Club,
+1,TUNAS,Central (pre-2012),MENS,1984,Club,
+2,FLYING CIRCUS,West (pre-1995),MENS,1984,Club,
+3,WINDY CITY,Central (pre-2012),MENS,1984,Club,
+3,CONDORS,West (pre-1995),MENS,1984,Club,
 5,KABOOM,Northeast,MENS,1984,Club,
 5,RUDE BOYS,Northeast,MENS,1984,Club,
-7,MIAMI REFUGEES,South,MENS,1984,Club,
-7,FAT WOMEN,South,MENS,1984,Club,
+7,MIAMI REFUGEES,South (pre-2012),MENS,1984,Club,
+7,FAT WOMEN,South (pre-2012),MENS,1984,Club,
 9,STATIC DISC,Mid Atlantic,MENS,1984,Club,
 9,THE GANG,Mid Atlantic,MENS,1984,Club,
-1,LADY CONDORS,West,WOMENS,1984,Club,
-2,FISHEADS,Central,WOMENS,1984,Club,
+1,LADY CONDORS,West (pre-1995),WOMENS,1984,Club,
+2,FISHEADS,Central (pre-2012),WOMENS,1984,Club,
 3,ANDROMEDA,Mid Atlantic,WOMENS,1984,Club,
 4,SPINSTERS,Northeast,WOMENS,1984,Club,
-5,SHAKTI NUNS,South,WOMENS,1984,Club,
-1,Stanford,West,Men's,1984,College,
-2,Glassboro,Mid Atlantic,Men's,1984,College,
-3,Massachusetts,Northeast,Men's,1984,College,
-3,Pennsylvania,Mid Atlantic,Men's,1984,College,
-1,FLYING CIRCUS,West,MENS,1985,Club,
+5,SHAKTI NUNS,South (pre-2012),WOMENS,1984,Club,
+1,Stanford,West (pre-1999),Men's (pre-2010),1984,College,
+2,Glassboro,Mid Atlantic (pre-1999),Men's (pre-2010),1984,College,
+3,Massachusetts,Northeast (pre-1999),Men's (pre-2010),1984,College,
+3,Pennsylvania,Mid Atlantic (pre-1999),Men's (pre-2010),1984,College,
+1,FLYING CIRCUS,West (pre-1995),MENS,1985,Club,
 2,KABOOM,Northeast,MENS,1985,Club,
-3,WINDY CITY,Central,MENS,1985,Club,
-3,TUNAS,Central,MENS,1985,Club,
+3,WINDY CITY,Central (pre-2012),MENS,1985,Club,
+3,TUNAS,Central (pre-2012),MENS,1985,Club,
 5,TITANIC,Northeast,MENS,1985,Club,
-5,RIVALS,South,MENS,1985,Club,
+5,RIVALS,South (pre-2012),MENS,1985,Club,
 7,MR. POUCE,Mid Atlantic,MENS,1985,Club,
-7,CONDORS,West,MENS,1985,Club,
+7,CONDORS,West (pre-1995),MENS,1985,Club,
 9,COGZ,Mid Atlantic,MENS,1985,Club,
-9,CHAIN LIGHTNING,South,MENS,1985,Club,
-1,LADY CONDORS,West,WOMENS,1985,Club,
+9,CHAIN LIGHTNING,South (pre-2012),MENS,1985,Club,
+1,LADY CONDORS,West (pre-1995),WOMENS,1985,Club,
 2,ANIMATION,Northeast,WOMENS,1985,Club,
-3,FISHEADS,Central,WOMENS,1985,Club,
+3,FISHEADS,Central (pre-2012),WOMENS,1985,Club,
 4,ZEPHYRS,Mid Atlantic,WOMENS,1985,Club,
-5,SHAKTI NUNS,South,WOMENS,1985,Club,
-1,Pennsylvania,Mid Atlantic,Men's,1985,College,
-2,Massachusetts,Northeast,Men's,1985,College,
-3,Cornell,Northeast,Men's,1985,College,
-3,SW Missouri State,Central,Men's,1985,College,
-5,Stanford,West,Men's,1985,College,
-5,Texas,South,Men's,1985,College,
-7,Cal Poly-SLO,West,Men's,1985,College,
-7,Kansas,Central,Men's,1985,College,
-9,MIT,Northeast,Men's,1985,College,
-9,Oregon,West,Men's,1985,College,
-11,Central Florida,South,Men's,1985,College,
-11,Princeton,Mid Atlantic,Men's,1985,College,
-1,WINDY CITY,Central,MENS,1986,Club,
-2,FLYING CIRCUS,West,MENS,1986,Club,
+5,SHAKTI NUNS,South (pre-2012),WOMENS,1985,Club,
+1,Pennsylvania,Mid Atlantic (pre-1999),Men's (pre-2010),1985,College,
+2,Massachusetts,Northeast (pre-1999),Men's (pre-2010),1985,College,
+3,Cornell,Northeast (pre-1999),Men's (pre-2010),1985,College,
+3,SW Missouri State,Central (pre-2011),Men's (pre-2010),1985,College,
+5,Stanford,West (pre-1999),Men's (pre-2010),1985,College,
+5,Texas,South (pre-2011),Men's (pre-2010),1985,College,
+7,Cal Poly-SLO,West (pre-1999),Men's (pre-2010),1985,College,
+7,Kansas,Central (pre-2011),Men's (pre-2010),1985,College,
+9,MIT,Northeast (pre-1999),Men's (pre-2010),1985,College,
+9,Oregon,West (pre-1999),Men's (pre-2010),1985,College,
+11,Central Florida,South (pre-2011),Men's (pre-2010),1985,College,
+11,Princeton,Mid Atlantic (pre-1999),Men's (pre-2010),1985,College,
+1,WINDY CITY,Central (pre-2012),MENS,1986,Club,
+2,FLYING CIRCUS,West (pre-1995),MENS,1986,Club,
 3,TITANIC,Northeast,MENS,1986,Club,
 3,KABOOM,Northeast,MENS,1986,Club,
-5,TUNAS,Central,MENS,1986,Club,
-5,CONDORS,West,MENS,1986,Club,
-7,TEXAS HEAT,South,MENS,1986,Club,
-7,CHAIN LIGHTNING,South,MENS,1986,Club,
+5,TUNAS,Central (pre-2012),MENS,1986,Club,
+5,CONDORS,West (pre-1995),MENS,1986,Club,
+7,TEXAS HEAT,South (pre-2012),MENS,1986,Club,
+7,CHAIN LIGHTNING,South (pre-2012),MENS,1986,Club,
 9,MR. POUCE,Mid Atlantic,MENS,1986,Club,
 9,R & B,Mid Atlantic,MENS,1986,Club,
-1,LADY CONDORS,West,WOMENS,1986,Club,
-2,NEMAHEADS,Central,WOMENS,1986,Club,
-3,SAFARI,West,WOMENS,1986,Club,
+1,LADY CONDORS,West (pre-1995),WOMENS,1986,Club,
+2,NEMAHEADS,Central (pre-2012),WOMENS,1986,Club,
+3,SAFARI,West (pre-1995),WOMENS,1986,Club,
 4,SMITHEREENS,Northeast,WOMENS,1986,Club,
 5,COOL MAMA SEVEN,Mid Atlantic,WOMENS,1986,Club,
-6,SHAKTI,South,WOMENS,1986,Club,
-1,Massachusetts,Northeast,Men's,1986,College,
-2,Stanford,West,Men's,1986,College,
-3,California-Santa Barbara,West,Men's,1986,College,
-3,Cornell,Northeast,Men's,1986,College,
-5,Oregon,West,Men's,1986,College,
-5,SW Missouri State,Central,Men's,1986,College,
-7,Kansas,Central,Men's,1986,College,
-7,MIT,Northeast,Men's,1986,College,
-9,Carnegie Mellon,Mid Atlantic,Men's,1986,College,
-9,Princeton,Mid Atlantic,Men's,1986,College,
-11,Georgia,South,Men's,1986,College,
-11,Texas,South,Men's,1986,College,
+6,SHAKTI,South (pre-2012),WOMENS,1986,Club,
+1,Massachusetts,Northeast (pre-1999),Men's (pre-2010),1986,College,
+2,Stanford,West (pre-1999),Men's (pre-2010),1986,College,
+3,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1986,College,
+3,Cornell,Northeast (pre-1999),Men's (pre-2010),1986,College,
+5,Oregon,West (pre-1999),Men's (pre-2010),1986,College,
+5,SW Missouri State,Central (pre-2011),Men's (pre-2010),1986,College,
+7,Kansas,Central (pre-2011),Men's (pre-2010),1986,College,
+7,MIT,Northeast (pre-1999),Men's (pre-2010),1986,College,
+9,Carnegie Mellon,Mid Atlantic (pre-1999),Men's (pre-2010),1986,College,
+9,Princeton,Mid Atlantic (pre-1999),Men's (pre-2010),1986,College,
+11,Georgia,South (pre-2011),Men's (pre-2010),1986,College,
+11,Texas,South (pre-2011),Men's (pre-2010),1986,College,
 1,NEW YORK,Northeast,MENS,1987,Club,
-2,WINDY CITY,Central,MENS,1987,Club,
-3,TUNAS,Central,MENS,1987,Club,
+2,WINDY CITY,Central (pre-2012),MENS,1987,Club,
+3,TUNAS,Central (pre-2012),MENS,1987,Club,
 3,TITANIC,Northeast,MENS,1987,Club,
-5,TSUNAMI,West,MENS,1987,Club,
-5,CONDORS,West,MENS,1987,Club,
+5,TSUNAMI,West (pre-1995),MENS,1987,Club,
+5,CONDORS,West (pre-1995),MENS,1987,Club,
 7,LOONEY TUNES,Mid Atlantic,MENS,1987,Club,
-7,CHAIN LIGHTNING,South,MENS,1987,Club,
+7,CHAIN LIGHTNING,South (pre-2012),MENS,1987,Club,
 9,YO MAMA,Mid Atlantic,MENS,1987,Club,
-9,DRIVERS,West,MENS,1987,Club,
+9,DRIVERS,West (pre-1995),MENS,1987,Club,
 11,MR. BUBBLE,Northeast,MENS,1987,Club,
-11,TEXAS HEAT,South,MENS,1987,Club,
-1,LADY CONDORS,West,WOMENS,1987,Club,
+11,TEXAS HEAT,South (pre-2012),MENS,1987,Club,
+1,LADY CONDORS,West (pre-1995),WOMENS,1987,Club,
 2,LADY GODIVA,Northeast,WOMENS,1987,Club,
-3,OZONE,South,WOMENS,1987,Club,
-4,SAFARI,West,WOMENS,1987,Club,
+3,OZONE,South (pre-2012),WOMENS,1987,Club,
+4,SAFARI,West (pre-1995),WOMENS,1987,Club,
 5,COOL MAMA SEVEN,Mid Atlantic,WOMENS,1987,Club,
-6,NEMESIS,Central,WOMENS,1987,Club,
-1,Chabot CC,West,Men's,1987,College,
-2,California-Santa Barbara,West,Men's,1987,College,
-3,Cal Poly-SLO,West,Men's,1987,College,
-3,Cornell,Northeast,Men's,1987,College,
-5,SW Missouri State,Central,Men's,1987,College,
-5,Texas,South,Men's,1987,College,
-7,Georgia Tech,South,Men's,1987,College,
-7,SUNY-Purchase,Northeast,Men's,1987,College,
-9,Carnegie Mellon,Mid Atlantic,Men's,1987,College,
-9,Princeton,Mid Atlantic,Men's,1987,College,
-11,Kansas,Central,Men's,1987,College,
-11,Michigan,Central,Men's,1987,College,
-13,East Carolina,Mid Atlantic,Men's,1987,College,
-13,Vermont,Northeast,Men's,1987,College,
-1,Kansas,Central,Women's,1987,College,
-2,California-Davis,West,Women's,1987,College,
-3,Humboldt State,West,Women's,1987,College,
-4,Massachusetts,Northeast,Women's,1987,College,
-5,Cornell,Northeast,Women's,1987,College,
-6,Earlham,Central,Women's,1987,College,
-7,Vermont,Northeast,Women's,1987,College,
-1,TSUNAMI,West,MENS,1988,Club,
+6,NEMESIS,Central (pre-2012),WOMENS,1987,Club,
+1,Chabot CC,West (pre-1999),Men's (pre-2010),1987,College,
+2,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1987,College,
+3,Cal Poly-SLO,West (pre-1999),Men's (pre-2010),1987,College,
+3,Cornell,Northeast (pre-1999),Men's (pre-2010),1987,College,
+5,SW Missouri State,Central (pre-2011),Men's (pre-2010),1987,College,
+5,Texas,South (pre-2011),Men's (pre-2010),1987,College,
+7,Georgia Tech,South (pre-2011),Men's (pre-2010),1987,College,
+7,SUNY-Purchase,Northeast (pre-1999),Men's (pre-2010),1987,College,
+9,Carnegie Mellon,Mid Atlantic (pre-1999),Men's (pre-2010),1987,College,
+9,Princeton,Mid Atlantic (pre-1999),Men's (pre-2010),1987,College,
+11,Kansas,Central (pre-2011),Men's (pre-2010),1987,College,
+11,Michigan,Central (pre-2011),Men's (pre-2010),1987,College,
+13,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1987,College,
+13,Vermont,Northeast (pre-1999),Men's (pre-2010),1987,College,
+1,Kansas,Central (pre-2011),Women's (pre-2010),1987,College,
+2,California-Davis,West (pre-1999),Women's (pre-2010),1987,College,
+3,Humboldt State,West (pre-1999),Women's (pre-2010),1987,College,
+4,Massachusetts,Northeast (pre-1999),Women's (pre-2010),1987,College,
+5,Cornell,Northeast (pre-1999),Women's (pre-2010),1987,College,
+6,Earlham,Central (pre-2011),Women's (pre-2010),1987,College,
+7,Vermont,Northeast (pre-1999),Women's (pre-2010),1987,College,
+1,TSUNAMI,West (pre-1995),MENS,1988,Club,
 2,TITANIC,Northeast,MENS,1988,Club,
-3,WINDY CITY,Central,MENS,1988,Club,
+3,WINDY CITY,Central (pre-2012),MENS,1988,Club,
 3,NEW YORK,Northeast,MENS,1988,Club,
 5,LOONEY TUNES,Mid Atlantic,MENS,1988,Club,
-5,CONDORS,West,MENS,1988,Club,
+5,CONDORS,West (pre-1995),MENS,1988,Club,
 7,GRAFFITI,Northeast,MENS,1988,Club,
-7,POLO CLUB,West,MENS,1988,Club,
+7,POLO CLUB,West (pre-1995),MENS,1988,Club,
 9,PHILMORE,Mid Atlantic,MENS,1988,Club,
-9,MIAMI,South,MENS,1988,Club,
-11,TUNAS,Central,MENS,1988,Club,
-11,SPLAT,South,MENS,1988,Club,
+9,MIAMI,South (pre-2012),MENS,1988,Club,
+11,TUNAS,Central (pre-2012),MENS,1988,Club,
+11,SPLAT,South (pre-2012),MENS,1988,Club,
 1,LADY GODIVA,Northeast,WOMENS,1988,Club,
 2,SMITHEREENS,Northeast,WOMENS,1988,Club,
-3,LADY CONDORS,West,WOMENS,1988,Club,
-4,MAMBA,West,WOMENS,1988,Club,
-5,NEMESIS,Central,WOMENS,1988,Club,
+3,LADY CONDORS,West (pre-1995),WOMENS,1988,Club,
+4,MAMBA,West (pre-1995),WOMENS,1988,Club,
+5,NEMESIS,Central (pre-2012),WOMENS,1988,Club,
 6,COOL MAMA SEVEN,Mid Atlantic,WOMENS,1988,Club,
-7,OZONE,South,WOMENS,1988,Club,
-8,STRAY COWS,Central,WOMENS,1988,Club,
-1,California-Santa Barbara,West,Men's,1988,College,
-2,Texas,South,Men's,1988,College,
-3,Stanford,West,Men's,1988,College,
-4,Columbia,Northeast,Men's,1988,College,
-5,Georgia Tech,South,Men's,1988,College,
-5,Kansas,Central,Men's,1988,College,
-7,Carnegie Mellon,Mid Atlantic,Men's,1988,College,
-7,East Carolina,Mid Atlantic,Men's,1988,College,
-9,Saint Louis,Central,Men's,1988,College,
-9,Wesleyan,Northeast,Men's,1988,College,
-11,Massachusetts,Northeast,Men's,1988,College,
-11,Winona State,Central,Men's,1988,College,
-1,California-Santa Barbara,West,Women's,1988,College,
-2,California-Davis,West,Women's,1988,College,
-3,Humboldt State,West,Women's,1988,College,
-3,Oregon,West,Women's,1988,College,
-5,Carleton College,Central,Women's,1988,College,
-5,Massachusetts,Northeast,Women's,1988,College,
-7,Cornell,Northeast,Women's,1988,College,
-7,Wisconsin,Central,Women's,1988,College,
-9,Florida,South,Women's,1988,College,
-9,Kansas,Central,Women's,1988,College,
+7,OZONE,South (pre-2012),WOMENS,1988,Club,
+8,STRAY COWS,Central (pre-2012),WOMENS,1988,Club,
+1,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1988,College,
+2,Texas,South (pre-2011),Men's (pre-2010),1988,College,
+3,Stanford,West (pre-1999),Men's (pre-2010),1988,College,
+4,Columbia,Northeast (pre-1999),Men's (pre-2010),1988,College,
+5,Georgia Tech,South (pre-2011),Men's (pre-2010),1988,College,
+5,Kansas,Central (pre-2011),Men's (pre-2010),1988,College,
+7,Carnegie Mellon,Mid Atlantic (pre-1999),Men's (pre-2010),1988,College,
+7,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1988,College,
+9,Saint Louis,Central (pre-2011),Men's (pre-2010),1988,College,
+9,Wesleyan,Northeast (pre-1999),Men's (pre-2010),1988,College,
+11,Massachusetts,Northeast (pre-1999),Men's (pre-2010),1988,College,
+11,Winona State,Central (pre-2011),Men's (pre-2010),1988,College,
+1,California-Santa Barbara,West (pre-1999),Women's (pre-2010),1988,College,
+2,California-Davis,West (pre-1999),Women's (pre-2010),1988,College,
+3,Humboldt State,West (pre-1999),Women's (pre-2010),1988,College,
+3,Oregon,West (pre-1999),Women's (pre-2010),1988,College,
+5,Carleton College,Central (pre-2011),Women's (pre-2010),1988,College,
+5,Massachusetts,Northeast (pre-1999),Women's (pre-2010),1988,College,
+7,Cornell,Northeast (pre-1999),Women's (pre-2010),1988,College,
+7,Wisconsin,Central (pre-2011),Women's (pre-2010),1988,College,
+9,Florida,South (pre-2011),Women's (pre-2010),1988,College,
+9,Kansas,Central (pre-2011),Women's (pre-2010),1988,College,
 1,NEW YORK,Northeast,MENS,1989,Club,
-2,TSUNAMI,West,MENS,1989,Club,
+2,TSUNAMI,West (pre-1995),MENS,1989,Club,
 3,TITANIC,Northeast,MENS,1989,Club,
-3,IGUANAS,West,MENS,1989,Club,
-5,WINDY CITY,Central,MENS,1989,Club,
-5,OREGON DONORS,West,MENS,1989,Club,
-7,AMANATA,Central,MENS,1989,Club,
+3,IGUANAS,West (pre-1995),MENS,1989,Club,
+5,WINDY CITY,Central (pre-2012),MENS,1989,Club,
+5,OREGON DONORS,West (pre-1995),MENS,1989,Club,
+7,AMANATA,Central (pre-2012),MENS,1989,Club,
 7,PHILMORE,Mid Atlantic,MENS,1989,Club,
 9,LOONEY TUNES,Mid Atlantic,MENS,1989,Club,
-9,CHAIN LIGHTNING,South,MENS,1989,Club,
+9,CHAIN LIGHTNING,South (pre-2012),MENS,1989,Club,
 11,EARTH ATOMIZER,Northeast,MENS,1989,Club,
-11,JAGA,South,MENS,1989,Club,
-1,CRUSH CLUB,West,WOMENS,1989,Club,
+11,JAGA,South (pre-2012),MENS,1989,Club,
+1,CRUSH CLUB,West (pre-1995),WOMENS,1989,Club,
 2,LADY GODIVA,Northeast,WOMENS,1989,Club,
 3,SATORI,Mid Atlantic,WOMENS,1989,Club,
-4,MAINE-IACS,West,WOMENS,1989,Club,
+4,MAINE-IACS,West (pre-1995),WOMENS,1989,Club,
 5,SMITHEREENS,Northeast,WOMENS,1989,Club,
-5,OZONE,South,WOMENS,1989,Club,
-7,AWOL,Central,WOMENS,1989,Club,
+5,OZONE,South (pre-2012),WOMENS,1989,Club,
+7,AWOL,Central (pre-2012),WOMENS,1989,Club,
 8,ZEPHYRS,Mid Atlantic,WOMENS,1989,Club,
-1,California-Santa Barbara,West,Men's,1989,College,
-2,Stanford,West,Men's,1989,College,
-3,Carnegie Mellon,Mid Atlantic,Men's,1989,College,
-3,Texas,South,Men's,1989,College,
-1,California-Davis,West,Women's,1989,College,
-2,Michigan,Central,Women's,1989,College,
-3,California-Santa Barbara,West,Women's,1989,College,
-3,Carleton College,Central,Women's,1989,College,
+1,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1989,College,
+2,Stanford,West (pre-1999),Men's (pre-2010),1989,College,
+3,Carnegie Mellon,Mid Atlantic (pre-1999),Men's (pre-2010),1989,College,
+3,Texas,South (pre-2011),Men's (pre-2010),1989,College,
+1,California-Davis,West (pre-1999),Women's (pre-2010),1989,College,
+2,Michigan,Central (pre-2011),Women's (pre-2010),1989,College,
+3,California-Santa Barbara,West (pre-1999),Women's (pre-2010),1989,College,
+3,Carleton College,Central (pre-2011),Women's (pre-2010),1989,College,
 1,NEW YORK,Northeast,MENS,1990,Club,
-2,IGUANAS,West,MENS,1990,Club,
-3,WINDY CITY,Central,MENS,1990,Club,
+2,IGUANAS,West (pre-1995),MENS,1990,Club,
+3,WINDY CITY,Central (pre-2012),MENS,1990,Club,
 3,FIRST TIME GARY,Northeast,MENS,1990,Club,
 5,EARTH ATOMIZER,Northeast,MENS,1990,Club,
-5,TSUNAMI,West,MENS,1990,Club,
-7,AMANATA,Central,MENS,1990,Club,
+5,TSUNAMI,West (pre-1995),MENS,1990,Club,
+7,AMANATA,Central (pre-2012),MENS,1990,Club,
 7,ARM & HAMMER,Mid Atlantic,MENS,1990,Club,
-9,CHAIN LIGHTNING,South,MENS,1990,Club,
-9,CONDORS,West,MENS,1990,Club,
+9,CHAIN LIGHTNING,South (pre-2012),MENS,1990,Club,
+9,CONDORS,West (pre-1995),MENS,1990,Club,
 11,ELECTRIC PIG,Mid Atlantic,MENS,1990,Club,
-11,VICIOUS CYCLE,South,MENS,1990,Club,
-1,MAINE-IACS,West,WOMENS,1990,Club,
-2,SAFARI,West,WOMENS,1990,Club,
+11,VICIOUS CYCLE,South (pre-2012),MENS,1990,Club,
+1,MAINE-IACS,West (pre-1995),WOMENS,1990,Club,
+2,SAFARI,West (pre-1995),WOMENS,1990,Club,
 3,SATORI,Mid Atlantic,WOMENS,1990,Club,
 3,LADY GODIVA,Northeast,WOMENS,1990,Club,
 5,HOMECOMING QUEEN,Northeast,WOMENS,1990,Club,
 5,WANNABEES,Northeast,WOMENS,1990,Club,
 7,GRITS,Mid Atlantic,WOMENS,1990,Club,
-7,WOMEN ON THE VERGE,West,WOMENS,1990,Club,
-9,STRAY COWS,Central,WOMENS,1990,Club,
-9,OZONE,South,WOMENS,1990,Club,
-11,SPIKE,Central,WOMENS,1990,Club,
-11,HUCKSTERS,South,WOMENS,1990,Club,
-1,California-Santa Barbara,West,Men's,1990,College,
-2,North Carolina-Wilmington,Mid Atlantic,Men's,1990,College,
-3,SUNY-Purchase,Northeast,Men's,1990,College,
-4,Cornell,Northeast,Men's,1990,College,
-5,Vermont,Northeast,Men's,1990,College,
-6,California-Santa Cruz,West,Men's,1990,College,
-7,Wisconsin,Central,Men's,1990,College,
-8,Carleton College,Central,Men's,1990,College,
-9,Georgia,South,Men's,1990,College,
-9,Kansas,Central,Men's,1990,College,
-9,Princeton,Mid Atlantic,Men's,1990,College,
-9,Texas,South,Men's,1990,College,
-1,California-Santa Barbara,West,Women's,1990,College,
-2,Michigan,Central,Women's,1990,College,
-3,Cornell,Northeast,Women's,1990,College,
-4,Carleton College,Central,Women's,1990,College,
-5,California-Davis,West,Women's,1990,College,
-6,Carnegie Mellon,Mid Atlantic,Women's,1990,College,
-7,Columbia,Northeast,Women's,1990,College,
-7,Kansas,Central,Women's,1990,College,
-9,Pennsylvania,Mid Atlantic,Women's,1990,College,
-9,Wesleyan,Northeast,Women's,1990,College,
+7,WOMEN ON THE VERGE,West (pre-1995),WOMENS,1990,Club,
+9,STRAY COWS,Central (pre-2012),WOMENS,1990,Club,
+9,OZONE,South (pre-2012),WOMENS,1990,Club,
+11,SPIKE,Central (pre-2012),WOMENS,1990,Club,
+11,HUCKSTERS,South (pre-2012),WOMENS,1990,Club,
+1,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1990,College,
+2,North Carolina-Wilmington,Mid Atlantic (pre-1999),Men's (pre-2010),1990,College,
+3,SUNY-Purchase,Northeast (pre-1999),Men's (pre-2010),1990,College,
+4,Cornell,Northeast (pre-1999),Men's (pre-2010),1990,College,
+5,Vermont,Northeast (pre-1999),Men's (pre-2010),1990,College,
+6,California-Santa Cruz,West (pre-1999),Men's (pre-2010),1990,College,
+7,Wisconsin,Central (pre-2011),Men's (pre-2010),1990,College,
+8,Carleton College,Central (pre-2011),Men's (pre-2010),1990,College,
+9,Georgia,South (pre-2011),Men's (pre-2010),1990,College,
+9,Kansas,Central (pre-2011),Men's (pre-2010),1990,College,
+9,Princeton,Mid Atlantic (pre-1999),Men's (pre-2010),1990,College,
+9,Texas,South (pre-2011),Men's (pre-2010),1990,College,
+1,California-Santa Barbara,West (pre-1999),Women's (pre-2010),1990,College,
+2,Michigan,Central (pre-2011),Women's (pre-2010),1990,College,
+3,Cornell,Northeast (pre-1999),Women's (pre-2010),1990,College,
+4,Carleton College,Central (pre-2011),Women's (pre-2010),1990,College,
+5,California-Davis,West (pre-1999),Women's (pre-2010),1990,College,
+6,Carnegie Mellon,Mid Atlantic (pre-1999),Women's (pre-2010),1990,College,
+7,Columbia,Northeast (pre-1999),Women's (pre-2010),1990,College,
+7,Kansas,Central (pre-2011),Women's (pre-2010),1990,College,
+9,Pennsylvania,Mid Atlantic (pre-1999),Women's (pre-2010),1990,College,
+9,Wesleyan,Northeast (pre-1999),Women's (pre-2010),1990,College,
 1,NEW YORK,Northeast,MENS,1991,Club,
 2,BIG BROTHER,Northeast,MENS,1991,Club,
-3,IGUANAS,West,MENS,1991,Club,
-3,SOUTH BAY,West,MENS,1991,Club,
+3,IGUANAS,West (pre-1995),MENS,1991,Club,
+3,SOUTH BAY,West (pre-1995),MENS,1991,Club,
 5,GRAFFITI,Northeast,MENS,1991,Club,
-5,EAST BAY,West,MENS,1991,Club,
-7,WINDY CITY,Central,MENS,1991,Club,
-7,REFUGEES,South,MENS,1991,Club,
+5,EAST BAY,West (pre-1995),MENS,1991,Club,
+7,WINDY CITY,Central (pre-2012),MENS,1991,Club,
+7,REFUGEES,South (pre-2012),MENS,1991,Club,
 9,ELECTRIC PIG,Mid Atlantic,MENS,1991,Club,
 9,PHILMORE,Mid Atlantic,MENS,1991,Club,
-11,"TEAM ""O""",Central,MENS,1991,Club,
-11,CHAIN LIGHTNING,South,MENS,1991,Club,
+11,"TEAM ""O""",Central (pre-2012),MENS,1991,Club,
+11,CHAIN LIGHTNING,South (pre-2012),MENS,1991,Club,
 1,LADY GODIVA,Northeast,WOMENS,1991,Club,
-2,MAINE-IACS,West,WOMENS,1991,Club,
-5,DV8,West,WOMENS,1991,Club,
+2,MAINE-IACS,West (pre-1995),WOMENS,1991,Club,
+5,DV8,West (pre-1995),WOMENS,1991,Club,
 8,ZEPHYRS,Mid Atlantic,WOMENS,1991,Club,
 3,SATORI,Mid Atlantic,WOMENS,1991,Club,
-3,LADY CONDORS,West,WOMENS,1991,Club,
+3,LADY CONDORS,West (pre-1995),WOMENS,1991,Club,
 6,WILD THING,Northeast,WOMENS,1991,Club,
-6,OZONE,South,WOMENS,1991,Club,
+6,OZONE,South (pre-2012),WOMENS,1991,Club,
 9,NY WOMEN'S ULTIMATE,Northeast,WOMENS,1991,Club,
-9,HUCKSTERS,South,WOMENS,1991,Club,
-11,NEMESIS,Central,WOMENS,1991,Club,
-11,I WOKE UP,Central,WOMENS,1991,Club,
-1,California-Santa Cruz,West,Men's,1991,College,
-2,North Carolina-Wilmington,Mid Atlantic,Men's,1991,College,
-3,California-Santa Barbara,West,Men's,1991,College,
-4,Cornell,Northeast,Men's,1991,College,
-5,Pennsylvania,Mid Atlantic,Men's,1991,College,
-6,Carleton College,Central,Men's,1991,College,
-7,Boston College,Northeast,Men's,1991,College,
-7,Georgia,South,Men's,1991,College,
-7,Wisconsin,Central,Men's,1991,College,
-10,East Carolina,Mid Atlantic,Men's,1991,College,
-11,Georgia Tech,South,Men's,1991,College,
-11,Kansas,Central,Men's,1991,College,
-1,California-Santa Barbara,West,Women's,1991,College,
-2,California,West,Women's,1991,College,
-3,Carleton College,Central,Women's,1991,College,
-3,Cornell,Northeast,Women's,1991,College,
-5,North Carolina-Wilmington,Mid Atlantic,Women's,1991,College,
-5,Virginia,Mid Atlantic,Women's,1991,College,
-7,Columbia,Northeast,Women's,1991,College,
-7,Kansas,Central,Women's,1991,College,
-9,Carnegie Mellon,Mid Atlantic,Women's,1991,College,
-9,Tufts,Northeast,Women's,1991,College,
+9,HUCKSTERS,South (pre-2012),WOMENS,1991,Club,
+11,NEMESIS,Central (pre-2012),WOMENS,1991,Club,
+11,I WOKE UP,Central (pre-2012),WOMENS,1991,Club,
+1,California-Santa Cruz,West (pre-1999),Men's (pre-2010),1991,College,
+2,North Carolina-Wilmington,Mid Atlantic (pre-1999),Men's (pre-2010),1991,College,
+3,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1991,College,
+4,Cornell,Northeast (pre-1999),Men's (pre-2010),1991,College,
+5,Pennsylvania,Mid Atlantic (pre-1999),Men's (pre-2010),1991,College,
+6,Carleton College,Central (pre-2011),Men's (pre-2010),1991,College,
+7,Boston College,Northeast (pre-1999),Men's (pre-2010),1991,College,
+7,Georgia,South (pre-2011),Men's (pre-2010),1991,College,
+7,Wisconsin,Central (pre-2011),Men's (pre-2010),1991,College,
+10,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1991,College,
+11,Georgia Tech,South (pre-2011),Men's (pre-2010),1991,College,
+11,Kansas,Central (pre-2011),Men's (pre-2010),1991,College,
+1,California-Santa Barbara,West (pre-1999),Women's (pre-2010),1991,College,
+2,California,West (pre-1999),Women's (pre-2010),1991,College,
+3,Carleton College,Central (pre-2011),Women's (pre-2010),1991,College,
+3,Cornell,Northeast (pre-1999),Women's (pre-2010),1991,College,
+5,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1991,College,
+5,Virginia,Mid Atlantic (pre-1999),Women's (pre-2010),1991,College,
+7,Columbia,Northeast (pre-1999),Women's (pre-2010),1991,College,
+7,Kansas,Central (pre-2011),Women's (pre-2010),1991,College,
+9,Carnegie Mellon,Mid Atlantic (pre-1999),Women's (pre-2010),1991,College,
+9,Tufts,Northeast (pre-1999),Women's (pre-2010),1991,College,
 1,NEW YORK,Northeast,MENS,1992,Club,
 2,COMMONWEALTH,Northeast,MENS,1992,Club,
-3,WINDY CITY,Central,MENS,1992,Club,
-3,RHINO SLAM!,West,MENS,1992,Club,
+3,WINDY CITY,Central (pre-2012),MENS,1992,Club,
+3,RHINO SLAM!,West (pre-1995),MENS,1992,Club,
 5,RING OF FIRE,Mid Atlantic,MENS,1992,Club,
-5,EAST BAY,West,MENS,1992,Club,
+5,EAST BAY,West (pre-1995),MENS,1992,Club,
 7,GRAFFITI,Northeast,MENS,1992,Club,
-7,VICIOUS CYCLE,South,MENS,1992,Club,
-9,REFUGEES,South,MENS,1992,Club,
-9,IGUANAS,West,MENS,1992,Club,
-11,NIGHT TRAIN,Central,MENS,1992,Club,
+7,VICIOUS CYCLE,South (pre-2012),MENS,1992,Club,
+9,REFUGEES,South (pre-2012),MENS,1992,Club,
+9,IGUANAS,West (pre-1995),MENS,1992,Club,
+11,NIGHT TRAIN,Central (pre-2012),MENS,1992,Club,
 11,PORT CITY SLICKERS,Mid Atlantic,MENS,1992,Club,
-1,MAINE-IACS,West,WOMENS,1992,Club,
+1,MAINE-IACS,West (pre-1995),WOMENS,1992,Club,
 2,LADY GODIVA,Northeast,WOMENS,1992,Club,
 3,SATORI,Mid Atlantic,WOMENS,1992,Club,
-3,BLOCK PARTY,West,WOMENS,1992,Club,
-5,OZONE,South,WOMENS,1992,Club,
-5,WOMEN ON THE VERGE,West,WOMENS,1992,Club,
-7,NEMESIS,Central,WOMENS,1992,Club,
-7,SPIKE,Central,WOMENS,1992,Club,
+3,BLOCK PARTY,West (pre-1995),WOMENS,1992,Club,
+5,OZONE,South (pre-2012),WOMENS,1992,Club,
+5,WOMEN ON THE VERGE,West (pre-1995),WOMENS,1992,Club,
+7,NEMESIS,Central (pre-2012),WOMENS,1992,Club,
+7,SPIKE,Central (pre-2012),WOMENS,1992,Club,
 9,GRITS,Mid Atlantic,WOMENS,1992,Club,
 9,CORE,Northeast,WOMENS,1992,Club,
 11,MIND ERASERS,Northeast,WOMENS,1992,Club,
-11,HUCKSTERS,South,WOMENS,1992,Club,
-1,Oregon,West,Men's,1992,College,
-2,Cornell,Northeast,Men's,1992,College,
-3,North Carolina-Wilmington,Mid Atlantic,Men's,1992,College,
-4,California,West,Men's,1992,College,
-1,North Carolina-Wilmington,Mid Atlantic,Women's,1992,College,
-2,Oregon,West,Women's,1992,College,
-3,California,West,Women's,1992,College,
-4,Columbia,Northeast,Women's,1992,College,
-5,Carleton College,Central,Women's,1992,College,
-5,Cornell,Northeast,Women's,1992,College,
-5,Pennsylvania,Mid Atlantic,Women's,1992,College,
-5,Kansas,Central,Women's,1992,College,
-9,Brown,Northeast,Women's,1992,College,
-9,Georgia Tech,South,Women's,1992,College,
+11,HUCKSTERS,South (pre-2012),WOMENS,1992,Club,
+1,Oregon,West (pre-1999),Men's (pre-2010),1992,College,
+2,Cornell,Northeast (pre-1999),Men's (pre-2010),1992,College,
+3,North Carolina-Wilmington,Mid Atlantic (pre-1999),Men's (pre-2010),1992,College,
+4,California,West (pre-1999),Men's (pre-2010),1992,College,
+1,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1992,College,
+2,Oregon,West (pre-1999),Women's (pre-2010),1992,College,
+3,California,West (pre-1999),Women's (pre-2010),1992,College,
+4,Columbia,Northeast (pre-1999),Women's (pre-2010),1992,College,
+5,Carleton College,Central (pre-2011),Women's (pre-2010),1992,College,
+5,Cornell,Northeast (pre-1999),Women's (pre-2010),1992,College,
+5,Pennsylvania,Mid Atlantic (pre-1999),Women's (pre-2010),1992,College,
+5,Kansas,Central (pre-2011),Women's (pre-2010),1992,College,
+9,Brown,Northeast (pre-1999),Women's (pre-2010),1992,College,
+9,Georgia Tech,South (pre-2011),Women's (pre-2010),1992,College,
 1,NEW YORK,Northeast,MENS,1993,Club,
-2,DOUBLE HAPPINESS,West,MENS,1993,Club,
+2,DOUBLE HAPPINESS,West (pre-1995),MENS,1993,Club,
 3,BIG BROTHER,Northeast,MENS,1993,Club,
-3,RHINO SLAM!,West,MENS,1993,Club,
-5,NIGHT TRAIN,Central,MENS,1993,Club,
+3,RHINO SLAM!,West (pre-1995),MENS,1993,Club,
+5,NIGHT TRAIN,Central (pre-2012),MENS,1993,Club,
 5,RING OF FIRE,Mid Atlantic,MENS,1993,Club,
-7,REFUGEES,South,MENS,1993,Club,
-7,SOUTH COAST,West,MENS,1993,Club,
-9,WINDY CITY,Central,MENS,1993,Club,
+7,REFUGEES,South (pre-2012),MENS,1993,Club,
+7,SOUTH COAST,West (pre-1995),MENS,1993,Club,
+9,WINDY CITY,Central (pre-2012),MENS,1993,Club,
 9,TROUBLE CLUB,Mid Atlantic,MENS,1993,Club,
 11,GRAFFITI,Northeast,MENS,1993,Club,
-11,CHAIN LIGHTNING,South,MENS,1993,Club,
-1,MAINE-IACS,West,WOMENS,1993,Club,
+11,CHAIN LIGHTNING,South (pre-2012),MENS,1993,Club,
+1,MAINE-IACS,West (pre-1995),WOMENS,1993,Club,
 2,LADY GODIVA,Northeast,WOMENS,1993,Club,
-3,OZONE,South,WOMENS,1993,Club,
-3,SWARM,West,WOMENS,1993,Club,
-5,NEMESIS,Central,WOMENS,1993,Club,
-5,LADY CONDORS,West,WOMENS,1993,Club,
+3,OZONE,South (pre-2012),WOMENS,1993,Club,
+3,SWARM,West (pre-1995),WOMENS,1993,Club,
+5,NEMESIS,Central (pre-2012),WOMENS,1993,Club,
+5,LADY CONDORS,West (pre-1995),WOMENS,1993,Club,
 7,SATORI,Mid Atlantic,WOMENS,1993,Club,
-7,HUCKSTERS,South,WOMENS,1993,Club,
+7,HUCKSTERS,South (pre-2012),WOMENS,1993,Club,
 9,SEAWEED,Mid Atlantic,WOMENS,1993,Club,
 9,CORE,Northeast,WOMENS,1993,Club,
-11,SPIKE,Central,WOMENS,1993,Club,
+11,SPIKE,Central (pre-2012),WOMENS,1993,Club,
 11,PHILLY PEPPERS,Mid Atlantic,WOMENS,1993,Club,
-1,North Carolina-Wilmington,Mid Atlantic,Men's,1993,College,
-2,California-Santa Barbara,West,Men's,1993,College,
-11,SUNY-Albany,Northeast,Men's,1993,College,
-11,Wesleyan,Northeast,Men's,1993,College,
-3,California-Santa Cruz,West,Men's,1993,College,
-3,Carleton College,Central,Men's,1993,College,
-5,East Carolina,Mid Atlantic,Men's,1993,College,
-5,Texas,South,Men's,1993,College,
-7,Georgia,South,Men's,1993,College,
-7,Wisconsin,Central,Men's,1993,College,
-9,Boston College,Northeast,Men's,1993,College,
-9,Kansas,Central,Men's,1993,College,
-1,California,West,Women's,1993,College,
-2,North Carolina-Wilmington,Mid Atlantic,Women's,1993,College,
-3,Carleton College,Central,Women's,1993,College,
-3,Humboldt State,West,Women's,1993,College,
-5,Columbia,Northeast,Women's,1993,College,
-5,Cornell,Northeast,Women's,1993,College,
-5,Indiana,Central,Women's,1993,College,
-5,Pennsylvania,Mid Atlantic,Women's,1993,College,
-9,Kansas,Central,Women's,1993,College,
-9,Williams,Northeast,Women's,1993,College,
+1,North Carolina-Wilmington,Mid Atlantic (pre-1999),Men's (pre-2010),1993,College,
+2,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1993,College,
+11,SUNY-Albany,Northeast (pre-1999),Men's (pre-2010),1993,College,
+11,Wesleyan,Northeast (pre-1999),Men's (pre-2010),1993,College,
+3,California-Santa Cruz,West (pre-1999),Men's (pre-2010),1993,College,
+3,Carleton College,Central (pre-2011),Men's (pre-2010),1993,College,
+5,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1993,College,
+5,Texas,South (pre-2011),Men's (pre-2010),1993,College,
+7,Georgia,South (pre-2011),Men's (pre-2010),1993,College,
+7,Wisconsin,Central (pre-2011),Men's (pre-2010),1993,College,
+9,Boston College,Northeast (pre-1999),Men's (pre-2010),1993,College,
+9,Kansas,Central (pre-2011),Men's (pre-2010),1993,College,
+1,California,West (pre-1999),Women's (pre-2010),1993,College,
+2,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1993,College,
+3,Carleton College,Central (pre-2011),Women's (pre-2010),1993,College,
+3,Humboldt State,West (pre-1999),Women's (pre-2010),1993,College,
+5,Columbia,Northeast (pre-1999),Women's (pre-2010),1993,College,
+5,Cornell,Northeast (pre-1999),Women's (pre-2010),1993,College,
+5,Indiana,Central (pre-2011),Women's (pre-2010),1993,College,
+5,Pennsylvania,Mid Atlantic (pre-1999),Women's (pre-2010),1993,College,
+9,Kansas,Central (pre-2011),Women's (pre-2010),1993,College,
+9,Williams,Northeast (pre-1999),Women's (pre-2010),1993,College,
 1,DEATH OR GLORY,Northeast,MENS,1994,Club,
-2,DOUBLE HAPPINESS,West,MENS,1994,Club,
+2,DOUBLE HAPPINESS,West (pre-1995),MENS,1994,Club,
 3,CHESAPEAKE,Mid Atlantic,MENS,1994,Club,
 3,COJONES,Northeast,MENS,1994,Club,
-5,Z,Central,MENS,1994,Club,
+5,Z,Central (pre-2012),MENS,1994,Club,
 5,RING OF FIRE,Mid Atlantic,MENS,1994,Club,
-7,BIG RIVER,Central,MENS,1994,Club,
-7,BOULDER STAINS,West,MENS,1994,Club,
-9,REFUGEES,South,MENS,1994,Club,
-9,CHAIN LIGHTNING,South,MENS,1994,Club,
+7,BIG RIVER,Central (pre-2012),MENS,1994,Club,
+7,BOULDER STAINS,West (pre-1995),MENS,1994,Club,
+9,REFUGEES,South (pre-2012),MENS,1994,Club,
+9,CHAIN LIGHTNING,South (pre-2012),MENS,1994,Club,
 11,CORNELL,Northeast,MENS,1994,Club,
-11,RHINO SLAM!,West,MENS,1994,Club,
-1,FELIX,West,WOMENS,1994,Club,
-2,OZONE,South,WOMENS,1994,Club,
-3,WOMEN ON THE VERGE,West,WOMENS,1994,Club,
+11,RHINO SLAM!,West (pre-1995),MENS,1994,Club,
+1,FELIX,West (pre-1995),WOMENS,1994,Club,
+2,OZONE,South (pre-2012),WOMENS,1994,Club,
+3,WOMEN ON THE VERGE,West (pre-1995),WOMENS,1994,Club,
 4,LADY GODIVA,Northeast,WOMENS,1994,Club,
-5,NEMESIS II,Central,WOMENS,1994,Club,
+5,NEMESIS II,Central (pre-2012),WOMENS,1994,Club,
 5,LUCY,Mid Atlantic,WOMENS,1994,Club,
-7,SPIKE,Central,WOMENS,1994,Club,
-7,HUCKSTERS,South,WOMENS,1994,Club,
-9,DV8,Central,WOMENS,1994,Club,
+7,SPIKE,Central (pre-2012),WOMENS,1994,Club,
+7,HUCKSTERS,South (pre-2012),WOMENS,1994,Club,
+9,DV8,Central (pre-2012),WOMENS,1994,Club,
 9,GRITS,Mid Atlantic,WOMENS,1994,Club,
 11,NY SOHO,Northeast,WOMENS,1994,Club,
 11,TWISTER,Northeast,WOMENS,1994,Club,
-1,East Carolina,Mid Atlantic,Men's,1994,College,
-2,Stanford,West,Men's,1994,College,
-3,California-Santa Barbara,West,Men's,1994,College,
-3,Carleton College,Central,Men's,1994,College,
-5,Georgia,South,Men's,1994,College,
-5,Wisconsin,Central,Men's,1994,College,
-7,Cornell,Northeast,Men's,1994,College,
-7,Las Positas,West,Men's,1994,College,
-9,Kansas,Central,Men's,1994,College,
-9,Pennsylvania,Mid Atlantic,Men's,1994,College,
-11,SUNY-Binghamton,Northeast,Men's,1994,College,
-11,Texas,South,Men's,1994,College,
-1,California-Santa Cruz,West,Women's,1994,College,
-2,California-Santa Barbara,West,Women's,1994,College,
-3,Indiana,Central,Women's,1994,College,
-3,North Carolina-Wilmington,Mid Atlantic,Women's,1994,College,
-5,Carleton College,Central,Women's,1994,College,
-5,Columbia,Northeast,Women's,1994,College,
-5,Cornell,Northeast,Women's,1994,College,
-5,Kansas,Central,Women's,1994,College,
-9,East Carolina,Mid Atlantic,Women's,1994,College,
-9,Tufts,Northeast,Women's,1994,College,
+1,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1994,College,
+2,Stanford,West (pre-1999),Men's (pre-2010),1994,College,
+3,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1994,College,
+3,Carleton College,Central (pre-2011),Men's (pre-2010),1994,College,
+5,Georgia,South (pre-2011),Men's (pre-2010),1994,College,
+5,Wisconsin,Central (pre-2011),Men's (pre-2010),1994,College,
+7,Cornell,Northeast (pre-1999),Men's (pre-2010),1994,College,
+7,Las Positas,West (pre-1999),Men's (pre-2010),1994,College,
+9,Kansas,Central (pre-2011),Men's (pre-2010),1994,College,
+9,Pennsylvania,Mid Atlantic (pre-1999),Men's (pre-2010),1994,College,
+11,SUNY-Binghamton,Northeast (pre-1999),Men's (pre-2010),1994,College,
+11,Texas,South (pre-2011),Men's (pre-2010),1994,College,
+1,California-Santa Cruz,West (pre-1999),Women's (pre-2010),1994,College,
+2,California-Santa Barbara,West (pre-1999),Women's (pre-2010),1994,College,
+3,Indiana,Central (pre-2011),Women's (pre-2010),1994,College,
+3,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1994,College,
+5,Carleton College,Central (pre-2011),Women's (pre-2010),1994,College,
+5,Columbia,Northeast (pre-1999),Women's (pre-2010),1994,College,
+5,Cornell,Northeast (pre-1999),Women's (pre-2010),1994,College,
+5,Kansas,Central (pre-2011),Women's (pre-2010),1994,College,
+9,East Carolina,Mid Atlantic (pre-1999),Women's (pre-2010),1994,College,
+9,Tufts,Northeast (pre-1999),Women's (pre-2010),1994,College,
 1,DEATH OR GLORY,Northeast,MENS,1995,Club,
 2,SOCKEYE,Northwest,MENS,1995,Club,
 3,COJONES,Northeast,MENS,1995,Club,
 3,DOUBLE HAPPINESS,Northwest,MENS,1995,Club,
 5,PORT CITY SLICKERS,Mid Atlantic,MENS,1995,Club,
-5,CHAIN LIGHTNING,South,MENS,1995,Club,
-7,REFUGEES,South,MENS,1995,Club,
+5,CHAIN LIGHTNING,South (pre-2012),MENS,1995,Club,
+7,REFUGEES,South (pre-2012),MENS,1995,Club,
 7,SAN DIEGO,Southwest,MENS,1995,Club,
-9,Z,Central,MENS,1995,Club,
+9,Z,Central (pre-2012),MENS,1995,Club,
 9,RING OF FIRE,Mid Atlantic,MENS,1995,Club,
-11,LEMON,Central,MENS,1995,Club,
+11,LEMON,Central (pre-2012),MENS,1995,Club,
 11,CORNELL,Northeast,MENS,1995,Club,
 1,LADY GODIVA,Northeast,WOMENS,1995,Club,
 2,WOMEN ON THE VERGE,Northwest,WOMENS,1995,Club,
-3,NEMESIS II,Central,WOMENS,1995,Club,
-3,OZONE,South,WOMENS,1995,Club,
+3,NEMESIS II,Central (pre-2012),WOMENS,1995,Club,
+3,OZONE,South (pre-2012),WOMENS,1995,Club,
 5,LUCY,Mid Atlantic,WOMENS,1995,Club,
 5,PHILLY PEPPERS,Mid Atlantic,WOMENS,1995,Club,
 7,MISCHIEF,Mid Atlantic,WOMENS,1995,Club,
 7,FLYGIRLS,Southwest,WOMENS,1995,Club,
 9,PHAT CITY,Northwest,WOMENS,1995,Club,
-9,HUCKSTERS,South,WOMENS,1995,Club,
-11,JANE AIR,Central,WOMENS,1995,Club,
+9,HUCKSTERS,South (pre-2012),WOMENS,1995,Club,
+11,JANE AIR,Central (pre-2012),WOMENS,1995,Club,
 11,WACK,Northeast,WOMENS,1995,Club,
-1,East Carolina,Mid Atlantic,Men's,1995,College,
-2,California-Santa Cruz,West,Men's,1995,College,
-3,North Carolina-Wilmington,Mid Atlantic,Men's,1995,College,
-3,Stanford,West,Men's,1995,College,
-5,Cornell,Northeast,Men's,1995,College,
-5,Yale,Northeast,Men's,1995,College,
-7,Carleton College,Central,Men's,1995,College,
-7,LSU,South,Men's,1995,College,
-9,Oberlin,Central,Men's,1995,College,
-9,Williams,Northeast,Men's,1995,College,
-11,Georgia,South,Men's,1995,College,
-11,Indiana,Central,Men's,1995,College,
-1,California-Santa Cruz,West,Women's,1995,College,
-2,Stanford,West,Women's,1995,College,
-3,Colorado,Central,Women's,1995,College,
-3,North Carolina-Wilmington,Mid Atlantic,Women's,1995,College,
-5,Columbia,Northeast,Women's,1995,College,
-5,Pennsylvania,Mid Atlantic,Women's,1995,College,
-7,Indiana,Central,Women's,1995,College,
-7,Yale,Northeast,Women's,1995,College,
-9,Carleton College,Central,Women's,1995,College,
-9,Williams,Northeast,Women's,1995,College,
+1,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1995,College,
+2,California-Santa Cruz,West (pre-1999),Men's (pre-2010),1995,College,
+3,North Carolina-Wilmington,Mid Atlantic (pre-1999),Men's (pre-2010),1995,College,
+3,Stanford,West (pre-1999),Men's (pre-2010),1995,College,
+5,Cornell,Northeast (pre-1999),Men's (pre-2010),1995,College,
+5,Yale,Northeast (pre-1999),Men's (pre-2010),1995,College,
+7,Carleton College,Central (pre-2011),Men's (pre-2010),1995,College,
+7,LSU,South (pre-2011),Men's (pre-2010),1995,College,
+9,Oberlin,Central (pre-2011),Men's (pre-2010),1995,College,
+9,Williams,Northeast (pre-1999),Men's (pre-2010),1995,College,
+11,Georgia,South (pre-2011),Men's (pre-2010),1995,College,
+11,Indiana,Central (pre-2011),Men's (pre-2010),1995,College,
+1,California-Santa Cruz,West (pre-1999),Women's (pre-2010),1995,College,
+2,Stanford,West (pre-1999),Women's (pre-2010),1995,College,
+3,Colorado,Central (pre-2011),Women's (pre-2010),1995,College,
+3,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1995,College,
+5,Columbia,Northeast (pre-1999),Women's (pre-2010),1995,College,
+5,Pennsylvania,Mid Atlantic (pre-1999),Women's (pre-2010),1995,College,
+7,Indiana,Central (pre-2011),Women's (pre-2010),1995,College,
+7,Yale,Northeast (pre-1999),Women's (pre-2010),1995,College,
+9,Carleton College,Central (pre-2011),Women's (pre-2010),1995,College,
+9,Williams,Northeast (pre-1999),Women's (pre-2010),1995,College,
 1,DEATH OR GLORY,Northeast,MENS,1996,Club,
 2,SOCKEYE,Northwest,MENS,1996,Club,
-3,Z,Central,MENS,1996,Club,
+3,Z,Central (pre-2012),MENS,1996,Club,
 3,NICE GUYS,Southwest,MENS,1996,Club,
-5,REFUGEES,South,MENS,1996,Club,
-5,CHAIN LIGHTNING,South,MENS,1996,Club,
+5,REFUGEES,South (pre-2012),MENS,1996,Club,
+5,CHAIN LIGHTNING,South (pre-2012),MENS,1996,Club,
 7,RAGE,Mid Atlantic,MENS,1996,Club,
 7,SNAPPLE,Northeast,MENS,1996,Club,
 9,BOULDER BEER,Southwest,MENS,1996,Club,
 9,SAUCY JACK,Northwest,MENS,1996,Club,
 11,RANDALL'S ISLAND,Northeast,MENS,1996,Club,
-11,HUCKIN' FOOSIERS,Central,MENS,1996,Club,
+11,HUCKIN' FOOSIERS,Central (pre-2012),MENS,1996,Club,
 13,PORT CITY SLICKERS,Mid Atlantic,MENS,1996,Club,
-13,BIG ASS TRUCK,Central,MENS,1996,Club,
+13,BIG ASS TRUCK,Central (pre-2012),MENS,1996,Club,
 1,LADY GODIVA,Northeast,WOMENS,1996,Club,
-2,OZONE,South,WOMENS,1996,Club,
+2,OZONE,South (pre-2012),WOMENS,1996,Club,
 3,PHILLY PEPPERS,Mid Atlantic,WOMENS,1996,Club,
-4,NEMESIS II,Central,WOMENS,1996,Club,
+4,NEMESIS II,Central (pre-2012),WOMENS,1996,Club,
 5,DA FENCE,Northwest,WOMENS,1996,Club,
 5,RARE AIR,Southwest,WOMENS,1996,Club,
 7,SCHWA,Northwest,WOMENS,1996,Club,
 7,SAFARI,Southwest,WOMENS,1996,Club,
 9,TWISTER,Northeast,WOMENS,1996,Club,
 9,HOME BROOD,Northwest,WOMENS,1996,Club,
-11,JANE AIR,Central,WOMENS,1996,Club,
+11,JANE AIR,Central (pre-2012),WOMENS,1996,Club,
 11,WILD ROSES,Northeast,WOMENS,1996,Club,
 13,CATEGORY 5,Mid Atlantic,WOMENS,1996,Club,
-13,HUCKSTERS,South,WOMENS,1996,Club,
-1,California-Santa Barbara,West,Men's,1996,College,
-2,Carleton College,Central,Men's,1996,College,
-3,Cornell,Northeast,Men's,1996,College,
-3,Wisconsin,Central,Men's,1996,College,
-5,North Carolina-Wilmington,Mid Atlantic,Men's,1996,College,
-5,Stanford,West,Men's,1996,College,
-7,Georgia,South,Men's,1996,College,
-7,North Carolina State,Mid Atlantic,Men's,1996,College,
-9,Wesleyan,Northeast,Men's,1996,College,
-9,Williams,Northeast,Men's,1996,College,
-11,Indiana,Central,Men's,1996,College,
-11,Florida State,South,Men's,1996,College,
-1,North Carolina-Wilmington,Mid Atlantic,Women's,1996,College,
-2,Stanford,West,Women's,1996,College,
-3,California,West,Women's,1996,College,
-3,Carleton College,Central,Women's,1996,College,
-5,Colorado,Central,Women's,1996,College,
-5,Cornell,Northeast,Women's,1996,College,
-5,Indiana,Central,Women's,1996,College,
-5,Yale,Northeast,Women's,1996,College,
-9,Florida State,South,Women's,1996,College,
-9,Pennsylvania,Mid Atlantic,Women's,1996,College,
+13,HUCKSTERS,South (pre-2012),WOMENS,1996,Club,
+1,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1996,College,
+2,Carleton College,Central (pre-2011),Men's (pre-2010),1996,College,
+3,Cornell,Northeast (pre-1999),Men's (pre-2010),1996,College,
+3,Wisconsin,Central (pre-2011),Men's (pre-2010),1996,College,
+5,North Carolina-Wilmington,Mid Atlantic (pre-1999),Men's (pre-2010),1996,College,
+5,Stanford,West (pre-1999),Men's (pre-2010),1996,College,
+7,Georgia,South (pre-2011),Men's (pre-2010),1996,College,
+7,North Carolina State,Mid Atlantic (pre-1999),Men's (pre-2010),1996,College,
+9,Wesleyan,Northeast (pre-1999),Men's (pre-2010),1996,College,
+9,Williams,Northeast (pre-1999),Men's (pre-2010),1996,College,
+11,Indiana,Central (pre-2011),Men's (pre-2010),1996,College,
+11,Florida State,South (pre-2011),Men's (pre-2010),1996,College,
+1,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1996,College,
+2,Stanford,West (pre-1999),Women's (pre-2010),1996,College,
+3,California,West (pre-1999),Women's (pre-2010),1996,College,
+3,Carleton College,Central (pre-2011),Women's (pre-2010),1996,College,
+5,Colorado,Central (pre-2011),Women's (pre-2010),1996,College,
+5,Cornell,Northeast (pre-1999),Women's (pre-2010),1996,College,
+5,Indiana,Central (pre-2011),Women's (pre-2010),1996,College,
+5,Yale,Northeast (pre-1999),Women's (pre-2010),1996,College,
+9,Florida State,South (pre-2011),Women's (pre-2010),1996,College,
+9,Pennsylvania,Mid Atlantic (pre-1999),Women's (pre-2010),1996,College,
 1,DEATH OR GLORY,Northeast,MENS,1997,Club,
 2,SOCKEYE,Northwest,MENS,1997,Club,
-3,Z,Central,MENS,1997,Club,
+3,Z,Central (pre-2012),MENS,1997,Club,
 3,RING OF FIRE,Mid Atlantic,MENS,1997,Club,
 5,WUDI,Northeast,MENS,1997,Club,
 5,DOUBLE HAPPINESS,Northwest,MENS,1997,Club,
 7,ANODYNE,Mid Atlantic,MENS,1997,Club,
 7,CONDORS,Southwest,MENS,1997,Club,
-9,PUMP HOUSE 5,Central,MENS,1997,Club,
+9,PUMP HOUSE 5,Central (pre-2012),MENS,1997,Club,
 9,ROQ,Northeast,MENS,1997,Club,
-11,CHAIN LIGHTNING,South,MENS,1997,Club,
+11,CHAIN LIGHTNING,South (pre-2012),MENS,1997,Club,
 11,JOHNNY BRAVO,Southwest,MENS,1997,Club,
-13,BIG ASS TRUCK,Central,MENS,1997,Club,
-13,HOUNDZ,South,MENS,1997,Club,
+13,BIG ASS TRUCK,Central (pre-2012),MENS,1997,Club,
+13,HOUNDZ,South (pre-2012),MENS,1997,Club,
 1,LADY GODIVA,Northeast,WOMENS,1997,Club,
 2,SCHWA,Northwest,WOMENS,1997,Club,
-3,NEMESIS II,Central,WOMENS,1997,Club,
+3,NEMESIS II,Central (pre-2012),WOMENS,1997,Club,
 3,WOMEN ON THE VERGE,Northwest,WOMENS,1997,Club,
 5,PHILLY PEPPERS,Mid Atlantic,WOMENS,1997,Club,
-5,OZONE,South,WOMENS,1997,Club,
+5,OZONE,South (pre-2012),WOMENS,1997,Club,
 7,SAFARI,Southwest,WOMENS,1997,Club,
 7,RARE AIR,Southwest,WOMENS,1997,Club,
 9,VIXEN,Mid Atlantic,WOMENS,1997,Club,
 9,AMBUSH,Northeast,WOMENS,1997,Club,
 11,HOME BROOD,Northwest,WOMENS,1997,Club,
-11,HUCKSTERS,South,WOMENS,1997,Club,
-13,CLUTCH,Central,WOMENS,1997,Club,
+11,HUCKSTERS,South (pre-2012),WOMENS,1997,Club,
+13,CLUTCH,Central (pre-2012),WOMENS,1997,Club,
 13,STELLA,Northeast,WOMENS,1997,Club,
-1,California-Santa Barbara,West,Men's,1997,College,
-2,Stanford,West,Men's,1997,College,
-3,Carleton College,Central,Men's,1997,College,
-3,East Carolina,Mid Atlantic,Men's,1997,College,
-5,North Carolina-Wilmington,Mid Atlantic,Men's,1997,College,
-5,Wisconsin,Central,Men's,1997,College,
-7,Cornell,Northeast,Men's,1997,College,
-7,Rice,South,Men's,1997,College,
-9,Oberlin,Central,Men's,1997,College,
-9,Wesleyan,Northeast,Men's,1997,College,
-11,LSU,South,Men's,1997,College,
-11,Yale,Northeast,Men's,1997,College,
-1,Stanford,West,Women's,1997,College,
-2,British Columbia,West,Women's,1997,College,
-3,Carleton College,Central,Women's,1997,College,
-3,Rutgers,Mid Atlantic,Women's,1997,College,
-5,Brown,Northeast,Women's,1997,College,
-5,North Carolina-Wilmington,Mid Atlantic,Women's,1997,College,
-5,Oberlin,Central,Women's,1997,College,
-5,Yale,Northeast,Women's,1997,College,
-9,Georgia,South,Women's,1997,College,
-9,Rice,South,Women's,1997,College,
+1,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1997,College,
+2,Stanford,West (pre-1999),Men's (pre-2010),1997,College,
+3,Carleton College,Central (pre-2011),Men's (pre-2010),1997,College,
+3,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1997,College,
+5,North Carolina-Wilmington,Mid Atlantic (pre-1999),Men's (pre-2010),1997,College,
+5,Wisconsin,Central (pre-2011),Men's (pre-2010),1997,College,
+7,Cornell,Northeast (pre-1999),Men's (pre-2010),1997,College,
+7,Rice,South (pre-2011),Men's (pre-2010),1997,College,
+9,Oberlin,Central (pre-2011),Men's (pre-2010),1997,College,
+9,Wesleyan,Northeast (pre-1999),Men's (pre-2010),1997,College,
+11,LSU,South (pre-2011),Men's (pre-2010),1997,College,
+11,Yale,Northeast (pre-1999),Men's (pre-2010),1997,College,
+1,Stanford,West (pre-1999),Women's (pre-2010),1997,College,
+2,British Columbia,West (pre-1999),Women's (pre-2010),1997,College,
+3,Carleton College,Central (pre-2011),Women's (pre-2010),1997,College,
+3,Rutgers,Mid Atlantic (pre-1999),Women's (pre-2010),1997,College,
+5,Brown,Northeast (pre-1999),Women's (pre-2010),1997,College,
+5,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1997,College,
+5,Oberlin,Central (pre-2011),Women's (pre-2010),1997,College,
+5,Yale,Northeast (pre-1999),Women's (pre-2010),1997,College,
+9,Georgia,South (pre-2011),Women's (pre-2010),1997,College,
+9,Rice,South (pre-2011),Women's (pre-2010),1997,College,
 1,RED FISH BLUE FISH,Northwest,MIXED,1998,Club,
 2,PIRA HAKU,Southwest,MIXED,1998,Club,
 3,BLIND DATE,Mid Atlantic,MIXED,1998,Club,
 3,RIPPIT,Northwest,MIXED,1998,Club,
-5,FLYING COB,Central,MIXED,1998,Club,
+5,FLYING COB,Central (pre-2012),MIXED,1998,Club,
 5,MON AMI BURUNDI,Northeast,MIXED,1998,Club,
 5,W.U.P.A.S.S.,Northeast,MIXED,1998,Club,
 5,BAD LARRY,Southwest,MIXED,1998,Club,
 9,<XU>,Mid Atlantic,MIXED,1998,Club,
-10,DISCLICIOUS,South,MIXED,1998,Club,
-11,ULTIMATE ADDICTION,South,MIXED,1998,Club,
-12,BETTER LIVING THRU CHEMISTRY,Central,MIXED,1998,Club,
+10,DISCLICIOUS,South (pre-2012),MIXED,1998,Club,
+11,ULTIMATE ADDICTION,South (pre-2012),MIXED,1998,Club,
+12,BETTER LIVING THRU CHEMISTRY,Central (pre-2012),MIXED,1998,Club,
 1,DEATH OR GLORY,Northeast,MENS,1998,Club,
 2,CONDORS,Southwest,MENS,1998,Club,
 3,RING OF FIRE,Mid Atlantic,MENS,1998,Club,
 3,WSL,Northeast,MENS,1998,Club,
 5,FURIOUS GEORGE,Northwest,MENS,1998,Club,
-5,HOUNDZ,South,MENS,1998,Club,
-7,SUB ZERO,Central,MENS,1998,Club,
+5,HOUNDZ,South (pre-2012),MENS,1998,Club,
+7,SUB ZERO,Central (pre-2012),MENS,1998,Club,
 7,PARKING LOT JAM,Northwest,MENS,1998,Club,
-9,Z,Central,MENS,1998,Club,
-9,MIAMI REFUGEES,South,MENS,1998,Club,
+9,Z,Central (pre-2012),MENS,1998,Club,
+9,MIAMI REFUGEES,South (pre-2012),MENS,1998,Club,
 11,RAGE,Mid Atlantic,MENS,1998,Club,
 11,LOS GUAPOS,Southwest,MENS,1998,Club,
-13,PUMP HOUSE 5,Central,MENS,1998,Club,
+13,PUMP HOUSE 5,Central (pre-2012),MENS,1998,Club,
 13,RED TIDE,Northeast,MENS,1998,Club,
 1,LADY GODIVA,Northeast,WOMENS,1998,Club,
 2,WOMEN ON THE VERGE,Northwest,WOMENS,1998,Club,
 3,HOME BROOD,Northwest,WOMENS,1998,Club,
-3,OZONE,South,WOMENS,1998,Club,
-5,NEMESIS,Central,WOMENS,1998,Club,
+3,OZONE,South (pre-2012),WOMENS,1998,Club,
+5,NEMESIS,Central (pre-2012),WOMENS,1998,Club,
 5,CATCHIT,Mid Atlantic,WOMENS,1998,Club,
 7,PHILLY PEPPERS,Mid Atlantic,WOMENS,1998,Club,
 7,RARE AIR,Southwest,WOMENS,1998,Club,
 9,TWISTER,Northeast,WOMENS,1998,Club,
 9,LADY CONDORS,Southwest,WOMENS,1998,Club,
 11,BACKHOE,Mid Atlantic,WOMENS,1998,Club,
-11,HUCKSTERS,South,WOMENS,1998,Club,
-13,JOHNNY COCKTAIL,Central,WOMENS,1998,Club,
+11,HUCKSTERS,South (pre-2012),WOMENS,1998,Club,
+13,JOHNNY COCKTAIL,Central (pre-2012),WOMENS,1998,Club,
 13,AMBUSH,Northeast,WOMENS,1998,Club,
-1,California-Santa Barbara,West,Men's,1998,College,
-2,Stanford,West,Men's,1998,College,
-3,Brown,Northeast,Men's,1998,College,
-3,North Carolina State,Mid Atlantic,Men's,1998,College,
-5,Carleton College,Central,Men's,1998,College,
-5,Colorado,Central,Men's,1998,College,
-7,Harvard,Northeast,Men's,1998,College,
-7,LSU,South,Men's,1998,College,
-9,East Carolina,Mid Atlantic,Men's,1998,College,
-9,Iowa,Central,Men's,1998,College,
-11,Rice,South,Men's,1998,College,
-11,Yale,Northeast,Men's,1998,College,
-1,Stanford,West,Women's,1998,College,
-2,Carleton College,Central,Women's,1998,College,
-3,Oregon,West,Women's,1998,College,
-3,Yale,Northeast,Women's,1998,College,
-5,Cornell,Northeast,Women's,1998,College,
-5,North Carolina-Wilmington,Mid Atlantic,Women's,1998,College,
-7,Indiana,Central,Women's,1998,College,
-7,Rutgers,Mid Atlantic,Women's,1998,College,
-9,Georgia,South,Women's,1998,College,
-9,MIT,Northeast,Women's,1998,College,
-11,Rice,South,Women's,1998,College,
-11,Wisconsin,Central,Women's,1998,College,
+1,California-Santa Barbara,West (pre-1999),Men's (pre-2010),1998,College,
+2,Stanford,West (pre-1999),Men's (pre-2010),1998,College,
+3,Brown,Northeast (pre-1999),Men's (pre-2010),1998,College,
+3,North Carolina State,Mid Atlantic (pre-1999),Men's (pre-2010),1998,College,
+5,Carleton College,Central (pre-2011),Men's (pre-2010),1998,College,
+5,Colorado,Central (pre-2011),Men's (pre-2010),1998,College,
+7,Harvard,Northeast (pre-1999),Men's (pre-2010),1998,College,
+7,LSU,South (pre-2011),Men's (pre-2010),1998,College,
+9,East Carolina,Mid Atlantic (pre-1999),Men's (pre-2010),1998,College,
+9,Iowa,Central (pre-2011),Men's (pre-2010),1998,College,
+11,Rice,South (pre-2011),Men's (pre-2010),1998,College,
+11,Yale,Northeast (pre-1999),Men's (pre-2010),1998,College,
+1,Stanford,West (pre-1999),Women's (pre-2010),1998,College,
+2,Carleton College,Central (pre-2011),Women's (pre-2010),1998,College,
+3,Oregon,West (pre-1999),Women's (pre-2010),1998,College,
+3,Yale,Northeast (pre-1999),Women's (pre-2010),1998,College,
+5,Cornell,Northeast (pre-1999),Women's (pre-2010),1998,College,
+5,North Carolina-Wilmington,Mid Atlantic (pre-1999),Women's (pre-2010),1998,College,
+7,Indiana,Central (pre-2011),Women's (pre-2010),1998,College,
+7,Rutgers,Mid Atlantic (pre-1999),Women's (pre-2010),1998,College,
+9,Georgia,South (pre-2011),Women's (pre-2010),1998,College,
+9,MIT,Northeast (pre-1999),Women's (pre-2010),1998,College,
+11,Rice,South (pre-2011),Women's (pre-2010),1998,College,
+11,Wisconsin,Central (pre-2011),Women's (pre-2010),1998,College,
 1,RALEIGH LLAMA,Mid Atlantic,MIXED,1999,Club,
 2,RED FISH BLUE FISH,Northwest,MIXED,1999,Club,
 3,BLIND DATE,Mid Atlantic,MIXED,1999,Club,
 3,TRIGGER HAPPY,Northwest,MIXED,1999,Club,
 5,SEVEN,Southwest,MIXED,1999,Club,
-6,CRUNCH,South,MIXED,1999,Club,
-7,SWEETWATER 420,South,MIXED,1999,Club,
+6,CRUNCH,South (pre-2012),MIXED,1999,Club,
+7,SWEETWATER 420,South (pre-2012),MIXED,1999,Club,
 8,MON AMI BURUNDI,Northeast,MIXED,1999,Club,
 9,EMO,Northeast,MIXED,1999,Club,
-10,RESOUNDING FUNK,Central,MIXED,1999,Club,
+10,RESOUNDING FUNK,Central (pre-2012),MIXED,1999,Club,
 11,RYNO'S REVOLUTION,Southwest,MIXED,1999,Club,
-12,GOGOS,Central,MIXED,1999,Club,
+12,GOGOS,Central (pre-2012),MIXED,1999,Club,
 1,DEATH OR GLORY,Northeast,MENS,1999,Club,
 2,CONDORS,Southwest,MENS,1999,Club,
-3,SUB ZERO,Central,MENS,1999,Club,
+3,SUB ZERO,Central (pre-2012),MENS,1999,Club,
 3,FURIOUS GEORGE,Northwest,MENS,1999,Club,
 5,RING OF FIRE,Mid Atlantic,MENS,1999,Club,
 5,JAM,Northwest,MENS,1999,Club,
 5,BLAZE OF GLORY,Northwest,MENS,1999,Club,
-5,HOUNDZ,South,MENS,1999,Club,
-9,MADISON,Central,MENS,1999,Club,
+5,HOUNDZ,South (pre-2012),MENS,1999,Club,
+9,MADISON,Central (pre-2012),MENS,1999,Club,
 10,ANODYNE,Mid Atlantic,MENS,1999,Club,
 11,WSL,Northeast,MENS,1999,Club,
-12,FLORIDA,South,MENS,1999,Club,
+12,FLORIDA,South (pre-2012),MENS,1999,Club,
 13,SECRET SQUIRREL,Southwest,MENS,1999,Club,
-14,BOOTY QUAKE,South,MENS,1999,Club,
-15,SECOND WIND,Central,MENS,1999,Club,
+14,BOOTY QUAKE,South (pre-2012),MENS,1999,Club,
+15,SECOND WIND,Central (pre-2012),MENS,1999,Club,
 16,RED TIDE,Northeast,MENS,1999,Club,
 1,FURY,Northwest,WOMENS,1999,Club,
 2,SCHWA,Northwest,WOMENS,1999,Club,
@@ -698,59 +698,59 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,WOMEN ON THE VERGE,Northwest,WOMENS,1999,Club,
 5,PHILLY PEPPERS,Mid Atlantic,WOMENS,1999,Club,
 6,RARE AIR,Southwest,WOMENS,1999,Club,
-7,NEMESIS,Central,WOMENS,1999,Club,
-7,OZONE,South,WOMENS,1999,Club,
+7,NEMESIS,Central (pre-2012),WOMENS,1999,Club,
+7,OZONE,South (pre-2012),WOMENS,1999,Club,
 9,SAFARI,Southwest,WOMENS,1999,Club,
 10,BACKHOE,Mid Atlantic,WOMENS,1999,Club,
 11,CATCHIT,Mid Atlantic,WOMENS,1999,Club,
 12,LADY CONDORS,Southwest,WOMENS,1999,Club,
-13,CLUTCH,Central,WOMENS,1999,Club,
+13,CLUTCH,Central (pre-2012),WOMENS,1999,Club,
 14,E.H.?!?,Northeast,WOMENS,1999,Club,
 15,TWISTER,Northeast,WOMENS,1999,Club,
-16,DIVA,South,WOMENS,1999,Club,
-1,North Carolina State,Atlantic Coast,Men's,1999,College,
-2,California-Santa Barbara,Southwest,Men's,1999,College,
-3,Brown,New England,Men's,1999,College,
-3,Carleton College,Central,Men's,1999,College,
-5,California-Santa Cruz,Northwest,Men's,1999,College,
-5,Colorado,Southwest,Men's,1999,College,
-5,North Carolina,Atlantic Coast,Men's,1999,College,
-5,Stanford,Northwest,Men's,1999,College,
-9,Cornell,Metro East,Men's,1999,College,
-9,Iowa,Central,Men's,1999,College,
-9,Michigan,Great Lakes,Men's,1999,College,
-9,Yale,New England,Men's,1999,College,
-13,Kansas,South,Men's,1999,College,
-13,Oberlin,Great Lakes,Men's,1999,College,
-13,Rice,South,Men's,1999,College,
-13,Salisbury,Metro East,Men's,1999,College,
-1,Stanford,Northwest,Women's,1999,College,
-2,Carleton College,Central,Women's,1999,College,
-3,Brown,New England,Women's,1999,College,
-3,Georgia,Atlantic Coast,Women's,1999,College,
-5,British Columbia,Northwest,Women's,1999,College,
-5,California-San Diego,Southwest,Women's,1999,College,
-7,Swarthmore,Metro East,Women's,1999,College,
-7,Yale,New England,Women's,1999,College,
-9,Illinois,Great Lakes,Women's,1999,College,
-9,Princeton,Metro East,Women's,1999,College,
-11,Kansas,South,Women's,1999,College,
-11,Minnesota,Central,Women's,1999,College,
+16,DIVA,South (pre-2012),WOMENS,1999,Club,
+1,North Carolina State,Atlantic Coast,Men's (pre-2010),1999,College,
+2,California-Santa Barbara,Southwest,Men's (pre-2010),1999,College,
+3,Brown,New England,Men's (pre-2010),1999,College,
+3,Carleton College,Central (pre-2011),Men's (pre-2010),1999,College,
+5,California-Santa Cruz,Northwest,Men's (pre-2010),1999,College,
+5,Colorado,Southwest,Men's (pre-2010),1999,College,
+5,North Carolina,Atlantic Coast,Men's (pre-2010),1999,College,
+5,Stanford,Northwest,Men's (pre-2010),1999,College,
+9,Cornell,Metro East,Men's (pre-2010),1999,College,
+9,Iowa,Central (pre-2011),Men's (pre-2010),1999,College,
+9,Michigan,Great Lakes,Men's (pre-2010),1999,College,
+9,Yale,New England,Men's (pre-2010),1999,College,
+13,Kansas,South (pre-2011),Men's (pre-2010),1999,College,
+13,Oberlin,Great Lakes,Men's (pre-2010),1999,College,
+13,Rice,South (pre-2011),Men's (pre-2010),1999,College,
+13,Salisbury,Metro East,Men's (pre-2010),1999,College,
+1,Stanford,Northwest,Women's (pre-2010),1999,College,
+2,Carleton College,Central (pre-2011),Women's (pre-2010),1999,College,
+3,Brown,New England,Women's (pre-2010),1999,College,
+3,Georgia,Atlantic Coast,Women's (pre-2010),1999,College,
+5,British Columbia,Northwest,Women's (pre-2010),1999,College,
+5,California-San Diego,Southwest,Women's (pre-2010),1999,College,
+7,Swarthmore,Metro East,Women's (pre-2010),1999,College,
+7,Yale,New England,Women's (pre-2010),1999,College,
+9,Illinois,Great Lakes,Women's (pre-2010),1999,College,
+9,Princeton,Metro East,Women's (pre-2010),1999,College,
+11,Kansas,South (pre-2011),Women's (pre-2010),1999,College,
+11,Minnesota,Central (pre-2011),Women's (pre-2010),1999,College,
 1,CONDORS,Southwest,MENS,2000,Club,
 2,FURIOUS GEORGE,Northwest,MENS,2000,Club,
 3,DEATH OR GLORY,Northeast,MENS,2000,Club,
 3,JAM,Northwest,MENS,2000,Club,
 5,RING OF FIRE,Mid Atlantic,MENS,2000,Club,
-6,FLORIDA,South,MENS,2000,Club,
+6,FLORIDA,South (pre-2012),MENS,2000,Club,
 7,SOCKEYE,Northwest,MENS,2000,Club,
-8,SUB ZERO,Central,MENS,2000,Club,
+8,SUB ZERO,Central (pre-2012),MENS,2000,Club,
 9,FBI,Northwest,MENS,2000,Club,
 10,BOMB SQUAD,Northeast,MENS,2000,Club,
 11,CBASS,Mid Atlantic,MENS,2000,Club,
-12,MADISON,Central,MENS,2000,Club,
-13,SECOND WIND,Central,MENS,2000,Club,
+12,MADISON,Central (pre-2012),MENS,2000,Club,
+13,SECOND WIND,Central (pre-2012),MENS,2000,Club,
 14,JOHNNY BRAVO,Southwest,MENS,2000,Club,
-15,HOUNDZ,South,MENS,2000,Club,
+15,HOUNDZ,South (pre-2012),MENS,2000,Club,
 16,BLACKJACK,Northeast,MENS,2000,Club,
 1,LADY GODIVA,Northeast,WOMENS,2000,Club,
 2,SCHWA,Northwest,WOMENS,2000,Club,
@@ -758,107 +758,107 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,FURY,Northwest,WOMENS,2000,Club,
 5,BACKHOE,Mid Atlantic,WOMENS,2000,Club,
 5,HOME BROOD,Northwest,WOMENS,2000,Club,
-5,BURBAN SPRAWL,South,WOMENS,2000,Club,
+5,BURBAN SPRAWL,South (pre-2012),WOMENS,2000,Club,
 5,RARE AIR,Southwest,WOMENS,2000,Club,
 9,PHILLY PEPPERS,Mid Atlantic,WOMENS,2000,Club,
 9,ROUGUE,Northeast,WOMENS,2000,Club,
 11,BNOGO,Mid Atlantic,WOMENS,2000,Club,
 11,LADY CONDORS,Southwest,WOMENS,2000,Club,
-13,NEMESIS,Central,WOMENS,2000,Club,
-13,CLUTCH,Central,WOMENS,2000,Club,
-13,HUCKSTERS,South,WOMENS,2000,Club,
+13,NEMESIS,Central (pre-2012),WOMENS,2000,Club,
+13,CLUTCH,Central (pre-2012),WOMENS,2000,Club,
+13,HUCKSTERS,South (pre-2012),WOMENS,2000,Club,
 1,SPEAR,Mid Atlantic,MIXED,2000,Club,4.0
 2,TRIGGER HAPPY,Northwest,MIXED,2000,Club,4.0
 3,PERPETRATOR,Mid Atlantic,MIXED,2000,Club,2.93
 3,FREE SPIRITS OF THE GAME,Northeast,MIXED,2000,Club,4.13
 5,RED FISH BLUE FISH,Northwest,MIXED,2000,Club,3.0
 5,KIBOSH,Northwest,MIXED,2000,Club,2.29
-5,HOLES & POLES,South,MIXED,2000,Club,4.29
-5,PAYASOS CON PISTOLAS,South,MIXED,2000,Club,3.57
+5,HOLES & POLES,South (pre-2012),MIXED,2000,Club,4.29
+5,PAYASOS CON PISTOLAS,South (pre-2012),MIXED,2000,Club,3.57
 9,NYCE,Northeast,MIXED,2000,Club,4.32
-9,CRUNCH,South,MIXED,2000,Club,4.57
-11,COCOA,Central,MIXED,2000,Club,4.04
+9,CRUNCH,South (pre-2012),MIXED,2000,Club,4.57
+11,COCOA,Central (pre-2012),MIXED,2000,Club,4.04
 11,RIPPIT,Northwest,MIXED,2000,Club,4.63
 13,HIS N HERS,Mid Atlantic,MIXED,2000,Club,3.37
 13,SALSA,Southwest,MIXED,2000,Club,3.71
 15,TATOO HOTTIE,Northeast,MIXED,2000,Club,3.14
-15,TNT,South,MIXED,2000,Club,3.83
-17,LUCKY 7,Central,MIXED,2000,Club,3.69
-18,IOWAS MOST WANTED,Central,MIXED,2000,Club,4.29
-19,FLIEGENPLATTE,Central,MIXED,2000,Club,4.14
+15,TNT,South (pre-2012),MIXED,2000,Club,3.83
+17,LUCKY 7,Central (pre-2012),MIXED,2000,Club,3.69
+18,IOWAS MOST WANTED,Central (pre-2012),MIXED,2000,Club,4.29
+19,FLIEGENPLATTE,Central (pre-2012),MIXED,2000,Club,4.14
 20,PIGS IN SPACE,Northwest,MIXED,2000,Club,4.86
 21,BAD LARRY,Southwest,MIXED,2000,Club,4.25
 22,DONKEY BOMB,Mid Atlantic,MIXED,2000,Club,3.71
 23,RED DYE 5,Southwest,MIXED,2000,Club,3.0
-24,RALPH,Central,MIXED,2000,Club,3.0
-1,Brown,New England,Men's,2000,College,
-2,Carleton College,Central,Men's,2000,College,
-3,California-Santa Barbara,Southwest,Men's,2000,College,
-3,Colorado,Southwest,Men's,2000,College,
-5,North Carolina,Atlantic Coast,Men's,2000,College,
-5,North Carolina State,Atlantic Coast,Men's,2000,College,
-5,Salisbury,Metro East,Men's,2000,College,
-5,Stanford,Northwest,Men's,2000,College,
-9,Michigan,Great Lakes,Men's,2000,College,
-10,Wisconsin,Central,Men's,2000,College,
-13,Notre Dame,Great Lakes,Men's,2000,College,
-14,Princeton,Metro East,Men's,2000,College,
-11,Rice,South,Men's,2000,College,
-11,Winona State,Central,Men's,2000,College,
-15,California-Santa Cruz,Northwest,Men's,2000,College,
-15,Tufts,New England,Men's,2000,College,
-1,Carleton College,Central,Women's,2000,College,
-2,North Carolina-Wilmington,Atlantic Coast,Women's,2000,College,
-3,California-Davis,Northwest,Women's,2000,College,
-3,Georgia,Atlantic Coast,Women's,2000,College,
-5,Brown,New England,Women's,2000,College,
-5,California-San Diego,Southwest,Women's,2000,College,
-5,Colorado,Southwest,Women's,2000,College,
-5,Tufts,New England,Women's,2000,College,
-9,Swarthmore,Metro East,Women's,2000,College,
-10,Smith,New England,Women's,2000,College,
-11,Minnesota,Central,Women's,2000,College,
-12,Rice,South,Women's,2000,College,
-13,Oregon,Northwest,Women's,2000,College,
-14,Illinois,Great Lakes,Women's,2000,College,
-15,Bucknell,Metro East,Women's,2000,College,
-15,Notre Dame,Great Lakes,Women's,2000,College,
+24,RALPH,Central (pre-2012),MIXED,2000,Club,3.0
+1,Brown,New England,Men's (pre-2010),2000,College,
+2,Carleton College,Central (pre-2011),Men's (pre-2010),2000,College,
+3,California-Santa Barbara,Southwest,Men's (pre-2010),2000,College,
+3,Colorado,Southwest,Men's (pre-2010),2000,College,
+5,North Carolina,Atlantic Coast,Men's (pre-2010),2000,College,
+5,North Carolina State,Atlantic Coast,Men's (pre-2010),2000,College,
+5,Salisbury,Metro East,Men's (pre-2010),2000,College,
+5,Stanford,Northwest,Men's (pre-2010),2000,College,
+9,Michigan,Great Lakes,Men's (pre-2010),2000,College,
+10,Wisconsin,Central (pre-2011),Men's (pre-2010),2000,College,
+13,Notre Dame,Great Lakes,Men's (pre-2010),2000,College,
+14,Princeton,Metro East,Men's (pre-2010),2000,College,
+11,Rice,South (pre-2011),Men's (pre-2010),2000,College,
+11,Winona State,Central (pre-2011),Men's (pre-2010),2000,College,
+15,California-Santa Cruz,Northwest,Men's (pre-2010),2000,College,
+15,Tufts,New England,Men's (pre-2010),2000,College,
+1,Carleton College,Central (pre-2011),Women's (pre-2010),2000,College,
+2,North Carolina-Wilmington,Atlantic Coast,Women's (pre-2010),2000,College,
+3,California-Davis,Northwest,Women's (pre-2010),2000,College,
+3,Georgia,Atlantic Coast,Women's (pre-2010),2000,College,
+5,Brown,New England,Women's (pre-2010),2000,College,
+5,California-San Diego,Southwest,Women's (pre-2010),2000,College,
+5,Colorado,Southwest,Women's (pre-2010),2000,College,
+5,Tufts,New England,Women's (pre-2010),2000,College,
+9,Swarthmore,Metro East,Women's (pre-2010),2000,College,
+10,Smith,New England,Women's (pre-2010),2000,College,
+11,Minnesota,Central (pre-2011),Women's (pre-2010),2000,College,
+12,Rice,South (pre-2011),Women's (pre-2010),2000,College,
+13,Oregon,Northwest,Women's (pre-2010),2000,College,
+14,Illinois,Great Lakes,Women's (pre-2010),2000,College,
+15,Bucknell,Metro East,Women's (pre-2010),2000,College,
+15,Notre Dame,Great Lakes,Women's (pre-2010),2000,College,
 1,TRIGGER HIPPY,Northwest,MIXED,2001,Club,4.0
 2,BRU,Mid Atlantic,MIXED,2001,Club,3.43
 3,RED FISH BLUE FISH,Northwest,MIXED,2001,Club,4.0
 3,HIGH PLAINS DRIFTERS,Southwest,MIXED,2001,Club,4.14
 5,OTIS,Southwest,MIXED,2001,Club,3.63
-6,HOLES & POLES,South,MIXED,2001,Club,4.57
-7,HANG TIME,South,MIXED,2001,Club,3.11
+6,HOLES & POLES,South (pre-2012),MIXED,2001,Club,4.57
+7,HANG TIME,South (pre-2012),MIXED,2001,Club,3.11
 8,GRIFFINS,Mid Atlantic,MIXED,2001,Club,3.63
 9,DONNER PARTY,Northwest,MIXED,2001,Club,3.7
 10,BST,Northwest,MIXED,2001,Club,4.5
 11,MAYHEM,Northeast,MIXED,2001,Club,3.6
 12,TATOO HOTTIE,Northeast,MIXED,2001,Club,3.57
-13,GRIDLOCK,South,MIXED,2001,Club,4.2
-14,CHAOS,Central,MIXED,2001,Club,3.67
-15,HOT ACTION,Central,MIXED,2001,Club,4.0
-16,FLIEGENPLATTE,Central,MIXED,2001,Club,4.5
+13,GRIDLOCK,South (pre-2012),MIXED,2001,Club,4.2
+14,CHAOS,Central (pre-2012),MIXED,2001,Club,3.67
+15,HOT ACTION,Central (pre-2012),MIXED,2001,Club,4.0
+16,FLIEGENPLATTE,Central (pre-2012),MIXED,2001,Club,4.5
 1,CONDORS,Southwest,MENS,2001,Club,3.14
 2,JAM,Northwest,MENS,2001,Club,4.57
 3,DEATH OR GLORY,Northeast,MENS,2001,Club,3.86
 3,FURIOUS GEORGE,Northwest,MENS,2001,Club,3.31
-5,SUB ZERO,Central,MENS,2001,Club,4.17
+5,SUB ZERO,Central (pre-2012),MENS,2001,Club,4.17
 6,JOHNNY BRAVO,Southwest,MENS,2001,Club,4.2
 7,ELECTRIC PIG,Mid Atlantic,MENS,2001,Club,4.13
 8,NEW YORK,Northeast,MENS,2001,Club,3.8
 9,SOCKEYE,Northwest,MENS,2001,Club,4.0
 10,BONZI,Northwest,MENS,2001,Club,3.56
-11,MADISON,Central,MENS,2001,Club,4.13
+11,MADISON,Central (pre-2012),MENS,2001,Club,4.13
 12,WARRIORS,Mid Atlantic,MENS,2001,Club,4.83
 13,RING OF FIRE,Mid Atlantic,MENS,2001,Club,4.57
-14,FLORIDA,South,MENS,2001,Club,4.0
-15,BIG ASS TRUCK,Central,MENS,2001,Club,4.29
-16,DOUBLEWIDE,South,MENS,2001,Club,4.71
+14,FLORIDA,South (pre-2012),MENS,2001,Club,4.0
+15,BIG ASS TRUCK,Central (pre-2012),MENS,2001,Club,4.29
+16,DOUBLEWIDE,South (pre-2012),MENS,2001,Club,4.71
 1,LADY GODIVA,Northeast,WOMENS,2001,Club,4.14
 2,RIOT,Northwest,WOMENS,2001,Club,3.54
 3,FURY,Northwest,WOMENS,2001,Club,4.0
-4,OZONE,South,WOMENS,2001,Club,4.43
+4,OZONE,South (pre-2012),WOMENS,2001,Club,4.43
 5,SAFARI,Southwest,WOMENS,2001,Club,3.56
 6,BACKHOE,Mid Atlantic,WOMENS,2001,Club,3.29
 7,SCHWA,Northwest,WOMENS,2001,Club,2.63
@@ -866,58 +866,58 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 9,FUSE,Northeast,WOMENS,2001,Club,3.68
 10,AMBUSH,Northeast,WOMENS,2001,Club,3.14
 11,PRIME,Northwest,WOMENS,2001,Club,4.63
-12,NEMESIS II,Central,WOMENS,2001,Club,4.06
-13,BUTTERCUP,South,WOMENS,2001,Club,3.8
-14,BAIT,Central,WOMENS,2001,Club,3.2
-15,CLUTCH,Central,WOMENS,2001,Club,3.8
+12,NEMESIS II,Central (pre-2012),WOMENS,2001,Club,4.06
+13,BUTTERCUP,South (pre-2012),WOMENS,2001,Club,3.8
+14,BAIT,Central (pre-2012),WOMENS,2001,Club,3.2
+15,CLUTCH,Central (pre-2012),WOMENS,2001,Club,3.8
 16,WAHINE,Mid Atlantic,WOMENS,2001,Club,4.0
-1,Carleton College,Central,Men's,2001,College,
-2,Colorado,Southwest,Men's,2001,College,
-3,California-Santa Barbara,Southwest,Men's,2001,College,
-4,Oregon,Northwest,Men's,2001,College,
-5,Brown,New England,Men's,2001,College,
-5,Cornell,Metro East,Men's,2001,College,
-5,Michigan,Great Lakes,Men's,2001,College,
-5,Wisconsin,Central,Men's,2001,College,
-9,Harvard,New England,Men's,2001,College,
-10,Pennsylvania,Metro East,Men's,2001,College,
-11,Ohio State,Great Lakes,Men's,2001,College,
-12,Texas A&M,South,Men's,2001,College,
-13,Duke,Atlantic Coast,Men's,2001,College,
-14,North Carolina-Wilmington,Atlantic Coast,Men's,2001,College,
-15,North Carolina,Atlantic Coast,Men's,2001,College,
-16,Tufts,New England,Men's,2001,College,
-1,Georgia,Atlantic Coast,Women's,2001,College,
-2,Stanford,Northwest,Women's,2001,College,
-3,California-San Diego,Southwest,Women's,2001,College,
-3,North Carolina-Wilmington,Atlantic Coast,Women's,2001,College,
-5,British Columbia,Northwest,Women's,2001,College,
-5,Brown,New England,Women's,2001,College,
-5,Carleton College,Central,Women's,2001,College,
-5,Tufts,New England,Women's,2001,College,
-9,Colorado,Southwest,Women's,2001,College,
-10,Northwestern,Great Lakes,Women's,2001,College,
-11,Bucknell,Metro East,Women's,2001,College,
-12,Swarthmore,Metro East,Women's,2001,College,
-13,Illinois,Great Lakes,Women's,2001,College,
-14,MIT,New England,Women's,2001,College,
-15,Wisconsin,Central,Women's,2001,College,
-16,Washington University,South,Women's,2001,College,
+1,Carleton College,Central (pre-2011),Men's (pre-2010),2001,College,
+2,Colorado,Southwest,Men's (pre-2010),2001,College,
+3,California-Santa Barbara,Southwest,Men's (pre-2010),2001,College,
+4,Oregon,Northwest,Men's (pre-2010),2001,College,
+5,Brown,New England,Men's (pre-2010),2001,College,
+5,Cornell,Metro East,Men's (pre-2010),2001,College,
+5,Michigan,Great Lakes,Men's (pre-2010),2001,College,
+5,Wisconsin,Central (pre-2011),Men's (pre-2010),2001,College,
+9,Harvard,New England,Men's (pre-2010),2001,College,
+10,Pennsylvania,Metro East,Men's (pre-2010),2001,College,
+11,Ohio State,Great Lakes,Men's (pre-2010),2001,College,
+12,Texas A&M,South (pre-2011),Men's (pre-2010),2001,College,
+13,Duke,Atlantic Coast,Men's (pre-2010),2001,College,
+14,North Carolina-Wilmington,Atlantic Coast,Men's (pre-2010),2001,College,
+15,North Carolina,Atlantic Coast,Men's (pre-2010),2001,College,
+16,Tufts,New England,Men's (pre-2010),2001,College,
+1,Georgia,Atlantic Coast,Women's (pre-2010),2001,College,
+2,Stanford,Northwest,Women's (pre-2010),2001,College,
+3,California-San Diego,Southwest,Women's (pre-2010),2001,College,
+3,North Carolina-Wilmington,Atlantic Coast,Women's (pre-2010),2001,College,
+5,British Columbia,Northwest,Women's (pre-2010),2001,College,
+5,Brown,New England,Women's (pre-2010),2001,College,
+5,Carleton College,Central (pre-2011),Women's (pre-2010),2001,College,
+5,Tufts,New England,Women's (pre-2010),2001,College,
+9,Colorado,Southwest,Women's (pre-2010),2001,College,
+10,Northwestern,Great Lakes,Women's (pre-2010),2001,College,
+11,Bucknell,Metro East,Women's (pre-2010),2001,College,
+12,Swarthmore,Metro East,Women's (pre-2010),2001,College,
+13,Illinois,Great Lakes,Women's (pre-2010),2001,College,
+14,MIT,New England,Women's (pre-2010),2001,College,
+15,Wisconsin,Central (pre-2011),Women's (pre-2010),2001,College,
+16,Washington University,South (pre-2011),Women's (pre-2010),2001,College,
 1,DONNER PARTY,Northwest,MIXED,2002,Club,3.57
-2,HANG TIME,South,MIXED,2002,Club,3.07
+2,HANG TIME,South (pre-2012),MIXED,2002,Club,3.07
 3,SPEAR,Mid Atlantic,MIXED,2002,Club,3.33
-3,SHAZAM,South,MIXED,2002,Club,4.0
+3,SHAZAM,South (pre-2012),MIXED,2002,Club,4.0
 5,HIGH PLAINS DRIFTERS,Northwest,MIXED,2002,Club,4.0
-6,HOLES & POLES,Central,MIXED,2002,Club,4.33
+6,HOLES & POLES,Central (pre-2012),MIXED,2002,Club,4.33
 7,BRU,Southwest,MIXED,2002,Club,3.17
 8,SMELTS,Mid Atlantic,MIXED,2002,Club,4.5
 9,BAD LARRY,Northeast,MIXED,2002,Club,2.83
-9,B+,Central,MIXED,2002,Club,3.94
+9,B+,Central (pre-2012),MIXED,2002,Club,3.94
 11,CLEAR THE ROOM,Southwest,MIXED,2002,Club,3.67
 12,BLAH RELOADED,Northeast,MIXED,2002,Club,4.0
-13,HOT ACTION,Central,MIXED,2002,Club,4.5
+13,HOT ACTION,Central (pre-2012),MIXED,2002,Club,4.5
 14,THREE MARTINI LUNCH,Northwest,MIXED,2002,Club,4.2
-15,DRIVE THRU LIQUOR,South,MIXED,2002,Club,3.8
+15,DRIVE THRU LIQUOR,South (pre-2012),MIXED,2002,Club,3.8
 16,UNCIVIL UNION,Mid Atlantic,MIXED,2002,Club,3.6
 1,FURIOUS GEORGE,Northwest,MENS,2002,Club,2.83
 2,RING OF FIRE,Mid Atlantic,MENS,2002,Club,3.17
@@ -925,22 +925,22 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,SOCKEYE,Northwest,MENS,2002,Club,3.25
 5,CONDORS,Southwest,MENS,2002,Club,3.0
 5,JOHNNY BRAVO,Southwest,MENS,2002,Club,3.75
-7,CHAIN LIGHTNING,South,MENS,2002,Club,4.4
-7,SUB ZERO,Central,MENS,2002,Club,4.0
+7,CHAIN LIGHTNING,South (pre-2012),MENS,2002,Club,4.4
+7,SUB ZERO,Central (pre-2012),MENS,2002,Club,4.0
 9,BOSS HOGG,Northeast,MENS,2002,Club,3.86
 10,PIKE,Mid Atlantic,MENS,2002,Club,3.71
-11,VICIOUS CYCLE,South,MENS,2002,Club,2.43
-12,MACHINE,Central,MENS,2002,Club,4.19
+11,VICIOUS CYCLE,South (pre-2012),MENS,2002,Club,2.43
+12,MACHINE,Central (pre-2012),MENS,2002,Club,4.19
 13,NEW YORK,Northeast,MENS,2002,Club,4.21
 14,PBR STREETGANG,Southwest,MENS,2002,Club,4.0
 15,ELECTRIC PIG,Mid Atlantic,MENS,2002,Club,3.93
-16,MADISON,Central,MENS,2002,Club,4.67
+16,MADISON,Central (pre-2012),MENS,2002,Club,4.67
 1,LADY GODIVA,Northeast,WOMENS,2002,Club,3.4
 2,FURY,Northwest,WOMENS,2002,Club,3.0
-3,OZONE,South,WOMENS,2002,Club,4.33
+3,OZONE,South (pre-2012),WOMENS,2002,Club,4.33
 3,RIOT,Northwest,WOMENS,2002,Club,4.2
 5,LADY CONDORS,Southwest,WOMENS,2002,Club,3.39
-6,NEMESIS,Central,WOMENS,2002,Club,3.69
+6,NEMESIS,Central (pre-2012),WOMENS,2002,Club,3.69
 7,SCHWA,Northwest,WOMENS,2002,Club,4.0
 8,RARE AIR,Southwest,WOMENS,2002,Club,4.0
 9,FUSE,Northeast,WOMENS,2002,Club,3.36
@@ -948,56 +948,56 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 11,SAFARI,Southwest,WOMENS,2002,Club,3.33
 12,BNOGO,Mid Atlantic,WOMENS,2002,Club,4.17
 13,POUNCE,Mid Atlantic,WOMENS,2002,Club,4.43
-14,BAIT,Central,WOMENS,2002,Club,4.29
-15,CLUTCH,Central,WOMENS,2002,Club,4.17
-16,BUTTERCUP,South,WOMENS,2002,Club,4.0
-1,Stanford,Northwest,Men's,2002,College,4.4
-2,Wisconsin,Central,Men's,2002,College,4.67
-3,Carleton College,Central,Men's,2002,College,4.33
-3,William & Mary,Atlantic Coast,Men's,2002,College,5.0
-5,California-Santa Barbara,Southwest,Men's,2002,College,3.0
-5,Michigan,Great Lakes,Men's,2002,College,4.4
-5,North Carolina-Wilmington,Atlantic Coast,Men's,2002,College,3.75
-5,Tufts,New England,Men's,2002,College,4.5
-9,Cornell,Metro East,Men's,2002,College,4.17
-9,Illinois,Great Lakes,Men's,2002,College,4.1
-11,California-Santa Cruz,Northwest,Men's,2002,College,2.55
-11,Colorado,Southwest,Men's,2002,College,4.0
-13,Iowa,Central,Men's,2002,College,4.3
-13,Swarthmore,Metro East,Men's,2002,College,5.0
-15,George Washington,Metro East,Men's,2002,College,4.8
-15,Texas,South,Men's,2002,College,4.0
-1,California-San Diego,Southwest,Women's,2002,College,4.5
-2,Stanford,Northwest,Women's,2002,College,4.0
-3,Colorado,Southwest,Women's,2002,College,4.0
-3,MIT,New England,Women's,2002,College,3.75
-5,Bucknell,Metro East,Women's,2002,College,4.2
-5,Carleton College,Central,Women's,2002,College,3.62
-5,North Carolina,Atlantic Coast,Women's,2002,College,4.0
-5,Oregon,Northwest,Women's,2002,College,4.4
-9,Brown,New England,Women's,2002,College,4.5
-9,Northwestern,Great Lakes,Women's,2002,College,4.33
-11,Penn State,Metro East,Women's,2002,College,4.0
-11,Virginia,Atlantic Coast,Women's,2002,College,4.42
-13,Georgia,Atlantic Coast,Women's,2002,College,4.67
-13,Indiana,Great Lakes,Women's,2002,College,4.7
-15,Texas,South,Women's,2002,College,4.8
-15,Yale,New England,Women's,2002,College,4.6
+14,BAIT,Central (pre-2012),WOMENS,2002,Club,4.29
+15,CLUTCH,Central (pre-2012),WOMENS,2002,Club,4.17
+16,BUTTERCUP,South (pre-2012),WOMENS,2002,Club,4.0
+1,Stanford,Northwest,Men's (pre-2010),2002,College,4.4
+2,Wisconsin,Central (pre-2011),Men's (pre-2010),2002,College,4.67
+3,Carleton College,Central (pre-2011),Men's (pre-2010),2002,College,4.33
+3,William & Mary,Atlantic Coast,Men's (pre-2010),2002,College,5.0
+5,California-Santa Barbara,Southwest,Men's (pre-2010),2002,College,3.0
+5,Michigan,Great Lakes,Men's (pre-2010),2002,College,4.4
+5,North Carolina-Wilmington,Atlantic Coast,Men's (pre-2010),2002,College,3.75
+5,Tufts,New England,Men's (pre-2010),2002,College,4.5
+9,Cornell,Metro East,Men's (pre-2010),2002,College,4.17
+9,Illinois,Great Lakes,Men's (pre-2010),2002,College,4.1
+11,California-Santa Cruz,Northwest,Men's (pre-2010),2002,College,2.55
+11,Colorado,Southwest,Men's (pre-2010),2002,College,4.0
+13,Iowa,Central (pre-2011),Men's (pre-2010),2002,College,4.3
+13,Swarthmore,Metro East,Men's (pre-2010),2002,College,5.0
+15,George Washington,Metro East,Men's (pre-2010),2002,College,4.8
+15,Texas,South (pre-2011),Men's (pre-2010),2002,College,4.0
+1,California-San Diego,Southwest,Women's (pre-2010),2002,College,4.5
+2,Stanford,Northwest,Women's (pre-2010),2002,College,4.0
+3,Colorado,Southwest,Women's (pre-2010),2002,College,4.0
+3,MIT,New England,Women's (pre-2010),2002,College,3.75
+5,Bucknell,Metro East,Women's (pre-2010),2002,College,4.2
+5,Carleton College,Central (pre-2011),Women's (pre-2010),2002,College,3.62
+5,North Carolina,Atlantic Coast,Women's (pre-2010),2002,College,4.0
+5,Oregon,Northwest,Women's (pre-2010),2002,College,4.4
+9,Brown,New England,Women's (pre-2010),2002,College,4.5
+9,Northwestern,Great Lakes,Women's (pre-2010),2002,College,4.33
+11,Penn State,Metro East,Women's (pre-2010),2002,College,4.0
+11,Virginia,Atlantic Coast,Women's (pre-2010),2002,College,4.42
+13,Georgia,Atlantic Coast,Women's (pre-2010),2002,College,4.67
+13,Indiana,Great Lakes,Women's (pre-2010),2002,College,4.7
+15,Texas,South (pre-2011),Women's (pre-2010),2002,College,4.8
+15,Yale,New England,Women's (pre-2010),2002,College,4.6
 1,DONNER PARTY,Northwest,MIXED,2003,Club,4.14
-2,HANG TIME,South,MIXED,2003,Club,4.57
+2,HANG TIME,South (pre-2012),MIXED,2003,Club,4.57
 3,B+,Mid Atlantic,MIXED,2003,Club,4.13
-3,HOLES & POLES,South,MIXED,2003,Club,4.64
+3,HOLES & POLES,South (pre-2012),MIXED,2003,Club,4.64
 5,RED FISH BLUE FISH,Northwest,MIXED,2003,Club,4.38
-6,BLAH,Central,MIXED,2003,Club,4.39
+6,BLAH,Central (pre-2012),MIXED,2003,Club,4.39
 7,DRIVE THRU LIQUOR,Southwest,MIXED,2003,Club,4.25
 8,FLICKS OF FURY,Mid Atlantic,MIXED,2003,Club,2.88
 9,CHINSTRAP,Northeast,MIXED,2003,Club,4.14
-9,PHOB,Central,MIXED,2003,Club,4.0
+9,PHOB,Central (pre-2012),MIXED,2003,Club,4.0
 11,BAD LARRY,Southwest,MIXED,2003,Club,3.84
 12,HALIBUT,Northeast,MIXED,2003,Club,2.88
-13,KAZE,Central,MIXED,2003,Club,4.71
+13,KAZE,Central (pre-2012),MIXED,2003,Club,4.71
 14,PERSUADER,Northwest,MIXED,2003,Club,4.07
-15,RIVAL,South,MIXED,2003,Club,4.0
+15,RIVAL,South (pre-2012),MIXED,2003,Club,4.0
 16,BRU,Mid Atlantic,MIXED,2003,Club,4.0
 1,FURIOUS GEORGE,Northwest,MENS,2003,Club,4.33
 2,CONDORS,Southwest,MENS,2003,Club,3.0
@@ -1005,79 +1005,79 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,RING OF FIRE,Mid Atlantic,MENS,2003,Club,3.83
 5,DEATH OR GLORY,Northeast,MENS,2003,Club,4.17
 5,SOCKEYE,Northwest,MENS,2003,Club,4.31
-7,DOUBLEWIDE,South,MENS,2003,Club,4.67
+7,DOUBLEWIDE,South (pre-2012),MENS,2003,Club,4.67
 7,JOHNNY BRAVO,Southwest,MENS,2003,Club,4.14
-9,G-UNIT,Central,MENS,2003,Club,4.0
-10,CHAIN LIGHTNING,South,MENS,2003,Club,4.0
+9,G-UNIT,Central (pre-2012),MENS,2003,Club,4.0
+10,CHAIN LIGHTNING,South (pre-2012),MENS,2003,Club,4.0
 11,BOSS HOGG,Northeast,MENS,2003,Club,4.38
-12,VICIOUS CYCLE,South,MENS,2003,Club,4.13
-13,BIG ASS TRUCK,Central,MENS,2003,Club,4.29
+12,VICIOUS CYCLE,South (pre-2012),MENS,2003,Club,4.13
+13,BIG ASS TRUCK,Central (pre-2012),MENS,2003,Club,4.29
 14,PIKE,Mid Atlantic,MENS,2003,Club,4.57
 15,ELECTRIC PIG,Mid Atlantic,MENS,2003,Club,4.0
-16,SUB ZERO,Central,MENS,2003,Club,4.14
+16,SUB ZERO,Central (pre-2012),MENS,2003,Club,4.14
 1,FURY,Northwest,WOMENS,2003,Club,4.14
 2,RIOT,Northwest,WOMENS,2003,Club,4.14
 3,LADY GODIVA,Northeast,WOMENS,2003,Club,3.43
 3,PRIME,Northwest,WOMENS,2003,Club,3.32
 5,ALIAS,Mid Atlantic,WOMENS,2003,Club,3.5
-5,OZONE,South,WOMENS,2003,Club,4.43
-7,NEMESIS,Central,WOMENS,2003,Club,3.88
+5,OZONE,South (pre-2012),WOMENS,2003,Club,4.43
+7,NEMESIS,Central (pre-2012),WOMENS,2003,Club,3.88
 7,SCHWA,Northwest,WOMENS,2003,Club,3.86
 9,SAFARI,Southwest,WOMENS,2003,Club,4.29
 10,RARE AIR,Southwest,WOMENS,2003,Club,3.88
 11,STELLA,Northeast,WOMENS,2003,Club,4.21
-12,CLUTCH,Central,WOMENS,2003,Club,4.63
+12,CLUTCH,Central (pre-2012),WOMENS,2003,Club,4.63
 13,BRUTE SQUAD,Northeast,WOMENS,2003,Club,3.67
-14,STRIKE,South,WOMENS,2003,Club,4.17
-15,BAIT,Central,WOMENS,2003,Club,4.33
+14,STRIKE,South (pre-2012),WOMENS,2003,Club,4.17
+15,BAIT,Central (pre-2012),WOMENS,2003,Club,4.33
 16,POUNCE,Mid Atlantic,WOMENS,2003,Club,3.71
-1,Wisconsin,Central,Men's,2003,College,3.25
-2,Oregon,Northwest,Men's,2003,College,4.4
-3,Carleton College,Central,Men's,2003,College,4.0
-3,Colorado,Southwest,Men's,2003,College,2.7
-5,Brown,New England,Men's,2003,College,3.0
-5,Illinois,Great Lakes,Men's,2003,College,4.3
-5,Texas,South,Men's,2003,College,4.0
-5,William & Mary,Atlantic Coast,Men's,2003,College,3.9
-9,Georgia,Atlantic Coast,Men's,2003,College,3.5
-9,Michigan,Great Lakes,Men's,2003,College,3.8
-11,North Carolina State,Atlantic Coast,Men's,2003,College,3.2
-11,Penn State,Metro East,Men's,2003,College,3.5
-13,Ohio State,Great Lakes,Men's,2003,College,3.25
-14,Pennsylvania,Metro East,Men's,2003,College,3.8
-15,Dartmouth,New England,Men's,2003,College,4.4
-16,Williams,New England,Men's,2003,College,4.8
-1,Stanford,Northwest,Women's,2003,College,4.5
-2,MIT,New England,Women's,2003,College,3.3
-3,Brown,New England,Women's,2003,College,3.75
-3,Colorado,Southwest,Women's,2003,College,4.25
-5,California,Northwest,Women's,2003,College,4.7
-5,California-San Diego,Southwest,Women's,2003,College,4.25
-5,Penn State,Metro East,Women's,2003,College,3.67
-5,Texas,South,Women's,2003,College,3.8
-9,Iowa,Central,Women's,2003,College,4.7
-9,Wisconsin,Central,Women's,2003,College,3.67
-11,Delaware,Metro East,Women's,2003,College,4.5
-11,Duke,Atlantic Coast,Women's,2003,College,3.6
-13,Michigan,Great Lakes,Women's,2003,College,4.25
-14,Arizona,Southwest,Women's,2003,College,4.7
-14,Georgia,Atlantic Coast,Women's,2003,College,3.9
-14,Notre Dame,Great Lakes,Women's,2003,College,5.0
+1,Wisconsin,Central (pre-2011),Men's (pre-2010),2003,College,3.25
+2,Oregon,Northwest,Men's (pre-2010),2003,College,4.4
+3,Carleton College,Central (pre-2011),Men's (pre-2010),2003,College,4.0
+3,Colorado,Southwest,Men's (pre-2010),2003,College,2.7
+5,Brown,New England,Men's (pre-2010),2003,College,3.0
+5,Illinois,Great Lakes,Men's (pre-2010),2003,College,4.3
+5,Texas,South (pre-2011),Men's (pre-2010),2003,College,4.0
+5,William & Mary,Atlantic Coast,Men's (pre-2010),2003,College,3.9
+9,Georgia,Atlantic Coast,Men's (pre-2010),2003,College,3.5
+9,Michigan,Great Lakes,Men's (pre-2010),2003,College,3.8
+11,North Carolina State,Atlantic Coast,Men's (pre-2010),2003,College,3.2
+11,Penn State,Metro East,Men's (pre-2010),2003,College,3.5
+13,Ohio State,Great Lakes,Men's (pre-2010),2003,College,3.25
+14,Pennsylvania,Metro East,Men's (pre-2010),2003,College,3.8
+15,Dartmouth,New England,Men's (pre-2010),2003,College,4.4
+16,Williams,New England,Men's (pre-2010),2003,College,4.8
+1,Stanford,Northwest,Women's (pre-2010),2003,College,4.5
+2,MIT,New England,Women's (pre-2010),2003,College,3.3
+3,Brown,New England,Women's (pre-2010),2003,College,3.75
+3,Colorado,Southwest,Women's (pre-2010),2003,College,4.25
+5,California,Northwest,Women's (pre-2010),2003,College,4.7
+5,California-San Diego,Southwest,Women's (pre-2010),2003,College,4.25
+5,Penn State,Metro East,Women's (pre-2010),2003,College,3.67
+5,Texas,South (pre-2011),Women's (pre-2010),2003,College,3.8
+9,Iowa,Central (pre-2011),Women's (pre-2010),2003,College,4.7
+9,Wisconsin,Central (pre-2011),Women's (pre-2010),2003,College,3.67
+11,Delaware,Metro East,Women's (pre-2010),2003,College,4.5
+11,Duke,Atlantic Coast,Women's (pre-2010),2003,College,3.6
+13,Michigan,Great Lakes,Women's (pre-2010),2003,College,4.25
+14,Arizona,Southwest,Women's (pre-2010),2003,College,4.7
+14,Georgia,Atlantic Coast,Women's (pre-2010),2003,College,3.9
+14,Notre Dame,Great Lakes,Women's (pre-2010),2003,College,5.0
 1,SHAZAM,Northwest,MIXED,2004,Club,4.33
-2,CHAD LARSON EXPERIENCE,Central,MIXED,2004,Club,3.83
+2,CHAD LARSON EXPERIENCE,Central (pre-2012),MIXED,2004,Club,3.83
 3,BRASS MONKEY,Northwest,MIXED,2004,Club,4.33
 3,6 TRAINED MONKEYS,Northeast,MIXED,2004,Club,4.33
 5,BAD LARRY,Southwest,MIXED,2004,Club,4.25
-5,HOLES & POLES,South,MIXED,2004,Club,3.0
+5,HOLES & POLES,South (pre-2012),MIXED,2004,Club,3.0
 7,DRIVE THRU LIQUOR,Southwest,MIXED,2004,Club,3.86
 8,B+,Mid Atlantic,MIXED,2004,Club,4.0
 9,RED FISH BLUE FISH,Northwest,MIXED,2004,Club,4.14
 10,PUPPET REGIME,Northeast,MIXED,2004,Club,3.83
 11,ANNAPOLIS ALL-STARS,Mid Atlantic,MIXED,2004,Club,3.33
-12,SOUL PATROL,South,MIXED,2004,Club,3.86
+12,SOUL PATROL,South (pre-2012),MIXED,2004,Club,3.86
 13,UNCIVIL UNION,Northeast,MIXED,2004,Club,4.43
-14,HOT ACTION,Central,MIXED,2004,Club,4.33
-15,UNIVERSE,Central,MIXED,2004,Club,4.43
+14,HOT ACTION,Central (pre-2012),MIXED,2004,Club,4.33
+15,UNIVERSE,Central (pre-2012),MIXED,2004,Club,4.43
 16,DUFF,Southwest,MIXED,2004,Club,4.5
 1,SOCKEYE,Northwest,MENS,2004,Club,4.0
 2,JAM,Northwest,MENS,2004,Club,4.29
@@ -1087,14 +1087,14 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 6,JOHNNY BRAVO,Southwest,MENS,2004,Club,4.0
 7,CONDORS,Southwest,MENS,2004,Club,3.5
 7,RING OF FIRE,Mid Atlantic,MENS,2004,Club,4.17
-9,BIG ASS TRUCK,Central,MENS,2004,Club,4.57
-10,DOUBLEWIDE,South,MENS,2004,Club,4.25
+9,BIG ASS TRUCK,Central (pre-2012),MENS,2004,Club,4.57
+10,DOUBLEWIDE,South (pre-2012),MENS,2004,Club,4.25
 11,KAOS,Northwest,MENS,2004,Club,3.43
-12,CHAIN LIGHTNING,South,MENS,2004,Club,4.63
-13,SUB ZERO,Central,MENS,2004,Club,4.43
+12,CHAIN LIGHTNING,South (pre-2012),MENS,2004,Club,4.63
+13,SUB ZERO,Central (pre-2012),MENS,2004,Club,4.43
 14,ELECTRIC PIG,Mid Atlantic,MENS,2004,Club,3.71
 15,GOAT,Northeast,MENS,2004,Club,3.86
-16,MACHINE,Central,MENS,2004,Club,4.43
+16,MACHINE,Central (pre-2012),MENS,2004,Club,4.43
 1,RIOT,Northwest,WOMENS,2004,Club,4.17
 2,PRIME,Northwest,WOMENS,2004,Club,3.71
 3,BACKHOE,Mid Atlantic,WOMENS,2004,Club,3.33
@@ -1102,83 +1102,83 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 5,SCHWA,Northwest,WOMENS,2004,Club,3.78
 6,RARE AIR,Southwest,WOMENS,2004,Club,4.67
 7,FURY,Northwest,WOMENS,2004,Club,3.86
-7,OZONE,South,WOMENS,2004,Club,4.29
+7,OZONE,South (pre-2012),WOMENS,2004,Club,4.29
 9,BRUTE SQUAD,Northeast,WOMENS,2004,Club,4.0
 10,SAFARI,Southwest,WOMENS,2004,Club,3.14
 11,BNOGO,Mid Atlantic,WOMENS,2004,Club,3.75
-12,ZANZARA,South,WOMENS,2004,Club,4.57
-13,NEMESIS,Central,WOMENS,2004,Club,3.57
-14,CLUTCH,Central,WOMENS,2004,Club,4.71
+12,ZANZARA,South (pre-2012),WOMENS,2004,Club,4.57
+13,NEMESIS,Central (pre-2012),WOMENS,2004,Club,3.57
+14,CLUTCH,Central (pre-2012),WOMENS,2004,Club,4.71
 15,ELECTRIC MAYHEM,Mid Atlantic,WOMENS,2004,Club,4.29
-16,COLLIDE,Central,WOMENS,2004,Club,3.86
-1,Colorado,Southwest,Men's,2004,College,
-2,California,Northwest,Men's,2004,College,
-3,Brown,New England,Men's,2004,College,
-3,Stanford,Northwest,Men's,2004,College,
-5,California-San Diego,Southwest,Men's,2004,College,
-5,Iowa,Central,Men's,2004,College,
-5,North Carolina State,Atlantic Coast,Men's,2004,College,
-5,Wisconsin,Central,Men's,2004,College,
-9,Carleton College,Central,Men's,2004,College,
-9,Tufts,New England,Men's,2004,College,
-11,George Washington,Metro East,Men's,2004,College,
-11,William & Mary,Atlantic Coast,Men's,2004,College,
-13,Michigan State,Great Lakes,Men's,2004,College,
-14,Illinois,Great Lakes,Men's,2004,College,
-15,Delaware,Metro East,Men's,2004,College,
-16,Kansas,South,Men's,2004,College,
-1,California-Davis,Northwest,Women's,2004,College,
-2,Carleton College,Central,Women's,2004,College,
-3,California-San Diego,Southwest,Women's,2004,College,
-3,Stanford,Northwest,Women's,2004,College,
-5,Brown,New England,Women's,2004,College,
-5,California,Northwest,Women's,2004,College,
-5,MIT,New England,Women's,2004,College,
-5,Texas,South,Women's,2004,College,
-9,Dartmouth,New England,Women's,2004,College,
-9,Iowa,Central,Women's,2004,College,
-11,Claremont,Southwest,Women's,2004,College,
-11,Illinois,Great Lakes,Women's,2004,College,
-13,Penn State,Metro East,Women's,2004,College,
-13,Virginia,Atlantic Coast,Women's,2004,College,
-15,North Carolina State,Atlantic Coast,Women's,2004,College,
-15,Rutgers,Metro East,Women's,2004,College,
+16,COLLIDE,Central (pre-2012),WOMENS,2004,Club,3.86
+1,Colorado,Southwest,Men's (pre-2010),2004,College,
+2,California,Northwest,Men's (pre-2010),2004,College,
+3,Brown,New England,Men's (pre-2010),2004,College,
+3,Stanford,Northwest,Men's (pre-2010),2004,College,
+5,California-San Diego,Southwest,Men's (pre-2010),2004,College,
+5,Iowa,Central (pre-2011),Men's (pre-2010),2004,College,
+5,North Carolina State,Atlantic Coast,Men's (pre-2010),2004,College,
+5,Wisconsin,Central (pre-2011),Men's (pre-2010),2004,College,
+9,Carleton College,Central (pre-2011),Men's (pre-2010),2004,College,
+9,Tufts,New England,Men's (pre-2010),2004,College,
+11,George Washington,Metro East,Men's (pre-2010),2004,College,
+11,William & Mary,Atlantic Coast,Men's (pre-2010),2004,College,
+13,Michigan State,Great Lakes,Men's (pre-2010),2004,College,
+14,Illinois,Great Lakes,Men's (pre-2010),2004,College,
+15,Delaware,Metro East,Men's (pre-2010),2004,College,
+16,Kansas,South (pre-2011),Men's (pre-2010),2004,College,
+1,California-Davis,Northwest,Women's (pre-2010),2004,College,
+2,Carleton College,Central (pre-2011),Women's (pre-2010),2004,College,
+3,California-San Diego,Southwest,Women's (pre-2010),2004,College,
+3,Stanford,Northwest,Women's (pre-2010),2004,College,
+5,Brown,New England,Women's (pre-2010),2004,College,
+5,California,Northwest,Women's (pre-2010),2004,College,
+5,MIT,New England,Women's (pre-2010),2004,College,
+5,Texas,South (pre-2011),Women's (pre-2010),2004,College,
+9,Dartmouth,New England,Women's (pre-2010),2004,College,
+9,Iowa,Central (pre-2011),Women's (pre-2010),2004,College,
+11,Claremont,Southwest,Women's (pre-2010),2004,College,
+11,Illinois,Great Lakes,Women's (pre-2010),2004,College,
+13,Penn State,Metro East,Women's (pre-2010),2004,College,
+13,Virginia,Atlantic Coast,Women's (pre-2010),2004,College,
+15,North Carolina State,Atlantic Coast,Women's (pre-2010),2004,College,
+15,Rutgers,Metro East,Women's (pre-2010),2004,College,
 1,BRASS MONKEY,Northwest,MIXED,2005,Club,4.66
 2,ROR$HACK,Northwest,MIXED,2005,Club,3.83
 3,BAD LARRY,Southwest,MIXED,2005,Club,3.28
-3,CHAD LARSON EXPERIENCE,Central,MIXED,2005,Club,4.42
+3,CHAD LARSON EXPERIENCE,Central (pre-2012),MIXED,2005,Club,4.42
 5,6 TRAINED MONKEYS,Northeast,MIXED,2005,Club,4.5
 6,SLOW WHITE,Northeast,MIXED,2005,Club,4.5
-7,HANG TIME,South,MIXED,2005,Club,4.13
+7,HANG TIME,South (pre-2012),MIXED,2005,Club,4.13
 8,OLIO,Mid Atlantic,MIXED,2005,Club,4.38
 9,SHAZAM,Northwest,MIXED,2005,Club,3.88
-10,METHOD,Central,MIXED,2005,Club,4.42
-11,HOT AND SWEATY,South,MIXED,2005,Club,3.85
+10,METHOD,Central (pre-2012),MIXED,2005,Club,4.42
+11,HOT AND SWEATY,South (pre-2012),MIXED,2005,Club,3.85
 12,DRIVE THRU LIQUOR,Southwest,MIXED,2005,Club,4.42
 13,MISCHIEF,Northwest,MIXED,2005,Club,4.5
 14,DONKEY BOMB,Mid Atlantic,MIXED,2005,Club,4.16
 15,GORILLA FOOT,Mid Atlantic,MIXED,2005,Club,5.0
-16,WOODCHUCK SOCIETY,Central,MIXED,2005,Club,4.57
+16,WOODCHUCK SOCIETY,Central (pre-2012),MIXED,2005,Club,4.57
 1,FURIOUS GEORGE,Northwest,MENS,2005,Club,3.85
 2,SOCKEYE,Northwest,MENS,2005,Club,3.25
 3,JAM,Northwest,MENS,2005,Club,4.85
 3,DEATH OR GLORY,Northeast,MENS,2005,Club,3.5
 5,JOHNNY BRAVO,Southwest,MENS,2005,Club,4.0
-6,SUB ZERO,Central,MENS,2005,Club,4.4
+6,SUB ZERO,Central (pre-2012),MENS,2005,Club,4.4
 7,PIKE,Mid Atlantic,MENS,2005,Club,4.5
-8,DOUBLEWIDE,South,MENS,2005,Club,4.0
+8,DOUBLEWIDE,South (pre-2012),MENS,2005,Club,4.0
 9,CONDORS,Southwest,MENS,2005,Club,3.5
 10,POTOMAC,Mid Atlantic,MENS,2005,Club,4.28
 11,METAL,Northeast,MENS,2005,Club,4.57
-12,BIG ASS TRUCK,Central,MENS,2005,Club,3.66
+12,BIG ASS TRUCK,Central (pre-2012),MENS,2005,Club,3.66
 13,RING OF FIRE,Mid Atlantic,MENS,2005,Club,3.57
-14,CHAIN LIGHTNING,South,MENS,2005,Club,4.16
-15,VICIOUS CYCLE,South,MENS,2005,Club,4.16
+14,CHAIN LIGHTNING,South (pre-2012),MENS,2005,Club,4.16
+15,VICIOUS CYCLE,South (pre-2012),MENS,2005,Club,4.16
 16,PBR STREETGANG,Southwest,MENS,2005,Club,4.71
 1,RIOT,Northwest,WOMENS,2005,Club,4.0
 2,BACKHOE,Mid Atlantic,WOMENS,2005,Club,3.0
 3,FURY,Northwest,WOMENS,2005,Club,3.85
-3,OZONE,South,WOMENS,2005,Club,3.85
+3,OZONE,South (pre-2012),WOMENS,2005,Club,3.85
 5,LADY GODIVA,Northeast,WOMENS,2005,Club,4.2
 6,CAPITALS,Northeast,WOMENS,2005,Club,3.4
 7,RARE AIR,Southwest,WOMENS,2005,Club,3.5
@@ -1188,72 +1188,72 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 11,SCHWA,Northwest,WOMENS,2005,Club,4.25
 12,BNOGO,Mid Atlantic,WOMENS,2005,Club,4.13
 13,HOME BROOD,Northwest,WOMENS,2005,Club,3.5
-14,MOJO,Central,WOMENS,2005,Club,4.0
-15,BAIT,Central,WOMENS,2005,Club,4.56
-16,ZANZARA,South,WOMENS,2005,Club,4.75
-1,Brown,New England,Men's,2005,College,
-2,Colorado,Southwest,Men's,2005,College,
-3,California-San Diego,Southwest,Men's,2005,College,
-3,Stanford,Northwest,Men's,2005,College,
-5,Georgia,Atlantic Coast,Men's,2005,College,
-5,Texas,South,Men's,2005,College,
-5,Washington,Northwest,Men's,2005,College,
-5,Wisconsin,Central,Men's,2005,College,
-9,Michigan,Great Lakes,Men's,2005,College,
-9,Michigan State,Great Lakes,Men's,2005,College,
-11,Carleton College,Central,Men's,2005,College,
-11,Harvard,New England,Men's,2005,College,
-13,British Columbia,Northwest,Men's,2005,College,
-13,Pittsburgh,Metro East,Men's,2005,College,
-15,North Carolina,Atlantic Coast,Men's,2005,College,
-15,Queen's,Metro East,Men's,2005,College,
-1,Stanford,Northwest,Women's,2005,College,
-2,Washington,Northwest,Women's,2005,College,
-3,Colorado,Southwest,Women's,2005,College,
-3,Texas,South,Women's,2005,College,
-5,Brown,New England,Women's,2005,College,
-5,California,Northwest,Women's,2005,College,
-5,Iowa,Central,Women's,2005,College,
-5,North Carolina State,Atlantic Coast,Women's,2005,College,
-9,Cornell,Metro East,Women's,2005,College,
-9,MIT,New England,Women's,2005,College,
-11,Dartmouth,New England,Women's,2005,College,
-11,Northwestern,Great Lakes,Women's,2005,College,
-13,Texas A&M,South,Women's,2005,College,
-14,Carleton College,Central,Women's,2005,College,
-14,Purdue,Great Lakes,Women's,2005,College,
-14,Rutgers,Metro East,Women's,2005,College,
+14,MOJO,Central (pre-2012),WOMENS,2005,Club,4.0
+15,BAIT,Central (pre-2012),WOMENS,2005,Club,4.56
+16,ZANZARA,South (pre-2012),WOMENS,2005,Club,4.75
+1,Brown,New England,Men's (pre-2010),2005,College,
+2,Colorado,Southwest,Men's (pre-2010),2005,College,
+3,California-San Diego,Southwest,Men's (pre-2010),2005,College,
+3,Stanford,Northwest,Men's (pre-2010),2005,College,
+5,Georgia,Atlantic Coast,Men's (pre-2010),2005,College,
+5,Texas,South (pre-2011),Men's (pre-2010),2005,College,
+5,Washington,Northwest,Men's (pre-2010),2005,College,
+5,Wisconsin,Central (pre-2011),Men's (pre-2010),2005,College,
+9,Michigan,Great Lakes,Men's (pre-2010),2005,College,
+9,Michigan State,Great Lakes,Men's (pre-2010),2005,College,
+11,Carleton College,Central (pre-2011),Men's (pre-2010),2005,College,
+11,Harvard,New England,Men's (pre-2010),2005,College,
+13,British Columbia,Northwest,Men's (pre-2010),2005,College,
+13,Pittsburgh,Metro East,Men's (pre-2010),2005,College,
+15,North Carolina,Atlantic Coast,Men's (pre-2010),2005,College,
+15,Queen's,Metro East,Men's (pre-2010),2005,College,
+1,Stanford,Northwest,Women's (pre-2010),2005,College,
+2,Washington,Northwest,Women's (pre-2010),2005,College,
+3,Colorado,Southwest,Women's (pre-2010),2005,College,
+3,Texas,South (pre-2011),Women's (pre-2010),2005,College,
+5,Brown,New England,Women's (pre-2010),2005,College,
+5,California,Northwest,Women's (pre-2010),2005,College,
+5,Iowa,Central (pre-2011),Women's (pre-2010),2005,College,
+5,North Carolina State,Atlantic Coast,Women's (pre-2010),2005,College,
+9,Cornell,Metro East,Women's (pre-2010),2005,College,
+9,MIT,New England,Women's (pre-2010),2005,College,
+11,Dartmouth,New England,Women's (pre-2010),2005,College,
+11,Northwestern,Great Lakes,Women's (pre-2010),2005,College,
+13,Texas A&M,South (pre-2011),Women's (pre-2010),2005,College,
+14,Carleton College,Central (pre-2011),Women's (pre-2010),2005,College,
+14,Purdue,Great Lakes,Women's (pre-2010),2005,College,
+14,Rutgers,Metro East,Women's (pre-2010),2005,College,
 1,MISCHIEF,Northwest,MIXED,2006,Club,4.0
 2,SLOW WHITE,Northeast,MIXED,2006,Club,4.0
 3,BRASS MONKEY,Northwest,MIXED,2006,Club,4.71
 3,GENDORS,Southwest,MIXED,2006,Club,4.43
 5,AMP,Mid Atlantic,MIXED,2006,Club,4.67
-6,DELIVERANCE,South,MIXED,2006,Club,4.5
+6,DELIVERANCE,South (pre-2012),MIXED,2006,Club,4.5
 7,HORSE$HOW,Northwest,MIXED,2006,Club,4.0
 7,TANDEM,Northeast,MIXED,2006,Club,3.38
-9,FLAMING MOE,Central,MIXED,2006,Club,4.71
+9,FLAMING MOE,Central (pre-2012),MIXED,2006,Club,4.71
 10,PUPPET REGIME,Northeast,MIXED,2006,Club,3.29
 11,FLYCOONS,Northwest,MIXED,2006,Club,4.13
-12,MR. BRIEFCASE,Central,MIXED,2006,Club,4.13
-13,¡THE SALSA POLICE!,Central,MIXED,2006,Club,4.86
-14,RIVAL,South,MIXED,2006,Club,4.29
+12,MR. BRIEFCASE,Central (pre-2012),MIXED,2006,Club,4.13
+13,¡THE SALSA POLICE!,Central (pre-2012),MIXED,2006,Club,4.86
+14,RIVAL,South (pre-2012),MIXED,2006,Club,4.29
 15,BAD LARRY,Southwest,MIXED,2006,Club,4.57
 16,HOORAY,Mid Atlantic,MIXED,2006,Club,3.57
 1,SOCKEYE,Northwest,MENS,2006,Club,4.5
 2,FURIOUS GEORGE,Northwest,MENS,2006,Club,2.57
-3,CHAIN LIGHTNING,South,MENS,2006,Club,4.33
+3,CHAIN LIGHTNING,South (pre-2012),MENS,2006,Club,4.33
 3,JOHNNY BRAVO,Southwest,MENS,2006,Club,3.83
 5,REVOLVER,Northwest,MENS,2006,Club,3.67
 6,RHINO,Northwest,MENS,2006,Club,3.83
 7,DEATH OR GLORY,Northeast,MENS,2006,Club,3.33
 7,RING OF FIRE,Mid Atlantic,MENS,2006,Club,3.71
 9,METAL,Northeast,MENS,2006,Club,4.38
-10,SUB ZERO,Central,MENS,2006,Club,4.43
+10,SUB ZERO,Central (pre-2012),MENS,2006,Club,4.43
 11,CONDORS,Southwest,MENS,2006,Club,3.43
-12,MACHINE,Central,MENS,2006,Club,4.5
-13,VICIOUS CYCLE,South,MENS,2006,Club,3.43
+12,MACHINE,Central (pre-2012),MENS,2006,Club,4.5
+13,VICIOUS CYCLE,South (pre-2012),MENS,2006,Club,3.43
 14,TRUCK STOP,Mid Atlantic,MENS,2006,Club,3.57
-15,BAT,Central,MENS,2006,Club,4.29
+15,BAT,Central (pre-2012),MENS,2006,Club,4.29
 16,MONSTER,Southwest,MENS,2006,Club,5.0
 1,FURY,Northwest,WOMENS,2006,Club,4.43
 2,RIOT,Northwest,WOMENS,2006,Club,4.57
@@ -1262,61 +1262,61 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 5,BACKHOE,Mid Atlantic,WOMENS,2006,Club,3.75
 6,SAFARI,Southwest,WOMENS,2006,Club,4.13
 7,CAPITALS,Northeast,WOMENS,2006,Club,3.56
-8,OZONE,South,WOMENS,2006,Club,4.44
+8,OZONE,South (pre-2012),WOMENS,2006,Club,4.44
 9,WICKED,Mid Atlantic,WOMENS,2006,Club,3.57
-10,NEMESIS,Central,WOMENS,2006,Club,3.29
+10,NEMESIS,Central (pre-2012),WOMENS,2006,Club,3.29
 11,LADY GODIVA,Northeast,WOMENS,2006,Club,3.63
-12,SHOWDOWN,South,WOMENS,2006,Club,4.38
-13,MOJO,Central,WOMENS,2006,Club,4.29
-14,LAYUMA,South,WOMENS,2006,Club,4.57
+12,SHOWDOWN,South (pre-2012),WOMENS,2006,Club,4.38
+13,MOJO,Central (pre-2012),WOMENS,2006,Club,4.29
+14,LAYUMA,South (pre-2012),WOMENS,2006,Club,4.57
 15,BNOGO,Mid Atlantic,WOMENS,2006,Club,4.14
 16,BOX LUNCH,Southwest,WOMENS,2006,Club,4.0
-1,Florida,Atlantic Coast,Men's,2006,College,
-2,Wisconsin,Central,Men's,2006,College,
-3,Georgia,Atlantic Coast,Men's,2006,College,
-3,Stanford,Northwest,Men's,2006,College,
-5,California-San Diego,Southwest,Men's,2006,College,
-5,Colorado,Southwest,Men's,2006,College,
-5,Oregon,Northwest,Men's,2006,College,
-5,Texas,South,Men's,2006,College,
-9,Michigan,Great Lakes,Men's,2006,College,
-9,Michigan State,Great Lakes,Men's,2006,College,
-11,California-Santa Barbara,Southwest,Men's,2006,College,
-11,Kansas,South,Men's,2006,College,
-13,Harvard,New England,Men's,2006,College,
-13,Pittsburgh,Metro East,Men's,2006,College,
-15,Brown,New England,Men's,2006,College,
-15,Delaware,Metro East,Men's,2006,College,
-1,Stanford,Northwest,Women's,2006,College,
-2,UCLA,Southwest,Women's,2006,College,
-3,Colorado,Southwest,Women's,2006,College,
-3,Wisconsin,Central,Women's,2006,College,
-5,British Columbia,Northwest,Women's,2006,College,
-5,California-Davis,Northwest,Women's,2006,College,
-5,Dartmouth,New England,Women's,2006,College,
-5,Florida,Atlantic Coast,Women's,2006,College,
-9,Georgia,Atlantic Coast,Women's,2006,College,
-9,Michigan,Great Lakes,Women's,2006,College,
-11,Emory,Atlantic Coast,Women's,2006,College,
-11,Tufts,New England,Women's,2006,College,
-13,Swarthmore,Metro East,Women's,2006,College,
-13,Texas,South,Women's,2006,College,
-15,Carleton College,Central,Women's,2006,College,
-15,Delaware,Metro East,Women's,2006,College,
+1,Florida,Atlantic Coast,Men's (pre-2010),2006,College,
+2,Wisconsin,Central (pre-2011),Men's (pre-2010),2006,College,
+3,Georgia,Atlantic Coast,Men's (pre-2010),2006,College,
+3,Stanford,Northwest,Men's (pre-2010),2006,College,
+5,California-San Diego,Southwest,Men's (pre-2010),2006,College,
+5,Colorado,Southwest,Men's (pre-2010),2006,College,
+5,Oregon,Northwest,Men's (pre-2010),2006,College,
+5,Texas,South (pre-2011),Men's (pre-2010),2006,College,
+9,Michigan,Great Lakes,Men's (pre-2010),2006,College,
+9,Michigan State,Great Lakes,Men's (pre-2010),2006,College,
+11,California-Santa Barbara,Southwest,Men's (pre-2010),2006,College,
+11,Kansas,South (pre-2011),Men's (pre-2010),2006,College,
+13,Harvard,New England,Men's (pre-2010),2006,College,
+13,Pittsburgh,Metro East,Men's (pre-2010),2006,College,
+15,Brown,New England,Men's (pre-2010),2006,College,
+15,Delaware,Metro East,Men's (pre-2010),2006,College,
+1,Stanford,Northwest,Women's (pre-2010),2006,College,
+2,UCLA,Southwest,Women's (pre-2010),2006,College,
+3,Colorado,Southwest,Women's (pre-2010),2006,College,
+3,Wisconsin,Central (pre-2011),Women's (pre-2010),2006,College,
+5,British Columbia,Northwest,Women's (pre-2010),2006,College,
+5,California-Davis,Northwest,Women's (pre-2010),2006,College,
+5,Dartmouth,New England,Women's (pre-2010),2006,College,
+5,Florida,Atlantic Coast,Women's (pre-2010),2006,College,
+9,Georgia,Atlantic Coast,Women's (pre-2010),2006,College,
+9,Michigan,Great Lakes,Women's (pre-2010),2006,College,
+11,Emory,Atlantic Coast,Women's (pre-2010),2006,College,
+11,Tufts,New England,Women's (pre-2010),2006,College,
+13,Swarthmore,Metro East,Women's (pre-2010),2006,College,
+13,Texas,South (pre-2011),Women's (pre-2010),2006,College,
+15,Carleton College,Central (pre-2011),Women's (pre-2010),2006,College,
+15,Delaware,Metro East,Women's (pre-2010),2006,College,
 1,SHAZAM RETURNS,Northwest,MIXED,2007,Club,4.1
 2,SLOW WHITE,Northeast,MIXED,2007,Club,4.2
 3,AMP,Mid Atlantic,MIXED,2007,Club,3.4
 3,BRASS MONKEY,Northwest,MIXED,2007,Club,4.7
 5,MISCHIEF,Northwest,MIXED,2007,Club,4.1
 6,BARRIO,Southwest,MIXED,2007,Club,4.1
-7,RIVAL,South,MIXED,2007,Club,4.1
+7,RIVAL,South (pre-2012),MIXED,2007,Club,4.1
 8,TANDEM,Northeast,MIXED,2007,Club,3.1
 9,MENTAL TOSS FLYCOONS,Northwest,MIXED,2007,Club,4.8
-10,POODLE CLUB,Central,MIXED,2007,Club,4.1
+10,POODLE CLUB,Central (pre-2012),MIXED,2007,Club,4.1
 11,BASHING PINATAS,Northeast,MIXED,2007,Club,4.9
-12,ICE,Central,MIXED,2007,Club,4.4
+12,ICE,Central (pre-2012),MIXED,2007,Club,4.4
 13,AXIS OF C'VILLE,Mid Atlantic,MIXED,2007,Club,4.4
-14,CHEWBACCA DEFENSE,South,MIXED,2007,Club,4.3
+14,CHEWBACCA DEFENSE,South (pre-2012),MIXED,2007,Club,4.3
 15,BLACK MOLLY,Mid Atlantic,MIXED,2007,Club,4.3
 16,BAD LARRY,Southwest,MIXED,2007,Club,4.7
 1,SOCKEYE,Northwest,MENS,2007,Club,4.0
@@ -1325,346 +1325,346 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,JAM,Northwest,MENS,2007,Club,4.1
 5,BOSTON ULTIMATE,Northeast,MENS,2007,Club,4.4
 5,TRUCK STOP,Mid Atlantic,MENS,2007,Club,4.6
-7,CHAIN LIGHTNING,South,MENS,2007,Club,4.1
-7,SUB ZERO,Central,MENS,2007,Club,3.7
+7,CHAIN LIGHTNING,South (pre-2012),MENS,2007,Club,4.1
+7,SUB ZERO,Central (pre-2012),MENS,2007,Club,3.7
 9,FURIOUS GEORGE,Northwest,MENS,2007,Club,3.9
 10,CONDORS,Southwest,MENS,2007,Club,4.5
 11,RING OF FIRE,Mid Atlantic,MENS,2007,Club,4.5
-12,MACHINE,Central,MENS,2007,Club,4.7
+12,MACHINE,Central (pre-2012),MENS,2007,Club,4.7
 13,RHINO,Northwest,MENS,2007,Club,4.3
-14,DOUBLEWIDE,South,MENS,2007,Club,4.1
+14,DOUBLEWIDE,South (pre-2012),MENS,2007,Club,4.1
 15,PIKE,Mid Atlantic,MENS,2007,Club,4.7
-16,THE VAN BUREN BOYS,Central,MENS,2007,Club,4.9
+16,THE VAN BUREN BOYS,Central (pre-2012),MENS,2007,Club,4.9
 1,FURY,Northwest,WOMENS,2007,Club,4.2
 2,RIOT,Northwest,WOMENS,2007,Club,4.4
 3,BRUTE SQUAD,Northeast,WOMENS,2007,Club,3.4
 3,LADY GODIVA,Northeast,WOMENS,2007,Club,4.2
 5,CAPITALS,Northeast,WOMENS,2007,Club,3.2
 6,BACKHOE,Mid Atlantic,WOMENS,2007,Club,3.1
-7,OZONE,South,WOMENS,2007,Club,4.3
+7,OZONE,South (pre-2012),WOMENS,2007,Club,4.3
 8,ZEITGEIST,Northwest,WOMENS,2007,Club,3.9
 9,SAFARI,Southwest,WOMENS,2007,Club,3.6
-10,LAYUMA,South,WOMENS,2007,Club,4.0
+10,LAYUMA,South (pre-2012),WOMENS,2007,Club,4.0
 11,WICKED,Mid Atlantic,WOMENS,2007,Club,3.9
 12,BOX,Southwest,WOMENS,2007,Club,3.2
-13,MOJO,Central,WOMENS,2007,Club,3.9
+13,MOJO,Central (pre-2012),WOMENS,2007,Club,3.9
 14,LOOSE CANNON,Mid Atlantic,WOMENS,2007,Club,3.0
-15,SMALL RACKAGES,Central,WOMENS,2007,Club,3.9
+15,SMALL RACKAGES,Central (pre-2012),WOMENS,2007,Club,3.9
 16,AMBUSH,Northeast,WOMENS,2007,Club,4.6
-1,Wisconsin,Central,Men's,2007,College,4.5
-2,Colorado,Southwest,Men's,2007,College,3.5
-3,Florida,Atlantic Coast,Men's,2007,College,3.13
-3,Stanford,Northwest,Men's,2007,College,4.18
-5,Carleton College,Central,Men's,2007,College,3.9
-5,Georgia,Atlantic Coast,Men's,2007,College,4.6
-5,Oregon,Northwest,Men's,2007,College,4.0
-5,Texas,South,Men's,2007,College,3.75
-9,Ohio State,Great Lakes,Men's,2007,College,3.5
-9,Pittsburgh,Metro East,Men's,2007,College,3.4
-11,Brown,New England,Men's,2007,College,3.83
-11,Indiana,Great Lakes,Men's,2007,College,2.8
-13,North Carolina,Atlantic Coast,Men's,2007,College,3.17
-13,Williams,New England,Men's,2007,College,4.5
-15,Delaware,Metro East,Men's,2007,College,4.17
-15,Kansas,South,Men's,2007,College,4.33
-1,Stanford,Northwest,Women's,2007,College,4.17
-2,California-Santa Barbara,Southwest,Women's,2007,College,2.83
-3,British Columbia,Northwest,Women's,2007,College,4.2
-3,UCLA,Southwest,Women's,2007,College,4.6
-5,California,Northwest,Women's,2007,College,4.38
-5,Carleton College,Central,Women's,2007,College,4.4
-5,Northwestern,Great Lakes,Women's,2007,College,3.92
-5,Wisconsin,Central,Women's,2007,College,4.17
-9,California-San Diego,Southwest,Women's,2007,College,4.6
-9,NYU,Metro East,Women's,2007,College,3.7
-11,Delaware,Metro East,Women's,2007,College,3.6
-11,Tufts,New England,Women's,2007,College,4.25
-13,Florida,Atlantic Coast,Women's,2007,College,4.0
-13,Truman State,South,Women's,2007,College,4.08
-15,Dartmouth,New England,Women's,2007,College,4.67
-15,Emory,Atlantic Coast,Women's,2007,College,4.3
+1,Wisconsin,Central (pre-2011),Men's (pre-2010),2007,College,4.5
+2,Colorado,Southwest,Men's (pre-2010),2007,College,3.5
+3,Florida,Atlantic Coast,Men's (pre-2010),2007,College,3.13
+3,Stanford,Northwest,Men's (pre-2010),2007,College,4.18
+5,Carleton College,Central (pre-2011),Men's (pre-2010),2007,College,3.9
+5,Georgia,Atlantic Coast,Men's (pre-2010),2007,College,4.6
+5,Oregon,Northwest,Men's (pre-2010),2007,College,4.0
+5,Texas,South (pre-2011),Men's (pre-2010),2007,College,3.75
+9,Ohio State,Great Lakes,Men's (pre-2010),2007,College,3.5
+9,Pittsburgh,Metro East,Men's (pre-2010),2007,College,3.4
+11,Brown,New England,Men's (pre-2010),2007,College,3.83
+11,Indiana,Great Lakes,Men's (pre-2010),2007,College,2.8
+13,North Carolina,Atlantic Coast,Men's (pre-2010),2007,College,3.17
+13,Williams,New England,Men's (pre-2010),2007,College,4.5
+15,Delaware,Metro East,Men's (pre-2010),2007,College,4.17
+15,Kansas,South (pre-2011),Men's (pre-2010),2007,College,4.33
+1,Stanford,Northwest,Women's (pre-2010),2007,College,4.17
+2,California-Santa Barbara,Southwest,Women's (pre-2010),2007,College,2.83
+3,British Columbia,Northwest,Women's (pre-2010),2007,College,4.2
+3,UCLA,Southwest,Women's (pre-2010),2007,College,4.6
+5,California,Northwest,Women's (pre-2010),2007,College,4.38
+5,Carleton College,Central (pre-2011),Women's (pre-2010),2007,College,4.4
+5,Northwestern,Great Lakes,Women's (pre-2010),2007,College,3.92
+5,Wisconsin,Central (pre-2011),Women's (pre-2010),2007,College,4.17
+9,California-San Diego,Southwest,Women's (pre-2010),2007,College,4.6
+9,NYU,Metro East,Women's (pre-2010),2007,College,3.7
+11,Delaware,Metro East,Women's (pre-2010),2007,College,3.6
+11,Tufts,New England,Women's (pre-2010),2007,College,4.25
+13,Florida,Atlantic Coast,Women's (pre-2010),2007,College,4.0
+13,Truman State,South (pre-2011),Women's (pre-2010),2007,College,4.08
+15,Dartmouth,New England,Women's (pre-2010),2007,College,4.67
+15,Emory,Atlantic Coast,Women's (pre-2010),2007,College,4.3
 1,MENTAL TOSS FLYCOONS,Northwest,MIXED,2008,Club,4.43
 2,SHAZAM REMAINS,Northwest,MIXED,2008,Club,4.29
 3,MISCHIEF,Northwest,MIXED,2008,Club,4.0
-3,ALPHA COBRA SQUADRON,Central,MIXED,2008,Club,3.29
+3,ALPHA COBRA SQUADRON,Central (pre-2012),MIXED,2008,Club,3.29
 5,PUPPET REGIME,Northeast,MIXED,2008,Club,3.71
 5,SLOW WHITE,Northeast,MIXED,2008,Club,4.14
 7,AMP,Mid Atlantic,MIXED,2008,Club,3.5
 7,BARRIO,Southwest,MIXED,2008,Club,4.14
 9,"HOORAY FOR COED, HOORAY",Mid Atlantic,MIXED,2008,Club,2.0
-10,CHEWBACCA DEFENSE,South,MIXED,2008,Club,4.0
-11,GUILLERMO Y COMPANIA,South,MIXED,2008,Club,4.43
+10,CHEWBACCA DEFENSE,South (pre-2012),MIXED,2008,Club,4.0
+11,GUILLERMO Y COMPANIA,South (pre-2012),MIXED,2008,Club,4.43
 12,D'OH!,Northwest,MIXED,2008,Club,3.88
-13,PEPPERMINT BON BON,Central,MIXED,2008,Club,4.71
+13,PEPPERMINT BON BON,Central (pre-2012),MIXED,2008,Club,4.71
 14,QUIET COYOTE,Northeast,MIXED,2008,Club,4.71
 15,COUGARS,Southwest,MIXED,2008,Club,4.29
-16,BUCKET,South,MIXED,2008,Club,4.57
+16,BUCKET,South (pre-2012),MIXED,2008,Club,4.57
 1,JAM,Northwest,MENS,2008,Club,3.86
 2,IRONSIDE,Northeast,MENS,2008,Club,4.71
-3,CHAIN LIGHTNING,South,MENS,2008,Club,4.5
+3,CHAIN LIGHTNING,South (pre-2012),MENS,2008,Club,4.5
 3,JOHNNY BRAVO,Southwest,MENS,2008,Club,4.29
 5,REVOLVER,Northwest,MENS,2008,Club,4.0
 6,GOAT,Northeast,MENS,2008,Club,4.14
 7,RING OF FIRE,Mid Atlantic,MENS,2008,Club,4.25
 7,SOCKEYE,Northwest,MENS,2008,Club,4.29
-9,SUB ZERO,Central,MENS,2008,Club,2.63
-10,MACHINE,Central,MENS,2008,Club,4.86
-11,DOUBLEWIDE,South,MENS,2008,Club,3.75
+9,SUB ZERO,Central (pre-2012),MENS,2008,Club,2.63
+10,MACHINE,Central (pre-2012),MENS,2008,Club,4.86
+11,DOUBLEWIDE,South (pre-2012),MENS,2008,Club,3.75
 12,BODHI,Northeast,MENS,2008,Club,4.29
 13,CONDORS,Southwest,MENS,2008,Club,3.86
 14,PONY,Northeast,MENS,2008,Club,4.29
 15,TRUCK STOP,Mid Atlantic,MENS,2008,Club,4.57
-16,EL DIABLO,South,MENS,2008,Club,4.11
+16,EL DIABLO,South (pre-2012),MENS,2008,Club,4.11
 1,FURY,Northwest,WOMENS,2008,Club,4.67
 2,RIOT,Northwest,WOMENS,2008,Club,3.67
-3,OZONE,South,WOMENS,2008,Club,4.2
+3,OZONE,South (pre-2012),WOMENS,2008,Club,4.2
 3,TRAFFIC,Northwest,WOMENS,2008,Club,3.5
 5,BRUTE SQUAD,Northeast,WOMENS,2008,Club,3.94
-6,SHOWDOWN,South,WOMENS,2008,Club,4.14
+6,SHOWDOWN,South (pre-2012),WOMENS,2008,Club,4.14
 7,BACKHOE,Mid Atlantic,WOMENS,2008,Club,3.88
 8,LADY GODIVA,Northeast,WOMENS,2008,Club,4.07
 9,CAPITALS,Northeast,WOMENS,2008,Club,3.14
 10,RARE AIR,Southwest,WOMENS,2008,Club,3.71
-11,POP,Central,WOMENS,2008,Club,4.4
-12,NEMESIS,Central,WOMENS,2008,Club,4.4
+11,POP,Central (pre-2012),WOMENS,2008,Club,4.4
+12,NEMESIS,Central (pre-2012),WOMENS,2008,Club,4.4
 13,LOOSE CANNON,Mid Atlantic,WOMENS,2008,Club,2.17
 14,AMBUSH,Northeast,WOMENS,2008,Club,4.2
 15,BOX,Southwest,WOMENS,2008,Club,4.2
-16,LAYUMA,South,WOMENS,2008,Club,4.17
-1,Wisconsin,Central,Men's,2008,College,3.6
-2,Florida,Atlantic Coast,Men's,2008,College,2.6
-3,Carleton College,Central,Men's,2008,College,3.5
-3,Colorado,Southwest,Men's,2008,College,4.0
-5,Arizona,Southwest,Men's,2008,College,5.0
-5,Georgia,Atlantic Coast,Men's,2008,College,4.5
-5,Harvard,New England,Men's,2008,College,4.6
-5,Illinois,Great Lakes,Men's,2008,College,4.8
-9,California-Santa Cruz,Northwest,Men's,2008,College,4.5
-9,Stanford,Northwest,Men's,2008,College,4.33
-11,Pittsburgh,Metro East,Men's,2008,College,4.83
-11,Texas,South,Men's,2008,College,4.33
-13,Dartmouth,New England,Men's,2008,College,5.0
-13,Michigan,Great Lakes,Men's,2008,College,4.5
-15,Delaware,Metro East,Men's,2008,College,4.83
-15,North Texas,South,Men's,2008,College,3.67
-1,British Columbia,Northwest,Women's,2008,College,3.6
-2,California-Santa Barbara,Southwest,Women's,2008,College,3.6
-3,UCLA,Southwest,Women's,2008,College,4.2
-3,Washington,Northwest,Women's,2008,College,4.0
-5,Carleton College,Central,Women's,2008,College,4.4
-5,Michigan,Great Lakes,Women's,2008,College,3.4
-5,Ottawa,Metro East,Women's,2008,College,2.8
-5,Wisconsin,Central,Women's,2008,College,4.0
-9,Northeastern,New England,Women's,2008,College,4.33
-9,Texas,South,Women's,2008,College,3.67
-11,Maryland,Metro East,Women's,2008,College,3.83
-11,Michigan State,Great Lakes,Women's,2008,College,4.5
-13,Oregon,Northwest,Women's,2008,College,3.67
-13,Wake Forest,Atlantic Coast,Women's,2008,College,3.83
-15,MIT,New England,Women's,2008,College,4.0
-15,North Carolina,Atlantic Coast,Women's,2008,College,4.33
+16,LAYUMA,South (pre-2012),WOMENS,2008,Club,4.17
+1,Wisconsin,Central (pre-2011),Men's (pre-2010),2008,College,3.6
+2,Florida,Atlantic Coast,Men's (pre-2010),2008,College,2.6
+3,Carleton College,Central (pre-2011),Men's (pre-2010),2008,College,3.5
+3,Colorado,Southwest,Men's (pre-2010),2008,College,4.0
+5,Arizona,Southwest,Men's (pre-2010),2008,College,5.0
+5,Georgia,Atlantic Coast,Men's (pre-2010),2008,College,4.5
+5,Harvard,New England,Men's (pre-2010),2008,College,4.6
+5,Illinois,Great Lakes,Men's (pre-2010),2008,College,4.8
+9,California-Santa Cruz,Northwest,Men's (pre-2010),2008,College,4.5
+9,Stanford,Northwest,Men's (pre-2010),2008,College,4.33
+11,Pittsburgh,Metro East,Men's (pre-2010),2008,College,4.83
+11,Texas,South (pre-2011),Men's (pre-2010),2008,College,4.33
+13,Dartmouth,New England,Men's (pre-2010),2008,College,5.0
+13,Michigan,Great Lakes,Men's (pre-2010),2008,College,4.5
+15,Delaware,Metro East,Men's (pre-2010),2008,College,4.83
+15,North Texas,South (pre-2011),Men's (pre-2010),2008,College,3.67
+1,British Columbia,Northwest,Women's (pre-2010),2008,College,3.6
+2,California-Santa Barbara,Southwest,Women's (pre-2010),2008,College,3.6
+3,UCLA,Southwest,Women's (pre-2010),2008,College,4.2
+3,Washington,Northwest,Women's (pre-2010),2008,College,4.0
+5,Carleton College,Central (pre-2011),Women's (pre-2010),2008,College,4.4
+5,Michigan,Great Lakes,Women's (pre-2010),2008,College,3.4
+5,Ottawa,Metro East,Women's (pre-2010),2008,College,2.8
+5,Wisconsin,Central (pre-2011),Women's (pre-2010),2008,College,4.0
+9,Northeastern,New England,Women's (pre-2010),2008,College,4.33
+9,Texas,South (pre-2011),Women's (pre-2010),2008,College,3.67
+11,Maryland,Metro East,Women's (pre-2010),2008,College,3.83
+11,Michigan State,Great Lakes,Women's (pre-2010),2008,College,4.5
+13,Oregon,Northwest,Women's (pre-2010),2008,College,3.67
+13,Wake Forest,Atlantic Coast,Women's (pre-2010),2008,College,3.83
+15,MIT,New England,Women's (pre-2010),2008,College,4.0
+15,North Carolina,Atlantic Coast,Women's (pre-2010),2008,College,4.33
 1,AXIS OF C'VILLE,Mid Atlantic,MIXED,2009,Club,4.83
-2,CHAD LARSON EXPERIENCE,Central,MIXED,2009,Club,3.57
+2,CHAD LARSON EXPERIENCE,Central (pre-2012),MIXED,2009,Club,3.57
 3,MENTAL TOSS FLYCOONS,Northwest,MIXED,2009,Club,4.33
 3,QUIET COYOTE,Northeast,MIXED,2009,Club,4.43
 5,AMP,Mid Atlantic,MIXED,2009,Club,3.25
 6,BARRIO,Southwest,MIXED,2009,Club,4.11
 7,D'OH!,Northwest,MIXED,2009,Club,3.89
-8,BUCKET,South,MIXED,2009,Club,3.13
-9,JUKEBOX HERO,South,MIXED,2009,Club,3.57
-10,ONE TRICK PONY,Central,MIXED,2009,Club,4.63
+8,BUCKET,South (pre-2012),MIXED,2009,Club,3.13
+9,JUKEBOX HERO,South (pre-2012),MIXED,2009,Club,3.57
+10,ONE TRICK PONY,Central (pre-2012),MIXED,2009,Club,4.63
 11,LA METRO,Southwest,MIXED,2009,Club,3.71
 12,SLOW WHITE,Northeast,MIXED,2009,Club,4.75
 13,BROWN CHICKEN BROWN COW,Southwest,MIXED,2009,Club,4.64
 14,PSYCHOPLASTIQUE,Northwest,MIXED,2009,Club,3.07
 15,TAU,Mid Atlantic,MIXED,2009,Club,3.43
 16,BASHING PINATAS,Northeast,MIXED,2009,Club,5.0
-1,CHAIN LIGHTNING,South,MENS,2009,Club,4.29
+1,CHAIN LIGHTNING,South (pre-2012),MENS,2009,Club,4.29
 2,REVOLVER,Northwest,MENS,2009,Club,4.57
 3,IRONSIDE,Northeast,MENS,2009,Club,4.43
 3,SOCKEYE,Northwest,MENS,2009,Club,4.57
-5,DOUBLEWIDE,South,MENS,2009,Club,4.0
+5,DOUBLEWIDE,South (pre-2012),MENS,2009,Club,4.0
 6,RING OF FIRE,Mid Atlantic,MENS,2009,Club,3.43
 7,JAM,Northwest,MENS,2009,Club,3.75
 8,JOHNNY BRAVO,Southwest,MENS,2009,Club,4.5
 9,TRUCK STOP,Mid Atlantic,MENS,2009,Club,4.38
-10,MADISON CLUB,Central,MENS,2009,Club,2.0
+10,MADISON CLUB,Central (pre-2012),MENS,2009,Club,2.0
 11,BODHI,Northeast,MENS,2009,Club,4.57
 12,GOAT,Northeast,MENS,2009,Club,3.63
-13,MADCOW,Central,MENS,2009,Club,3.71
-14,MACHINE,Central,MENS,2009,Club,3.57
+13,MADCOW,Central (pre-2012),MENS,2009,Club,3.71
+14,MACHINE,Central (pre-2012),MENS,2009,Club,3.57
 15,STREETGANG,Southwest,MENS,2009,Club,4.29
 16,PIKE,Mid Atlantic,MENS,2009,Club,4.29
 1,FURY,Northwest,WOMENS,2009,Club,4.0
 2,BRUTE SQUAD,Northeast,WOMENS,2009,Club,3.67
 3,CAPITALS,Northeast,WOMENS,2009,Club,3.14
 3,RIOT,Northwest,WOMENS,2009,Club,4.14
-5,SHOWDOWN,South,WOMENS,2009,Club,4.0
+5,SHOWDOWN,South (pre-2012),WOMENS,2009,Club,4.0
 6,ZEITGEIST,Northwest,WOMENS,2009,Club,3.78
 7,BACKHOE,Mid Atlantic,WOMENS,2009,Club,3.5
-8,OZONE,South,WOMENS,2009,Club,3.44
+8,OZONE,South (pre-2012),WOMENS,2009,Club,3.44
 9,TRAFFIC,Northwest,WOMENS,2009,Club,4.31
 10,LADY CONDORS,Southwest,WOMENS,2009,Club,3.5
 11,SCANDAL,Mid Atlantic,WOMENS,2009,Club,4.0
 12,SAFARI,Southwest,WOMENS,2009,Club,3.79
-13,NEMESIS,Central,WOMENS,2009,Club,3.36
+13,NEMESIS,Central (pre-2012),WOMENS,2009,Club,3.36
 14,RARE AIR,Southwest,WOMENS,2009,Club,3.5
-15,POP,Central,WOMENS,2009,Club,4.14
+15,POP,Central (pre-2012),WOMENS,2009,Club,4.14
 16,WILDCARD,Mid Atlantic,WOMENS,2009,Club,4.21
-1,Carleton College,Central,Men's,2009,College,3.14
-2,Colorado,Southwest,Men's,2009,College,4.0
-3,Stanford,Northwest,Men's,2009,College,4.0
-3,Texas,South,Men's,2009,College,4.67
-5,Michigan,Great Lakes,Men's,2009,College,4.83
-5,Pittsburgh,Metro East,Men's,2009,College,4.5
-5,Virginia,Atlantic Coast,Men's,2009,College,4.5
-5,Wisconsin,Central,Men's,2009,College,3.83
-9,Cornell,Metro East,Men's,2009,College,4.5
-9,Williams,New England,Men's,2009,College,4.43
-11,Luther,Central,Men's,2009,College,4.71
-11,Tufts,New England,Men's,2009,College,4.57
-13,California-San Diego,Southwest,Men's,2009,College,4.43
-13,Minnesota,Central,Men's,2009,College,4.67
-15,California-Santa Barbara,Southwest,Men's,2009,College,4.0
-15,North Carolina State,Atlantic Coast,Men's,2009,College,4.83
-17,Illinois,Great Lakes,Men's,2009,College,5.0
-17,Kansas,South,Men's,2009,College,3.83
-19,California,Northwest,Men's,2009,College,4.6
-19,Georgia,Atlantic Coast,Men's,2009,College,4.8
-1,California-Santa Barbara,Southwest,Women's,2009,College,4.67
-2,Washington,Northwest,Women's,2009,College,4.0
-3,Oregon,Northwest,Women's,2009,College,4.0
-3,Stanford,Northwest,Women's,2009,College,4.29
-5,Ottawa,Metro East,Women's,2009,College,2.4
-5,Pennsylvania,Metro East,Women's,2009,College,4.17
-5,UCLA,Southwest,Women's,2009,College,4.5
-5,Wisconsin,Central,Women's,2009,College,4.6
-9,Carleton College,Central,Women's,2009,College,3.14
-9,Michigan,Great Lakes,Women's,2009,College,4.29
-11,North Carolina,Atlantic Coast,Women's,2009,College,4.14
-11,North Carolina-Wilmington,Atlantic Coast,Women's,2009,College,2.57
-13,Dartmouth,New England,Women's,2009,College,4.14
-13,Saint Louis,South,Women's,2009,College,3.29
-15,Colorado,Southwest,Women's,2009,College,3.71
-15,Iowa State,Central,Women's,2009,College,4.14
-17,Northeastern,New England,Women's,2009,College,3.67
-17,Washington University,South,Women's,2009,College,4.17
-19,Illinois,Great Lakes,Women's,2009,College,4.0
-19,Southern California,Southwest,Women's,2009,College,4.83
+1,Carleton College,Central (pre-2011),Men's (pre-2010),2009,College,3.14
+2,Colorado,Southwest,Men's (pre-2010),2009,College,4.0
+3,Stanford,Northwest,Men's (pre-2010),2009,College,4.0
+3,Texas,South (pre-2011),Men's (pre-2010),2009,College,4.67
+5,Michigan,Great Lakes,Men's (pre-2010),2009,College,4.83
+5,Pittsburgh,Metro East,Men's (pre-2010),2009,College,4.5
+5,Virginia,Atlantic Coast,Men's (pre-2010),2009,College,4.5
+5,Wisconsin,Central (pre-2011),Men's (pre-2010),2009,College,3.83
+9,Cornell,Metro East,Men's (pre-2010),2009,College,4.5
+9,Williams,New England,Men's (pre-2010),2009,College,4.43
+11,Luther,Central (pre-2011),Men's (pre-2010),2009,College,4.71
+11,Tufts,New England,Men's (pre-2010),2009,College,4.57
+13,California-San Diego,Southwest,Men's (pre-2010),2009,College,4.43
+13,Minnesota,Central (pre-2011),Men's (pre-2010),2009,College,4.67
+15,California-Santa Barbara,Southwest,Men's (pre-2010),2009,College,4.0
+15,North Carolina State,Atlantic Coast,Men's (pre-2010),2009,College,4.83
+17,Illinois,Great Lakes,Men's (pre-2010),2009,College,5.0
+17,Kansas,South (pre-2011),Men's (pre-2010),2009,College,3.83
+19,California,Northwest,Men's (pre-2010),2009,College,4.6
+19,Georgia,Atlantic Coast,Men's (pre-2010),2009,College,4.8
+1,California-Santa Barbara,Southwest,Women's (pre-2010),2009,College,4.67
+2,Washington,Northwest,Women's (pre-2010),2009,College,4.0
+3,Oregon,Northwest,Women's (pre-2010),2009,College,4.0
+3,Stanford,Northwest,Women's (pre-2010),2009,College,4.29
+5,Ottawa,Metro East,Women's (pre-2010),2009,College,2.4
+5,Pennsylvania,Metro East,Women's (pre-2010),2009,College,4.17
+5,UCLA,Southwest,Women's (pre-2010),2009,College,4.5
+5,Wisconsin,Central (pre-2011),Women's (pre-2010),2009,College,4.6
+9,Carleton College,Central (pre-2011),Women's (pre-2010),2009,College,3.14
+9,Michigan,Great Lakes,Women's (pre-2010),2009,College,4.29
+11,North Carolina,Atlantic Coast,Women's (pre-2010),2009,College,4.14
+11,North Carolina-Wilmington,Atlantic Coast,Women's (pre-2010),2009,College,2.57
+13,Dartmouth,New England,Women's (pre-2010),2009,College,4.14
+13,Saint Louis,South (pre-2011),Women's (pre-2010),2009,College,3.29
+15,Colorado,Southwest,Women's (pre-2010),2009,College,3.71
+15,Iowa State,Central (pre-2011),Women's (pre-2010),2009,College,4.14
+17,Northeastern,New England,Women's (pre-2010),2009,College,3.67
+17,Washington University,South (pre-2011),Women's (pre-2010),2009,College,4.17
+19,Illinois,Great Lakes,Women's (pre-2010),2009,College,4.0
+19,Southern California,Southwest,Women's (pre-2010),2009,College,4.83
 1,POLAR BEARS,Northwest,MIXED,2010,Club,4.14
 2,DISTRICT 5,Northeast,MIXED,2010,Club,4.43
-3,CHAD LARSON EXPERIENCE,Central,MIXED,2010,Club,4.38
-3,DRAG'N THRUST,Central,MIXED,2010,Club,4.57
-5,OVERHAUL,Central,MIXED,2010,Club,4.38
-6,BUCKET,South,MIXED,2010,Club,3.57
+3,CHAD LARSON EXPERIENCE,Central (pre-2012),MIXED,2010,Club,4.38
+3,DRAG'N THRUST,Central (pre-2012),MIXED,2010,Club,4.57
+5,OVERHAUL,Central (pre-2012),MIXED,2010,Club,4.38
+6,BUCKET,South (pre-2012),MIXED,2010,Club,3.57
 7,MISCHIEF,Northwest,MIXED,2010,Club,4.0
 8,SLOW WHITE,Northeast,MIXED,2010,Club,4.0
 9,SNOWBIRDS,Northeast,MIXED,2010,Club,4.71
 10,LA METRO,Southwest,MIXED,2010,Club,4.0
 11,WHAGONWEEL,Mid Atlantic,MIXED,2010,Club,4.0
 12,AMP,Mid Atlantic,MIXED,2010,Club,4.33
-13,SCIENTIFIC METHOD,Central,MIXED,2010,Club,4.29
+13,SCIENTIFIC METHOD,Central (pre-2012),MIXED,2010,Club,4.29
 14,BARRIO,Southwest,MIXED,2010,Club,5.0
-15,CONSPIRACY THEORY,South,MIXED,2010,Club,4.17
-16,DIRTY BIRDS,South,MIXED,2010,Club,3.83
+15,CONSPIRACY THEORY,South (pre-2012),MIXED,2010,Club,4.17
+16,DIRTY BIRDS,South (pre-2012),MIXED,2010,Club,3.83
 1,REVOLVER,Northwest,MENS,2010,Club,4.57
 2,IRONSIDE,Northeast,MENS,2010,Club,4.71
-3,DOUBLEWIDE,South,MENS,2010,Club,4.29
+3,DOUBLEWIDE,South (pre-2012),MENS,2010,Club,4.29
 3,SOCKEYE,Northwest,MENS,2010,Club,4.29
-5,CHAIN LIGHTNING,South,MENS,2010,Club,4.29
+5,CHAIN LIGHTNING,South (pre-2012),MENS,2010,Club,4.29
 5,TRUCK STOP,Mid Atlantic,MENS,2010,Club,4.0
 7,RING OF FIRE,Mid Atlantic,MENS,2010,Club,4.0
 7,SOUTHPAW,Mid Atlantic,MENS,2010,Club,4.0
 9,JOHNNY BRAVO,Southwest,MENS,2010,Club,4.29
 10,PONY,Northeast,MENS,2010,Club,4.25
-11,MADISON CLUB,Central,MENS,2010,Club,4.57
+11,MADISON CLUB,Central (pre-2012),MENS,2010,Club,4.57
 12,FURIOUS GEORGE,Northwest,MENS,2010,Club,4.13
-13,MACHINE,Central,MENS,2010,Club,4.71
-14,TANASI,South,MENS,2010,Club,4.57
+13,MACHINE,Central (pre-2012),MENS,2010,Club,4.71
+14,TANASI,South (pre-2012),MENS,2010,Club,4.57
 15,STREETGANG,Southwest,MENS,2010,Club,4.43
-16,MADCOW,Central,MENS,2010,Club,4.43
+16,MADCOW,Central (pre-2012),MENS,2010,Club,4.43
 1,FURY,Northwest,WOMENS,2010,Club,4.86
 2,CAPITALS,Northeast,WOMENS,2010,Club,3.29
 3,BRUTE SQUAD,Northeast,WOMENS,2010,Club,4.14
 3,RIOT,Northwest,WOMENS,2010,Club,4.29
 5,TRAFFIC,Northwest,WOMENS,2010,Club,4.38
 6,SCANDAL,Mid Atlantic,WOMENS,2010,Club,3.75
-7,NEMESIS,Central,WOMENS,2010,Club,4.11
+7,NEMESIS,Central (pre-2012),WOMENS,2010,Club,4.11
 8,PHOENIX,Mid Atlantic,WOMENS,2010,Club,3.78
 9,MOLLY BROWN,Southwest,WOMENS,2010,Club,4.13
 10,BENT,Northeast,WOMENS,2010,Club,3.57
-11,SHOWDOWN,South,WOMENS,2010,Club,4.63
-12,OZONE,South,WOMENS,2010,Club,4.57
-13,POP,Central,WOMENS,2010,Club,4.57
-14,REVOLOUTION,South,WOMENS,2010,Club,4.0
+11,SHOWDOWN,South (pre-2012),WOMENS,2010,Club,4.63
+12,OZONE,South (pre-2012),WOMENS,2010,Club,4.57
+13,POP,Central (pre-2012),WOMENS,2010,Club,4.57
+14,REVOLOUTION,South (pre-2012),WOMENS,2010,Club,4.0
 15,STORM,Northeast,WOMENS,2010,Club,4.29
 16,SAFARI,Southwest,WOMENS,2010,Club,2.71
 1,Florida,Atlantic Coast,D-I Men's,2010,College,3.71
-2,Carleton College,Central,D-I Men's,2010,College,4.57
+2,Carleton College,Central (pre-2011),D-I Men's,2010,College,4.57
 3,Cornell,Metro East,D-I Men's,2010,College,4.83
 3,Pittsburgh,Metro East,D-I Men's,2010,College,4.33
 5,California,Northwest,D-I Men's,2010,College,5.0
 5,Michigan,Great Lakes,D-I Men's,2010,College,3.83
-5,Minnesota,Central,D-I Men's,2010,College,4.83
+5,Minnesota,Central (pre-2011),D-I Men's,2010,College,4.83
 5,North Carolina-Wilmington,Atlantic Coast,D-I Men's,2010,College,3.83
 9,California-Santa Barbara,Southwest,D-I Men's,2010,College,4.57
-9,Iowa,Central,D-I Men's,2010,College,4.57
+9,Iowa,Central (pre-2011),D-I Men's,2010,College,4.57
 11,Middlebury,New England,D-I Men's,2010,College,5.0
-11,Wisconsin,Central,D-I Men's,2010,College,3.29
+11,Wisconsin,Central (pre-2011),D-I Men's,2010,College,3.29
 13,Colorado,Southwest,D-I Men's,2010,College,3.57
 14,Georgia,Atlantic Coast,D-I Men's,2010,College,4.67
 14,Oregon,Northwest,D-I Men's,2010,College,4.67
 16,Harvard,New England,D-I Men's,2010,College,5.0
 17,California-San Diego,Southwest,D-I Men's,2010,College,4.33
 17,Illinois,Great Lakes,D-I Men's,2010,College,5.0
-19,Kansas,South,D-I Men's,2010,College,4.5
-19,Texas State,South,D-I Men's,2010,College,4.0
+19,Kansas,South (pre-2011),D-I Men's,2010,College,4.5
+19,Texas State,South (pre-2011),D-I Men's,2010,College,4.0
 1,Oregon,Northwest,D-I Women's,2010,College,4.57
 2,California-Santa Barbara,Southwest,D-I Women's,2010,College,4.5
 3,Colorado,Southwest,D-I Women's,2010,College,4.43
-3,Wisconsin,Central,D-I Women's,2010,College,4.17
+3,Wisconsin,Central (pre-2011),D-I Women's,2010,College,4.17
 5,California,Northwest,D-I Women's,2010,College,4.6
 5,North Carolina-Wilmington,Atlantic Coast,D-I Women's,2010,College,3.83
 5,Southern California,Southwest,D-I Women's,2010,College,4.83
 5,UCLA,Southwest,D-I Women's,2010,College,4.0
 9,Pittsburgh,Metro East,D-I Women's,2010,College,4.29
 9,Washington,Northwest,D-I Women's,2010,College,4.14
-11,Carleton College,Central,D-I Women's,2010,College,4.14
+11,Carleton College,Central (pre-2011),D-I Women's,2010,College,4.14
 11,Michigan,Great Lakes,D-I Women's,2010,College,3.57
 13,North Carolina,Atlantic Coast,D-I Women's,2010,College,4.57
 13,Stanford,Northwest,D-I Women's,2010,College,4.57
 15,Maryland,Metro East,D-I Women's,2010,College,4.14
-15,Washington University,South,D-I Women's,2010,College,4.86
+15,Washington University,South (pre-2011),D-I Women's,2010,College,4.86
 17,Northwestern,Great Lakes,D-I Women's,2010,College,4.17
-17,Texas,South,D-I Women's,2010,College,4.33
+17,Texas,South (pre-2011),D-I Women's,2010,College,4.33
 19,Harvard,New England,D-I Women's,2010,College,4.5
 19,Middlebury,New England,D-I Women's,2010,College,4.0
-1,Carleton College-GOP,Central,D-III Men's,2010,College,4.5
+1,Carleton College-GOP,Central (pre-2011),D-III Men's,2010,College,4.5
 2,Whitman,Northwest,D-III Men's,2010,College,4.8
 3,Kenyon,Great Lakes,D-III Men's,2010,College,4.5
 3,Puget Sound,Northwest,D-III Men's,2010,College,3.6
 5,Bentley,New England,D-III Men's,2010,College,4.17
 5,Lehigh,Metro East,D-III Men's,2010,College,3.8
 7,Kalamazoo,Great Lakes,D-III Men's,2010,College,4.7
-7,St John's,Central,D-III Men's,2010,College,4.47
+7,St John's,Central (pre-2011),D-III Men's,2010,College,4.47
 9,Princeton,Metro East,D-III Men's,2010,College,4.43
 10,Franklin & Marshall,Metro East,D-III Men's,2010,College,4.7
 11,Olivet Nazarene,Great Lakes,D-III Men's,2010,College,4.3
 11,Rensselaer Polytech,Metro East,D-III Men's,2010,College,4.2
-13,Missouri S&T,South,D-III Men's,2010,College,5.0
+13,Missouri S&T,South (pre-2011),D-III Men's,2010,College,5.0
 13,Worcester Polytech,New England,D-III Men's,2010,College,4.7
 15,Oberlin,Great Lakes,D-III Men's,2010,College,4.3
 15,Wentworth,New England,D-III Men's,2010,College,4.9
 1,Pacific Lutheran,Northwest,D-III Women's,2010,College,4.13
 2,Swarthmore,Metro East,D-III Women's,2010,College,4.33
-3,Grinnell,Central,D-III Women's,2010,College,4.69
+3,Grinnell,Central (pre-2011),D-III Women's,2010,College,4.69
 3,Valparaiso,Great Lakes,D-III Women's,2010,College,4.2
-5,Georgia College & State,South,D-III Women's,2010,College,4.43
-5,Truman State,South,D-III Women's,2010,College,4.3
+5,Georgia College & State,South (pre-2011),D-III Women's,2010,College,4.43
+5,Truman State,South (pre-2011),D-III Women's,2010,College,4.3
 7,Stonehill,New England,D-III Women's,2010,College,4.5
 7,Wellesley,New England,D-III Women's,2010,College,4.42
 9,Oberlin,Great Lakes,D-III Women's,2010,College,4.5
-10,John Brown,South,D-III Women's,2010,College,5.0
+10,John Brown,South (pre-2011),D-III Women's,2010,College,5.0
 11,Ohio Wesleyan,Great Lakes,D-III Women's,2010,College,4.5
 12,Bentley,New England,D-III Women's,2010,College,4.8
 1,BLACKBIRD,Northwest,MIXED,2011,Club,3.94
@@ -1673,47 +1673,47 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 3,WOLVERWINES,Northwest,MIXED,2011,Club,2.86
 5,SLOW WHITE,Northeast,MIXED,2011,Club,4.29
 6,THE GHOSTS,Northeast,MIXED,2011,Club,4.0
-7,CHAD LARSON EXPERIENCE,Central,MIXED,2011,Club,3.88
+7,CHAD LARSON EXPERIENCE,Central (pre-2012),MIXED,2011,Club,3.88
 8,AMP,Mid Atlantic,MIXED,2011,Club,3.22
-9,DRAG'N THRUST,Central,MIXED,2011,Club,4.14
+9,DRAG'N THRUST,Central (pre-2012),MIXED,2011,Club,4.14
 10,7 FIGURES,Southwest,MIXED,2011,Club,3.88
-11,OVERHAUL,Central,MIXED,2011,Club,3.86
-12,BUCKET,South,MIXED,2011,Club,3.5
-13,JACKS AND JILLS,South,MIXED,2011,Club,3.57
-14,SABRE CORP,South,MIXED,2011,Club,4.0
+11,OVERHAUL,Central (pre-2012),MIXED,2011,Club,3.86
+12,BUCKET,South (pre-2012),MIXED,2011,Club,3.5
+13,JACKS AND JILLS,South (pre-2012),MIXED,2011,Club,3.57
+14,SABRE CORP,South (pre-2012),MIXED,2011,Club,4.0
 15,MESTENO,Southwest,MIXED,2011,Club,4.29
 16,TERMITE'S ENTOURAGE,Mid Atlantic,MIXED,2011,Club,3.43
 1,REVOLVER,Northwest,MENS,2011,Club,4.43
 2,IRONSIDE,Northeast,MENS,2011,Club,4.0
-3,CHAIN LIGHTNING,South,MENS,2011,Club,4.67
-3,DOUBLEWIDE,South,MENS,2011,Club,4.43
+3,CHAIN LIGHTNING,South (pre-2012),MENS,2011,Club,4.67
+3,DOUBLEWIDE,South (pre-2012),MENS,2011,Club,4.43
 5,RING OF FIRE,Mid Atlantic,MENS,2011,Club,3.88
 6,SOUTHPAW,Mid Atlantic,MENS,2011,Club,4.11
-7,MADISON CLUB,Central,MENS,2011,Club,4.44
+7,MADISON CLUB,Central (pre-2012),MENS,2011,Club,4.44
 8,GOAT,Northeast,MENS,2011,Club,3.88
-9,MACHINE,Central,MENS,2011,Club,4.5
+9,MACHINE,Central (pre-2012),MENS,2011,Club,4.5
 10,TRUCK STOP,Mid Atlantic,MENS,2011,Club,4.5
 11,JOHNNY BRAVO,Southwest,MENS,2011,Club,2.4
 12,OAKLAND,Mid Atlantic,MENS,2011,Club,3.86
 13,FURIOUS GEORGE,Northwest,MENS,2011,Club,3.86
 14,CONDORS,Southwest,MENS,2011,Club,3.43
-15,SUB ZERO,Central,MENS,2011,Club,4.29
-16,TANASI,South,MENS,2011,Club,2.86
+15,SUB ZERO,Central (pre-2012),MENS,2011,Club,4.29
+16,TANASI,South (pre-2012),MENS,2011,Club,2.86
 1,FURY,Northwest,WOMENS,2011,Club,4.14
 2,RIOT,Northwest,WOMENS,2011,Club,3.57
 3,CAPITALS,Northeast,WOMENS,2011,Club,3.5
 3,PHOENIX,Mid Atlantic,WOMENS,2011,Club,3.14
 5,TRAFFIC,Northwest,WOMENS,2011,Club,4.25
-6,SHOWDOWN,South,WOMENS,2011,Club,3.89
+6,SHOWDOWN,South (pre-2012),WOMENS,2011,Club,3.89
 7,MOLLY BROWN,Southwest,WOMENS,2011,Club,4.29
 8,SCANDAL,Mid Atlantic,WOMENS,2011,Club,3.75
 9,FURTHER,Northwest,WOMENS,2011,Club,4.29
 10,BRUTE SQUAD,Northeast,WOMENS,2011,Club,3.5
-11,OZONE,South,WOMENS,2011,Club,4.29
-12,REVOLOUTION,Central,WOMENS,2011,Club,4.38
-13,NEMESIS,Central,WOMENS,2011,Club,3.0
+11,OZONE,South (pre-2012),WOMENS,2011,Club,4.29
+12,REVOLOUTION,Central (pre-2012),WOMENS,2011,Club,4.38
+13,NEMESIS,Central (pre-2012),WOMENS,2011,Club,3.0
 14,SAFARI,Southwest,WOMENS,2011,Club,4.29
-15,DESOTO,South,WOMENS,2011,Club,3.86
+15,DESOTO,South (pre-2012),WOMENS,2011,Club,3.86
 16,BENT,Northeast,WOMENS,2011,Club,4.29
 1,Carleton College,North Central,D-I Men's,2011,College,4.57
 2,Wisconsin,North Central,D-I Men's,2011,College,4.79
