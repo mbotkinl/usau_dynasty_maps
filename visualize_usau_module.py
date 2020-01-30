@@ -10,11 +10,27 @@ data = pd.read_csv('./data/national_data.csv')
 COMP_DIVISIONS = data.comp_division.unique()
 
 
-def ordinal(n):
+def ordinal(n: float) -> str:
+    """ Convert number to ordinal number
+
+    Args:
+        n (float, int): number
+
+    Returns:
+        str: ordinal number
+    """
     return "%d%s" % (n, "tsnrhtdd"[(math.floor(n / 10) % 10 != 1) * (n % 10 < 4) * n % 10::4])
 
 
-def get_blank_plot(message):
+def get_blank_plot(message: str) -> dict:
+    """Generate blank plot with message
+
+    Args:
+        message (str): message to display
+
+    Returns:
+        plotly dict
+    """
     return {
             "layout": {
                 'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
