@@ -8,7 +8,31 @@ data = pd.read_csv('./data/national_data.csv')
 
 COMP_DIVISIONS = data.comp_division.unique()
 
-# TODO fix axises
+
+def get_blank_plot(message):
+    return {
+            "layout": {
+                'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
+                'plot_bgcolor': PLOT_BACKGROUND_COLOR,
+                "xaxis": {
+                    "visible": False
+                },
+                "yaxis": {
+                    "visible": False
+                },
+                "annotations": [
+                    {
+                        "text": message,
+                        "xref": "paper",
+                        "yref": "paper",
+                        "showarrow": False,
+                        "font": {
+                            "size": 28
+                        }
+                    }
+                ]
+            }
+        }
 
 
 def get_divisions(comp_division: str) -> list:
@@ -99,22 +123,12 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
     Returns:
         dict
     """
-    layout = {'hovermode': 'closest',
-              'height': 740,
-              'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
-              'paper_bgcolor': 'rgba(0,0,0,0)',
-              'plot_bgcolor': PLOT_BACKGROUND_COLOR,
-              'margin': {'t': 0},
-              'font': {'size': TICK_SIZE, 'family': 'Arial'},
-              'xaxis': {'fixedrange': True},
-              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
-                        'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}}}
 
     div_df = subset_df(comp_division, division, region)
     if highlight_teams is None:
         highlight_teams = div_df.Team.tolist()
     if div_df.empty:
-        return {'data': [], 'layout': layout}
+        return get_blank_plot('"No data found"')
     min_year = div_df.year.min()
     max_year = div_df.year.max()
     plot_data = []
@@ -141,7 +155,18 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
                                     marker={'size': 8},
                                     showlegend=False,
                                     name=t))
-
+    layout = {'hovermode': 'closest',
+              'height': 740,
+              'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
+              'paper_bgcolor': 'rgba(0,0,0,0)',
+              'plot_bgcolor': PLOT_BACKGROUND_COLOR,
+              'margin': {'t': 0},
+              'font': {'size': TICK_SIZE, 'family': 'Arial'},
+              'xaxis': {'fixedrange': True},
+              'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
+                        'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}},
+                        'tickmode': 'linear', 'tick0': max(div_df['Standing']), 'dtick': -1,
+                        }}
     return dict(data=plot_data, layout=layout)
 
 
@@ -157,24 +182,10 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
     Returns:
         dict
     """
-    layout = {
-        # 'template': TEMPLATE,
-        'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
-        'plot_bgcolor': PLOT_BACKGROUND_COLOR,
-        'showlegend': False,
-        'height': 550,
-        'margin': {'t': 0},
-        'font': {'size': TICK_SIZE, 'family': 'Arial'},
-        'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}},
-                  'fixedrange': True},
-        'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
-                  'title': {'text': 'Average Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}
-                  }
-    }
 
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
-        return {'data': [], 'layout': layout}
+        return get_blank_plot('"No data found"')
 
     plot_data = []
     if highlight_teams is None:
@@ -219,28 +230,20 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      opacity=0.1,
                                      mode='markers')]
     if not plot_data:
-        return {
-            "layout": {
-                'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
-                'plot_bgcolor': PLOT_BACKGROUND_COLOR,
-                "xaxis": {
-                    "visible": False
-                },
-                "yaxis": {
-                    "visible": False
-                },
-                "annotations": [
-                    {
-                        "text": "No Spirit data found",
-                        "xref": "paper",
-                        "yref": "paper",
-                        "showarrow": False,
-                        "font": {
-                            "size": 28
-                        }
-                    }
-                ]
-            }
-        }
+        return get_blank_plot('"No Spirit data found"')
 
+    layout = {
+        'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
+        'plot_bgcolor': PLOT_BACKGROUND_COLOR,
+        'showlegend': False,
+        'height': 550,
+        'margin': {'t': 0},
+        'font': {'size': TICK_SIZE, 'family': 'Arial'},
+        'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}},
+                  'fixedrange': True},
+        'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
+                  'title': {'text': 'Average Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}
+                  # 'tickmode': 'linear', 'tick0': max(div_df['Standing']), 'dtick': -1,
+                  }
+    }
     return dict(data=plot_data, layout=layout)
