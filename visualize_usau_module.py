@@ -22,7 +22,9 @@ def get_divisions(comp_division: str) -> list:
 
     """
     divisions = data[data.comp_division == comp_division].division.unique()
-    return [{'label': d, 'value': d} for d in divisions]
+    division_list = list(divisions)
+    division_list.sort(key=lambda x: x[-1], reverse=True)
+    return [{'label': d, 'value': d} for d in division_list]
 
 
 def get_regions(comp_division: str, division: str) -> list:
@@ -36,7 +38,9 @@ def get_regions(comp_division: str, division: str) -> list:
         list
     """
     regions = subset_df(comp_division, division, 'all').Region.unique()
-    return [{'label': 'All Regions', 'value': 'all'}] + [{'label': r, 'value': r} for r in regions]
+    region_list = list(regions)
+    region_list.sort(key=lambda x: x[-1], reverse=True)
+    return [{'label': 'All Regions', 'value': 'all'}] + [{'label': r, 'value': r} for r in region_list]
 
 
 def subset_df(comp_division: str, division: str, region: str) -> pd.DataFrame:

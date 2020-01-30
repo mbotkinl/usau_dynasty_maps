@@ -16,7 +16,6 @@ style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
 # todo: combine regions?
 # todo: add cool filters to look at?
-# TODO: order regions that are inactive last
 
 TITLE = 'USA Ultimate Nationals Explorer'
 external_stylesheets = [dbc.themes.FLATLY]
