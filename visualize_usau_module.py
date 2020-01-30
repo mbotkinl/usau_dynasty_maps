@@ -173,7 +173,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
                                     connectgaps=False,
                                     opacity=opacity,
                                     line={'shape': 'spline', 'smoothing': 0.3},
-                                    marker={'size': 8},
+                                    marker={'size': 18},
                                     showlegend=False,
                                     name=t))
 
