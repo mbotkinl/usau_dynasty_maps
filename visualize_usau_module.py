@@ -1,3 +1,4 @@
+import math
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
@@ -7,6 +8,10 @@ from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, PLOT_B
 data = pd.read_csv('./data/national_data.csv')
 
 COMP_DIVISIONS = data.comp_division.unique()
+
+
+def ordinal(n):
+    return "%d%s" % (n, "tsnrhtdd"[(math.floor(n / 10) % 10 != 1) * (n % 10 < 4) * n % 10::4])
 
 
 def get_blank_plot(message):
@@ -128,7 +133,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
     if highlight_teams is None:
         highlight_teams = div_df.Team.tolist()
     if div_df.empty:
-        return get_blank_plot('"No data found"')
+        return get_blank_plot('No data found')
     min_year = div_df.year.min()
     max_year = div_df.year.max()
     plot_data = []
@@ -155,6 +160,9 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
                                     marker={'size': 8},
                                     showlegend=False,
                                     name=t))
+
+    tickvals = list(reversed(range(1, max(div_df['Standing'])+1)))
+    ticktext = [ordinal(n) for n in tickvals]
     layout = {'hovermode': 'closest',
               'height': 740,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
@@ -165,7 +173,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
               'xaxis': {'fixedrange': True},
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}},
-                        'tickmode': 'linear', 'tick0': max(div_df['Standing']), 'dtick': -1,
+                        'tickmode': 'array', 'tickvals': tickvals, 'ticktext': ticktext,
                         }}
     return dict(data=plot_data, layout=layout)
 
@@ -185,17 +193,17 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
 
     div_df = subset_df(comp_division, division, region)
     if div_df.empty:
-        return get_blank_plot('"No data found"')
+        return get_blank_plot('No data found')
 
     plot_data = []
     if highlight_teams is None:
         highlight_teams = div_df.Team.tolist()
 
-    if highlight_teams:
-        df = div_df[div_df['Team'].isin(highlight_teams)]. \
-            groupby('Team').agg(count=('year', 'count'),
+    agg_team = div_df.groupby('Team').agg(count=('year', 'count'),
                                 avg_spirit=('SpiritScores', np.nanmean),
-                                avg_rank=('Standing', np.nanmean))
+                                avg_rank=('Standing', np.nanmean)).reset_index()
+    if highlight_teams:
+        df = agg_team[agg_team['Team'].isin(highlight_teams)]
         df = df[pd.notna(df.avg_spirit)]
         if not df.empty:
             plot_data += [go.Scatter(x=df['avg_spirit'],
@@ -204,7 +212,7 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      marker_color=BACKGROUND_COLOR_DARK,
                                      hoverlabel={'font': {'color': 'white'}},
                                      hoverinfo='text',
-                                     hovertext='<b>Team: ' + df.index.values +
+                                     hovertext='<b>Team: ' + df['Team'].values +
                                                '</b><br>Apperances with reported spirit: ' + df['count'].astype(
                                          str).values +
                                                '<br>Average spirit score: ' + np.round(df['avg_spirit'],
@@ -216,10 +224,7 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      ,
                                      mode='markers')]
     if any(~div_df['Team'].isin(highlight_teams)):
-        df_clear = div_df[~div_df['Team'].isin(highlight_teams)]. \
-            groupby('Team').agg(count=('year', 'count'),
-                                avg_spirit=('SpiritScores', np.nanmean),
-                                avg_rank=('Standing', np.nanmean))
+        df_clear = agg_team[~agg_team['Team'].isin(highlight_teams)]
         df_clear = df_clear[pd.notna(df_clear.avg_spirit)]
         if not df_clear.empty:
             plot_data += [go.Scatter(x=df_clear['avg_spirit'],
@@ -230,8 +235,12 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
                                      opacity=0.1,
                                      mode='markers')]
     if not plot_data:
-        return get_blank_plot('"No Spirit data found"')
+        return get_blank_plot('No Spirit data found')
 
+    high_tick = int(np.floor(min(agg_team['avg_rank'])))
+    low_tick = int(np.ceil(max(agg_team['avg_rank']))+1)
+    tickvals = list(reversed(range(high_tick, low_tick)))
+    ticktext = [ordinal(n) for n in tickvals]
     layout = {
         'paper_bgcolor': BACKGROUND_COLOR_LIGHT,
         'plot_bgcolor': PLOT_BACKGROUND_COLOR,
@@ -242,8 +251,8 @@ def spirit_correlation(comp_division: str, division: str, region: str = 'all', h
         'xaxis': {'title': {'text': 'Average Spirit Score', 'font': {'size': AXIS_TITLE_SIZE}},
                   'fixedrange': True},
         'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
-                  'title': {'text': 'Average Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}}
-                  # 'tickmode': 'linear', 'tick0': max(div_df['Standing']), 'dtick': -1,
+                  'title': {'text': 'Average Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}},
+                  'tickmode': 'array', 'tickvals': tickvals, 'ticktext': ticktext,
                   }
     }
     return dict(data=plot_data, layout=layout)
