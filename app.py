@@ -10,7 +10,7 @@ from visualize_usau_module import ranking_data, spirit_correlation, \
     COMP_DIVISIONS, get_divisions, get_regions, table_data
 
 from dash_constants import BACKGROUND_COLOR_DARK, BACKGROUND_COLOR_LIGHT, TEXT_SIZE, \
-    PLOT_BACKGROUND_COLOR, HEADER_2_SIZE, BACKGROUND_LIGHT_RGB, BACKGROUND_ALPHA
+    PLOT_BACKGROUND_COLOR, HEADER_2_SIZE, BACKGROUND_LIGHT_RGB, BACKGROUND_ALPHA, INITIAL_NUM_CHECKED
 
 style = {'backgroundColor': BACKGROUND_COLOR_LIGHT, 'font-family': 'Arial'}
 
@@ -188,7 +188,7 @@ app.layout = html.Div(style=style, children=[
             # style_as_list_view=True,
             row_selectable="multi",
             sort_action='native',
-            selected_rows=list(range(len(df))),
+            selected_rows=list(range(INITIAL_NUM_CHECKED)),
             fixed_rows={'headers': True, 'data': 0},
             style_header={'font-weight': 'bold',
                           'font-size': TEXT_SIZE,
@@ -304,7 +304,6 @@ def update_region_dropdown(comp_division, division):
                Input('region_dropdown', 'value')])
 def update_table(comp_division, division, region):
     table_df = table_data(comp_division, division, region)
-
     return table_df.to_dict('records'), 0
 
 
@@ -318,10 +317,12 @@ def select_all(n_clicks, data):
         return []
     if n_clicks is None:
         n_clicks = 0
-    if n_clicks % 2 == 1:
+    if n_clicks == 0:
+        return list(range(min(INITIAL_NUM_CHECKED, len(data))))
+    elif n_clicks % 2 == 1:
         return []
     else:
-        return [i for i in range(len(data))]
+        return list(range(len(data)))
 
 
 @app.callback(Output('rankings_graph', 'figure'),
