@@ -319,7 +319,7 @@ def select_all(n_clicks, data):
         n_clicks = 0
     if n_clicks == 0:
         return list(range(min(INITIAL_NUM_CHECKED, len(data))))
-    elif n_clicks % 2 == 1:
+    elif n_clicks % 2 == 0:
         return []
     else:
         return list(range(len(data)))
