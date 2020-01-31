@@ -105,7 +105,9 @@ app.layout = html.Div(style=style, children=[
                 html.Ul(children=[
                     html.Li('Divisions are named based on current USAU naming except in the case of college where'
                             ' there are separate sub divisions for before and after the DI/DIII separation.'),
-                    html.Li('Due to regional boundary redrawing, the regions of teams change over the years.')
+                    html.Li('Where possible, historical regions for teams are updated to the region they currently play '
+                            'in. However, due to regional boundary redrawing, the regions of teams may change over the '
+                            'years.')
                 ], style={'font-size': TEXT_SIZE}),
                 html.Br(),
                 html.P(children=

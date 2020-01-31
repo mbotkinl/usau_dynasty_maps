@@ -168,3 +168,15 @@ def get_data_for_year(year: int, div: str) -> pd.DataFrame:
     year_df['year'] = year
 
     return year_df
+
+
+def region_correction(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty:
+        return pd.DataFrame()
+    if df['Region'].nunique() > 1:
+        df = df.copy()
+        df = df.sort_values('year', ascending=False)
+        df['Region'] = df['Region'].iloc[0]
+        return df
+    else:
+        return df
