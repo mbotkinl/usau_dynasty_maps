@@ -127,8 +127,8 @@ def table_data(comp_division: str, division: str, region: str = 'all') -> pd.Dat
     table_df = table_df.round(2)
     table_df = table_df.sort_values('num_appearances', ascending=False)
     table_df = table_df.rename(columns={'num_appearances': 'Appearances',
-                                        'avg_place': 'Average Placement',
-                                        'avg_spirit': 'Average Spirit Score'})
+                                        'avg_place': 'Avg Placement',
+                                        'avg_spirit': 'Avg Spirit Score'})
     return table_df
 
 

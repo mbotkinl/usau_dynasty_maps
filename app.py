@@ -105,9 +105,9 @@ app.layout = html.Div(style=style, children=[
                 html.Ul(children=[
                     html.Li('Divisions are named based on current USAU naming except in the case of college where'
                             ' there are separate sub divisions for before and after the DI/DIII separation.'),
-                    html.Li('Where possible, historical regions for teams are updated to the region they currently play '
-                            'in. However, due to regional boundary redrawing, the regions of teams may change over the '
-                            'years.')
+                    html.Li('Where possible, historical regions for teams are updated to the region they currently play'
+                            ' in. However, due to regional boundary redrawing, the regions of teams may change over the'
+                            ' years.')
                 ], style={'font-size': TEXT_SIZE}),
                 html.Br(),
                 html.P(children=
@@ -183,43 +183,47 @@ app.layout = html.Div(style=style, children=[
         html.H2(children='NATIONALS SUMMARY BY TEAM', style={'textAlign': 'center', 'padding': 1,
                                                              'font-size': HEADER_2_SIZE, 'letter-spacing': '1px'}),
         html.Div([], style={'padding': 30}),
-        html.Div([dash_table.DataTable(
-            id='ranking_table',
-            columns=[{"name": i, "id": i} for i in df.columns],
-            data=df.to_dict('records'),
-            # style_as_list_view=True,
-            row_selectable="multi",
-            sort_action='native',
-            selected_rows=list(range(INITIAL_NUM_CHECKED)),
-            fixed_rows={'headers': True, 'data': 0},
-            style_header={'font-weight': 'bold',
-                          'font-size': TEXT_SIZE,
-                          'backgroundColor': BACKGROUND_COLOR_LIGHT},
-            style_table={
-                'maxHeight': '500px',
-                'overflowY': 'auto',
-            },
-            style_cell={'textAlign': 'center',
-                        'font-size': '20px',
-                        'textOverflow': 'ellipsis',
-                        'minWidth': '0px', 'maxWidth': '10px',
-                        'font_family': 'Arial'},
-            style_data_conditional=[
-                {
-                    'if': {'column_id': 'Team'},
-                    'width': '18%',
-                    'textAlign': 'left'
+        dcc.Loading(
+            id="loading-table",
+            children=[html.Div([dash_table.DataTable(
+                id='ranking_table',
+                columns=[{"name": i, "id": i} for i in df.columns],
+                data=df.to_dict('records'),
+                # style_as_list_view=True,
+                row_selectable="multi",
+                sort_action='native',
+                selected_rows=list(range(INITIAL_NUM_CHECKED)),
+                fixed_rows={'headers': True, 'data': 0},
+                style_header={'font-weight': 'bold',
+                              'font-size': TEXT_SIZE,
+                              'backgroundColor': BACKGROUND_COLOR_LIGHT},
+                style_table={
+                    'maxHeight': '500px',
+                    'overflowY': 'auto',
                 },
-                {
-                    'if': {'row_index': 'odd'},
-                    'backgroundColor': 'white'
-                },
-                {
-                    'if': {'row_index': 'even'},
-                    'backgroundColor': PLOT_BACKGROUND_COLOR
-                }
-            ]
-        )], style={'padding': 1}),
+                style_cell={'textAlign': 'center',
+                            'font-size': '20px',
+                            'textOverflow': 'ellipsis',
+                            'minWidth': '0px', 'maxWidth': '10px',
+                            'font_family': 'Arial'},
+                style_data_conditional=[
+                    {
+                        'if': {'column_id': 'Team'},
+                        'width': '18%',
+                        'textAlign': 'left'
+                    },
+                    {
+                        'if': {'row_index': 'odd'},
+                        'backgroundColor': 'white'
+                    },
+                    {
+                        'if': {'row_index': 'even'},
+                        'backgroundColor': PLOT_BACKGROUND_COLOR
+                    }
+                ]
+            )], style={'padding': 1})],
+            type="circle",
+        ),
         html.Div([html.Button('Select/Un-Select All', id='select-all-button',
                               style={'backgroundColor': BACKGROUND_COLOR_LIGHT})],
                  style={'padding': 20, 'font-size': TEXT_SIZE}),
@@ -275,6 +279,8 @@ app.layout = html.Div(style=style, children=[
                                ])],
              style={'textAlign': 'right', 'padding': 10, 'backgroundColor': BACKGROUND_COLOR_DARK, 'color': 'white',
                     'font-size': '16px'}),
+    # Hidden div inside the app that stores the intermediate value
+    html.Div(id='table-length-value', children=len(df), style={'display': 'none'})
 ])
 
 
@@ -300,31 +306,32 @@ def update_region_dropdown(comp_division, division):
 
 
 @app.callback([Output('ranking_table', 'data'),
-               Output('select-all-button', 'n_clicks')],
+               Output('select-all-button', 'n_clicks'),
+               Output('table-length-value', 'children')],
               [Input('comp_division_dropdown', 'value'),
                Input('division_dropdown', 'value'),
                Input('region_dropdown', 'value')])
 def update_table(comp_division, division, region):
     table_df = table_data(comp_division, division, region)
-    return table_df.to_dict('records'), 0
+    return table_df.to_dict('records'), 0, len(table_df)
 
 
 @app.callback(
     Output('ranking_table', "selected_rows"),
     [Input('select-all-button', 'n_clicks'),
-     Input('ranking_table', "derived_virtual_data")]
+     Input('table-length-value', "children")]
 )
-def select_all(n_clicks, data):
-    if data is None:
+def select_all(n_clicks, data_length):
+    if data_length == 0:
         return []
     if n_clicks is None:
         n_clicks = 0
     if n_clicks == 0:
-        return list(range(min(INITIAL_NUM_CHECKED, len(data))))
+        return list(range(min(INITIAL_NUM_CHECKED, data_length)))
     elif n_clicks % 2 == 0:
         return []
     else:
-        return list(range(len(data)))
+        return list(range(data_length))
 
 
 @app.callback(Output('rankings_graph', 'figure'),
