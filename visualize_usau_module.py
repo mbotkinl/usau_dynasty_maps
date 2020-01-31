@@ -179,6 +179,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
 
     tickvals = list(reversed(range(1, max(div_df['Standing'])+1)))
     ticktext = [ordinal(n) for n in tickvals]
+    extra_space = 0.5 if (max_year - min_year) > 15 else 0.2
     layout = {'hovermode': 'closest',
               'height': 740,
               'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
@@ -186,7 +187,9 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
               'plot_bgcolor': PLOT_BACKGROUND_COLOR,
               'margin': {'t': 0},
               'font': {'size': TICK_SIZE, 'family': 'Arial'},
-              'xaxis': {'fixedrange': True},
+              'xaxis': {'fixedrange': True,
+                        'tickformat': 'd',
+                        'range': [min_year - extra_space, max_year + extra_space]},
               'yaxis': {'autorange': 'reversed', 'zeroline': False, 'fixedrange': True,
                         'title': {'text': 'Nationals Placement', 'font': {'size': AXIS_TITLE_SIZE}},
                         'tickmode': 'array', 'tickvals': tickvals, 'ticktext': ticktext,
