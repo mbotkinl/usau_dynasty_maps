@@ -246,7 +246,7 @@ app.layout = html.Div(style=style, children=[
             type="circle",
         ),
 
-    ], style={'padding': 80}),
+    ], style={'padding': 10}),
 
     # Footer section
     html.Div([html.P(children=['©2019 by Micah Botkin-Levy.  ',
