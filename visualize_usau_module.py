@@ -152,6 +152,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
         return get_blank_plot('No data found')
     min_year = div_df.year.min()
     max_year = div_df.year.max()
+    max_standing = div_df['Standing'].max()
     plot_data = []
     appearances = div_df.Team.value_counts()
     for t in appearances.keys():
@@ -172,12 +173,12 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
                                     mode='lines+markers',
                                     connectgaps=False,
                                     opacity=opacity,
-                                    line={'shape': 'spline', 'smoothing': 0.3},
+                                    line={'shape': 'linear'},
                                     marker={'size': 18},
                                     showlegend=False,
                                     name=t))
 
-    tickvals = list(reversed(range(1, max(div_df['Standing'])+1)))
+    tickvals = list(reversed(range(1, max_standing + 1)))
     ticktext = [ordinal(n) for n in tickvals]
     extra_space = 0.5 if (max_year - min_year) > 15 else 0.2
     layout = {'hovermode': 'closest',
