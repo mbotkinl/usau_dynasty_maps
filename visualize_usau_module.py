@@ -154,8 +154,8 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
     max_year = div_df.year.max()
     max_standing = div_df['Standing'].max()
     plot_data = []
-    appearances = div_df.Team.value_counts()
-    for t in appearances.keys():
+
+    for t in div_df['Team'].unique():
         if t in highlight_teams:
             opacity = 1
             hover_template = '<b>Team: %{fullData.name}</b><br>Year: %{x}<br>Placement: %{y}<extra></extra>'
@@ -167,7 +167,6 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
         team_df = team_df.reindex(list(range(min_year, max_year + 1)), fill_value=None)
         plot_data.append(go.Scatter(x=team_df.index,
                                     y=team_df['Standing'],
-                                    # hoverinfo=hover_info,
                                     hoverinfo='skip',
                                     hovertemplate=hover_template,
                                     mode='lines+markers',
