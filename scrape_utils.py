@@ -50,12 +50,14 @@ def clean_data(df: pd.DataFrame, div: str) -> pd.DataFrame:
     if div == 'club':
         df.Team = df.Team.str.upper()
     df.Team = df.Team.str.replace('\xa0', '')
+    df.Team = df.Team.str.replace(r'*', '')
     df.Team = df.Team.str.strip()
 
     # team name corrections
     # college
     df.loc[df.Team == 'Carleton College-Syzygy', 'Team'] = 'Carleton College'
     df.loc[df.Team == 'Massachussets', 'Team'] = 'Massachusetts'
+    df.loc[df.Team == 'Northwestern', 'Region'] = 'Great Lakes'
 
     # club
     df.loc[df.Team == 'BOHDI', 'Team'] = 'BODHI'

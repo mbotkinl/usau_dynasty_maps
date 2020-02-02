@@ -1700,10 +1700,10 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 17,Northeastern,New England,D-I Women's,2013,College,3.4
 17,Northeastern,New England,D-I Women's,2014,College,8.4
 17,Northeastern,New England,D-I Women's,2019,College,10.8
-13,Northwestern,Northwest,D-I Women's,2019,College,12.4
-9,Northwestern,Northwest,D-I Women's,2013,College,3.8
-13,Northwestern,Northwest,D-I Women's,2011,College,4.7
-17,Northwestern,Northwest,D-I Women's,2010,College,4.17
+17,Northwestern,Great Lakes,D-I Women's,2010,College,4.17
+13,Northwestern,Great Lakes,D-I Women's,2011,College,4.7
+9,Northwestern,Great Lakes,D-I Women's,2013,College,3.8
+13,Northwestern,Great Lakes,D-I Women's,2019,College,12.4
 17,Notre Dame,Great Lakes,D-I Women's,2015,College,15.8
 9,Notre Dame,Great Lakes,D-I Women's,2017,College,11.8
 17,Ohio State,Ohio Valley,D-I Women's,2011,College,3.92
@@ -1791,9 +1791,9 @@ Standing,Team,Region,division,year,comp_division,SpiritScores
 15,Washington University,South Central,D-I Women's,2010,College,4.86
 13,West Chester,Ohio Valley,D-I Women's,2018,College,12.2
 17,Western Washigton,Northwest,D-I Women's,2014,College,11.6
+13,Western Washington,Northwest,D-I Women's,2016,College,11.8
 13,Western Washington,Northwest,D-I Women's,2018,College,7.6
 5,Western Washington,Northwest,D-I Women's,2019,College,10.17
-13,Western Washington**,Northwest,D-I Women's,2016,College,11.8
 17,Whitman,New England,D-I Women's,2018,College,12.6
 2,Whitman,New England,D-I Women's,2016,College,13.0
 5,Whitman,New England,D-I Women's,2015,College,13.5
