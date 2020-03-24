@@ -35,7 +35,7 @@ def parse_club_div(divisions: list) -> list:
     return new_divs
 
 
-def clean_data(df: pd.DataFrame, div: str) -> pd.DataFrame:
+def clean_data(df: pd.DataFrame, div: str, year: int) -> pd.DataFrame:
     df = df.copy()
     df = df.rename(columns={'School': 'Team'})
     df.dropna(subset=['Standing', 'Team'], how='any', inplace=True)
@@ -110,6 +110,15 @@ def clean_data(df: pd.DataFrame, div: str) -> pd.DataFrame:
         df['SpiritScores'] = df['SpiritScores'].str.replace(',', '.')
         df['SpiritScores'] = df['SpiritScores'].astype(float)
 
+        # convert old spirit score (1-5) to WFDF system (0-20)
+        if year <= 2013:
+            # NewValue = (((OldValue - OldMin) * (NewMax - NewMin)) / (OldMax - OldMin)) + NewMin
+            # OldMin = 1
+            # OldMax = 5
+            # NewMin = 0
+            # NewMax = 20
+            df['SpiritScores'] = ((df['SpiritScores'] - 1) * 20) / 4
+
     df.reset_index(drop=True, inplace=True)
     return df
 
@@ -166,7 +175,7 @@ def get_data_for_year(year: int, div: str) -> pd.DataFrame:
         return pd.DataFrame()
 
     # clean data
-    year_df = clean_data(year_df, div)
+    year_df = clean_data(year_df, div, year)
     year_df['year'] = year
 
     return year_df

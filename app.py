@@ -107,7 +107,9 @@ app.layout = html.Div(style=style, children=[
                             ' there are separate sub divisions for before and after the DI/DIII separation.'),
                     html.Li('Where possible, historical regions for teams are updated to the region they currently play'
                             ' in. However, due to regional boundary redrawing, the regions of teams may change over the'
-                            ' years.')
+                            ' years.'),
+                    html.Li('From 2000-2013, spirit scores were on a 1-5 scale. After 2013, the WFDF system of 0-20 was'
+                            ' adopted. The scores from 2013 and before have been linearly scaled to the WFDF system.')
                 ], style={'font-size': TEXT_SIZE}),
                 html.Br(),
                 html.P(children=
