@@ -118,6 +118,9 @@ def clean_data(df: pd.DataFrame, div: str, year: int) -> pd.DataFrame:
             # NewMin = 0
             # NewMax = 20
             df['SpiritScores'] = ((df['SpiritScores'] - 1) * 20) / 4
+        elif (year in [2014, 2015]) and (div == 'college'):
+            ind = df['division'].str.startswith('D-III')
+            df.loc[ind, 'SpiritScores'] = ((df.loc[ind, 'SpiritScores'] - 1) * 20) / 4
 
     df.reset_index(drop=True, inplace=True)
     return df
