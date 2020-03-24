@@ -123,7 +123,7 @@ def table_data(comp_division: str, division: str, region: str = 'all') -> pd.Dat
         return pd.DataFrame()
     table_df = div_df.groupby(['Team']).agg(num_appearances=('year', 'count'),
                                             avg_place=('Standing', 'mean'),
-                                            avg_spirit=('SpiritScores', pd.np.nanmean)).reset_index()
+                                            avg_spirit=('SpiritScores', np.nanmean)).reset_index()
     table_df = table_df.round(2)
     table_df = table_df.sort_values('num_appearances', ascending=False)
     table_df = table_df.rename(columns={'num_appearances': 'Appearances',
