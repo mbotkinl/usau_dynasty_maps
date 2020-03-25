@@ -6,8 +6,8 @@ import plotly.graph_objects as go
 from visualize_usau_module import ordinal, PLOT_BACKGROUND_COLOR, TICK_SIZE, AXIS_TITLE_SIZE, BACKGROUND_COLOR_DARK, \
     BACKGROUND_COLOR_LIGHT
 
-
 # TODO: use plotly templates
+# TODO: sizing in plots
 
 data = pd.read_csv('./data/national_data.csv')
 
@@ -61,20 +61,40 @@ layout = {'hovermode': 'closest',
 
 plot(dict(data=plot_data, layout=layout), filename='womxn_big_4_ranks.html')
 
+# bar chart of finishes
+start_year = 1999
+standing_data = data[(data['Standing'] <= 3) & (data['division'] == 'WOMENS') & (data['year'] >= start_year)].copy()
+standing_data.loc[~standing_data['Team'].isin(BIG_4), 'Team'] = 'Other Teams'
+bar_data = standing_data.groupby(['Standing', 'Team']).agg(count=('year', 'count')).reset_index()
+bar_data['friendly_place'] = bar_data['Standing'].map({1: '1st Place',
+                                                       2: '2nd Place',
+                                                       3: '3rd Place'})
+fig = px.bar(bar_data, 'Team', 'count', facet_col='friendly_place', color='Team', text='count',
+             category_orders={"friendly_place": ['1st Place', '2nd Place', '3rd Place']})
+fig.update_layout({'showlegend': False,
+                   'yaxis': {'title': {'text': 'Count', 'font': {'size': AXIS_TITLE_SIZE}}}})
+fig.for_each_annotation(lambda a: a.update(text=a.text.replace("friendly_place=", "")))
+fig.update_traces(textposition='outside')
+# TODO: X axis label
+# TODO: fill in lady godiva with 0 2nd place
+plot(fig, filename='big_4_bar.html')
+
 
 # top three finishes
 start_year = 1999
 top_3_finishes = len(div_df[(div_df['year'] >= start_year) & (div_df['Standing'] <= 3)])
-percent_top_3 = top_3_finishes/((2019 - start_year + 1) * 3) * 100
+percent_top_3 = top_3_finishes / ((2019 - start_year + 1) * 3) * 100
 print(percent_top_3)
 
 # unique winners of nationals for mens
 num_unique_mens_champs = data[(data['comp_division'] == 'Club') & (data['division'] == 'MENS') &
                               (data['Standing'] == 1) & (data['year'] >= start_year)]['Team'].nunique()
 print(num_unique_mens_champs)
-
+data[(data['comp_division'] == 'Club') & (data['division'] == 'MENS') &
+     (data['Standing'] == 1) & (data['year'] >= start_year)]['Team'].value_counts()
 
 # spirit vs rank
+# todo: show all in background
 spirit_vs_rank = div_df.groupby('Team').agg(count=('Team', 'count'),
                                             avg_rank=('Standing', 'mean'),
                                             avg_spirit=('SpiritScores', 'mean')).reset_index()
