@@ -3,21 +3,21 @@ import pandas as pd
 from plotly.offline import plot
 import plotly.express as px
 import plotly.graph_objects as go
-from visualize_usau_module import ordinal, PLOT_BACKGROUND_COLOR, TICK_SIZE, AXIS_TITLE_SIZE, BACKGROUND_COLOR_DARK, \
-    BACKGROUND_COLOR_LIGHT
+from visualize_usau_module import ordinal
+import plotly.io as pio
+pio.templates.default = "seaborn"
 
-# TODO: use plotly templates
-# TODO: sizing in plots
-
+AXIS_TITLE_SIZE = 30
+TICK_SIZE = 24
 data = pd.read_csv('./data/national_data.csv')
 
 ############################################
 # WOMXN BIG 4
 ############################################
-BIG_4 = ['LADY GODIVA', 'FURY', 'RIOT', 'BRUTE SQUAD']
+BIG_4 = ['BRUTE SQUAD', 'FURY', 'LADY GODIVA',  'RIOT']
 div_df = data[data['Team'].isin(BIG_4)].copy()
 # min_year = div_df.year.min()
-min_year = 1995
+min_year = 1987
 max_year = div_df.year.max()
 max_standing = div_df['Standing'].max()
 plot_data = []
@@ -44,11 +44,7 @@ tickvals = list(reversed(range(1, max_standing + 1)))
 ticktext = [ordinal(n) for n in tickvals]
 extra_space = 0.5 if (max_year - min_year) > 15 else 0.2
 layout = {'hovermode': 'closest',
-          'height': 740,
-          'legend': {'orientation': 'v', 'itemclick': 'toggleothers', 'itemdoubleclick': False, 'x': 1},
-          'paper_bgcolor': 'rgba(0,0,0,0)',
-          'plot_bgcolor': PLOT_BACKGROUND_COLOR,
-          'margin': {'t': 0},
+          'legend': {'orientation': 'h', 'y': 1.1},
           'font': {'size': TICK_SIZE, 'family': 'Arial'},
           'xaxis': {'fixedrange': True,
                     'tickformat': 'd',
@@ -64,24 +60,31 @@ plot(dict(data=plot_data, layout=layout), filename='womxn_big_4_ranks.html')
 # bar chart of finishes
 start_year = 1999
 standing_data = data[(data['Standing'] <= 3) & (data['division'] == 'WOMENS') & (data['year'] >= start_year)].copy()
-standing_data.loc[~standing_data['Team'].isin(BIG_4), 'Team'] = 'Other Teams'
+standing_data.loc[~standing_data['Team'].isin(BIG_4), 'Team'] = 'ZZ'  # do this for ordering #todo: do better
 bar_data = standing_data.groupby(['Standing', 'Team']).agg(count=('year', 'count')).reset_index()
+# manual fix for now
+bar_data = bar_data.append({'Standing': 2, 'Team': 'LADY GODIVA', 'count': 0}, ignore_index=True)
 bar_data['friendly_place'] = bar_data['Standing'].map({1: '1st Place',
                                                        2: '2nd Place',
                                                        3: '3rd Place'})
+bar_data['Team'] = bar_data['Team'].replace('ZZ', "Other Teams")
+
 fig = px.bar(bar_data, 'Team', 'count', facet_col='friendly_place', color='Team', text='count',
              category_orders={"friendly_place": ['1st Place', '2nd Place', '3rd Place']})
 fig.update_layout({'showlegend': False,
-                   'yaxis': {'title': {'text': 'Count', 'font': {'size': AXIS_TITLE_SIZE}}}})
+                   'font': {'size': TICK_SIZE, 'family': 'Arial'},
+                   'yaxis': {'title': {'text': f'Count of National Finishes Since {start_year}',
+                                       'font': {'size': AXIS_TITLE_SIZE}}},
+                   'xaxis': {'categoryorder': 'array', 'categoryarray': BIG_4 + ['Other Teams']},
+                   })
 fig.for_each_annotation(lambda a: a.update(text=a.text.replace("friendly_place=", "")))
+fig.for_each_xaxis(lambda a: a.update(title='', tickangle=45))
 fig.update_traces(textposition='outside')
-# TODO: X axis label
-# TODO: fill in lady godiva with 0 2nd place
+# todo: add metal images
 plot(fig, filename='big_4_bar.html')
 
 
 # top three finishes
-start_year = 1999
 top_3_finishes = len(div_df[(div_df['year'] >= start_year) & (div_df['Standing'] <= 3)])
 percent_top_3 = top_3_finishes / ((2019 - start_year + 1) * 3) * 100
 print(percent_top_3)
@@ -92,6 +95,7 @@ num_unique_mens_champs = data[(data['comp_division'] == 'Club') & (data['divisio
 print(num_unique_mens_champs)
 data[(data['comp_division'] == 'Club') & (data['division'] == 'MENS') &
      (data['Standing'] == 1) & (data['year'] >= start_year)]['Team'].value_counts()
+
 
 # spirit vs rank
 # todo: show all in background
@@ -116,7 +120,6 @@ layout = {
 fig.update_layout(layout)
 fig.update_traces(textposition='top center')
 plot(fig, filename='spirit_vs_rank_big_4.html')
-
 
 ############################################
 # change in spirit score over time
