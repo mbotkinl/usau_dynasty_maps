@@ -153,12 +153,22 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
     min_year = div_df.year.min()
     max_year = div_df.year.max()
     max_standing = div_df['Standing'].max()
-    plot_data = []
 
+    def add_custom_data(df: pd.DataFrame) -> pd.DataFrame:
+        teams = df['Team'].unique()
+        hover_text = '<br>'.join(f'<b>Team: {team}</b>' for team in teams if team in highlight_teams)
+        df['overlap_teams'] = hover_text
+        return df
+
+    # add teams with same place/year for hover info
+    div_df = div_df.groupby(['year', 'Standing']).apply(add_custom_data)
+
+    plot_data = []
     for t in div_df['Team'].unique():
         if t in highlight_teams:
             opacity = 1
-            hover_template = '<b>Team: %{fullData.name}</b><br>Year: %{x}<br>Placement: %{y}<extra></extra>'
+            hover_template = '%{customdata}' \
+                             '<br>Year: %{x}<br>Placement: %{y}<extra></extra>'
         else:
             opacity = 0.05
             hover_template = ''
@@ -168,6 +178,7 @@ def ranking_data(comp_division: str, division: str, region: str = 'all', highlig
         plot_data.append(go.Scatter(x=team_df.index,
                                     y=team_df['Standing'],
                                     hoverinfo='skip',
+                                    customdata=team_df['overlap_teams'],
                                     hovertemplate=hover_template,
                                     mode='lines+markers',
                                     connectgaps=False,
