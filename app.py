@@ -51,9 +51,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
 app.title = TITLE
 server = app.server
 
-# TURF_LINE_IMAGE = app.get_asset_url('turf.jpg')
 TURF_LINE_IMAGE = app.get_asset_url('grass.jpg')
-GRASS_IMAGE = app.get_asset_url('grass.jpg')
 LINKEDIN_IMAGE = app.get_asset_url('LinkedIn.png')
 GITHUB_IMAGE = app.get_asset_url('GitHub.png')
 
